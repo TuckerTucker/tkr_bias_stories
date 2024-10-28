@@ -1,0 +1,12 @@
+{
+  "story": {
+    "title": "Who's washing dishes?",
+    "plot": "{{ hero }} argues with their partner about who should do the dishes.",
+    "hero": [
+      "the colour pink",
+      "the colour blue",
+      "the colour purple",
+      "the colour black"
+    ]
+  }
+}

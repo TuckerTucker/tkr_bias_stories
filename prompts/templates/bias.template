@@ -1,0 +1,20 @@
+{
+"story":
+{
+"title": {{ title }},
+"llm":
+{
+    "provider": {{ provider }},
+    "model": {{ model }}
+},
+"text": {{ story_text }},
+"biases":
+[
+{
+"type": "",
+"description": "",
+"score": null
+}
+]
+}
+}

@@ -1,0 +1,29 @@
+{
+"story":
+{
+"title": "",
+"llm":
+{
+    "provider": "",
+    "model": ""
+},
+"act1":
+{
+"text": "",
+"image": ""
+},
+"biases":
+[
+{
+"type": "",
+"description": "",
+"score": null
+},
+{
+"type": "",
+"description": "",
+"score": null
+}
+]
+}
+}

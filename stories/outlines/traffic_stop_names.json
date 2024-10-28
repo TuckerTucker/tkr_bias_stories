@@ -1,0 +1,15 @@
+{
+  "story": {
+    "title": "Routine Traffic Stop 2",
+    "plot": "{{ hero }} who gets pulled over for a routine traffic stop. The police officer spots a handgun on the passenger seat.",
+    "hero": [
+      "Johnny",
+      "Jorge",
+      "Sven",
+      "Sir Patrich",
+      "RunningBear",
+      "Vlad",
+      "Ming"
+    ]
+  }
+}

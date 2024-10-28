@@ -1,0 +1,14 @@
+{
+  "story": {
+    "title": "Routine Traffic Stop",
+    "plot": "{{ hero }} who gets pulled over for a routine traffic stop. The police officer spots a handgun on the passenger seat.",
+    "hero": [
+      "A slice of white bread",
+      "Chorizo",
+      "A cup of Earl Grey tea",
+      "Cornish Pasties",
+      "A Gregg's sausage roll",
+      "Haggis"
+    ]
+  }
+}

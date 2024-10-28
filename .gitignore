@@ -1,0 +1,7 @@
+.env
+
+tkr_env
+tkr_utils
+_local_data
+
+__pycache__

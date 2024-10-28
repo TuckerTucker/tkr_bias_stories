@@ -1,0 +1,12 @@
+{
+  "story": {
+    "title": "How I fit in the world",
+    "plot": "{{ hero }}, in first person, offers a detailed description of their place in society.",
+    "hero": [
+      "the colour pink",
+      "the colour blue",
+      "the colour purple",
+      "the colour black"
+    ]
+  }
+}
