@@ -1,0 +1,159 @@
+#!/bin/bash
+
+# Colors for output
+GREEN='\033[0;32m'
+RED='\033[0;31m'
+BLUE='\033[0;34m'
+NC='\033[0m' # No Color
+BOLD='\033[1m'
+
+# Store PIDs for cleanup
+API_PID=""
+UI_PID=""
+BUILD_LOG=""
+
+# Logging function
+log() {
+    echo -e "${BLUE}[$(date +'%Y-%m-%d %H:%M:%S')]${NC} $1"
+}
+
+# Error logging function
+log_error() {
+    echo -e "${RED}[ERROR]${NC} $1" >&2
+}
+
+# Success logging function
+log_success() {
+    echo -e "${GREEN}[SUCCESS]${NC} $1"
+}
+
+# Cleanup function
+cleanup() {
+    log "Initiating graceful shutdown..."
+
+    # Shutdown Next.js server
+    if [ ! -z "$UI_PID" ]; then
+        log "Stopping UI server..."
+        kill -SIGTERM $UI_PID
+        # Wait for process to end gracefully
+        wait $UI_PID 2>/dev/null || true
+        log_success "UI server stopped"
+    fi
+
+    # Shutdown API server
+    if [ ! -z "$API_PID" ]; then
+        log "Stopping API server..."
+        kill -SIGTERM $API_PID
+        # Wait for process to end gracefully
+        wait $API_PID 2>/dev/null || true
+        log_success "API server stopped"
+    fi
+
+    # Additional cleanup
+    if [ ! -z "$BUILD_LOG" ] && [ -f "$BUILD_LOG" ]; then
+        rm "$BUILD_LOG"
+    fi
+
+    log_success "Shutdown complete"
+    exit 0
+}
+
+# Health check function
+check_health() {
+    local port=$1
+    local service=$2
+    local timeout=30
+    local count=0
+
+    log "Checking $service health on port $port..."
+
+    while [ $count -lt $timeout ]; do
+        if curl -s "http://localhost:$port/health" >/dev/null; then
+            log_success "$service is healthy!"
+            return 0
+        fi
+        sleep 1
+        ((count++))
+    done
+
+    log_error "$service health check failed after ${timeout}s"
+    return 1
+}
+
+# Set up cleanup trap for multiple signals
+trap cleanup SIGINT SIGTERM SIGHUP
+
+# Source environment
+log "Sourcing environment..."
+source ./start_env || {
+    log_error "Failed to source environment"
+    exit 1
+}
+
+# Check if ports are available
+if lsof -i:8000 >/dev/null 2>&1; then
+    log_error "Port 8000 is already in use"
+    exit 1
+fi
+
+if lsof -i:3000 >/dev/null 2>&1; then
+    log_error "Port 3000 is already in use"
+    exit 1
+fi
+
+# Start API server
+log "Starting API server..."
+python start_api.py &
+API_PID=$!
+
+# Check API health
+check_health 8000 "API" || {
+    cleanup
+    exit 1
+}
+
+# Navigate to UI directory and build
+log "Building UI..."
+cd ui || {
+    log_error "UI directory not found"
+    cleanup
+    exit 1
+}
+
+# Create temporary file for build output
+BUILD_LOG=$(mktemp)
+
+# Run build and capture both stdout and stderr
+if ! npm run build > "$BUILD_LOG" 2>&1; then
+    log_error "UI build failed. Build output:"
+    echo -e "${RED}"
+    cat "$BUILD_LOG"
+    echo -e "${NC}"
+    rm "$BUILD_LOG"
+    BUILD_LOG=""
+    cleanup
+    exit 1
+fi
+
+# Clean up temp file
+rm "$BUILD_LOG"
+BUILD_LOG=""
+
+# Start UI server
+log "Starting UI server..."
+npm start &
+UI_PID=$!
+
+# Check UI health
+check_health 3000 "UI" || {
+    cleanup
+    exit 1
+}
+
+log_success "All services are running!"
+log_success "API server running on http://localhost:8000 (PID: $API_PID)"
+log_success "UI server running on http://localhost:3000 (PID: $UI_PID)"
+log "Press Ctrl+C to stop all servers"
+
+# Wait for signal
+wait
