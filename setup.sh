@@ -8,6 +8,20 @@ log() {
     echo "[INFO] $(date '+%Y-%m-%d %H:%M:%S') - $1"
 }
 
+# Function to install requirements from a file
+install_requirements() {
+    local req_file="$1"
+    if [[ -f "${req_file}" ]]; then
+        log "Installing requirements from ${req_file}"
+        pip install -r "${req_file}" || {
+            echo "[ERROR] Failed to install requirements from ${req_file}. Exiting."
+            exit 1
+        }
+    else
+        echo "[ERROR] ${req_file} not found. Skipping."
+    fi
+}
+
 # Array of packages to clone
 packages=("tkr_utils" "tkr_env")
 
@@ -42,17 +56,10 @@ source "${start_env_destination}" || {
     exit 1
 }
 
-# Install the required packages
-requirements_file="tkr_utils/requirements.txt"
-if [[ -f "${requirements_file}" ]]; then
-    log "Installing requirements from ${requirements_file}"
-    pip install -r "${requirements_file}" || {
-        echo "[ERROR] Failed to install requirements. Exiting."
-        exit 1
-    }
-else
-    echo "[ERROR] ${requirements_file} not found. Exiting."
-    exit 1
-fi
+# Install requirements from tkr_utils
+install_requirements "tkr_utils/requirements.txt"
+
+# Install requirements from project root
+install_requirements "requirements.txt"
 
 log "Setup completed successfully."
