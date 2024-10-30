@@ -9,7 +9,7 @@ log() {
 }
 
 # Array of packages to clone
-packages=("tkr_utils" "tkr_env" "tkr_tests")
+packages=("tkr_utils" "tkr_env")
 
 # Clone each package
 for package in "${packages[@]}"; do
