@@ -25,13 +25,17 @@ install_requirements() {
 # Array of packages to clone
 packages=("tkr_utils" "tkr_env")
 
-# Clone each package
+# Check and clone each package
 for package in "${packages[@]}"; do
-    log "Cloning package: ${package}"
-    git clone "http://github.com/tuckertucker/${package}" || {
-        echo "[ERROR] Failed to clone ${package}. Exiting."
-        exit 1
-    }
+    if [[ -d "${package}" ]]; then
+        log "Package ${package} already exists, skipping clone"
+    else
+        log "Cloning package: ${package}"
+        git clone "http://github.com/tuckertucker/${package}" || {
+            echo "[ERROR] Failed to clone ${package}. Exiting."
+            exit 1
+        }
+    fi
 done
 
 # Copy the start_env file to the project root
@@ -61,5 +65,18 @@ install_requirements "tkr_utils/requirements.txt"
 
 # Install requirements from project root
 install_requirements "requirements.txt"
+
+# Install UI dependencies
+if [[ -d "ui" ]]; then
+    log "Installing UI dependencies"
+    cd ui
+    npm install || {
+        echo "[ERROR] Failed to install UI dependencies. Exiting."
+        exit 1
+    }
+    cd ..
+else
+    echo "[ERROR] UI directory not found. Skipping npm install."
+fi
 
 log "Setup completed successfully."
