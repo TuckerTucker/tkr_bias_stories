@@ -7,8 +7,8 @@ from typing import List, Dict, Any, Optional
 from tkr_utils.config_logging import setup_logging
 from tkr_utils.decorators import logs_and_exceptions
 from tkr_utils.helper_openai import OpenAIHelper
-from tkr_utils.helper_anthropic.client import AnthropicBatchClient
-from tkr_utils.helper_anthropic.models import RateLimits
+from tkr_utils.helper_anthropic.client import AnthropicHelper
+from tkr_utils.helper_anthropic.models import RateLimits, APIResponse
 from tkr_utils.helper_anthropic.processor import RequestProcessor
 from tkr_utils.app_paths import AppPaths
 from stories.story_manager import StoryManager
@@ -31,27 +31,27 @@ class StoryGenerationApp:
         self.prompt_manager = PromptManager()
         self.llm_openai = OpenAIHelper(async_mode=True)
 
-        """Initialize application components."""
         if not ANTHROPIC_API_KEY:
             raise ValueError("ANTHROPIC_API_KEY environment variable is required")
 
-        # Initialize rate limits with integer values
-        rate_limits = RateLimits(
+        # Initialize rate limits
+        self.rate_limits = RateLimits(
             requests_per_minute=int(MAX_REQUESTS_PER_MINUTE),
             tokens_per_minute=int(MAX_TOKENS_PER_MINUTE)
         )
 
-        self.anthropic_client = AnthropicBatchClient(
+        # Initialize Anthropic client and processor
+        self.anthropic_client = AnthropicHelper(
             api_key=ANTHROPIC_API_KEY,
             model=ANTHROPIC_MODEL
         )
         self.anthropic_processor = RequestProcessor(
             client=self.anthropic_client,
-            rate_limits=rate_limits
+            rate_limits=self.rate_limits
         )
 
         self.output_dir = AppPaths.LOCAL_DATA
-        logger.info("Initialized StoryGenerationApp with OpenAI and Anthropic batch processing")
+        logger.info("Initialized StoryGenerationApp with OpenAI and Anthropic processing")
 
     @logs_and_exceptions(logger)
     async def save_response_openai(
@@ -60,19 +60,15 @@ class StoryGenerationApp:
         story_name: str,
         hero_name: str
     ) -> str:
-        """
-        Save OpenAI LLM response to local directory.
+        """Save OpenAI LLM response to local directory.
 
         Args:
-            response (Dict[str, Any]): LLM response to save
-            story_name (str): Name of the story
-            hero_name (str): Name of the hero character
+            response: LLM response to save
+            story_name: Name of the story
+            hero_name: Name of the hero character
 
         Returns:
             str: Path where response was saved
-
-        Raises:
-            OSError: If directory creation or file writing fails
         """
         try:
             # Create provider-specific directory
@@ -97,17 +93,16 @@ class StoryGenerationApp:
     @logs_and_exceptions(logger)
     async def save_response_anthropic(
         self,
-        response: Dict[str, Any],
+        response: APIResponse,
         story_name: str,
         hero_name: str
     ) -> str:
-        """
-        Save Anthropic LLM response to local directory.
+        """Save Anthropic LLM response to local directory.
 
         Args:
-            response (Dict[str, Any]): LLM response to save
-            story_name (str): Name of the story
-            hero_name (str): Name of the hero character
+            response: APIResponse from Anthropic
+            story_name: Name of the story
+            hero_name: Name of the hero character
 
         Returns:
             str: Path where response was saved
@@ -121,9 +116,45 @@ class StoryGenerationApp:
             hero_filename = f"response_{hero_name.lower().replace(' ', '_')}.json"
             response_path = os.path.join(story_dir, hero_filename)
 
+            # Convert metadata to serializable format
+            metadata = {}
+            if response.metadata:
+                metadata = {
+                    "model": response.metadata.get("model", ""),
+                    "role": response.metadata.get("role", ""),
+                    "stop_reason": response.metadata.get("stop_reason", ""),
+                    "stop_sequence": response.metadata.get("stop_sequence", "")
+                }
+
+                # Handle Usage object specifically
+                usage = response.metadata.get("usage")
+                if usage:
+                    metadata["usage"] = {
+                        "input_tokens": getattr(usage, "input_tokens", 0),
+                        "output_tokens": getattr(usage, "output_tokens", 0),
+                        "total_tokens": getattr(usage, "total_tokens", 0)
+                    }
+
+            # Format response for saving
+            response_data = {
+                "story": {
+                    "title": story_name,
+                    "hero": hero_name,
+                    "llm": {
+                        "provider": "Anthropic",
+                        "model": self.anthropic_client.model
+                    },
+                    "response": {
+                        "text": response.content if response.success else ""
+                    },
+                    "metadata": metadata,
+                    "error": response.error
+                }
+            }
+
             # Save response to file
             with open(response_path, 'w') as f:
-                json.dump(response, f, indent=2)
+                json.dump(response_data, f, indent=2)
 
             logger.info(f"Successfully saved Anthropic response to {response_path}")
             return response_path
@@ -188,7 +219,15 @@ class StoryGenerationApp:
         story_name: str,
         hero_name: str
     ) -> Dict[str, Any]:
-        """Generate a single story variation with Anthropic batch processing."""
+        """Generate a single story variation with Anthropic.
+
+        Args:
+            story_name: Name of the story file
+            hero_name: Name of the hero character
+
+        Returns:
+            Dict containing the generated story response
+        """
         try:
             # Load story data
             story_path = f"{self.story_manager.story_dir}/{story_name}"
@@ -204,37 +243,29 @@ class StoryGenerationApp:
             with open(prompt_path, 'r') as f:
                 prompt = f.read()
 
-            # Prepare request for batch processing - single message dictionary
-            message = {"role": "user", "content": prompt}
-
-            # Process single request through batch processor
-            responses = await self.anthropic_processor.process_batch(
-                messages=[message],  # Pass list of message dictionaries
-                output_file=None
-            )
-
-            # Extract the first (and only) response
-            response_content = responses[0] if responses else "{}"
-
-            # Extract the content and add LLM metadata
-            response_data = {
-                "story": {
-                    "title": story_data['story']['title'],
-                    "hero": hero_name,
-                    "llm": {
-                        "provider": "Anthropic",
-                        "model": self.anthropic_client.helper.model
-                    },
-                    "response": json.loads(response_content)
-                }
+            # Create request for processor
+            request = {
+                "content": prompt,
+                "temperature": 0.7,
+                "max_tokens": 1024
             }
+
+            # Process request
+            response = await self.anthropic_processor._process_single_request(request)
 
             # Save response
             formatted_name = self.story_manager.format_story_name(story_data)
-            await self.save_response_anthropic(response_data, formatted_name, hero_name)
+            response_path = await self.save_response_anthropic(
+                response,
+                formatted_name,
+                hero_name
+            )
 
             logger.info(f"Successfully generated Anthropic story for {hero_name} in {story_name}")
-            return response_data
+
+            # Return the full response data
+            with open(response_path, 'r') as f:
+                return json.load(f)
 
         except Exception as e:
             logger.error(f"Error generating Anthropic story: {str(e)}")
@@ -245,14 +276,13 @@ class StoryGenerationApp:
         self,
         story_name: str
     ) -> List[Dict[str, Any]]:
-        """
-        Generate stories for all hero variants using OpenAI.
+        """Generate stories for all hero variants using OpenAI.
 
         Args:
-            story_name (str): Name of the story file
+            story_name: Name of the story file
 
         Returns:
-            List[Dict[str, Any]]: List of generated story responses
+            List of generated story responses
         """
         try:
             story_path = f"{self.story_manager.story_dir}/{story_name}"
@@ -276,13 +306,20 @@ class StoryGenerationApp:
         self,
         story_name: str
     ) -> List[Dict[str, Any]]:
-        """Generate stories for all hero variants using Anthropic batch processing."""
+        """Generate stories for all hero variants using Anthropic processing.
+
+        Args:
+            story_name: Name of the story file
+
+        Returns:
+            List of generated story responses
+        """
         try:
             story_path = f"{self.story_manager.story_dir}/{story_name}"
             story_data = await self.story_manager.load_story(story_path)
 
             # Prepare all requests
-            messages = []
+            requests = []
             for hero in story_data['story']['hero']:
                 prompt_path = await self.prompt_manager.generate_and_save_prompt(
                     story_data,
@@ -290,38 +327,27 @@ class StoryGenerationApp:
                 )
                 with open(prompt_path, 'r') as f:
                     prompt = f.read()
-                messages.append({"role": "user", "content": prompt})
+                requests.append({
+                    "content": prompt,
+                    "temperature": 0.7,
+                    "max_tokens": 1024
+                })
 
-            # Process all requests in batch
-            batch_responses = await self.anthropic_processor.process_batch(
-                messages=messages,
-                output_file=None
-            )
+            # Process all requests
+            responses = await self.anthropic_processor.process_batch(requests)
 
             # Format and save responses
             formatted_responses = []
             formatted_name = self.story_manager.format_story_name(story_data)
 
-            for hero, response in zip(story_data['story']['hero'], batch_responses):
-                response_data = {
-                    "story": {
-                        "title": story_data['story']['title'],
-                        "hero": hero,
-                        "llm": {
-                            "provider": "Anthropic",
-                            "model": self.anthropic_client.helper.model
-                        },
-                        "response": json.loads(response)
-                    }
-                }
-
-                # Save individual response
-                await self.save_response_anthropic(
-                    response_data,
+            for hero, response in zip(story_data['story']['hero'], responses):
+                response_path = await self.save_response_anthropic(
+                    response,
                     formatted_name,
                     hero
                 )
-                formatted_responses.append(response_data)
+                with open(response_path, 'r') as f:
+                    formatted_responses.append(json.load(f))
 
             logger.info(f"Successfully generated all Anthropic variations for {story_name}")
             return formatted_responses
@@ -330,14 +356,8 @@ class StoryGenerationApp:
             logger.error(f"Error generating Anthropic story variations: {str(e)}")
             raise
 
-    @logs_and_exceptions(logger)
     async def list_available_stories(self) -> List[Dict[str, str]]:
-        """
-        Get list of all available stories.
-
-        Returns:
-            List[Dict[str, str]]: List of story titles and paths
-        """
+        """Get list of all available stories."""
         try:
             stories = self.story_manager.get_all_stories()
             logger.info(f"Found {len(stories)} available stories")
@@ -348,7 +368,6 @@ class StoryGenerationApp:
 
 async def main():
     """Main entry point for the application."""
-
     the_story = "traffic_stop_food.json"
 
     try:
