@@ -120,7 +120,6 @@ class StoryGenerationApp:
             metadata = {}
             if response.metadata:
                 metadata = {
-                    "model": response.metadata.get("model", ""),
                     "role": response.metadata.get("role", ""),
                     "stop_reason": response.metadata.get("stop_reason", ""),
                     "stop_sequence": response.metadata.get("stop_sequence", "")
