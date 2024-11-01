@@ -4,7 +4,7 @@ from typing import List
 from pathlib import Path
 from ..models.story import StoryList, StoryTemplate, StoryResponse, StoryData
 from stories.story_manager import StoryManager
-from app import StoryGenerationApp
+from stories.story_generator import StoryGenerationApp
 from tkr_utils.app_paths import AppPaths
 from tkr_utils.config_logging import setup_logging
 
