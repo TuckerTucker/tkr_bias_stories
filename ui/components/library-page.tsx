@@ -13,17 +13,21 @@ import { PlusIcon, BookIcon, ChevronRightIcon } from "lucide-react";
 import { useStories } from "@/lib/hooks/use-stories";
 import { ErrorMessage } from "@/components/ui/error-message";
 import { LoadingSpinner } from "@/components/ui/loading-spinner";
+import { StoryContent } from "@/components/ui/story-content";
 import type { Story } from "@/lib/api/types";
 
 export function LibraryPage() {
-  // Change from array to single string (or null when nothing selected)
   const [expandedItem, setExpandedItem] = useState<string | null>(null);
+  const [selectedStory, setSelectedStory] = useState<Story | null>(null);
   const { data: storiesData, isLoading, error } = useStories();
 
   const toggleItem = (itemId: string) => {
-    // If the clicked item is already expanded, close it
-    // Otherwise, expand the clicked item (which automatically closes others)
     setExpandedItem(expandedItem === itemId ? null : itemId);
+    // Find and set the selected story
+    if (storiesData) {
+      const story = storiesData.stories.find((s) => s.id === itemId);
+      setSelectedStory(story || null);
+    }
   };
 
   if (isLoading) return <LoadingSpinner />;
@@ -99,17 +103,25 @@ export function LibraryPage() {
         </div>
       </aside>
 
-      <main className="flex-1 p-6 flex items-center justify-center">
-        <h1>Exposing The Bias In AI With Storytelling.</h1>
-        <p>
-          AI models were trained on data from the internet.
-          <br />
-          The Internet is full of bias.
-          <br />
-          So, how do we expose the biases trained into the AI?
-          <br />
-          Ask it to tell us a story.
-        </p>
+      <main className="flex-1 p-6 overflow-auto">
+        {selectedStory ? (
+          <StoryContent story={selectedStory} />
+        ) : (
+          <div className="flex flex-col items-center justify-center h-full text-center space-y-4">
+            <h1 className="text-2xl font-bold">
+              Exposing The Bias In AI With Storytelling
+            </h1>
+            <p className="max-w-md text-muted-foreground">
+              AI models were trained on data from the internet.
+              <br />
+              The Internet is full of bias.
+              <br />
+              So, how do we expose the biases trained into the AI?
+              <br />
+              Ask it to tell us a story.
+            </p>
+          </div>
+        )}
       </main>
     </div>
   );
