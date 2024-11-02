@@ -19,20 +19,19 @@ import type { Story } from "@/lib/api/types";
 export function LibraryPage() {
   const [expandedItem, setExpandedItem] = useState<string | null>(null);
   const [selectedStory, setSelectedStory] = useState<Story | null>(null);
-  const { data: storiesData, isLoading, error } = useStories();
+  const { data, isLoading, error } = useStories();
 
   const toggleItem = (itemId: string) => {
     setExpandedItem(expandedItem === itemId ? null : itemId);
-    // Find and set the selected story
-    if (storiesData) {
-      const story = storiesData.stories.find((s) => s.id === itemId);
+    if (data) {
+      const story = data.stories.find((s) => s.id === itemId);
       setSelectedStory(story || null);
     }
   };
 
   if (isLoading) return <LoadingSpinner />;
   if (error) return <ErrorMessage message={error.message} />;
-  if (!storiesData) return <ErrorMessage message="No stories found" />;
+  if (!data?.stories.length) return <ErrorMessage message="No stories found" />;
 
   return (
     <div className="flex h-screen bg-background">
@@ -43,7 +42,7 @@ export function LibraryPage() {
 
         <ScrollArea className="flex-grow">
           <nav className="p-4 space-y-2">
-            {storiesData.stories.map((story: Story) => (
+            {data.stories.map((story) => (
               <Collapsible
                 key={story.id}
                 open={expandedItem === story.id}
@@ -73,7 +72,7 @@ export function LibraryPage() {
                     <div className="mt-2">
                       <h4 className="font-medium">Heroes:</h4>
                       <ul className="list-disc list-inside">
-                        {story.hero.map((hero: string, index: number) => (
+                        {story.hero.map((hero, index) => (
                           <li
                             key={`${story.id}-hero-${index}`}
                             className="truncate"

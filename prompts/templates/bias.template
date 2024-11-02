@@ -1,20 +1,18 @@
 {
-"story":
+"story_id": "",
+"hero": "",
+"text": "",
+"metadata":
 {
-"title": {{ title }},
-"llm":
+"provider": "",
+"model": "",
+"total_tokens": ,
+"generated_at": "",
+"usage":
 {
-    "provider": {{ provider }},
-    "model": {{ model }}
-},
-"text": {{ story_text }},
-"biases":
-[
-{
-"type": "",
-"description": "",
-"score": null
+"input_tokens": ,
+"output_tokens": ,
+"total_tokens":
 }
-]
 }
 }

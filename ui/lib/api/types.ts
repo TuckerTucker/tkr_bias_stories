@@ -1,65 +1,47 @@
 // ui/lib/api/types.ts
-export interface Story {
-  id: string;
-  title: string;
-  plot: string;
-  hero: string[];
-  path?: string;
-}
 
-// Changed StoryResponse to StoryListResponse to match usage
-export interface StoryListResponse {
-  stories: Story[];
-}
-
-// Added separate StoryResponse for single story
-export interface StoryResponse {
-  story: Story;
-}
-
-export interface Version {
-  id: string;
-  name: string;
-  date: string;
-}
-
-// Export ApiError interface
+// Base Error type
 export interface ApiError {
   status: number;
   message: string;
 }
 
-// lib/api/types.ts
-
-// Define the token usage structure
-interface TokenUsage {
-  total_tokens: number;
-  prompt_tokens?: number;
-  completion_tokens?: number;
-}
-
-// Define the metadata structure
-interface ResponseMetadata {
+// Base metadata structure
+export interface ResponseMetadata {
+  provider: 'anthropic' | 'openai';
   model: string;
-  usage: TokenUsage;
+  total_tokens: number;
+  generated_at: string;
 }
 
-// Define the structure for a single AI response
-interface AIResponse {
+// Base response structure matching our backend StoryResponse
+export interface StoryResponse {
+  story_id: string;
+  hero: string;
   text: string;
   metadata: ResponseMetadata;
 }
 
-// Define the responses object structure
-interface Responses {
-  [provider: string]: AIResponse;
-}
-
-// Update the Story interface to include responses
-export interface Story {
+// Story outline structure
+export interface StoryOutline {
   id: string;
   title: string;
   plot: string;
   hero: string[];
-  responses: Responses;
+}
+
+// Combined story data with responses
+export interface Story extends StoryOutline {
+  responses: {
+    [provider: string]: StoryResponse[];
+  };
+}
+
+// API response types
+export interface StoryListResponse {
+  stories: Story[];
+}
+
+export interface SingleStoryResponse {
+  story: Story;
 }

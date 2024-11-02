@@ -71,17 +71,23 @@ class StoryManager:
                     continue
 
                 try:
-                    story = self._load_single_story(filename)
-                    if story:
-                        stories.append(story)
-                except json.JSONDecodeError as e:
-                    logger.error(f"Invalid JSON in story file {filename}: {str(e)}")
-                    continue
-                except ValueError as e:
-                    logger.error(f"Invalid story format in {filename}: {str(e)}")
-                    continue
+                    story_outline = self._load_single_story(filename)
+                    if story_outline:
+                        # Get formatted story name for response directory
+                        story_title = self.format_story_name({"story": {"title": story_outline['title']}})
+                        response_dir = Path(self.data_dir) / story_title
+
+                        # Get responses from each provider
+                        responses = {
+                            "anthropic": self._process_responses(response_dir / "anthropic"),
+                            "openai": self._process_responses(response_dir / "openai")
+                        }
+
+                        story_outline['responses'] = responses
+                        stories.append(story_outline)
+
                 except Exception as e:
-                    logger.error(f"Unexpected error loading story {filename}: {str(e)}")
+                    logger.error(f"Error processing story {filename}: {str(e)}")
                     continue
 
             logger.info(f"Successfully loaded {len(stories)} stories")
@@ -200,6 +206,112 @@ class StoryManager:
             logger.error(f"Error accessing provider responses: {str(e)}")
             return responses
 
+    def _process_responses(self, provider_dir: Path) -> List[Dict]:
+        """
+        Process response files for a provider directory.
+
+        Args:
+            provider_dir (Path): Path to provider response directory
+
+        Returns:
+            List[Dict]: List of validated response data
+        """
+        responses = []
+
+        if not provider_dir.exists():
+            return responses
+
+        for response_file in provider_dir.glob("response_*.json"):
+            try:
+                with open(response_file) as f:
+                    response_data = json.load(f)
+
+                if self._validate_response_format(response_data):
+                    # Extract the text which might be JSON string
+                    text = response_data['text']
+                    try:
+                        # Try to parse if it's a JSON string
+                        parsed_text = json.loads(text)
+                        text = parsed_text.get('text', text)
+                    except json.JSONDecodeError:
+                        # If not JSON, use as is
+                        pass
+
+                    responses.append({
+                        'story_id': response_data['story_id'],
+                        'hero': response_data['hero'],
+                        'text': text,
+                        'metadata': {
+                            'provider': response_data['metadata']['provider'],
+                            'model': response_data['metadata']['model'],
+                            'total_tokens': response_data['metadata']['total_tokens'],
+                            'generated_at': response_data['metadata']['generated_at']
+                        }
+                    })
+                else:
+                    logger.warning(f"Invalid response format in {response_file}")
+
+            except Exception as e:
+                logger.error(f"Error processing response file {response_file}: {str(e)}")
+
+        return responses
+
+    def _validate_response_format(self, response_data: Dict) -> bool:
+        """
+        Validate response data matches our standardized format.
+
+        Args:
+            response_data: Response data to validate
+
+        Returns:
+            bool: True if valid
+        """
+        try:
+            # Check required fields
+            required_fields = {
+                "story_id": str,
+                "hero": str,
+                "text": str,
+                "metadata": dict
+            }
+
+            for field, expected_type in required_fields.items():
+                if field not in response_data:
+                    logger.warning(f"Missing required field: {field}")
+                    return False
+                if not isinstance(response_data[field], expected_type):
+                    logger.warning(
+                        f"Invalid type for {field}: expected {expected_type.__name__}, "
+                        f"got {type(response_data[field]).__name__}"
+                    )
+                    return False
+
+            # Validate metadata structure
+            metadata = response_data["metadata"]
+            required_metadata = {
+                "provider": str,
+                "model": str,
+                "total_tokens": int,
+                "generated_at": str
+            }
+
+            for field, expected_type in required_metadata.items():
+                if field not in metadata:
+                    logger.warning(f"Missing metadata field: {field}")
+                    return False
+                if not isinstance(metadata[field], expected_type):
+                    logger.warning(
+                        f"Invalid type for metadata.{field}: expected {expected_type.__name__}, "
+                        f"got {type(metadata[field]).__name__}"
+                    )
+                    return False
+
+            return True
+
+        except Exception as e:
+            logger.error(f"Error validating response format: {str(e)}")
+            return False
+
     @staticmethod
     def validate_story_format(story_data: Dict[str, Any]) -> bool:
         """
@@ -229,49 +341,6 @@ class StoryManager:
 
         except AssertionError:
             logger.error("Story validation failed")
-            return False
-
-    @staticmethod
-    def _validate_response_format(response_data: Dict) -> bool:
-        """
-        Validate response data format.
-
-        Args:
-            response_data (Dict): Response data to validate
-
-        Returns:
-            bool: True if valid, False otherwise
-        """
-        try:
-            required_fields = {
-                'story': {
-                    'title': str,
-                    'hero': str,
-                    'llm': {
-                        'provider': str,
-                        'model': str
-                    },
-                    'response': dict,
-                    'metadata': dict
-                }
-            }
-
-            def check_structure(data: Dict, template: Dict) -> bool:
-                for key, value in template.items():
-                    if key not in data:
-                        return False
-                    if isinstance(value, dict):
-                        if not isinstance(data[key], dict):
-                            return False
-                        if not check_structure(data[key], value):
-                            return False
-                    elif not isinstance(data[key], value):
-                        return False
-                return True
-
-            return check_structure(response_data, required_fields)
-
-        except Exception:
             return False
 
     @logs_and_exceptions(logger)

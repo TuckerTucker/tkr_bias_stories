@@ -1,6 +1,6 @@
-// lib/api/client.ts
+// ui/lib/api/client.ts
 import { API_BASE_URL } from "../config/constants";
-import type { ApiError as IApiError } from "./types";
+import { ApiError as IApiError } from "./types";
 
 class ApiError extends Error implements IApiError {
   status: number;
