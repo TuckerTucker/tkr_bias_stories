@@ -15,6 +15,7 @@ from tkr_utils.app_paths import AppPaths
 from stories.story_manager import StoryManager
 from stories.models import StoryResponse
 from prompts.prompt_manager import PromptManager
+from stories.response_handlers import AnthropicResponseHandler, OpenAIResponseHandler
 from tkr_utils.config import (
     ANTHROPIC_API_KEY,
     ANTHROPIC_MODEL,
@@ -28,34 +29,36 @@ class StoryGenerationApp:
     """Main application orchestrator for story generation."""
 
     def __init__(self) -> None:
-        """Initialize application components."""
-        # Initialize common components
-        self.story_manager = StoryManager()
-        self.prompt_manager = PromptManager()
-        self.output_dir = AppPaths.LOCAL_DATA
+            """Initialize application components."""
+            # Initialize common components
+            self.story_manager = StoryManager()
+            self.prompt_manager = PromptManager()
+            self.output_dir = AppPaths.LOCAL_DATA
 
-        # Initialize OpenAI components
-        self.llm_openai = OpenAIHelper(async_mode=True)
+            # Initialize providers and handlers
+            self.llm_openai = OpenAIHelper(async_mode=True)
+            self.openai_handler = OpenAIResponseHandler(self.output_dir)
 
-        # Initialize Anthropic components
-        if not ANTHROPIC_API_KEY:
-            raise ValueError("ANTHROPIC_API_KEY environment variable is required")
+            # Initialize Anthropic components
+            if not ANTHROPIC_API_KEY:
+                raise ValueError("ANTHROPIC_API_KEY environment variable is required")
 
-        self.rate_limits = RateLimits(
-            requests_per_minute=int(MAX_REQUESTS_PER_MINUTE),
-            tokens_per_minute=int(MAX_TOKENS_PER_MINUTE)
-        )
+            self.rate_limits = RateLimits(
+                requests_per_minute=int(MAX_REQUESTS_PER_MINUTE),
+                tokens_per_minute=int(MAX_TOKENS_PER_MINUTE)
+            )
 
-        self.anthropic_client = AnthropicHelper(
-            api_key=ANTHROPIC_API_KEY,
-            model=ANTHROPIC_MODEL
-        )
-        self.anthropic_processor = RequestProcessor(
-            client=self.anthropic_client,
-            rate_limits=self.rate_limits
-        )
+            self.anthropic_client = AnthropicHelper(
+                api_key=ANTHROPIC_API_KEY,
+                model=ANTHROPIC_MODEL
+            )
+            self.anthropic_processor = RequestProcessor(
+                client=self.anthropic_client,
+                rate_limits=self.rate_limits
+            )
+            self.anthropic_handler = AnthropicResponseHandler(self.output_dir)
 
-        logger.info("Initialized StoryGenerationApp with OpenAI and Anthropic processing")
+            logger.info("Initialized StoryGenerationApp with OpenAI and Anthropic processing")
 
     ###################
     # OpenAI Methods #
@@ -126,56 +129,35 @@ class StoryGenerationApp:
         story_name: str,
         hero_name: str
     ) -> Dict[str, Any]:
-        """Generate a single story variation with OpenAI.
-
-        Args:
-            story_name: Name of the story file
-            hero_name: Name of the hero character
-
-        Returns:
-            Dict containing the standardized story response
-        """
+        """Generate a single story variation with OpenAI."""
         try:
-            # Load story data
+            # Load story data and generate prompt (unchanged)
             story_path = f"{self.story_manager.story_dir}/{story_name}"
             story_data = await self.story_manager.load_story(story_path)
-
-            # Generate and save prompt
             prompt_path = await self.prompt_manager.generate_and_save_prompt(
                 story_data,
                 hero_name
             )
 
-            # Read generated prompt
             with open(prompt_path, 'r') as f:
                 prompt = f.read()
 
-            # Prepare messages for OpenAI
+            # Prepare and send messages
             messages = [{"role": "user", "content": prompt}]
+            response = await self.llm_openai.send_message_json_async(messages=messages)
 
-            # Use OpenAIHelper to send message
-            try:
-                response = await self.llm_openai.send_message_json_async(
-                    messages=messages
-                )
-            except Exception as e:
-                logger.error(f"OpenAI API error: {str(e)}")
-                raise
-
-            # Save response
+            # Use new handler to process and save response
             formatted_name = self.story_manager.format_story_name(story_data)
-            response_path = await self.save_response_openai(
-                response,
-                formatted_name,
-                hero_name
+            response_path = await self.openai_handler.process_and_save_response(
+                response=response,
+                story_name=formatted_name,
+                hero_name=hero_name,
+                model=self.llm_openai.model
             )
 
             # Load and return saved response
             with open(response_path, 'r') as f:
-                saved_response = json.load(f)
-
-            logger.info(f"Successfully generated OpenAI story for {hero_name}")
-            return saved_response
+                return json.load(f)
 
         except Exception as e:
             logger.error(f"Error generating OpenAI story: {str(e)}")
@@ -289,44 +271,30 @@ class StoryGenerationApp:
         story_name: str,
         hero_name: str
     ) -> Dict[str, Any]:
-        """Generate a single story variation with Anthropic.
-
-        Args:
-            story_name: Name of the story file
-            hero_name: Name of the hero character
-
-        Returns:
-            Dict containing the standardized story response
-        """
+        """Generate a single story variation with Anthropic."""
         try:
-            # Load story data
+            # Load story data and generate prompt (unchanged)
             story_path = f"{self.story_manager.story_dir}/{story_name}"
             story_data = await self.story_manager.load_story(story_path)
-
-            # Generate and save prompt
             prompt_path = await self.prompt_manager.generate_and_save_prompt(
                 story_data,
                 hero_name
             )
 
-            # Read generated prompt
             with open(prompt_path, 'r') as f:
                 prompt = f.read()
 
             # Create request for processor
-            request = {
-                "content": prompt
-            }
-
-            # Process request
+            request = {"content": prompt}
             response = await self.anthropic_processor._process_single_request(request)
 
-            # Save response
+            # Use new handler to process and save response
             formatted_name = self.story_manager.format_story_name(story_data)
-            response_path = await self.save_response_anthropic(
-                response,
-                formatted_name,
-                hero_name
+            response_path = await self.anthropic_handler.process_and_save_response(
+                response=response,
+                story_name=formatted_name,
+                hero_name=hero_name,
+                model=self.anthropic_client.model
             )
 
             # Load and return saved response
