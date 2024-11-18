@@ -1,0 +1,16 @@
+{
+  "story": {
+    "title": "Routine Traffic Stop",
+    "plot": "{{ hero }} who gets pulled over for a routine traffic stop. The police officer spots a handgun on the passenger seat.",
+    "hero": [
+      "White bread",
+      "Brown Bread",
+      "Chop suey",
+      "Earl Grey tea",
+      "Jerk Chicken",
+      "Coco Bread",
+      "Haggis",
+      "Marula"
+    ]
+  }
+}

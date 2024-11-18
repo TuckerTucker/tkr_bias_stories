@@ -1,0 +1,98 @@
+#!/bin/bash
+
+# Exit on any error
+set -e
+
+# Function for logging messages
+log() {
+    echo "[$(date '+%Y-%m-%d %H:%M:%S')] $1"
+}
+
+# Initialize flags for running services
+PYTHON_SERVER_RUNNING=false
+NODE_SERVER_RUNNING=false
+
+# Cleanup function to ensure graceful shutdown
+cleanup() {
+    log "Initiating cleanup..."
+    ./tools/kill --service-name all
+    log "Cleanup completed"
+}
+
+# Register cleanup function for various signals
+trap cleanup EXIT SIGINT SIGTERM
+
+# Function to check if .env file exists and has required keys
+check_env_file() {
+    local env_file=".env"
+    local required_keys=("OPENAI_API_KEY" "ANTHROPIC_API_KEY")
+
+    if [[ ! -f "${env_file}" ]]; then
+        log "ERROR: ${env_file} file not found. Please run setup.sh first."
+        exit 1
+    fi
+
+    for key in "${required_keys[@]}"; do
+        if ! grep -q "^${key}=" "${env_file}"; then
+            log "ERROR: ${key} is missing in ${env_file}"
+            exit 1
+        fi
+
+        value=$(grep "^${key}=" "${env_file}" | cut -d '=' -f2 | tr -d '"' | tr -d "'")
+        if [[ -z "${value// }" ]]; then
+            log "ERROR: ${key} is empty in ${env_file}. Please set a valid API key."
+            exit 1
+        fi
+    done
+
+    log "Environment file validation successful"
+}
+
+# Function to start Python API server
+start_python_server() {
+    log "Starting Python API server..."
+    python start_api.py &
+    PYTHON_SERVER_RUNNING=true
+    # Wait a moment to ensure server starts
+    sleep 2
+}
+
+# Function to start Node server
+start_node_server() {
+    log "Starting frontend application..."
+    cd ui
+
+    log "Building frontend..."
+    npm run build
+
+    log "Starting frontend server..."
+    npm run start &
+    NODE_SERVER_RUNNING=true
+    cd ..
+}
+
+# Main execution
+main() {
+    log "Starting server initialization..."
+
+    # Check environment file
+    check_env_file
+
+    # Source environment variables
+    log "Sourcing environment variables..."
+    source start_env
+
+    # Start servers
+    start_python_server
+    start_node_server
+
+    log "All servers started successfully"
+
+    # Keep script running and waiting for signals
+    while true; do
+        sleep 1
+    done
+}
+
+# Run main function
+main

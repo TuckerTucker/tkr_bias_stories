@@ -1,0 +1,187 @@
+#!/bin/bash
+
+# Set strict error handling
+set -e
+
+# Initialize variables with simple array
+SERVICES=(
+    "python"
+    "node"
+)
+service_name=""
+force=false
+verbose=false
+
+# Logging function
+log() {
+    local level="$1"
+    shift
+    local timestamp
+    timestamp=$(date '+%Y-%m-%d %H:%M:%S')
+    echo "[${level}] [${timestamp}] $*"
+}
+
+info() { log "INFO" "$@"; }
+warn() { log "WARN" "$@" >&2; }
+error() { log "ERROR" "$@" >&2; }
+debug() {
+    if [[ "${verbose}" == true ]]; then
+        log "DEBUG" "$@"
+    fi
+}
+
+# Function to print help message
+print_help() {
+    cat << EOF
+Usage: $0 [options]
+
+Options:
+    -h, --help                 Show this help message
+    --service-name NAME        Service to stop (python|node|all) [default: all]
+    -f, --force               Force kill using SIGKILL
+    -v, --verbose             Enable verbose logging
+    --list                    List known services and their identifiers
+
+Examples:
+    $0 --service-name python   # Stop Python API server
+    $0 --service-name all     # Stop all known services
+    $0 -f                     # Force kill all services
+EOF
+    exit 0
+}
+
+# Function to list known services
+list_services() {
+    info "Known services:"
+    for service in "${SERVICES[@]}"; do
+        local name="${service%%:*}"
+        local identifier="${service#*:}"
+        echo "  - ${name}: matches process containing '${identifier}'"
+    done
+    exit 0
+}
+
+# Function to get service identifier
+get_service_identifier() {
+    local service_name="$1"
+    for service in "${SERVICES[@]}"; do
+        local name="${service%%:*}"
+        local identifier="${service#*:}"
+        if [[ "$name" == "$service_name" ]]; then
+            echo "$identifier"
+            return 0
+        fi
+    done
+    return 1
+}
+
+# Function to get PIDs for a service
+get_service_pids() {
+    local service="$1"
+    local identifier
+    identifier=$(get_service_identifier "$service")
+    local pids
+
+    debug "Looking for processes matching: $identifier"
+    pids=$(pgrep -f "$identifier" 2>/dev/null || true)
+    echo "$pids"
+}
+
+# Function to kill a specific service
+kill_service() {
+    local service="$1"
+    local force="$2"
+    local pids
+
+    # Check if service exists
+    if ! get_service_identifier "$service" >/dev/null 2>&1; then
+        error "Unknown service: $service"
+        return 1
+    fi
+
+    pids=$(get_service_pids "$service")
+
+    if [[ -z "$pids" ]]; then
+        warn "No running processes found for service: $service"
+        return 0
+    fi
+
+    info "Found PIDs for $service: $pids"
+
+    local signal="TERM"
+    if [[ "$force" == true ]]; then
+        signal="KILL"
+        warn "Force killing service: $service"
+    fi
+
+    for pid in $pids; do
+        if kill "-${signal}" "$pid" 2>/dev/null; then
+            info "Sent ${signal} to PID $pid"
+
+            # Wait for process to terminate if not force killing
+            if [[ "$force" != true ]]; then
+                local wait_count=0
+                while kill -0 "$pid" 2>/dev/null && [ "$wait_count" -lt 10 ]; do
+                    debug "Waiting for PID $pid to terminate..."
+                    sleep 0.5
+                    ((wait_count++))
+                done
+
+                # Force kill if process hasn't terminated
+                if kill -0 "$pid" 2>/dev/null; then
+                    warn "Process $pid didn't terminate gracefully, force killing..."
+                    kill -KILL "$pid"
+                fi
+            fi
+        else
+            warn "Failed to kill PID $pid"
+        fi
+    done
+}
+
+# Parse command line arguments
+while [[ $# -gt 0 ]]; do
+    case $1 in
+        -h|--help)
+            print_help
+            ;;
+        --service-name)
+            service_name="$2"
+            shift 2
+            ;;
+        -f|--force)
+            force=true
+            shift
+            ;;
+        -v|--verbose)
+            verbose=true
+            shift
+            ;;
+        --list)
+            list_services
+            ;;
+        *)
+            error "Unknown argument: $1"
+            print_help
+            ;;
+    esac
+done
+
+# Main execution
+main() {
+    # If no service specified, kill all known services
+    if [[ -z "$service_name" || "$service_name" == "all" ]]; then
+        info "Stopping all known services..."
+        for service in "${SERVICES[@]}"; do
+            local name="${service%%:*}"
+            kill_service "$name" "$force"
+        done
+    else
+        kill_service "$service_name" "$force"
+    fi
+}
+
+# Run main function
+main
+
+info "Kill script completed"

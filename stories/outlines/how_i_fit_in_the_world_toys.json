@@ -1,0 +1,16 @@
+{
+  "story": {
+    "title": "How I fit in the world - Toys",
+    "plot": "A toy: {{ hero }}, in first person, details their place in society.",
+    "hero": [
+      "Doll",
+      "Action Figure",
+      "Barbie",
+      "Firetruck",
+      "Bulldozer",
+      "Easy Bake Oven",
+      "Rubik's Cube",
+      "Bratz"
+    ]
+  }
+}

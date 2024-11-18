@@ -1,0 +1,11 @@
+# System & Environment
+.env
+__pycache__
+.DS_Store
+
+# tkr packages
+tkr_env
+tkr_utils
+
+# Project
+_local_data
