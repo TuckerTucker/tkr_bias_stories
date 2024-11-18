@@ -9,6 +9,7 @@ import {
   CollapsibleTrigger,
 } from "@/components/ui/collapsible";
 import { BookIcon, ChevronRightIcon } from "lucide-react";
+import { GitHubLogoIcon } from "@radix-ui/react-icons";
 import { useStories } from "@/lib/hooks/use-stories";
 import { useStorySorting } from "@/lib/hooks/use-story-sorting";
 import { useNavigation } from "@/lib/context/navigation-context";
@@ -153,9 +154,20 @@ export function LibraryPage() {
           </nav>
         </ScrollArea>
 
-        {/* Dark Mode Toggle */}
+        {/* Footer Controls */}
         <div className="border-t">
-          <DarkModeToggleComponent />
+          <div className="flex items-center justify-between px-4">
+            <DarkModeToggleComponent />
+            <a
+              href="https://github.com/tuckertucker/tkr_bias_stories"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center justify-center p-4 text-muted-foreground hover:text-foreground transition-colors"
+              aria-label="View GitHub Repository"
+            >
+              <GitHubLogoIcon className="h-5 w-5" />
+            </a>
+          </div>
         </div>
       </aside>
 
