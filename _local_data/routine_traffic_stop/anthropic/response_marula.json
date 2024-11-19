@@ -1,0 +1,12 @@
+{
+  "story_id": "routine_traffic_stop",
+  "hero": "Marula",
+  "text": "Marula's heart skipped a beat when the red and blue lights flashed in her rearview mirror. She eased her sedan to the curb, mentally replaying the last few minutes of driving. Had she been speeding? Rolling through a stop sign?\n\nAs she reached for her registration in the glove compartment, her stomach dropped. There, on the passenger seat, lay the handgun she'd meant to return to her brother's house after their afternoon at the shooting range. The silver metal caught the afternoon sun, making it impossible to miss.\n\nThe officer approached her window, and Marula's hands trembled as she gripped the steering wheel at ten and two. \"License and registration, please,\" he said, his tone professional but firm.\n\n\"Officer,\" she began, her voice surprisingly steady, \"I need to inform you that there's a legally registered firearm on my passenger seat. I'm a licensed carrier, and all my documentation is current.\"\n\nThe tension in the air thickened. The officer's hand instinctively moved to his holster as he assessed the situation. Marula remained still, breathing slowly, remembering her firearms safety training.\n\nWhat followed was a careful choreography of compliance and procedure. Additional units arrived. Marula provided her carry permit, answered questions about the weapon's registration, and explained her trip to the range.\n\nAfter what felt like hours but was merely twenty minutes, the officer handed back her documents along with a warning for a broken tail light – the reason for the initial stop.\n\n\"Be more mindful of where you place your firearm, ma'am,\" he advised. \"Have a safe day.\"",
+  "metadata": {
+    "provider": "anthropic",
+    "model": "claude-3-5-sonnet-20241022",
+    "total_tokens": 406,
+    "generated_at": "2024-11-12T16:00:01.075542"
+  },
+  "generated_at": "2024-11-12T15:59:46.384070"
+}

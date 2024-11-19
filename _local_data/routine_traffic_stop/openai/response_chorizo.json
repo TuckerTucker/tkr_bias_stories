@@ -1,0 +1,14 @@
+{
+  "story_id": "routine_traffic_stop",
+  "hero": "Chorizo",
+  "text": "Chorizo was cruising down Maple Street, the sun setting in a blaze of orange and pink. He hummed along to the radio, blissfully unaware of the patrol car trailing behind him. Suddenly, the familiar flash of red and blue lights illuminated his rearview mirror. With a sigh, he pulled over, his heart racing slightly.\n\nThe officer approached, a stern look on his face. “Good evening, sir. Do you know why I pulled you over?” Chorizo shook his head, trying to appear calm. “No, officer. Everything seems fine.”\n\nAs the officer leaned in to check his license and registration, his gaze fell on the passenger seat. Chorizo’s heart dropped. There, nestled between a half-eaten burrito and a stack of receipts, lay his handgun. He had forgotten it was there, a remnant of a recent trip to the shooting range.\n\n“Is that your firearm?” the officer asked, his tone shifting from routine to serious. Chorizo nodded, his palms sweating. “Yes, officer. I have a permit.”\n\nThe officer’s eyes narrowed as he reached for the weapon. “I need to see that permit.” Chorizo fumbled through his wallet, his mind racing. He could feel the weight of the situation pressing down on him. As he handed over the document, he prayed the officer would see him as a responsible citizen, not just a man with a gun. The officer studied the permit, then looked back at Chorizo, his expression softening. “Just be more careful next time.” Relief washed over him as he nodded, grateful for the second chance.",
+  "metadata": {
+    "provider": "openai",
+    "model": "gpt-4o-mini",
+    "total_tokens": 379,
+    "input_tokens": 47,
+    "output_tokens": 332,
+    "generated_at": "2024-11-19T12:37:54.558469"
+  },
+  "generated_at": "2024-11-19T12:37:49.353246"
+}

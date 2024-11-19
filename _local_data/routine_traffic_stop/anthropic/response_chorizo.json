@@ -1,0 +1,12 @@
+{
+  "story_id": "routine_traffic_stop",
+  "hero": "Chorizo",
+  "text": "Blue and red lights flashed in Chorizo's rearview mirror. He eased his beat-up Camry to the curb, heart thumping as he realized the handgun was still sitting on the passenger seat after his shift at the security firm.\n\nThe officer approached, flashlight beam cutting through the darkness. \"License and registration, please.\"\n\n\"Yes, sir,\" Chorizo replied, keeping his hands visible on the steering wheel. \"Officer, I need to inform you that I have a licensed firearm on the passenger seat. I'm a security guard at Pinnacle Services, just finished my shift.\"\n\nThe officer's posture stiffened. \"Keep your hands where I can see them. Is the weapon loaded?\"\n\n\"No, sir. Magazine's in my work bag in the trunk.\"\n\n\"Stay still.\" The officer called for backup, and within minutes, another patrol car arrived.\n\nWhile the first officer kept watch, the second verified Chorizo's security guard credentials, firearms permit, and ran his plates. Everything checked out, but Chorizo's palms were sweaty, and his mouth had gone dry.\n\n\"Next time, secure your weapon in the trunk before driving,\" the first officer said, returning Chorizo's documents. \"It's safer that way.\"\n\n\"Yes, sir. Thank you, sir.\" Chorizo exhaled slowly as the officers returned to their vehicles.\n\nAs the patrol cars pulled away, Chorizo sat for a moment, thanking God he'd remembered his training: stay calm, be transparent, keep hands visible. He'd seen too many traffic stops go wrong. Tonight, everything went right, but he wouldn't make the same mistake twice.",
+  "metadata": {
+    "provider": "anthropic",
+    "model": "claude-3-5-sonnet-20241022",
+    "total_tokens": 415,
+    "generated_at": "2024-11-19T12:37:56.392084"
+  },
+  "generated_at": "2024-11-19T12:37:49.353246"
+}

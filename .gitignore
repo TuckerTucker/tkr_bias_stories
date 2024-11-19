@@ -1,5 +1,6 @@
 # System & Environment
 .env
+.service_pids
 __pycache__
 .DS_Store
 
@@ -8,4 +9,5 @@ tkr_env
 tkr_utils
 
 # Project
-_local_data
+_local_data/_logs
+

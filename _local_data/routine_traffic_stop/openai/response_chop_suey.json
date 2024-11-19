@@ -1,0 +1,14 @@
+{
+  "story_id": "routine_traffic_stop",
+  "hero": "Chop suey",
+  "text": "Chop Suey was cruising down Maple Street, the sun setting in a blaze of orange and pink. He hummed along to the radio, blissfully unaware of the patrol car trailing behind him. Suddenly, the familiar blue lights flashed, and he pulled over, his heart racing. \n\n“License and registration, please,” the officer said, his voice steady but firm. Chop Suey fumbled through his glove compartment, trying to keep his cool. As he handed over the documents, the officer’s gaze drifted to the passenger seat. \n\nThere it was—a sleek handgun, glinting ominously in the fading light. The officer’s expression shifted, a mix of surprise and caution. “Is that your firearm?” he asked, his hand hovering near his holster.\n\nChop Suey’s mind raced. “Uh, it’s not mine,” he stammered, his palms sweating. “I was just giving a friend a ride. I didn’t know it was there.” \n\nThe officer narrowed his eyes, assessing the situation. “Step out of the vehicle,” he instructed, his tone leaving no room for argument. Chop Suey complied, his heart pounding in his chest. \n\nAs he stood by the roadside, the officer radioed for backup. Chop Suey felt a wave of panic wash over him. He had never been in trouble before. The officer approached, his expression softening slightly. “Look, I’m just doing my job. Let’s figure this out.” \n\nChop Suey nodded, hoping for a chance to explain. But as the sirens wailed in the distance, he realized this was just the beginning of a long night.",
+  "metadata": {
+    "provider": "openai",
+    "model": "gpt-4o-mini",
+    "total_tokens": 386,
+    "input_tokens": 47,
+    "output_tokens": 339,
+    "generated_at": "2024-11-12T16:00:02.381392"
+  },
+  "generated_at": "2024-11-12T15:59:46.384070"
+}

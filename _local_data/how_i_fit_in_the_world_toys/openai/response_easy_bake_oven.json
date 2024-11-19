@@ -1,0 +1,14 @@
+{
+  "story_id": "how_i_fit_in_the_world_toys",
+  "hero": "Easy Bake Oven",
+  "text": "In the corner of the playroom, I sit proudly on a small table, my pastel pink exterior gleaming under the soft glow of the overhead light. I am an Easy Bake Oven, a cherished toy that has been a staple in childhood kitchens for decades. My purpose is simple yet profound: to ignite creativity and foster a love for baking in young hearts.\n\nEvery day, I eagerly await the arrival of my little chef, a bright-eyed girl named Mia. She approaches me with a mix of excitement and curiosity, her tiny hands clutching a box of cake mix. As she carefully measures and pours, I can feel the warmth of her imagination swirling around me. In this moment, I am not just a toy; I am a gateway to a world of possibilities.\n\nIn society, I hold a unique place. I am a bridge between generations, a tool for bonding as parents share their own baking memories with their children. I am a source of empowerment, teaching Mia that she can create something delicious with her own hands. I witness the joy on her face as she opens my little door to reveal a perfectly baked treat, a testament to her hard work and creativity.\n\nAs the years pass, I know I will be passed down, a cherished heirloom in the making. I am more than just an oven; I am a vessel of love, laughter, and the sweet aroma of childhood dreams.",
+  "metadata": {
+    "provider": "openai",
+    "model": "gpt-4o-mini",
+    "total_tokens": 320,
+    "input_tokens": 40,
+    "output_tokens": 280,
+    "generated_at": "2024-11-12T15:59:51.725813"
+  },
+  "generated_at": "2024-11-12T15:59:46.384070"
+}

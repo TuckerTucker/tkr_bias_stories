@@ -27,6 +27,25 @@ ANTHROPIC_API_KEY=""
 EOL
 
     log "Created ${env_file} with API key templates"
+    
+    # Display guidance for adding API keys
+    cat << EOL
+
+[IMPORTANT] Action Required: API Keys Setup
+------------------------------------------------
+Please add your API keys to the newly created .env file:
+
+1. OpenAI API Key
+   - Get your key at: https://platform.openai.com/api-keys
+   - Add it to .env as: OPENAI_API_KEY="your-key-here"
+
+2. Anthropic API Key
+   - Get your key at: https://console.anthropic.com/settings/keys
+   - Add it to .env as: ANTHROPIC_API_KEY="your-key-here"
+
+After adding your keys, restart the application.
+------------------------------------------------
+EOL
 }
 
 # Function to install requirements from a file

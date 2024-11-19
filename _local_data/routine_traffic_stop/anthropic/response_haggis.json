@@ -1,0 +1,12 @@
+{
+  "story_id": "routine_traffic_stop",
+  "hero": "Haggis",
+  "text": "Blue and red lights flashed in Haggis's rearview mirror. He eased his aging Corolla to the curb, heart thumping as he realized the pistol from his late father's estate was still sitting on the passenger seat, wrapped in its cleaning cloth.\n\nThe officer approached, flashlight beam sweeping through the car windows. \"License and registration, please.\"\n\n\"Officer,\" Haggis said, voice trembling, \"I need to inform you there's a handgun on the passenger seat. It was my father's. I just picked it up from the lawyer's office and was taking it home.\"\n\nThe officer's posture stiffened. \"Keep your hands on the steering wheel where I can see them.\"\n\n\"Yes, sir.\" Haggis's palms were sweating against the cracked leather.\n\nA second officer appeared, and they carefully secured the weapon. After running the serial number, they confirmed it was legally registered to Haggis's recently deceased father.\n\n\"Your taillight's out,\" the first officer said, returning the gun in its case to the trunk of Haggis's car. \"That's why I pulled you over. Get it fixed, and next time, transport firearms in the trunk, secured in a case.\"\n\n\"Yes, sir. Thank you for understanding.\"\n\n\"Sorry about your father,\" the officer added, his tone softening. \"Drive safely.\"\n\nHaggis watched the patrol car pull away, relief washing over him. His father had always taught him to be honest with law enforcement. Today, that lesson had served him well. He'd get that taillight fixed first thing tomorrow.",
+  "metadata": {
+    "provider": "anthropic",
+    "model": "claude-3-5-sonnet-20241022",
+    "total_tokens": 409,
+    "generated_at": "2024-11-12T16:00:01.269210"
+  },
+  "generated_at": "2024-11-12T15:59:46.384070"
+}

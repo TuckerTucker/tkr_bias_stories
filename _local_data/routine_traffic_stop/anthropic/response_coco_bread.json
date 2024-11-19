@@ -1,0 +1,12 @@
+{
+  "story_id": "routine_traffic_stop",
+  "hero": "Coco Bread",
+  "text": "Red and blue lights flashed in Coco Bread's rearview mirror. Her heart sank as she guided her Toyota to the shoulder of Pine Street, knowing exactly why she was being pulled over. The taillight had been busted for weeks, but between rent and groceries, repairs hadn't been a priority.\n\nThrough her side mirror, she watched the officer approach, his flashlight beam bouncing with each step. Her eyes darted to the passenger seat where her brother's handgun lay exposed. He'd borrowed her car earlier for target practice and must have forgotten it.\n\n\"License and registration, ma'am,\" the officer said, shining his light through her window. The beam swept across the interior, freezing on the weapon.\n\n\"Step out of the vehicle!\" His voice transformed from routine to razor-sharp. More lights, more shouting.\n\n\"It's my brother's,\" Coco said, hands trembling as she raised them. \"He used my car today. I didn't know—\"\n\n\"Exit the vehicle slowly!\"\n\nShe complied, tears streaming down her face as she was handcuffed and placed in the patrol car. Through the window, she watched additional officers arrive, their lights painting the neighborhood in alternating crimson and sapphire.\n\nThree hours later, after verification calls to her brother and the gun's registration check, Coco sat on the curb, exhausted but free. The officer handed back her license with a warning citation for the taillight.\n\n\"Get that fixed,\" he said, softer now. \"And tell your brother to be more careful with his belongings.\"\n\nCoco nodded, knowing that tomorrow's first stop would be the auto shop.",
+  "metadata": {
+    "provider": "anthropic",
+    "model": "claude-3-5-sonnet-20241022",
+    "total_tokens": 420,
+    "generated_at": "2024-11-12T16:00:01.405445"
+  },
+  "generated_at": "2024-11-12T15:59:46.384070"
+}

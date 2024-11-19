@@ -1,0 +1,14 @@
+{
+  "story_id": "how_i_fit_in_the_world_toys",
+  "hero": "Doll",
+  "text": "In the dim light of the playroom, I sit perched on a shelf, my porcelain skin gleaming softly. I am a doll, crafted with care, dressed in a delicate lace gown that sways gently with the breeze from the open window. My painted eyes, wide and inviting, have seen countless adventures, yet I remain a silent observer of the world around me.\n\nChildren come and go, their laughter echoing through the room, and I am their confidante, their companion in make-believe. I am cradled in tiny arms, whispered to in the dark, and adorned with mismatched accessories that reflect the creativity of young minds. In their eyes, I am not just a toy; I am a friend, a sister, a princess, or even a brave explorer. I am a vessel for their dreams, a canvas for their imaginations.\n\nYet, as the years pass, I find myself forgotten on the shelf, replaced by newer, flashier toys. The children grow, their interests shift, and I become a relic of their past. I watch as they embrace technology, their laughter now accompanied by the beeps and whirs of screens. Still, I hold onto the memories of the joy I once brought, the stories we created together.\n\nIn this ever-changing world, I remain a symbol of innocence and nostalgia, a reminder of simpler times. Though my place in society may wane, I will always cherish the moments I spent in the hearts of those who loved me.",
+  "metadata": {
+    "provider": "openai",
+    "model": "gpt-4o-mini",
+    "total_tokens": 340,
+    "input_tokens": 38,
+    "output_tokens": 302,
+    "generated_at": "2024-11-12T15:59:52.568934"
+  },
+  "generated_at": "2024-11-12T15:59:46.384070"
+}

@@ -1,0 +1,274 @@
+#!/bin/bash
+
+# Exit on any error
+set -e
+
+# Function for logging messages
+log() {
+    echo "[$(date '+%Y-%m-%d %H:%M:%S')] $1"
+}
+
+# Get the project root directory (where this script is located)
+PROJECT_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+
+# Change to project root directory
+cd "$PROJECT_ROOT"
+
+# File to store PIDs (must match tools/kill)
+PID_FILE="${PROJECT_ROOT}/.service_pids"
+
+# Initialize flags for running services
+PYTHON_SERVER_RUNNING=false
+NODE_SERVER_RUNNING=false
+
+# Store PID for a service
+store_pid() {
+    local service="$1"
+    local pid="$2"
+    
+    # Remove any existing entry for this service
+    if [ -f "$PID_FILE" ]; then
+        sed -i '' "/^${service}:/d" "$PID_FILE"
+    fi
+    
+    echo "$service:$pid" >> "$PID_FILE"
+}
+
+# Check and clean stale PIDs
+check_stale_pids() {
+    if [ ! -f "$PID_FILE" ]; then
+        return 0
+    fi
+
+    local temp_file
+    temp_file=$(mktemp)
+    local found_stale=false
+
+    while IFS=: read -r service pid || [ -n "$service" ]; do
+        if [ -n "$pid" ]; then
+            if kill -0 "$pid" 2>/dev/null; then
+                # Process is still running
+                log "Found running process $service (PID: $pid)"
+                echo "$service:$pid" >> "$temp_file"
+            else
+                # Process is dead
+                log "Found stale process $service (PID: $pid)"
+                found_stale=true
+            fi
+        fi
+    done < "$PID_FILE"
+
+    if [ "$found_stale" = true ]; then
+        if [ -s "$temp_file" ]; then
+            # If temp file has content, replace PID_FILE with it
+            mv "$temp_file" "$PID_FILE"
+        else
+            # If temp file is empty, remove both files
+            rm -f "$temp_file" "$PID_FILE"
+        fi
+    else
+        rm -f "$temp_file"
+    fi
+}
+
+# Cleanup function to ensure graceful shutdown
+cleanup() {
+    log "Initiating cleanup..."
+    if [ -f "$PID_FILE" ]; then
+        ./tools/kill -f
+    fi
+    log "Cleanup completed"
+}
+
+# Register cleanup function for various signals
+trap cleanup EXIT SIGINT SIGTERM
+
+# Function to check if port is in use
+check_port() {
+    local port=$1
+    if lsof -i ":$port" > /dev/null 2>&1; then
+        return 0  # Port is in use
+    else
+        return 1  # Port is free
+    fi
+}
+
+# Function to display API key guidance
+display_api_guidance() {
+    cat << EOL
+
+[IMPORTANT] Action Required: API Keys Setup
+------------------------------------------------
+Please add your API keys to the .env file:
+
+1. OpenAI API Key
+   - Get your key at: https://platform.openai.com/api-keys
+   - Add it to .env as: OPENAI_API_KEY="your-key-here"
+
+2. Anthropic API Key
+   - Get your key at: https://console.anthropic.com/settings/keys
+   - Add it to .env as: ANTHROPIC_API_KEY="your-key-here"
+
+After adding your keys, restart the application.
+------------------------------------------------
+EOL
+}
+
+# Function to check if .env file exists and has required keys
+check_env_file() {
+    local env_file="${PROJECT_ROOT}/.env"
+    
+    if [ ! -f "$env_file" ]; then
+        log "Creating .env file with templates in project root..."
+        cat > "$env_file" << EOL
+# OpenAI
+OPENAI_API_KEY=""
+
+# Anthropic
+ANTHROPIC_API_KEY=""
+EOL
+        display_api_guidance
+        exit 1
+    fi
+
+    # Only check environment variables if we haven't already
+    if [ -z "${ENV_SOURCED:-}" ]; then
+        # Source the .env file
+        source "$env_file"
+        export ENV_SOURCED=1
+
+        # Check required environment variables
+        local missing_keys=()
+        if [ -z "${OPENAI_API_KEY:-}" ]; then
+            missing_keys+=("OPENAI_API_KEY")
+        fi
+        if [ -z "${ANTHROPIC_API_KEY:-}" ]; then
+            missing_keys+=("ANTHROPIC_API_KEY")
+        fi
+        
+        if [ ${#missing_keys[@]} -gt 0 ]; then
+            log "Error: Missing required API keys in .env: ${missing_keys[*]}"
+            display_api_guidance
+            exit 1
+        fi
+    fi
+}
+
+# Function to initialize Python environment
+init_python_env() {
+    log "Initializing Python environment..."
+    if ! source start_env; then
+        log "Error: Failed to initialize Python environment"
+        exit 1
+    fi
+
+    # Verify Python is available
+    if ! command -v python3 >/dev/null 2>&1; then
+        log "Error: Python3 not found after environment initialization"
+        exit 1
+    fi
+}
+
+# Function to start Python API server
+start_python_server() {
+    log "Starting Python API server..."
+    # Ensure we're in the Python environment
+    init_python_env
+    python3 start_api.py &
+    local pid=$!
+    store_pid "python" $pid
+    PYTHON_SERVER_RUNNING=true
+    # Wait a moment to ensure server starts
+    sleep 2
+}
+
+# Function to start Node server
+start_node_server() {
+    cd ui
+    log "Installing frontend dependencies..."
+    npm install
+
+    log "Building frontend..."
+    npm run build
+
+    # Check if port 3000 is in use
+    if check_port 3000; then
+        log "Port 3000 is already in use. Stopping existing process..."
+        lsof -ti :3000 | xargs kill -9 || true
+        sleep 1
+    fi
+
+    log "Starting frontend server..."
+    npm run start &
+    local pid=$!
+    cd ..
+    store_pid "node" $pid
+    NODE_SERVER_RUNNING=true
+}
+
+# Function to check if setup is complete
+check_setup() {
+    local setup_needed=false
+
+    # Check Python environment
+    if ! command -v python3 >/dev/null 2>&1; then
+        log "Python3 not found in PATH"
+        setup_needed=true
+    fi
+
+    # Check Node.js environment
+    if ! command -v node >/dev/null 2>&1; then
+        log "Node.js not found in PATH"
+        setup_needed=true
+    fi
+
+    # Check npm
+    if ! command -v npm >/dev/null 2>&1; then
+        log "npm not found in PATH"
+        setup_needed=true
+    fi
+
+    if [ "$setup_needed" = true ]; then
+        log "Some dependencies are missing. Running setup..."
+        run_setup
+    fi
+}
+
+# Function to run setup if needed
+run_setup() {
+    log "Running setup script..."
+    ./setup
+}
+
+# Main execution
+main() {
+    # Initialize PID file
+    > "$PID_FILE"
+    
+    # Check for stale PIDs before starting
+    check_stale_pids
+    
+    run_setup
+
+    check_env_file
+    
+    init_python_env
+    
+    # Start Python API server
+    if ! $PYTHON_SERVER_RUNNING; then
+        start_python_server
+    fi
+
+    # Start Node server
+    if ! $NODE_SERVER_RUNNING; then
+        start_node_server
+    fi
+
+    # Keep script running
+    log "All services started. Press Ctrl+C to stop."
+    wait
+}
+
+# Run main function
+check_setup
+main
