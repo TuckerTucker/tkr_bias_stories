@@ -1,0 +1,3 @@
+Package: httpx
+License: BSD License
+Website: https://github.com/encode/httpx

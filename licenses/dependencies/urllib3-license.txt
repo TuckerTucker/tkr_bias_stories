@@ -1,0 +1,3 @@
+Package: urllib3
+License: MIT License
+Website: https://github.com/urllib3/urllib3/blob/main/CHANGES.rst

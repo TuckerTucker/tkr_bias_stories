@@ -1,0 +1,3 @@
+Package: anyio
+License: MIT License
+Website: https://anyio.readthedocs.io/en/stable/versionhistory.html

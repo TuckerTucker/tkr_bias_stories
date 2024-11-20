@@ -1,0 +1,3 @@
+Package: typing_extensions
+License: Python Software Foundation License
+Website: https://github.com/python/typing_extensions

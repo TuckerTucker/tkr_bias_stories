@@ -1,0 +1,3 @@
+Package: hyperlink
+License: MIT License
+Website: https://github.com/python-hyper/hyperlink

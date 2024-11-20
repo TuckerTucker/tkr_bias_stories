@@ -1,0 +1,3 @@
+Package: attrs
+License: MIT License
+Website: https://www.attrs.org/en/stable/changelog.html

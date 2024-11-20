@@ -1,0 +1,3 @@
+Package: iniconfig
+License: MIT License
+Website: https://github.com/pytest-dev/iniconfig

@@ -1,0 +1,3 @@
+Package: appdirs
+License: MIT License
+Website: http://github.com/ActiveState/appdirs

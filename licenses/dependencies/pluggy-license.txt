@@ -1,0 +1,3 @@
+Package: pluggy
+License: MIT License
+Website: https://github.com/pytest-dev/pluggy

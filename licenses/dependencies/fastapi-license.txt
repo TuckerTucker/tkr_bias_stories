@@ -1,0 +1,3 @@
+Package: fastapi
+License: MIT License
+Website: https://github.com/fastapi/fastapi

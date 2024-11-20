@@ -1,0 +1,3 @@
+Package: ConfigArgParse
+License: MIT License
+Website: https://github.com/bw2/ConfigArgParse

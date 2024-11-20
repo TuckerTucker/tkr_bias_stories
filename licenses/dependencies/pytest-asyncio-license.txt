@@ -1,0 +1,3 @@
+Package: pytest-asyncio
+License: Apache Software License
+Website: https://github.com/pytest-dev/pytest-asyncio

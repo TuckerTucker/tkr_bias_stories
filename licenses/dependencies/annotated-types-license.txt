@@ -1,0 +1,3 @@
+Package: annotated-types
+License: MIT License
+Website: https://github.com/annotated-types/annotated-types

@@ -1,0 +1,3 @@
+Package: loguru
+License: MIT License
+Website: https://github.com/Delgan/loguru

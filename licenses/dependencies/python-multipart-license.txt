@@ -1,0 +1,3 @@
+Package: python-multipart
+License: Apache Software License
+Website: https://github.com/Kludex/python-multipart
