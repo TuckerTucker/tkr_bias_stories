@@ -157,16 +157,8 @@ EOL
 # Function to initialize Python environment
 init_python_env() {
     log "Initializing Python environment..."
-    if ! source start_env; then
-        log "Error: Failed to initialize Python environment"
-        exit 1
-    fi
-
-    # Verify Python is available
-    if ! command -v python3 >/dev/null 2>&1; then
-        log "Error: Python3 not found after environment initialization"
-        exit 1
-    fi
+    source start_env || { log "Error: Failed to initialize Python environment" && exit 1; }
+    command -v python >/dev/null 2>&1 || { log "Error: Python not found after environment initialization" && exit 1; }
 }
 
 # Function to start Python API server
@@ -174,7 +166,7 @@ start_python_server() {
     log "Starting Python API server..."
     # Ensure we're in the Python environment
     init_python_env
-    python3 start_api.py &
+    python start_api.py &
     local pid=$!
     store_pid "python" $pid
     PYTHON_SERVER_RUNNING=true
@@ -211,8 +203,8 @@ check_setup() {
     local setup_needed=false
 
     # Check Python environment
-    if ! command -v python3 >/dev/null 2>&1; then
-        log "Python3 not found in PATH"
+    if ! command -v python >/dev/null 2>&1; then
+        log "Python not found in PATH"
         setup_needed=true
     fi
 
@@ -242,17 +234,18 @@ run_setup() {
 
 # Main execution
 main() {
-    # Initialize PID file
-    > "$PID_FILE"
-    
-    # Check for stale PIDs before starting
-    check_stale_pids
     
     run_setup
 
     check_env_file
     
-    init_python_env
+    # init_python_env
+
+    # Initialize PID file
+    > "$PID_FILE"
+    
+    # Check for stale PIDs before starting
+      check_stale_pids
     
     # Start Python API server
     if ! $PYTHON_SERVER_RUNNING; then
