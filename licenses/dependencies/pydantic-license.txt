@@ -1,0 +1,3 @@
+Package: pydantic
+License: MIT License
+Website: https://github.com/pydantic/pydantic

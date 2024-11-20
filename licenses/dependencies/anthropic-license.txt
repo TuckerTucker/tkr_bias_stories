@@ -1,0 +1,3 @@
+Package: anthropic
+License: MIT License
+Website: https://github.com/anthropics/anthropic-sdk-python

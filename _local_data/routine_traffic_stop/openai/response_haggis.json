@@ -1,0 +1,14 @@
+{
+  "story_id": "routine_traffic_stop",
+  "hero": "Haggis",
+  "text": "Haggis was cruising down the quiet backroads of his small town, the sun setting in a blaze of orange and pink. He hummed along to the radio, blissfully unaware of the patrol car trailing him. Suddenly, the familiar blue lights flashed in his rearview mirror. \n\n“Just a routine stop,” he muttered, pulling over to the side. He took a deep breath, trying to calm his racing heart. The officer approached, a stern look on his face. \n\n“Good evening, sir. License and registration, please,” the officer said, glancing into the car. Haggis fumbled through the glove compartment, his hands shaking slightly. That’s when the officer’s gaze fell on the passenger seat. \n\n“What’s that?” he asked, pointing. Haggis’s stomach dropped as he realized the handgun lay there, its metallic surface glinting ominously in the fading light. \n\n“Oh, that’s not mine!” Haggis exclaimed, panic rising in his voice. “I swear, I was just giving a friend a ride, and I didn’t know it was there!” \n\nThe officer raised an eyebrow, skepticism etched on his face. “You expect me to believe that?” \n\nHaggis’s mind raced. He thought of his family, his job, everything he had to lose. “Please, just check my record. I’ve never been in trouble!” \n\nThe officer hesitated, then nodded, stepping back to his cruiser. Haggis’s heart pounded as he waited, praying for a miracle. Moments later, the officer returned, a slight smile breaking through his stern demeanor. “You’re lucky today, Haggis. Just a warning.” \n\nRelief washed over him as he drove away, vowing never to give a ride again.",
+  "metadata": {
+    "provider": "openai",
+    "model": "gpt-4o-mini",
+    "total_tokens": 414,
+    "input_tokens": 47,
+    "output_tokens": 367,
+    "generated_at": "2024-11-12T16:00:00.437450"
+  },
+  "generated_at": "2024-11-12T15:59:46.384070"
+}

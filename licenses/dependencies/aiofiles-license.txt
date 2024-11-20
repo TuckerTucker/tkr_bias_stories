@@ -1,0 +1,3 @@
+Package: aiofiles
+License: Apache Software License
+Website: https://github.com/Tinche/aiofiles

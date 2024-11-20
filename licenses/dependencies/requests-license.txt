@@ -1,0 +1,3 @@
+Package: requests
+License: Apache Software License
+Website: https://requests.readthedocs.io

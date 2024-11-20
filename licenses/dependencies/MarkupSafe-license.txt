@@ -1,0 +1,3 @@
+Package: MarkupSafe
+License: BSD License
+Website: https://github.com/pallets/markupsafe/

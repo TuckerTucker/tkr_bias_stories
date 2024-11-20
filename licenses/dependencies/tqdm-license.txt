@@ -1,0 +1,3 @@
+Package: tqdm
+License: MIT License; Mozilla Public License 2.0 (MPL 2.0)
+Website: https://tqdm.github.io

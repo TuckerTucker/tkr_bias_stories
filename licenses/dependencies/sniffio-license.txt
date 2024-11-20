@@ -1,0 +1,3 @@
+Package: sniffio
+License: Apache Software License; MIT License
+Website: https://github.com/python-trio/sniffio

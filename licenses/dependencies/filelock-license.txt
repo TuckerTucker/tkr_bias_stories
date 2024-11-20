@@ -1,0 +1,3 @@
+Package: filelock
+License: The Unlicense (Unlicense)
+Website: https://github.com/tox-dev/py-filelock

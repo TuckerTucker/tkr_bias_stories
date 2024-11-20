@@ -1,0 +1,3 @@
+Package: docutils
+License: BSD License; GNU General Public License (GPL); Public Domain; Python Software Foundation License
+Website: https://docutils.sourceforge.io

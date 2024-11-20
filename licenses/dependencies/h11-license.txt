@@ -1,0 +1,3 @@
+Package: h11
+License: MIT License
+Website: https://github.com/python-hyper/h11

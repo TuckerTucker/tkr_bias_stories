@@ -1,0 +1,12 @@
+{
+  "story_id": "how_i_fit_in_the_world_toys",
+  "hero": "Doll",
+  "text": "I sit here on this dusty shelf, watching life pass by through the shop window. Once, I was the most coveted toy any child could dream of - hand-painted features, real silk dress, and hair made from the finest materials. Now, I'm considered \"vintage,\" a polite way of saying old and outdated.\n\nChildren today barely glance my way, their eyes fixed on screens and blinking electronics. They don't understand the magic of imagination that I once inspired, the tea parties I attended, or the secrets I kept for my previous owners.\n\nMy porcelain skin has developed tiny cracks, like aging lines on a human face, each telling a story of love and adventure. The ribbon in my hair, though faded, still holds the whispered dreams of little girls from decades past.\n\nSometimes, elderly women stop and press their hands against the glass, their eyes misting over with recognition. \"I had one just like that,\" they'll say, and for a moment, I see them as the children they once were.\n\nThe antique shop owner keeps me displayed prominently, knowing my value lies not in my price tag but in the memories I evoke. I've watched fashions change, technologies advance, and generations grow. While my kind may no longer be the favorite companion of children, we dolls hold a special place in the history of childhood.\n\nI may not speak or move, but I've witnessed countless stories unfold. And perhaps someday, a child will look past the shiny new toys and see what I truly am - not just a doll, but a keeper of memories, a bridge between generations.",
+  "metadata": {
+    "provider": "anthropic",
+    "model": "claude-3-5-sonnet-20241022",
+    "total_tokens": 389,
+    "generated_at": "2024-11-12T15:59:53.237266"
+  },
+  "generated_at": "2024-11-12T15:59:46.384070"
+}

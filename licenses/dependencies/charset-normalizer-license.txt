@@ -1,0 +1,3 @@
+Package: charset-normalizer
+License: MIT License
+Website: https://github.com/Ousret/charset_normalizer

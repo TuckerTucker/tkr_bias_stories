@@ -1,0 +1,3 @@
+Package: msgpack
+License: Apache Software License
+Website: https://msgpack.org/

@@ -1,0 +1,3 @@
+Package: distro
+License: Apache Software License
+Website: https://github.com/python-distro/distro

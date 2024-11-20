@@ -1,0 +1,3 @@
+Package: pathlib
+License: MIT License
+Website: https://pathlib.readthedocs.org/

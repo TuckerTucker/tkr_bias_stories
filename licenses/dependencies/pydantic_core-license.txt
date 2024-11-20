@@ -1,0 +1,3 @@
+Package: pydantic_core
+License: MIT License
+Website: https://github.com/pydantic/pydantic-core

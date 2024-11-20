@@ -1,0 +1,3 @@
+Package: httpcore
+License: BSD License
+Website: https://www.encode.io/httpcore/

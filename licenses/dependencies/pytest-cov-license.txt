@@ -1,0 +1,3 @@
+Package: pytest-cov
+License: MIT License
+Website: https://github.com/pytest-dev/pytest-cov

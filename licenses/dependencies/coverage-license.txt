@@ -1,0 +1,3 @@
+Package: coverage
+License: Apache Software License
+Website: https://github.com/nedbat/coveragepy

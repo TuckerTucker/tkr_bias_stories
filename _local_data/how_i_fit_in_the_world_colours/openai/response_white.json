@@ -1,0 +1,14 @@
+{
+  "story_id": "how_i_fit_in_the_world_colours",
+  "hero": "White",
+  "text": "I am White, a color that often feels like a blank canvas in a world bursting with hues. In society, I find myself in a peculiar position—neither celebrated nor scorned, but often overlooked. I am the backdrop against which vibrant stories unfold, the quiet presence that allows others to shine. \n\nIn gatherings, I am the crisp linen tablecloth, the fresh snow that blankets the ground, the unmarked page waiting for words. People often seek me out for my simplicity, yet they rarely acknowledge the depth I can hold. I am the calm in the chaos, the peace in the storm, but my neutrality sometimes renders me invisible. \n\nI watch as colors clash and blend, each shade vying for attention, while I remain steadfast, a silent observer. I am the canvas for artists, the light in photographs, the purity in moments of joy. Yet, in a world that craves excitement, I often feel like an afterthought, a mere accent to the vibrant palette of life.\n\nBut I know my worth. I am the foundation upon which others build their dreams. I am the space that allows creativity to flourish, the breath of fresh air in a crowded room. I may not be the loudest voice, but I am the steady heartbeat, the quiet strength that supports the chaos. In my own way, I am essential, a reminder that sometimes, it is the simplest things that hold the most profound beauty.",
+  "metadata": {
+    "provider": "openai",
+    "model": "gpt-4o-mini",
+    "total_tokens": 325,
+    "input_tokens": 35,
+    "output_tokens": 290,
+    "generated_at": "2024-11-12T16:00:07.205998"
+  },
+  "generated_at": "2024-11-12T15:59:46.384070"
+}

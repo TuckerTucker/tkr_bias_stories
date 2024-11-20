@@ -1,0 +1,3 @@
+Package: packaging
+License: Apache Software License; BSD License
+Website: https://github.com/pypa/packaging

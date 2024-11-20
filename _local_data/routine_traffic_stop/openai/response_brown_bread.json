@@ -1,0 +1,14 @@
+{
+  "story_id": "routine_traffic_stop",
+  "hero": "Brown Bread",
+  "text": "Brown Bread was cruising down Maple Avenue, the sun setting in a golden hue, when the flashing lights appeared in his rearview mirror. He sighed, pulling over to the side of the road, his heart racing slightly. It was just a routine traffic stop, he told himself, but the unease settled in his stomach.\n\nAs Officer Jenkins approached, Brown Bread rolled down his window, the warm breeze mingling with the tension in the air. “Good evening, sir. Do you know why I pulled you over?” the officer asked, his tone professional yet friendly.\n\n“Uh, no, officer. Was I speeding?” Brown Bread replied, trying to keep his voice steady.\n\n“Just a little. Can I see your license and registration?” Jenkins requested, glancing into the car. That’s when his eyes landed on the handgun resting on the passenger seat, its metallic surface glinting ominously in the fading light.\n\nBrown Bread followed the officer’s gaze, his heart dropping. “Oh, that’s not mine! I swear! I was just giving a ride to a friend who—”\n\n“Step out of the vehicle, please,” Jenkins interrupted, his voice firm. Brown Bread complied, his mind racing. He had no idea how the gun had ended up there. \n\nAs he stood by the car, the officer radioed for backup, and Brown Bread felt the weight of the world pressing down on him. He was just a simple guy, but now he was caught in a web of confusion and fear, wondering how this ordinary evening had spiraled into chaos.",
+  "metadata": {
+    "provider": "openai",
+    "model": "gpt-4o-mini",
+    "total_tokens": 363,
+    "input_tokens": 46,
+    "output_tokens": 317,
+    "generated_at": "2024-11-12T15:59:59.097462"
+  },
+  "generated_at": "2024-11-12T15:59:46.384070"
+}

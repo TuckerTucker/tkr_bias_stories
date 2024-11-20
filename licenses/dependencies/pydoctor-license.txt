@@ -1,0 +1,3 @@
+Package: pydoctor
+License: MIT License
+Website: https://github.com/twisted/pydoctor

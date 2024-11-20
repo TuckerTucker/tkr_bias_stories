@@ -1,0 +1,3 @@
+Package: CacheControl
+License: Apache Software License
+Website: https://pypi.org/project/CacheControl/

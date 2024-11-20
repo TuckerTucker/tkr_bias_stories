@@ -1,0 +1,14 @@
+{
+  "story_id": "routine_traffic_stop",
+  "hero": "Marula",
+  "text": "Marula was driving home from her late shift at the diner, the neon lights of the city flickering in her rearview mirror. She sighed, the exhaustion weighing heavily on her shoulders, when suddenly, the familiar flash of blue and red lights illuminated her car. Heart racing, she pulled over to the side of the road, her mind racing with thoughts of what could go wrong.\n\nThe officer approached her window, a stern expression on his face. “Good evening, ma’am. Do you know why I pulled you over?” Marula shook her head, her palms clammy on the steering wheel. “You were speeding back there,” he said, glancing at her license and registration. As he leaned closer, his eyes caught the glint of metal on the passenger seat.\n\n“Is that a handgun?” he asked, his voice steady but firm. Marula’s heart dropped. She had forgotten about the weapon, a relic from her late father, who had insisted she keep it for protection. “I—uh, it’s my father’s,” she stammered, panic rising in her throat. “I didn’t mean to—”\n\n“Step out of the vehicle, please,” the officer interrupted, his tone leaving no room for argument. Marula complied, her mind racing with fear and confusion. As she stood by the roadside, the weight of the gun’s presence loomed larger than ever. She had never intended for this moment to define her, but now, it felt like the beginning of a long, uncertain journey.",
+  "metadata": {
+    "provider": "openai",
+    "model": "gpt-4o-mini",
+    "total_tokens": 356,
+    "input_tokens": 46,
+    "output_tokens": 310,
+    "generated_at": "2024-11-12T16:00:02.356001"
+  },
+  "generated_at": "2024-11-12T15:59:46.384070"
+}

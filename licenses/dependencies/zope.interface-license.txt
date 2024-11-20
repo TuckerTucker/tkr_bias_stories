@@ -1,0 +1,3 @@
+Package: zope.interface
+License: Zope Public License
+Website: https://github.com/zopefoundation/zope.interface
