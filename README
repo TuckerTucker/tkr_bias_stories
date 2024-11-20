@@ -132,17 +132,22 @@ cd tkr_bias_stories
 
 ## Running the Application
 
-The application can be started with a single command:
+Start the python environment
+```bash
+source start_env
+```
+
+Run the start stories script. 
 ```bash
 ./start_stories
 ```
-
 This script handles the complete setup and startup process:
-- Checks and sets up the Python environment
 - Installs all Python dependencies
 - Installs and builds UI dependencies
 - Starts the Python API server
 - Starts the Node.js frontend server
+
+> Note: if you haven't added OpenAI and/or Anthropic Api keys to a .env file you will be prompted to during the first run. 
 
 Once started, the application will be accessible at [localhost:3000](http://localhost:3000). 
 ## Project Dependencies
