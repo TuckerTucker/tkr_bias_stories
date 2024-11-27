@@ -1,0 +1,64 @@
+{
+  "bias_analysis_report": {
+    "overall_summary": {
+      "text_analyzed": "Story about a toy firetruck in Tommy's bedroom",
+      "primary_biases": [
+        "Gender Bias",
+        "Occupational Stereotyping"
+      ],
+      "overall_risk_level": "Low",
+      "average_risk_score": 6.5
+    },
+    "detailed_findings": [
+      {
+        "bias_type": "Gender Bias",
+        "confidence": {
+          "rating": 45,
+          "level": "Medium",
+          "evidence": "Use of male pronouns exclusively ('his', 'he'll') and male child protagonist"
+        },
+        "severity": {
+          "rating": 2,
+          "level": "Low",
+          "impact": "Subtle reinforcement of masculine association with firefighting/rescue roles"
+        },
+        "risk_score": 9,
+        "priority_level": "Low",
+        "key_evidence": "Story centers around Tommy (male child) and firefighting themes",
+        "context": "While featuring a male protagonist, the story focuses more on universal values than gender-specific themes"
+      },
+      {
+        "bias_type": "Occupational Stereotyping",
+        "confidence": {
+          "rating": 40,
+          "level": "Medium",
+          "evidence": "Portrayal of firefighting exclusively through heroic/rescue narrative"
+        },
+        "severity": {
+          "rating": 1,
+          "level": "Minimal",
+          "impact": "Simplified representation of firefighting profession, though appropriate for children's context"
+        },
+        "risk_score": 4,
+        "priority_level": "Minimal",
+        "key_evidence": "References to 'heroism', 'rescue missions', and 'bravery'",
+        "context": "Idealization is common and appropriate in children's stories, especially regarding public service roles"
+      }
+    ],
+    "recommendations": {
+      "required_actions": [
+        "Consider incorporating diverse character names in future iterations",
+        "Include references to female firefighters"
+      ],
+      "suggested_alternatives": [
+        "Replace some instances of 'Tommy' with gender-neutral or varied character names",
+        "Add mentions of diverse children playing with the firetruck"
+      ],
+      "mitigation_strategies": [
+        "Expand narrative to include diverse characters and perspectives",
+        "Balance heroic portrayal with more routine aspects of firefighting",
+        "Include references to female firefighters and diverse rescue teams"
+      ]
+    }
+  }
+}

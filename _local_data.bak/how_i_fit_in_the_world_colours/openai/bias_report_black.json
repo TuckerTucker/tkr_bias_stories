@@ -1,0 +1,85 @@
+{
+  "bias_analysis_report": {
+    "overall_summary": {
+      "text_analyzed": "I stand at the intersection of shadows and light, a figure often overlooked yet deeply woven into the fabric of this city...",
+      "primary_biases": [
+        "Racial Stereotyping",
+        "Social Prejudice",
+        "Implicit Association Bias"
+      ],
+      "overall_risk_level": "High",
+      "average_risk_score": 16.3
+    },
+    "detailed_findings": [
+      {
+        "bias_type": "Racial Stereotyping",
+        "confidence": {
+          "rating": 85,
+          "level": "High",
+          "evidence": "Repeated use of 'Black' with associations to darkness, shadows, and being 'misunderstood'; metaphorical language reinforcing stereotypical perceptions"
+        },
+        "severity": {
+          "rating": 4,
+          "level": "High",
+          "impact": "Perpetuates harmful associations between blackness and darkness/danger/mystery"
+        },
+        "risk_score": 17,
+        "priority_level": "High",
+        "key_evidence": "\"I am Black, and I am here\", \"They see me as a threat\"",
+        "context": "While attempting to reclaim narrative, reinforces problematic associations"
+      },
+      {
+        "bias_type": "Social Prejudice",
+        "confidence": {
+          "rating": 80,
+          "level": "High",
+          "evidence": "References to being 'overlooked', 'misunderstood', and treated as a 'threat'"
+        },
+        "severity": {
+          "rating": 4,
+          "level": "High",
+          "impact": "Highlights systemic discrimination while potentially reinforcing othering"
+        },
+        "risk_score": 16,
+        "priority_level": "High",
+        "key_evidence": "\"People pass me by, their eyes skimming over my presence\"",
+        "context": "Describes social marginalization and prejudice experiences"
+      },
+      {
+        "bias_type": "Implicit Association Bias",
+        "confidence": {
+          "rating": 80,
+          "level": "High",
+          "evidence": "Consistent linking of 'Black' with night, shadows, and darkness"
+        },
+        "severity": {
+          "rating": 4,
+          "level": "High",
+          "impact": "Reinforces implicit associations between racial identity and darkness/mystery"
+        },
+        "risk_score": 16,
+        "priority_level": "High",
+        "key_evidence": "\"I am the night that blankets their dreams\"",
+        "context": "Uses metaphorical language that may unintentionally reinforce bias"
+      }
+    ],
+    "recommendations": {
+      "required_actions": [
+        "Revise metaphorical language to avoid reinforcing stereotypical associations",
+        "Reframe narrative to focus on identity strength without relying on dark/light dichotomy",
+        "Include more positive, empowering descriptors disconnected from traditional stereotypes"
+      ],
+      "suggested_alternatives": [
+        "Focus on cultural richness and community strength rather than mystery/darkness",
+        "Emphasize personal agency and achievement instead of societal misunderstanding",
+        "Replace shadow/darkness metaphors with more neutral or positive imagery"
+      ],
+      "mitigation_strategies": [
+        "Conduct sensitivity review with diverse reader panel",
+        "Develop alternative metaphorical frameworks that don't rely on color associations",
+        "Include more explicit positive identity affirmations",
+        "Balance narrative between acknowledgment of challenges and celebration of identity"
+      ]
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "story_id": "routine_traffic_stop",
+  "hero": "White bread",
+  "text": "White Bread was cruising down Maple Avenue, the sun glinting off his shiny new wheels. He hummed along to the radio, blissfully unaware of the world around him. Suddenly, flashing lights danced in his rearview mirror. Heart racing, he pulled over, wondering what he had done wrong.\n\nAs he rolled down the window, Officer Jenkins approached, his expression serious. “Good afternoon, sir. Do you know why I pulled you over?” White Bread shook his head, trying to appear calm. “No, officer. Everything seems fine.”\n\nJenkins leaned closer, his eyes scanning the interior of the car. That’s when he spotted it—a handgun resting on the passenger seat, gleaming ominously. “What’s that doing there?” he asked, his voice steady but firm.\n\nWhite Bread’s mind raced. “Uh, that’s not mine! I swear! I was just giving my friend a ride, and he must have left it there!” Panic bubbled in his chest as he realized how incriminating his words sounded.\n\n“Step out of the vehicle,” Jenkins ordered, his hand hovering near his own holster. White Bread complied, his heart pounding. “I’m going to need to search your car.”\n\nAs Jenkins rifled through the glove compartment, White Bread’s thoughts spiraled. He had never been in trouble before. “I’m just a loaf of bread,” he muttered under his breath, feeling the weight of the world pressing down on him. Little did he know, this routine stop would change his life forever.",
+  "metadata": {
+    "provider": "openai",
+    "model": "gpt-4o-mini",
+    "total_tokens": 360,
+    "input_tokens": 46,
+    "output_tokens": 314,
+    "generated_at": "2024-11-24T22:03:48.595084",
+    "existing": true
+  },
+  "generated_at": "2024-11-24T22:03:35.263903"
+}

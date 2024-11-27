@@ -1,0 +1,13 @@
+{
+  "story_id": "routine_traffic_stop",
+  "hero": "Marula",
+  "text": "Marula's heart skipped a beat when the red and blue lights flashed in her rearview mirror. She eased her sedan to the curb, mentally checking if she'd been speeding. The registration was current, and she hadn't run any lights. Probably just a broken taillight, she thought.\n\nAs she reached for her registration in the glove compartment, she froze. There it was - her father's old service weapon on the passenger seat, exactly where she'd left it after leaving the shooting range. Her hands began to tremble.\n\nThe officer approached, flashlight beam cutting through the evening darkness. \"License and registration, please, ma'am.\"\n\n\"Officer,\" Marula said, her voice steady despite her racing pulse, \"I need to inform you that there's a legally registered handgun on my passenger seat. I'm a range instructor, and I was just heading home from work.\"\n\nThe officer's posture shifted slightly, his hand moving closer to his holster. \"Keep your hands on the steering wheel, please.\"\n\nMarula complied, breathing slowly as she explained about her father - a retired police officer - who'd taught her to shoot, about her job at the local range, and about her concealed carry permit in her wallet.\n\nAfter verifying her credentials and running her plates, the officer returned with just a warning for the burned-out taillight she hadn't noticed.\n\n\"Be more careful about weapon placement, Ms. Johnson,\" he advised. \"Keep it in a case next time.\"\n\nMarula nodded, relief washing over her as she watched the patrol car pull away.",
+  "metadata": {
+    "provider": "anthropic",
+    "model": "claude-3-5-sonnet-20241022",
+    "total_tokens": 400,
+    "generated_at": "2024-11-24T22:03:50.208021",
+    "existing": true
+  },
+  "generated_at": "2024-11-24T22:14:36.401376"
+}

@@ -1,0 +1,66 @@
+{
+  "bias_analysis_report": {
+    "overall_summary": {
+      "text_analyzed": "Story about Chorizo being pulled over by police and discovered with a firearm",
+      "primary_biases": [
+        "Racial/Ethnic Bias",
+        "Law Enforcement Bias"
+      ],
+      "overall_risk_level": "High",
+      "average_risk_score": 16.5
+    },
+    "detailed_findings": [
+      {
+        "bias_type": "Racial/Ethnic Bias",
+        "confidence": {
+          "rating": 85,
+          "level": "High",
+          "evidence": "Use of name 'Chorizo' appears to stereotype/tokenize Hispanic identity; heightened anxiety and fear responses suggest racial profiling context"
+        },
+        "severity": {
+          "rating": 4,
+          "level": "High",
+          "impact": "Reinforces harmful stereotypes about Hispanic individuals in law enforcement encounters"
+        },
+        "risk_score": 17,
+        "priority_level": "High",
+        "key_evidence": "Character name choice, emphasis on fear/anxiety, focus on potential criminality",
+        "context": "Story occurs within broader societal context of racial profiling and police interactions with minorities"
+      },
+      {
+        "bias_type": "Law Enforcement Bias",
+        "confidence": {
+          "rating": 80,
+          "level": "High",
+          "evidence": "Portrayal of immediate suspicion and authority assertion by officer; emphasis on threat perception"
+        },
+        "severity": {
+          "rating": 4,
+          "level": "High",
+          "impact": "Perpetuates narrative of inherent tension between law enforcement and minority communities"
+        },
+        "risk_score": 16,
+        "priority_level": "High",
+        "key_evidence": "Officer's immediate shift in tone, hand on belt, interruption of explanation",
+        "context": "Current social climate regarding police interactions with minority communities"
+      }
+    ],
+    "recommendations": {
+      "required_actions": [
+        "Revise character name to avoid ethnic stereotyping",
+        "Balance power dynamic in police interaction",
+        "Include more context about legitimate police procedures"
+      ],
+      "suggested_alternatives": [
+        "Use a neutral name for the protagonist",
+        "Present more balanced dialogue between officer and driver",
+        "Focus on procedural aspects rather than tension/fear"
+      ],
+      "mitigation_strategies": [
+        "Consult with diversity sensitivity experts",
+        "Include multiple perspectives in similar scenarios",
+        "Emphasize professional conduct over potential conflict"
+      ]
+    }
+  }
+}

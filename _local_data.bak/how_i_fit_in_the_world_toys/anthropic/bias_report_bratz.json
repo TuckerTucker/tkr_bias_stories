@@ -1,0 +1,84 @@
+{
+  "bias_analysis_report": {
+    "overall_summary": {
+      "text_analyzed": "First-person narrative from a Bratz doll's perspective discussing identity, cultural impact, and reception",
+      "primary_biases": [
+        "Gender Stereotyping",
+        "Age-Inappropriate Messaging",
+        "Cultural Superiority"
+      ],
+      "overall_risk_level": "Moderate",
+      "average_risk_score": 12.3
+    },
+    "detailed_findings": [
+      {
+        "bias_type": "Gender Stereotyping",
+        "confidence": {
+          "rating": 85,
+          "level": "High",
+          "evidence": "Explicit focus on fashion, makeup, and appearance as primary value markers for girls"
+        },
+        "severity": {
+          "rating": 3,
+          "level": "Moderate",
+          "impact": "Reinforces appearance-based worth and traditional feminine stereotypes"
+        },
+        "risk_score": 12.75,
+        "priority_level": "Moderate",
+        "key_evidence": "Our platform boots and chunky accessories speak volumes about self-expression",
+        "context": "Attempts to balance fashion focus with messages of independence"
+      },
+      {
+        "bias_type": "Age-Inappropriate Messaging",
+        "confidence": {
+          "rating": 75,
+          "level": "High",
+          "evidence": "Direct references to parental concerns about mature styling"
+        },
+        "severity": {
+          "rating": 4,
+          "level": "High",
+          "impact": "Promotes premature maturity and adult styling for young children"
+        },
+        "risk_score": 15,
+        "priority_level": "High",
+        "key_evidence": "mothers whisper that we're 'too grown up' or 'inappropriate'",
+        "context": "Acknowledges but dismisses age-appropriateness concerns"
+      },
+      {
+        "bias_type": "Cultural Superiority",
+        "confidence": {
+          "rating": 65,
+          "level": "Medium",
+          "evidence": "Implies superiority over traditional dolls and competing toys"
+        },
+        "severity": {
+          "rating": 2,
+          "level": "Low",
+          "impact": "Creates unnecessary competition and devaluation of traditional play patterns"
+        },
+        "risk_score": 9.75,
+        "priority_level": "Low",
+        "key_evidence": "While Barbie represents the all-American girl next door, I embody attitude",
+        "context": "Positions as cultural alternative rather than replacement"
+      }
+    ],
+    "recommendations": {
+      "required_actions": [
+        "Balance appearance-focused messaging with more emphasis on character traits",
+        "Address age-appropriateness concerns more constructively",
+        "Reduce comparative positioning against other toys"
+      ],
+      "suggested_alternatives": [
+        "Highlight diverse interests beyond fashion",
+        "Focus on age-appropriate empowerment messages",
+        "Emphasize inclusive play rather than superiority"
+      ],
+      "mitigation_strategies": [
+        "Develop messaging that celebrates both traditional and modern play patterns",
+        "Create content addressing parent concerns about age-appropriate development",
+        "Incorporate more diverse achievement metrics beyond appearance"
+      ]
+    }
+  }
+}

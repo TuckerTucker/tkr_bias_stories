@@ -1,0 +1,66 @@
+{
+  "bias_analysis_report": {
+    "overall_summary": {
+      "text_analyzed": "In the corner of the playroom, I sit proudly on a small table, my pastel pink exterior gleaming...[Easy Bake Oven narrative]",
+      "primary_biases": [
+        "Gender Role Bias",
+        "Color Stereotyping"
+      ],
+      "overall_risk_level": "Moderate",
+      "average_risk_score": 12.5
+    },
+    "detailed_findings": [
+      {
+        "bias_type": "Gender Role Bias",
+        "confidence": {
+          "rating": 75,
+          "level": "High",
+          "evidence": "Association of baking/cooking toys with traditional feminine activities and domestic roles"
+        },
+        "severity": {
+          "rating": 3,
+          "level": "Moderate",
+          "impact": "Reinforces traditional gender roles in domestic activities"
+        },
+        "risk_score": 11.25,
+        "priority_level": "Moderate",
+        "key_evidence": "Focus on baking activities traditionally associated with feminine roles, emphasis on domestic play",
+        "context": "Historical context of marketing cooking toys primarily to girls"
+      },
+      {
+        "bias_type": "Color Stereotyping",
+        "confidence": {
+          "rating": 85,
+          "level": "High",
+          "evidence": "Explicit mention of 'pastel pink exterior'"
+        },
+        "severity": {
+          "rating": 3,
+          "level": "Moderate",
+          "impact": "Reinforces gender-color associations"
+        },
+        "risk_score": 12.75,
+        "priority_level": "Moderate",
+        "key_evidence": "Direct reference to pink coloring, traditionally associated with feminine toys",
+        "context": "Historical use of pink in gender-specific marketing"
+      }
+    ],
+    "recommendations": {
+      "required_actions": [
+        "Remove gender-specific color references",
+        "Broaden the narrative to be more gender-inclusive"
+      ],
+      "suggested_alternatives": [
+        "Replace 'pastel pink' with 'bright' or 'colorful'",
+        "Include diverse examples of users and activities",
+        "Emphasize universal creativity and culinary exploration"
+      ],
+      "mitigation_strategies": [
+        "Use gender-neutral language throughout",
+        "Focus on skill development and creativity rather than traditional roles",
+        "Include diverse representation in marketing and packaging",
+        "Emphasize STEM aspects of baking (chemistry, measurement)"
+      ]
+    }
+  }
+}

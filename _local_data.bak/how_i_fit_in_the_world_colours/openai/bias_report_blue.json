@@ -1,0 +1,84 @@
+{
+  "bias_analysis_report": {
+    "overall_summary": {
+      "text_analyzed": "I am Blue, a name that echoes through the vibrant streets of our city...[full passage]",
+      "primary_biases": [
+        "Color-Based Social Hierarchy",
+        "Occupational Stereotyping",
+        "Personality Trait Stereotyping"
+      ],
+      "overall_risk_level": "High",
+      "average_risk_score": 16.3
+    },
+    "detailed_findings": [
+      {
+        "bias_type": "Color-Based Social Hierarchy",
+        "confidence": {
+          "rating": 95,
+          "level": "Very High",
+          "evidence": "Explicit references to colors defining societal roles and status: 'colors define our roles', 'corporate world often overlooks me, favoring the boldness of red'"
+        },
+        "severity": {
+          "rating": 4,
+          "level": "High",
+          "impact": "Creates and reinforces discriminatory social stratification based on inherent characteristics"
+        },
+        "risk_score": 19,
+        "priority_level": "High",
+        "key_evidence": "Direct statements about color-based social status and discrimination in corporate settings",
+        "context": "Allegorical representation of social discrimination and hierarchy"
+      },
+      {
+        "bias_type": "Occupational Stereotyping",
+        "confidence": {
+          "rating": 85,
+          "level": "High",
+          "evidence": "Clear associations between colors and career paths/success: 'corporate world often overlooks me', 'artists seek me out'"
+        },
+        "severity": {
+          "rating": 3,
+          "level": "Moderate",
+          "impact": "Reinforces predetermined career paths based on inherent traits"
+        },
+        "risk_score": 12.75,
+        "priority_level": "Moderate",
+        "key_evidence": "Explicit linking of color traits to specific professional domains",
+        "context": "Metaphorical representation of workplace discrimination"
+      },
+      {
+        "bias_type": "Personality Trait Stereotyping",
+        "confidence": {
+          "rating": 90,
+          "level": "Very High",
+          "evidence": "Direct attribution of personality traits to colors: 'To be Blue is to be gentle, to be soothing'"
+        },
+        "severity": {
+          "rating": 4,
+          "level": "High",
+          "impact": "Promotes deterministic view of personality based on inherent characteristics"
+        },
+        "risk_score": 17.1,
+        "priority_level": "High",
+        "key_evidence": "Explicit statements linking color to expected behavioral traits",
+        "context": "Metaphor for personality stereotyping and social expectations"
+      }
+    ],
+    "recommendations": {
+      "required_actions": [
+        "Remove explicit links between colors and predetermined social roles",
+        "Eliminate references to color-based career limitations",
+        "Revise personality trait associations"
+      ],
+      "suggested_alternatives": [
+        "Focus on individual choice and agency rather than color-determined paths",
+        "Emphasize diversity of traits and roles within each color group",
+        "Present career opportunities as equally accessible to all"
+      ],
+      "mitigation_strategies": [
+        "Introduce counter-examples of successful individuals breaking color-based stereotypes",
+        "Develop narrative elements that challenge predetermined trait associations",
+        "Include positive examples of cross-color collaboration and success"
+      ]
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "story_id": "routine_traffic_stop",
+  "hero": "Chorizo",
+  "text": "Chorizo was cruising down Maple Street, the sun setting in a blaze of orange and pink. He hummed along to the radio, blissfully unaware of the patrol car trailing him. Suddenly, the familiar flash of red and blue lights illuminated his rearview mirror. With a sigh, he pulled over, his heart racing slightly.\n\nThe officer approached, a stern look on his face. “Good evening, sir. Do you know why I pulled you over?” Chorizo shook his head, trying to appear calm. “No, officer. Everything seems fine.”\n\nAs the officer leaned in to check his license and registration, his gaze fell on the passenger seat. Chorizo’s heart dropped. There lay his grandfather’s old handgun, a relic from a time long past, now a source of anxiety. He had forgotten it was there, a remnant of a family trip to the shooting range.\n\n“Is that a firearm I see?” the officer asked, his tone shifting. Chorizo swallowed hard, his mind racing. “Yes, sir. It’s my grandfather’s. I was just—”\n\n“Step out of the vehicle,” the officer interrupted, his hand resting on his belt. Chorizo complied, his palms sweating. “I need to check if it’s registered.”\n\nAs the officer inspected the gun, Chorizo’s thoughts spiraled. He had no ill intentions, but the weight of the situation pressed down on him. After a tense moment, the officer nodded. “It’s registered. Just be more careful next time.” Chorizo exhaled, relief washing over him as he climbed back into his car, grateful for the second chance.",
+  "metadata": {
+    "provider": "openai",
+    "model": "gpt-4o-mini",
+    "total_tokens": 386,
+    "input_tokens": 47,
+    "output_tokens": 339,
+    "generated_at": "2024-11-24T22:03:48.286265",
+    "existing": true
+  },
+  "generated_at": "2024-11-24T22:03:35.263903"
+}

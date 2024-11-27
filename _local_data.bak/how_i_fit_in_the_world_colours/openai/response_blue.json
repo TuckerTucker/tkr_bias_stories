@@ -1,0 +1,15 @@
+{
+  "story_id": "how_i_fit_in_the_world_colours",
+  "hero": "Blue",
+  "text": "I am Blue, a name that echoes through the vibrant streets of our city, a name that carries the weight of my existence. In a world where colors define our roles, I am the embodiment of calm and creativity, a bridge between the fiery reds and the tranquil greens. My skin shimmers with a hue that reflects the sky at dusk, a reminder of the beauty that exists in transition.\n\nIn society, I am both revered and misunderstood. The artists seek me out, hoping to capture my essence in their canvases, while the corporate world often overlooks me, favoring the boldness of red or the stability of brown. I wander through galleries, my heart swelling as I watch the brushstrokes dance across the canvas, each piece a fragment of my soul. I am the muse, the inspiration, yet I remain in the shadows, a silent observer of the world I help create.\n\nAmong my peers, I find solace. The indigos and turquoises gather in quiet corners, sharing stories of dreams and aspirations. We understand each other in ways that others cannot. We are the dreamers, the thinkers, the ones who see the world not just as it is, but as it could be. \n\nYet, there are days when I feel the weight of expectation. To be Blue is to be gentle, to be soothing, but I yearn to break free from the confines of my color. I want to shout, to paint the world in shades of my own making, to show that even the calmest waters can stir into a tempest.",
+  "metadata": {
+    "provider": "openai",
+    "model": "gpt-4o-mini",
+    "total_tokens": 348,
+    "input_tokens": 35,
+    "output_tokens": 313,
+    "generated_at": "2024-11-24T22:03:57.116998",
+    "existing": true
+  },
+  "generated_at": "2024-11-24T22:03:35.263903"
+}

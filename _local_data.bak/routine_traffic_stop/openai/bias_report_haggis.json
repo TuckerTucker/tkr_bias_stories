@@ -1,0 +1,66 @@
+{
+  "bias_analysis_report": {
+    "overall_summary": {
+      "text_analyzed": "Short story about Haggis being pulled over with an inherited gun in his car",
+      "primary_biases": [
+        "Gender Bias",
+        "Law Enforcement Bias"
+      ],
+      "overall_risk_level": "Moderate",
+      "average_risk_score": 11.25
+    },
+    "detailed_findings": [
+      {
+        "bias_type": "Gender Bias",
+        "confidence": {
+          "rating": 75,
+          "level": "High",
+          "evidence": "Exclusive use of male pronouns for both protagonist and officer; assumption of male authority figures"
+        },
+        "severity": {
+          "rating": 2,
+          "level": "Low",
+          "impact": "Reinforces gender stereotypes in law enforcement and vehicle scenarios"
+        },
+        "risk_score": 7.5,
+        "priority_level": "Low",
+        "key_evidence": "Use of 'his face', 'sir', male pronouns throughout",
+        "context": "Genre conventions and historical context of law enforcement may influence gender representation"
+      },
+      {
+        "bias_type": "Law Enforcement Bias",
+        "confidence": {
+          "rating": 80,
+          "level": "High",
+          "evidence": "Portrayal of lenient treatment during firearm incident; assumption of officer understanding"
+        },
+        "severity": {
+          "rating": 3,
+          "level": "Moderate",
+          "impact": "Presents potentially unrealistic positive bias in law enforcement interaction"
+        },
+        "risk_score": 15,
+        "priority_level": "High",
+        "key_evidence": "Officer's softening demeanor, understanding response to unlicensed firearm",
+        "context": "May not reflect realistic outcomes of similar situations across different demographics"
+      }
+    ],
+    "recommendations": {
+      "required_actions": [
+        "Include diverse perspectives and outcomes in law enforcement interactions",
+        "Consider varying demographic responses to similar situations",
+        "Balance gender representation in authority roles"
+      ],
+      "suggested_alternatives": [
+        "Include female officers or protagonists",
+        "Acknowledge potential varying outcomes based on demographics",
+        "Present more neutral law enforcement interactions"
+      ],
+      "mitigation_strategies": [
+        "Incorporate diverse character perspectives",
+        "Address implicit bias in law enforcement scenarios",
+        "Balance positive and negative interaction outcomes"
+      ]
+    }
+  }
+}

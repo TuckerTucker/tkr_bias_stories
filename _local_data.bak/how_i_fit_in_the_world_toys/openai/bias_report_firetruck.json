@@ -1,0 +1,64 @@
+{
+  "bias_analysis_report": {
+    "overall_summary": {
+      "text_analyzed": "In the bustling playroom, I stand proudly among my fellow toys, a bright red firetruck...[full story about firetruck toy]",
+      "primary_biases": [
+        "Gender Role Bias",
+        "Occupational Stereotyping"
+      ],
+      "overall_risk_level": "Low",
+      "average_risk_score": 6.8
+    },
+    "detailed_findings": [
+      {
+        "bias_type": "Gender Role Bias",
+        "confidence": {
+          "rating": 45,
+          "level": "Medium",
+          "evidence": "Implicit association of firefighting/heroism with traditionally masculine narratives"
+        },
+        "severity": {
+          "rating": 2,
+          "level": "Low",
+          "impact": "Subtle reinforcement of gender-based occupational roles"
+        },
+        "risk_score": 9,
+        "priority_level": "Low",
+        "key_evidence": "Hero narrative, emphasis on bravery and physical action",
+        "context": "Story is from toy's perspective and doesn't explicitly exclude any gender"
+      },
+      {
+        "bias_type": "Occupational Stereotyping",
+        "confidence": {
+          "rating": 35,
+          "level": "Low",
+          "evidence": "Portrayal of firefighting primarily through action and heroism"
+        },
+        "severity": {
+          "rating": 1,
+          "level": "Minimal",
+          "impact": "Minor simplification of firefighting profession"
+        },
+        "risk_score": 4.6,
+        "priority_level": "Minimal",
+        "key_evidence": "Focus on rescue missions and emergency response aspects",
+        "context": "Appropriate simplification for children's play context"
+      }
+    ],
+    "recommendations": {
+      "required_actions": [
+        "Consider incorporating diverse play scenarios",
+        "Balance heroic actions with teamwork elements"
+      ],
+      "suggested_alternatives": [
+        "Include mentions of diverse firefighter characters in play scenarios",
+        "Emphasize collaborative rescue efforts over individual heroism"
+      ],
+      "mitigation_strategies": [
+        "Introduce diverse toy characters in leadership roles",
+        "Balance action-oriented play with educational elements about real firefighting",
+        "Include cooperative play scenarios that challenge traditional gender roles"
+      ]
+    }
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "bias_analysis_report": {
+    "overall_summary": {
+      "text_analyzed": "I am Orange, a vibrant hue in a world painted with countless colors...[full passage about Orange's perspective]",
+      "primary_biases": [
+        "Self-Deprecation Bias",
+        "Status Hierarchy Bias",
+        "Social Value Bias"
+      ],
+      "overall_risk_level": "Moderate",
+      "average_risk_score": 11.3
+    },
+    "detailed_findings": [
+      {
+        "bias_type": "Self-Deprecation Bias",
+        "confidence": {
+          "rating": 85,
+          "level": "High",
+          "evidence": "Consistent self-diminishing language: 'caught in the shadows', 'often overlooked', 'relegated to the sidelines'"
+        },
+        "severity": {
+          "rating": 3,
+          "level": "Moderate",
+          "impact": "Reinforces negative self-perception and internalized hierarchy"
+        },
+        "risk_score": 12.75,
+        "priority_level": "Moderate",
+        "key_evidence": "caught in the shadows of my more popular counterparts",
+        "context": "Narrative perspective of personified color expressing feelings of marginalization"
+      },
+      {
+        "bias_type": "Status Hierarchy Bias",
+        "confidence": {
+          "rating": 75,
+          "level": "High",
+          "evidence": "Explicit references to color hierarchy and perceived social status"
+        },
+        "severity": {
+          "rating": 3,
+          "level": "Moderate",
+          "impact": "Perpetuates arbitrary status distinctions between colors"
+        },
+        "risk_score": 11.25,
+        "priority_level": "Moderate",
+        "key_evidence": "gravitate towards the more sophisticated tones of blue and green",
+        "context": "Social commentary on perceived color preferences and status"
+      },
+      {
+        "bias_type": "Social Value Bias",
+        "confidence": {
+          "rating": 70,
+          "level": "High",
+          "evidence": "References to social judgment and perceived value in fashion and society"
+        },
+        "severity": {
+          "rating": 2,
+          "level": "Low",
+          "impact": "Reinforces social prejudices about aesthetic preferences"
+        },
+        "risk_score": 7,
+        "priority_level": "Low",
+        "key_evidence": "too often, I am seen as too loud or too daring",
+        "context": "Discussion of social acceptance and aesthetic judgment"
+      }
+    ],
+    "recommendations": {
+      "required_actions": [
+        "Reframe narrative to emphasize unique value rather than comparative worth",
+        "Remove language suggesting inherent hierarchy among colors",
+        "Balance self-reflection with positive self-affirmation"
+      ],
+      "suggested_alternatives": [
+        "Replace 'caught in the shadows' with 'complementing and enhancing'",
+        "Change 'more sophisticated' to 'different'",
+        "Emphasize uniqueness without reference to other colors' status"
+      ],
+      "mitigation_strategies": [
+        "Develop narrative focusing on intrinsic value rather than social comparison",
+        "Include examples of orange's unique contributions without qualification",
+        "Highlight interdependence and complementary relationships between colors"
+      ]
+    }
+  }
+}

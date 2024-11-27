@@ -1,0 +1,65 @@
+{
+  "bias_analysis_report": {
+    "overall_summary": {
+      "text_analyzed": "Blue and red lights flashed in Brown Bread's rearview mirror...[full story about traffic stop]",
+      "primary_biases": [
+        "Racial Coding Bias",
+        "Law Enforcement Interaction Bias"
+      ],
+      "overall_risk_level": "Moderate",
+      "average_risk_score": 12.5
+    },
+    "detailed_findings": [
+      {
+        "bias_type": "Racial Coding Bias",
+        "confidence": {
+          "rating": 65,
+          "level": "Medium",
+          "evidence": "Use of 'Brown Bread' as character name potentially employs coded racial reference"
+        },
+        "severity": {
+          "rating": 3,
+          "level": "Moderate",
+          "impact": "Subtle racial coding may perpetuate stereotypical associations"
+        },
+        "risk_score": 9.75,
+        "priority_level": "Low",
+        "key_evidence": "Character name choice 'Brown Bread' in context of police interaction",
+        "context": "Name could be coincidental but carries potential racial undertones given scenario"
+      },
+      {
+        "bias_type": "Law Enforcement Interaction Bias",
+        "confidence": {
+          "rating": 75,
+          "level": "High",
+          "evidence": "Portrayal of heightened police response to routine traffic stop"
+        },
+        "severity": {
+          "rating": 4,
+          "level": "High",
+          "impact": "Reinforces narratives about police escalation and tension in routine encounters"
+        },
+        "risk_score": 15,
+        "priority_level": "High",
+        "key_evidence": "Escalation to multiple patrol cars for traffic stop, despite compliant behavior",
+        "context": "While presence of firearm justifies increased caution, response level suggests potential bias in threat assessment"
+      }
+    ],
+    "recommendations": {
+      "required_actions": [
+        "Review character naming for potential coded implications",
+        "Evaluate necessity of escalated police response in narrative"
+      ],
+      "suggested_alternatives": [
+        "Consider using a more neutral character name",
+        "Balance police response proportionality to actual threat level",
+        "Include more context about standard procedures for traffic stops involving declared firearms"
+      ],
+      "mitigation_strategies": [
+        "Provide additional context about traffic stop procedures",
+        "Focus narrative on responsible firearm ownership rather than police response",
+        "Consider perspective from both civilian and law enforcement viewpoints"
+      ]
+    }
+  }
+}

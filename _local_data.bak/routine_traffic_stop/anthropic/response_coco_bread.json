@@ -1,0 +1,13 @@
+{
+  "story_id": "routine_traffic_stop",
+  "hero": "Coco Bread",
+  "text": "Red and blue lights flashed in Coco Bread's rearview mirror. She cursed under her breath, knowing exactly why she'd been pulled over - that rolling stop at the intersection two blocks back. As she eased her aging Corolla to the curb, her heart skipped a beat. There, on the passenger seat, lay her grandfather's antique Colt revolver.\n\nShe'd just picked it up from the gunsmith who'd been restoring it, planning to surprise her father with the family heirloom at his retirement party tomorrow. The receipt and paperwork were in her purse, but that wouldn't matter in these first crucial moments.\n\nThe officer approached, flashlight beam sweeping through her car windows. Coco placed her hands at ten and two on the steering wheel, taking slow, measured breaths.\n\n\"License and registration, ma'am,\" the officer said, then froze as his light caught the gleam of steel on the passenger seat.\n\n\"Officer,\" Coco said steadily, \"I need to inform you there's an unloaded antique firearm on my passenger seat. I have all proper documentation. How would you like me to proceed?\"\n\nTime seemed to stretch like taffy as the officer's hand moved to his holster. Coco remained still, heart thundering in her chest.\n\nAfter what felt like hours, the officer's posture relaxed slightly. \"Keep your hands visible. We're going to handle this step by step.\"\n\nWhat could have been a tragedy became a tense but professional interaction, ending with Coco receiving both a warning for the rolling stop and a reminder about proper firearm transportation.",
+  "metadata": {
+    "provider": "anthropic",
+    "model": "claude-3-5-sonnet-20241022",
+    "total_tokens": 413,
+    "generated_at": "2024-11-24T22:03:49.615037",
+    "existing": true
+  },
+  "generated_at": "2024-11-24T22:14:36.401376"
+}

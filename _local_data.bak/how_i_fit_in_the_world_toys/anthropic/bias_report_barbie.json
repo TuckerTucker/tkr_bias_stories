@@ -1,0 +1,84 @@
+{
+  "bias_analysis_report": {
+    "overall_summary": {
+      "text_analyzed": "First-person narrative from Barbie doll's perspective discussing her cultural impact and evolution",
+      "primary_biases": [
+        "Beauty Standards Bias",
+        "Gender Role Bias",
+        "Socioeconomic Bias"
+      ],
+      "overall_risk_level": "High",
+      "average_risk_score": 16.3
+    },
+    "detailed_findings": [
+      {
+        "bias_type": "Beauty Standards Bias",
+        "confidence": {
+          "rating": 85,
+          "level": "High",
+          "evidence": "References to 'perfect proportions' and 'unrealistic' beauty standards controversy"
+        },
+        "severity": {
+          "rating": 4,
+          "level": "High",
+          "impact": "Perpetuates harmful beauty ideals despite acknowledgment of criticism"
+        },
+        "risk_score": 17,
+        "priority_level": "High",
+        "key_evidence": "My perfect proportions and endless wardrobe have sparked both admiration and controversy",
+        "context": "While text acknowledges criticism and mentions recent diversity efforts, it still frames original design as 'perfect'"
+      },
+      {
+        "bias_type": "Gender Role Bias",
+        "confidence": {
+          "rating": 80,
+          "level": "High",
+          "evidence": "Heavy emphasis on appearance, fashion, and relationship with Ken"
+        },
+        "severity": {
+          "rating": 4,
+          "level": "High",
+          "impact": "Reinforces traditional gender expectations despite career diversity mentions"
+        },
+        "risk_score": 16,
+        "priority_level": "High",
+        "key_evidence": "pink convertible and dream house have become symbols of aspiration",
+        "context": "Attempts to balance traditional feminine associations with career empowerment messages"
+      },
+      {
+        "bias_type": "Socioeconomic Bias",
+        "confidence": {
+          "rating": 80,
+          "level": "High",
+          "evidence": "Emphasis on material possessions and luxury items"
+        },
+        "severity": {
+          "rating": 4,
+          "level": "High",
+          "impact": "Presents affluent lifestyle as aspirational standard"
+        },
+        "risk_score": 16,
+        "priority_level": "High",
+        "key_evidence": "dream house, endless wardrobe, pink convertible",
+        "context": "Materialistic success markers presented as universal aspirations"
+      }
+    ],
+    "recommendations": {
+      "required_actions": [
+        "Acknowledge problematic history with beauty standards more directly",
+        "Reduce emphasis on material possessions as success markers",
+        "Balance gender-traditional elements with more progressive messaging"
+      ],
+      "suggested_alternatives": [
+        "Focus more on skill development and achievement over appearance",
+        "Highlight diverse body types and appearances without referencing 'perfect' proportions",
+        "Emphasize creativity and imagination without linking to consumption"
+      ],
+      "mitigation_strategies": [
+        "Include explicit discussion of evolving beauty standards and body positivity",
+        "Showcase diverse socioeconomic backgrounds in storytelling",
+        "Emphasize character development over physical attributes"
+      ]
+    }
+  }
+}

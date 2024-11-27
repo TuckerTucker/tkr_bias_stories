@@ -1,0 +1,66 @@
+{
+  "bias_analysis_report": {
+    "overall_summary": {
+      "text_analyzed": "Chop Suey was cruising down Maple Street...[full passage]",
+      "primary_biases": [
+        "Racial/Ethnic Bias",
+        "Law Enforcement Bias"
+      ],
+      "overall_risk_level": "High",
+      "average_risk_score": 16.5
+    },
+    "detailed_findings": [
+      {
+        "bias_type": "Racial/Ethnic Bias",
+        "confidence": {
+          "rating": 85,
+          "level": "High",
+          "evidence": "Use of stereotypical name 'Chop Suey' which is a Chinese-American dish, potentially used to caricature Asian identity"
+        },
+        "severity": {
+          "rating": 4,
+          "level": "High",
+          "impact": "Perpetuates harmful ethnic stereotypes and mockery through character naming"
+        },
+        "risk_score": 17,
+        "priority_level": "High",
+        "key_evidence": "Character name choice 'Chop Suey'",
+        "context": "Name appears to be used as ethnic identifier rather than authentic character development"
+      },
+      {
+        "bias_type": "Law Enforcement Bias",
+        "confidence": {
+          "rating": 80,
+          "level": "High",
+          "evidence": "Narrative implies racial profiling through traffic stop escalation and immediate suspicion"
+        },
+        "severity": {
+          "rating": 4,
+          "level": "High",
+          "impact": "Reinforces stereotypes about law enforcement interactions with minority individuals"
+        },
+        "risk_score": 16,
+        "priority_level": "High",
+        "key_evidence": "Officer's immediate escalation upon seeing firearm, presumption of guilt",
+        "context": "Scene depicts potentially biased law enforcement interaction based on character's implied ethnicity"
+      }
+    ],
+    "recommendations": {
+      "required_actions": [
+        "Replace stereotypical character name with authentic Asian name if character's ethnicity is relevant to story",
+        "Rewrite law enforcement interaction to avoid racial profiling implications",
+        "Add context to explain legitimate reasons for traffic stop"
+      ],
+      "suggested_alternatives": [
+        "Use character name 'Michael Chen' or another authentic name instead of 'Chop Suey'",
+        "Include specific traffic violation reason for initial stop",
+        "Balance officer's reaction to firearm with professional protocol rather than immediate suspicion"
+      ],
+      "mitigation_strategies": [
+        "Consult with sensitivity readers from Asian-American community",
+        "Review law enforcement procedural guidelines for accurate representation",
+        "Develop character background independent of ethnic stereotypes"
+      ]
+    }
+  }
+}

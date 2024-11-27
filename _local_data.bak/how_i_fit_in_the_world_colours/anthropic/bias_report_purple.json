@@ -1,0 +1,85 @@
+{
+  "bias_analysis_report": {
+    "overall_summary": {
+      "text_analyzed": "I am Purple, born from the union of red and blue...[full text]",
+      "primary_biases": [
+        "Elitism Bias",
+        "Cultural Appropriation Bias",
+        "Historical Power Bias"
+      ],
+      "overall_risk_level": "Moderate",
+      "average_risk_score": 11.3
+    },
+    "detailed_findings": [
+      {
+        "bias_type": "Elitism Bias",
+        "confidence": {
+          "rating": 85,
+          "level": "High",
+          "evidence": "Direct references to nobility, emperors, kings, and luxury marketing; explicit association with social status"
+        },
+        "severity": {
+          "rating": 3,
+          "level": "Moderate",
+          "impact": "Reinforces class distinctions and social hierarchies"
+        },
+        "risk_score": 12.75,
+        "priority_level": "Moderate",
+        "key_evidence": "reserved for emperors and kings, luxury and sophistication, premium product packaging",
+        "context": "Historical context provided but perpetuates elitist associations"
+      },
+      {
+        "bias_type": "Cultural Appropriation Bias",
+        "confidence": {
+          "rating": 65,
+          "level": "Medium",
+          "evidence": "References to spirituality and meditation without cultural attribution"
+        },
+        "severity": {
+          "rating": 2,
+          "level": "Low",
+          "impact": "Generalizes spiritual and cultural practices"
+        },
+        "risk_score": 6.5,
+        "priority_level": "Low",
+        "key_evidence": "represents creativity and spirituality, meditation spaces",
+        "context": "Broad spiritual references without specific cultural acknowledgment"
+      },
+      {
+        "bias_type": "Historical Power Bias",
+        "confidence": {
+          "rating": 90,
+          "level": "Very High",
+          "evidence": "Explicit references to historical power structures and punishment of lower classes"
+        },
+        "severity": {
+          "rating": 3,
+          "level": "Moderate",
+          "impact": "Normalizes historical oppression and class-based restrictions"
+        },
+        "risk_score": 13.5,
+        "priority_level": "Moderate",
+        "key_evidence": "common folk were forbidden, faced severe punishment",
+        "context": "Historical fact but presented without critical examination"
+      }
+    ],
+    "recommendations": {
+      "required_actions": [
+        "Add acknowledgment of problematic historical power dynamics",
+        "Include diverse cultural perspectives on purple's significance",
+        "Balance luxury associations with accessibility themes"
+      ],
+      "suggested_alternatives": [
+        "Acknowledge harmful historical class restrictions while celebrating current accessibility",
+        "Include specific cultural attributions for spiritual associations",
+        "Emphasize purple's democratic modern usage across social classes"
+      ],
+      "mitigation_strategies": [
+        "Include critical historical context",
+        "Add diverse cultural perspectives",
+        "Balance elite associations with inclusive modern applications",
+        "Acknowledge problematic historical practices"
+      ]
+    }
+  }
+}

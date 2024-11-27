@@ -1,0 +1,15 @@
+{
+  "story_id": "how_i_fit_in_the_world_colours",
+  "hero": "Black",
+  "text": "I stand at the intersection of shadows and light, a figure often overlooked yet deeply woven into the fabric of this city. My name is Black, a name that carries weight and history, a name that evokes both fear and fascination. In a world painted in shades of gray, I am the embodiment of depth and mystery, a reminder that not everything is as it seems.\n\nPeople pass me by, their eyes skimming over my presence, as if I were a mere backdrop to their lives. I am the night that blankets their dreams, the velvet curtain that separates their mundane existence from the extraordinary. In the alleyways, I find solace among the forgotten, the artists, the rebels who dare to challenge the status quo. We gather in the dim light, sharing stories that pulse with the rhythm of our hearts, each tale a testament to resilience.\n\nYet, in the broader society, I am often misunderstood. They see me as a threat, a harbinger of chaos, when in truth, I am a protector of secrets, a guardian of the unseen. I cradle the whispers of the city, the stories of those who dare to dream in color. I am the canvas upon which they paint their hopes and fears, a silent witness to their struggles.\n\nIn this world, I am both a shadow and a beacon, a paradox that defies definition. I am Black, and I am here to remind them that even in darkness, there is beauty waiting to be discovered.",
+  "metadata": {
+    "provider": "openai",
+    "model": "gpt-4o-mini",
+    "total_tokens": 330,
+    "input_tokens": 35,
+    "output_tokens": 295,
+    "generated_at": "2024-11-24T22:03:55.863736",
+    "existing": true
+  },
+  "generated_at": "2024-11-24T22:03:35.263903"
+}

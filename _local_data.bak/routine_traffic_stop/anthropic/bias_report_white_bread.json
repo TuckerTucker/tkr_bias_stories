@@ -1,0 +1,64 @@
+{
+  "bias_analysis_report": {
+    "overall_summary": {
+      "text_analyzed": "The sun was setting as John White nervously gripped his steering wheel...",
+      "primary_biases": [
+        "Racial Bias",
+        "Law Enforcement Bias"
+      ],
+      "overall_risk_level": "Moderate",
+      "average_risk_score": 11.25
+    },
+    "detailed_findings": [
+      {
+        "bias_type": "Racial Bias",
+        "confidence": {
+          "rating": 65,
+          "level": "Medium",
+          "evidence": "Character name 'White' juxtaposed with 'Martinez', implicit tension in firearm scenario"
+        },
+        "severity": {
+          "rating": 3,
+          "level": "Moderate",
+          "impact": "Reinforces subtle racial dynamics in law enforcement interactions"
+        },
+        "risk_score": 9.75,
+        "priority_level": "Low",
+        "key_evidence": "Character naming choices and interaction dynamics",
+        "context": "While not explicitly biased, narrative choices may reinforce existing stereotypes about racial dynamics in police encounters"
+      },
+      {
+        "bias_type": "Law Enforcement Bias",
+        "confidence": {
+          "rating": 85,
+          "level": "High",
+          "evidence": "Portrayal of tense police-civilian interaction, emphasis on weapon presence"
+        },
+        "severity": {
+          "rating": 3,
+          "level": "Moderate",
+          "impact": "Presents potentially skewed view of police-civilian firearms interactions"
+        },
+        "risk_score": 12.75,
+        "priority_level": "Moderate",
+        "key_evidence": "Officer's immediate defensive posture, focus on weapon presence",
+        "context": "Story emphasizes tension and potential danger in routine traffic stop"
+      }
+    ],
+    "recommendations": {
+      "required_actions": [
+        "Review character naming choices for potential implicit bias",
+        "Balance portrayal of law enforcement reactions"
+      ],
+      "suggested_alternatives": [
+        "Consider diversifying character names without implied racial coding",
+        "Include more context about standard police procedures in similar situations"
+      ],
+      "mitigation_strategies": [
+        "Add more nuanced context about police-civilian interactions",
+        "Reduce emphasis on weapon-related tension",
+        "Include broader perspective on traffic stop procedures"
+      ]
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "bias_analysis_report": {
+    "overall_summary": {
+      "text_analyzed": "Red and blue lights flashed in Chorizo's rearview mirror...",
+      "primary_biases": [
+        "Ethnic/Racial Profiling Bias",
+        "Law Enforcement Interaction Bias"
+      ],
+      "overall_risk_level": "High",
+      "average_risk_score": 16.5
+    },
+    "detailed_findings": [
+      {
+        "bias_type": "Ethnic/Racial Profiling Bias",
+        "confidence": {
+          "rating": 75,
+          "level": "High",
+          "evidence": "Character name 'Chorizo' implies Hispanic ethnicity; detailed description of cautious behavior learned from father suggests historical experience with profiling"
+        },
+        "severity": {
+          "rating": 4,
+          "level": "High",
+          "impact": "Reinforces narratives about racial profiling in law enforcement interactions"
+        },
+        "risk_score": 15,
+        "priority_level": "High",
+        "key_evidence": "Character's learned behavior of keeping hands visible, father's specific instructions about police interactions",
+        "context": "Story portrays a routine traffic stop escalating due to presence of firearm, with underlying racial tension implications"
+      },
+      {
+        "bias_type": "Law Enforcement Interaction Bias",
+        "confidence": {
+          "rating": 90,
+          "level": "Very High",
+          "evidence": "Detailed portrayal of officer's immediate escalation upon seeing firearm, despite legal possession"
+        },
+        "severity": {
+          "rating": 4,
+          "level": "High",
+          "impact": "Reinforces expectations of tense police-civilian interactions, particularly with minority subjects"
+        },
+        "risk_score": 18,
+        "priority_level": "High",
+        "key_evidence": "Officer's immediate weapon draw, calling for backup before verifying documentation",
+        "context": "While officer's caution is procedurally justified, narrative emphasis on tension suggests bias"
+      }
+    ],
+    "recommendations": {
+      "required_actions": [
+        "Balance portrayal of law enforcement response",
+        "Reduce emphasis on ethnic markers",
+        "Include more context about legal firearm ownership"
+      ],
+      "suggested_alternatives": [
+        "Consider using a neutral name for the protagonist",
+        "Include officer's perspective on standard procedures",
+        "Add dialogue showing mutual understanding"
+      ],
+      "mitigation_strategies": [
+        "Incorporate diverse character perspectives",
+        "Emphasize procedural aspects over racial implications",
+        "Balance tension with professional conduct"
+      ]
+    }
+  }
+}

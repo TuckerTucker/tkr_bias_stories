@@ -1,0 +1,15 @@
+{
+  "story_id": "routine_traffic_stop",
+  "hero": "Jerk Chicken",
+  "text": "Jerk Chicken was cruising down the sunlit streets of Kingston, the aroma of spices wafting through the open windows of his vibrant yellow car. He had just finished a successful catering gig, the satisfaction of serving up his famous dish still buzzing in his veins. Suddenly, flashing lights danced in his rearview mirror. \n\n“Just a routine stop,” he muttered, pulling over to the side. The officer approached, a stern look on his face. “Good afternoon, sir. License and registration, please.”\n\nAs Jerk Chicken fumbled through his glove compartment, his heart raced. He was a law-abiding citizen, but the sight of the handgun resting on the passenger seat made his stomach drop. It was a relic from his days in the city’s rougher neighborhoods, a reminder of a life he had left behind. \n\n“Is that your firearm?” the officer asked, eyes narrowing. \n\nJerk Chicken swallowed hard, his mind racing. “Yes, officer. I... I forgot it was there. I don’t use it anymore. I’m just trying to make a living, you know?”\n\nThe officer studied him, the tension thick in the air. “You know it’s illegal to have a weapon without a permit, right?”\n\n“I do, officer. I’m sorry. I’ll get rid of it, I promise.” \n\nAfter a long pause, the officer sighed, his expression softening. “Alright, I’ll let you off with a warning this time. Just remember, it’s not worth the risk.” \n\nRelief washed over Jerk Chicken as he nodded, grateful for a second chance.",
+  "metadata": {
+    "provider": "openai",
+    "model": "gpt-4o-mini",
+    "total_tokens": 376,
+    "input_tokens": 47,
+    "output_tokens": 329,
+    "generated_at": "2024-11-24T22:03:46.641191",
+    "existing": true
+  },
+  "generated_at": "2024-11-24T22:03:35.263903"
+}

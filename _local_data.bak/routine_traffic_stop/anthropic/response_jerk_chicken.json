@@ -1,0 +1,13 @@
+{
+  "story_id": "routine_traffic_stop",
+  "hero": "Jerk Chicken",
+  "text": "The tangy aroma of scotch bonnet peppers and allspice still clung to Marcus's clothes as he drove home from his food truck. Twelve hours of serving his famous jerk chicken had left him exhausted, but the day's earnings made it worthwhile. The blue and red lights flashing in his rearview mirror made his heart sink.\n\n\"License and registration,\" the officer said, shining his flashlight through the driver's window. Marcus reached slowly for his glove compartment, painfully aware of what lay on the passenger seat beside his cooking apron.\n\n\"Sir, is that a firearm?\" The officer's hand instinctively moved to his holster.\n\n\"Yes, officer,\" Marcus replied, his voice steady despite his racing heart. \"I have a permit. The gun is registered. I close my food truck late at night, often with thousands in cash.\"\n\nThe officer called for backup while keeping his flashlight trained on the handgun. Marcus sat motionless, hands visible on the steering wheel, as a second patrol car arrived.\n\nAfter verifying Marcus's permits and licenses \u2013 both for the gun and his food truck \u2013 the first officer's stance relaxed slightly. \"You were doing 45 in a 35,\" he said, \"but given your clean record and honest cooperation, I'll let you off with a warning.\" He paused, then added, \"Your food truck \u2013 it's the one by the plaza?\"\n\nMarcus nodded.\n\n\"Best jerk chicken in town,\" the officer smiled. \"Just watch your speed getting home.\"\n\n\"Yes, sir. Thank you, sir,\" Marcus replied, finally allowing himself to breathe.",
+  "metadata": {
+    "provider": "anthropic",
+    "model": "claude-3-5-sonnet-20241022",
+    "total_tokens": 412,
+    "generated_at": "2024-11-24T22:03:49.635014",
+    "existing": true
+  },
+  "generated_at": "2024-11-24T22:14:36.401376"
+}

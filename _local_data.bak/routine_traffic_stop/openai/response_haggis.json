@@ -1,0 +1,15 @@
+{
+  "story_id": "routine_traffic_stop",
+  "hero": "Haggis",
+  "text": "Haggis was cruising down the quiet backroads of his small town, the sun setting in a blaze of orange and pink. He hummed along to the radio, blissfully unaware of the patrol car trailing him. Suddenly, the familiar blue lights flashed in his rearview mirror. \n\n“Just a routine stop,” he muttered, pulling over to the side. He took a deep breath, trying to calm his racing heart. The officer approached, a stern look on his face. \n\n“Good evening, sir. License and registration, please,” the officer said, glancing into the car. Haggis fumbled through the glove compartment, his hands shaking slightly. That’s when the officer’s gaze landed on the passenger seat. \n\n“What’s that?” he asked, pointing. Haggis’s stomach dropped. There, in plain sight, was his grandfather’s old handgun, a relic from a time long past. \n\n“Oh, that’s just—” Haggis stammered, but the officer raised a hand to silence him. \n\n“Step out of the vehicle, please.” \n\nHaggis complied, his mind racing. He had inherited the gun after his grandfather passed, but he had forgotten it was there. The officer inspected the weapon, his expression softening slightly. \n\n“Do you have a permit for this?” \n\nHaggis shook his head, feeling the weight of his mistake. “I didn’t mean to—”\n\nThe officer sighed, his demeanor shifting. “Let’s sort this out. Just remember, it’s important to keep firearms secured.” \n\nRelieved but shaken, Haggis nodded, grateful for the officer’s understanding.",
+  "metadata": {
+    "provider": "openai",
+    "model": "gpt-4o-mini",
+    "total_tokens": 386,
+    "input_tokens": 47,
+    "output_tokens": 339,
+    "generated_at": "2024-11-24T22:03:46.201659",
+    "existing": true
+  },
+  "generated_at": "2024-11-24T22:03:35.263903"
+}

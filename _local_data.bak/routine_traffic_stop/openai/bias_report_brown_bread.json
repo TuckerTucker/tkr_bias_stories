@@ -1,0 +1,67 @@
+{
+  "bias_analysis_report": {
+    "overall_summary": {
+      "text_analyzed": "Brown Bread was cruising down Maple Street... routine stop had just turned into something far more complicated.",
+      "primary_biases": [
+        "Racial Coding Bias",
+        "Law Enforcement Interaction Bias"
+      ],
+      "overall_risk_level": "High",
+      "average_risk_score": 16.5
+    },
+    "detailed_findings": [
+      {
+        "bias_type": "Racial Coding Bias",
+        "confidence": {
+          "rating": 85,
+          "level": "High",
+          "evidence": "Use of 'Brown Bread' as character name suggests potential racial coding through food-based naming convention"
+        },
+        "severity": {
+          "rating": 4,
+          "level": "High",
+          "impact": "Reinforces stereotypical narrative patterns and potentially trivializes racial identity"
+        },
+        "risk_score": 17,
+        "priority_level": "High",
+        "key_evidence": "Character name choice and narrative context of police interaction",
+        "context": "Name choice combined with traffic stop scenario evokes common racial profiling narratives"
+      },
+      {
+        "bias_type": "Law Enforcement Interaction Bias",
+        "confidence": {
+          "rating": 80,
+          "level": "High",
+          "evidence": "Narrative structure follows common biased pattern of escalating police encounter"
+        },
+        "severity": {
+          "rating": 4,
+          "level": "High",
+          "impact": "Reinforces stereotypical power dynamics and assumptions about police-civilian interactions"
+        },
+        "risk_score": 16,
+        "priority_level": "High",
+        "key_evidence": "Initial routine stop escalating upon discovery of weapon, character's immediate panic response",
+        "context": "Scene plays into common narrative tropes about police encounters with minority individuals"
+      }
+    ],
+    "recommendations": {
+      "required_actions": [
+        "Revise character naming to avoid racial coding",
+        "Reframe police interaction scenario to avoid stereotypical escalation patterns",
+        "Add more nuanced character development"
+      ],
+      "suggested_alternatives": [
+        "Use a standard name for the protagonist",
+        "Include more balanced perspective on the situation",
+        "Develop backstory explaining gun presence before revelation"
+      ],
+      "mitigation_strategies": [
+        "Consult sensitivity readers for narrative review",
+        "Include more context about both characters' perspectives",
+        "Focus on factual elements rather than emotional escalation",
+        "Consider alternative narrative structures that don't reinforce stereotypical power dynamics"
+      ]
+    }
+  }
+}

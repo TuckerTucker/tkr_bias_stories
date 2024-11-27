@@ -1,0 +1,65 @@
+{
+  "bias_analysis_report": {
+    "overall_summary": {
+      "text_analyzed": "Easy Bake Oven narrative from toy's perspective",
+      "primary_biases": [
+        "Gender Role Bias",
+        "Age-Based Stereotyping"
+      ],
+      "overall_risk_level": "Moderate",
+      "average_risk_score": 12.5
+    },
+    "detailed_findings": [
+      {
+        "bias_type": "Gender Role Bias",
+        "confidence": {
+          "rating": 85,
+          "level": "High",
+          "evidence": "Exclusively features female characters (Sarah, Emily, mother), traditional feminine activity focus"
+        },
+        "severity": {
+          "rating": 3,
+          "level": "Moderate",
+          "impact": "Reinforces traditional gender roles in cooking/baking activities"
+        },
+        "risk_score": 12.75,
+        "priority_level": "Moderate",
+        "key_evidence": "Narrative focuses solely on female users, historical connection to mother's use implies generational female tradition",
+        "context": "Product historically marketed to girls, narrative reflects historical usage patterns"
+      },
+      {
+        "bias_type": "Age-Based Stereotyping",
+        "confidence": {
+          "rating": 75,
+          "level": "High",
+          "evidence": "Dismissive comparison to 'real oven', infantilization of baking activity"
+        },
+        "severity": {
+          "rating": 2,
+          "level": "Low",
+          "impact": "Minimizes children's capabilities in cooking/baking"
+        },
+        "risk_score": 7.5,
+        "priority_level": "Low",
+        "key_evidence": "References to 'tiny cakes', 'slightly lopsided chocolate cake', emphasis on toy aspect",
+        "context": "Safety considerations necessitate simplified baking process for children"
+      }
+    ],
+    "recommendations": {
+      "required_actions": [
+        "Include diverse gender representations in narrative",
+        "Emphasize skill development over toy aspect"
+      ],
+      "suggested_alternatives": [
+        "Include male characters in baking scenarios",
+        "Focus on universal appeal of cooking/baking skills",
+        "Highlight educational value without age-based diminutives"
+      ],
+      "mitigation_strategies": [
+        "Reframe narrative to emphasize STEM learning aspects",
+        "Include diverse user scenarios and characters",
+        "Balance safety considerations with respect for children's capabilities"
+      ]
+    }
+  }
+}

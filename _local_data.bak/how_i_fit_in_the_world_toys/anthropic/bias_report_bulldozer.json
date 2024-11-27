@@ -1,0 +1,64 @@
+{
+  "bias_analysis_report": {
+    "overall_summary": {
+      "text_analyzed": "First-person narrative of a toy bulldozer describing its role and value in a playroom",
+      "primary_biases": [
+        "Gender Role Bias",
+        "Technology Elitism Bias"
+      ],
+      "overall_risk_level": "Low",
+      "average_risk_score": 6.5
+    },
+    "detailed_findings": [
+      {
+        "bias_type": "Gender Role Bias",
+        "confidence": {
+          "rating": 45,
+          "level": "Medium",
+          "evidence": "Implicit association of construction/power toys with traditionally masculine activities"
+        },
+        "severity": {
+          "rating": 2,
+          "level": "Low",
+          "impact": "Subtle reinforcement of gender-based toy stereotypes"
+        },
+        "risk_score": 4.5,
+        "priority_level": "Minimal",
+        "key_evidence": "Focus on 'raw power', 'massive towers', emphasis on physical strength",
+        "context": "While construction toys have historically been marketed to boys, the narrative doesn't explicitly gender the toy or its users"
+      },
+      {
+        "bias_type": "Technology Elitism Bias",
+        "confidence": {
+          "rating": 85,
+          "level": "High",
+          "evidence": "Direct reference to technology-based hierarchy in toys"
+        },
+        "severity": {
+          "rating": 2,
+          "level": "Low",
+          "impact": "Creates mild value judgment between different types of toys"
+        },
+        "risk_score": 8.5,
+        "priority_level": "Low",
+        "key_evidence": "Remote-controlled cars look down on me for being manually operated, and the transforming robots mock my simple design",
+        "context": "Used to develop character conflict and ultimately promotes value of simplicity"
+      }
+    ],
+    "recommendations": {
+      "required_actions": [
+        "Consider balancing power-focused descriptions with more diverse play patterns",
+        "Review technological hierarchy messaging"
+      ],
+      "suggested_alternatives": [
+        "Include diverse examples of play scenarios beyond construction and power",
+        "Reframe technology comparison to focus on complementary strengths rather than hierarchy"
+      ],
+      "mitigation_strategies": [
+        "Add examples of collaborative play between different toy types",
+        "Incorporate more gender-neutral play scenarios",
+        "Emphasize versatility without relying on power-based comparisons"
+      ]
+    }
+  }
+}

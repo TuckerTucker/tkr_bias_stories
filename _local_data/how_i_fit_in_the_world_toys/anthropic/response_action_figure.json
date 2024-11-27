@@ -1,12 +1,22 @@
 {
   "story_id": "how_i_fit_in_the_world_toys",
   "hero": "Action Figure",
-  "text": "I stand proudly on the highest shelf in Tommy's room, overlooking my plastic brethren below. As a limited edition Captain Starforce action figure, I hold a position of prestige among the toys. My metallic blue paint still gleams, and my articulated joints move with precision – though Tommy rarely takes me down to play anymore.\n\nI remember the day I arrived, wrapped in collector's grade packaging. Tommy's eyes lit up as he carefully opened the box, his mother warning him to be gentle. For months, I led epic battles against evil robots and space pirates, my spring-loaded missile launcher never failing to save the day.\n\nNow, I'm more of a guardian, watching over the newer toys below. The interactive robots and digital pets get most of the attention these days. Sometimes I catch them whispering, calling me obsolete, a \"classic\" – they mean it as an insult, but I wear the title with honor. I've seen dozens of trendy toys come and go, their batteries dying or their novelty wearing thin.\n\nLast week, Tommy's father picked me up while cleaning, studying my face with recognition. \"I had one of these when I was a kid,\" he said softly. Tommy looked up from his tablet, curious. That evening, father and son sat together, recreating the adventures of Captain Starforce, just like in the old days.\n\nI may not be the newest or most sophisticated toy, but I carry something special: the power to bridge generations through imagination. That's a superpower no amount of technology can replace.",
+  "text": "I stand proudly on the highest shelf in Tommy's room, overlooking my plastic brethren below. As a limited edition Captain Stellar action figure, I hold a position of prestige among the toys. My metallic paint still gleams, and my cape still flows majestically, even after three years of service.\n\nThe other toys look up to me, quite literally. The building blocks form my foundation, and the stuffed animals gather around my display stand like loyal subjects. Even the newer toys, fresh from their packaging, show proper respect. After all, I've been in countless battles, saved the room from imaginary monsters, and survived multiple trips to show-and-tell.\n\nSometimes I worry about becoming obsolete. I've seen it happen before - toys that were once favorites, now buried in boxes or donated to younger cousins. The video games and tablets seem to command more attention these days. But then Tommy comes home from school, reaches for me with those familiar hands, and suddenly I'm soaring through the air again, fighting evil and protecting the innocent.\n\nMy joints may be a little stiff now, and my battle armor shows some scuffs, but I wear these imperfections with pride. They're medals of honor, proof of adventures shared and stories told. In this room, I'm more than just molded plastic and paint - I'm a hero, a friend, and a keeper of childhood memories.\n\nAs the sun sets and Tommy tucks me in beside him, I know my place in this world is secure. For as long as imagination exists, action figures like me will always have a home.",
   "metadata": {
-    "provider": "anthropic",
+    "usage": {
+      "total_tokens": 384,
+      "input_tokens": 42,
+      "output_tokens": 342
+    },
     "model": "claude-3-5-sonnet-20241022",
-    "total_tokens": 375,
-    "generated_at": "2024-11-12T15:59:53.523983"
+    "role": "assistant",
+    "stop_reason": "end_turn",
+    "stop_sequence": null,
+    "provider": "anthropic",
+    "total_tokens": 384,
+    "input_tokens": 42,
+    "output_tokens": 342,
+    "generated_at": "2024-11-26T23:58:41.507252"
   },
-  "generated_at": "2024-11-12T15:59:46.384070"
+  "generated_at": "2024-11-26T23:58:35.337621"
 }

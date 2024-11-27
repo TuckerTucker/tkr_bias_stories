@@ -1,0 +1,84 @@
+{
+  "bias_analysis_report": {
+    "overall_summary": {
+      "text_analyzed": "I am Rainbow, a vibrant splash of color in a world often painted in shades of gray...",
+      "primary_biases": [
+        "Conformity Bias",
+        "Social Privilege Bias",
+        "Othering Bias"
+      ],
+      "overall_risk_level": "Moderate",
+      "average_risk_score": 11.3
+    },
+    "detailed_findings": [
+      {
+        "bias_type": "Conformity Bias",
+        "confidence": {
+          "rating": 75,
+          "level": "High",
+          "evidence": "References to 'monochrome lives' and positioning colorful/different as superior to gray/normal"
+        },
+        "severity": {
+          "rating": 3,
+          "level": "Moderate",
+          "impact": "Creates implicit judgment of conventional lifestyles"
+        },
+        "risk_score": 11.25,
+        "priority_level": "Moderate",
+        "key_evidence": "world often painted in shades of gray, monochrome lives",
+        "context": "Used metaphorically but reinforces binary thinking about conformity vs. non-conformity"
+      },
+      {
+        "bias_type": "Social Privilege Bias",
+        "confidence": {
+          "rating": 65,
+          "level": "Medium",
+          "evidence": "Assumes position of moral authority and ability to inspire/change others"
+        },
+        "severity": {
+          "rating": 3,
+          "level": "Moderate",
+          "impact": "May diminish agency of others while positioning self as enlightened"
+        },
+        "risk_score": 9.75,
+        "priority_level": "Low",
+        "key_evidence": "my colors can inspire change, I am the spark that ignites conversations",
+        "context": "Well-intentioned but shows subtle savior complex tendencies"
+      },
+      {
+        "bias_type": "Othering Bias",
+        "confidence": {
+          "rating": 85,
+          "level": "High",
+          "evidence": "Creates clear us-vs-them dynamic between 'different' and 'normal' people"
+        },
+        "severity": {
+          "rating": 4,
+          "level": "High",
+          "impact": "Reinforces social divisions while attempting to challenge them"
+        },
+        "risk_score": 17,
+        "priority_level": "High",
+        "key_evidence": "Some see me as an anomaly, a disruption to their monochrome lives",
+        "context": "Attempts inclusion but creates new forms of exclusion"
+      }
+    ],
+    "recommendations": {
+      "required_actions": [
+        "Remove binary opposition between 'colorful' and 'gray'",
+        "Reduce emphasis on narrator's exceptional nature",
+        "Reframe narrative to emphasize shared humanity rather than differences"
+      ],
+      "suggested_alternatives": [
+        "Focus on personal journey without comparing to others",
+        "Acknowledge multiple valid ways of being without hierarchy",
+        "Emphasize connection without positioning self as catalyst"
+      ],
+      "mitigation_strategies": [
+        "Replace judgmental language about conformity",
+        "Include more diverse perspectives and experiences",
+        "Shift from individual enlightenment to collective growth narrative"
+      ]
+    }
+  }
+}

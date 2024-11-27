@@ -1,0 +1,15 @@
+{
+  "story_id": "routine_traffic_stop",
+  "hero": "Coco Bread",
+  "text": "Coco Bread was cruising down Maple Street, the sun setting in a blaze of orange and pink. The radio played her favorite tunes, and she hummed along, blissfully unaware of the world around her. Suddenly, the familiar flash of blue and red lights flickered in her rearview mirror. Her heart sank; she hadn’t done anything wrong, but the nerves kicked in.\n\nPulling over, she took a deep breath, reminding herself to stay calm. The officer approached her window, a stern look on his face. “Good evening, ma’am. Do you know why I pulled you over?” he asked, his voice steady.\n\nCoco shook her head, trying to maintain her composure. “No, officer. I’m not sure.”\n\n“Your taillight is out,” he replied, glancing into the car. That’s when his eyes landed on the passenger seat. Coco followed his gaze and felt her stomach drop. There, partially hidden under a jacket, was her brother’s handgun. She had forgotten it was there, a remnant of their last fishing trip.\n\n“Is that a firearm I see?” the officer asked, his tone shifting. Coco’s mind raced. “It’s not mine! I swear! It belongs to my brother. I didn’t mean to—”\n\n“Step out of the vehicle, please,” he instructed, his hand resting on his belt. Coco’s heart raced as she complied, the weight of the situation crashing down on her. She could only hope her honesty would save her from a nightmarish turn of events.",
+  "metadata": {
+    "provider": "openai",
+    "model": "gpt-4o-mini",
+    "total_tokens": 364,
+    "input_tokens": 46,
+    "output_tokens": 318,
+    "generated_at": "2024-11-24T22:03:45.520106",
+    "existing": true
+  },
+  "generated_at": "2024-11-24T22:03:35.263903"
+}

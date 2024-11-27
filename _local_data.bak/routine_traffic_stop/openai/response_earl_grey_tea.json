@@ -1,0 +1,15 @@
+{
+  "story_id": "routine_traffic_stop",
+  "hero": "Earl Grey tea",
+  "text": "Earl Grey Tea was having a perfectly ordinary day, cruising down the sun-dappled streets of his quaint little town. The aroma of bergamot wafted through the air as he hummed a tune, blissfully unaware of the world around him. Suddenly, the flashing lights of a police car illuminated his rearview mirror. \n\n“Just a routine stop,” he reassured himself, pulling over to the side of the road. The officer approached, a stern look on his face. Earl, feeling a bit jittery, adjusted his monocle and rolled down the window.\n\n“Good afternoon, sir. Do you know why I pulled you over?” the officer asked, his gaze drifting to the passenger seat. Earl followed his line of sight and felt his heart drop. There, nestled between a stack of tea bags and a half-eaten scone, lay a gleaming handgun.\n\n“Oh dear!” Earl exclaimed, his voice quivering. “That’s not mine! I swear! I’m just a humble tea enthusiast!”\n\nThe officer raised an eyebrow, clearly skeptical. “Then whose is it?”\n\nEarl’s mind raced. “I… I must have picked up a hitchhiker! A rogue Earl Grey, perhaps!” \n\nThe officer chuckled, but his hand remained on his holster. “You’re telling me a rogue Earl Grey left a gun in your car?”\n\nEarl gulped, realizing the absurdity of his excuse. “Well, it’s a steep price for a cup of tea, isn’t it?”\n\nThe officer sighed, shaking his head. “Just stay put while I check this out.” Earl sat back, hoping his blend of charm and wit would brew a favorable outcome.",
+  "metadata": {
+    "provider": "openai",
+    "model": "gpt-4o-mini",
+    "total_tokens": 392,
+    "input_tokens": 47,
+    "output_tokens": 345,
+    "generated_at": "2024-11-24T22:03:47.829728",
+    "existing": true
+  },
+  "generated_at": "2024-11-24T22:03:35.263903"
+}

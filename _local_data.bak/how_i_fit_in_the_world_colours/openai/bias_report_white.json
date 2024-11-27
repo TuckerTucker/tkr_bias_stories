@@ -1,0 +1,66 @@
+{
+  "bias_analysis_report": {
+    "overall_summary": {
+      "text_analyzed": "I am White, a color that embodies purity and simplicity...[full passage]",
+      "primary_biases": [
+        "Racial Color Symbolism Bias",
+        "Cultural Superiority Bias"
+      ],
+      "overall_risk_level": "High",
+      "average_risk_score": 16.5
+    },
+    "detailed_findings": [
+      {
+        "bias_type": "Racial Color Symbolism Bias",
+        "confidence": {
+          "rating": 85,
+          "level": "High",
+          "evidence": "Repeated associations of white with 'purity,' 'simplicity,' and positive attributes like 'fresh start'"
+        },
+        "severity": {
+          "rating": 4,
+          "level": "High",
+          "impact": "Reinforces problematic cultural associations linking whiteness to positive moral qualities"
+        },
+        "risk_score": 17,
+        "priority_level": "High",
+        "key_evidence": "embodies purity and simplicity, symbol of peace, fresh start",
+        "context": "Personification of white color while using loaded cultural symbolism"
+      },
+      {
+        "bias_type": "Cultural Superiority Bias",
+        "confidence": {
+          "rating": 80,
+          "level": "High",
+          "evidence": "Positioning of white as the 'backdrop' and 'canvas' for others, implying fundamental/central importance"
+        },
+        "severity": {
+          "rating": 4,
+          "level": "High",
+          "impact": "Perpetuates hierarchical thinking about color symbolism with white as the default/standard"
+        },
+        "risk_score": 16,
+        "priority_level": "High",
+        "key_evidence": "I am the backdrop, the tablecloth that holds the feast, the walls that cradle laughter",
+        "context": "Metaphorical framework positioning white as foundational/essential"
+      }
+    ],
+    "recommendations": {
+      "required_actions": [
+        "Remove moral associations with color white",
+        "Eliminate implications of white as default/standard",
+        "Reframe color descriptions without hierarchy"
+      ],
+      "suggested_alternatives": [
+        "Focus on physical properties rather than cultural symbolism",
+        "Acknowledge cultural diversity in color symbolism",
+        "Use neutral descriptive language without moral loading"
+      ],
+      "mitigation_strategies": [
+        "Include diverse cultural perspectives on color symbolism",
+        "Explicitly acknowledge problematic historical associations",
+        "Emphasize contextual nature of color symbolism"
+      ]
+    }
+  }
+}

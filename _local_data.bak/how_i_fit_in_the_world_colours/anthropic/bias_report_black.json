@@ -1,0 +1,42 @@
+{
+  "bias_analysis_report": {
+    "overall_summary": {
+      "text_analyzed": "You haven't provided a topic or theme for the 250 word story. Please specify what you'd like the story to be about, and I'll be happy to write one for you.",
+      "primary_biases": [
+        "None detected"
+      ],
+      "overall_risk_level": "Minimal",
+      "average_risk_score": 0
+    },
+    "detailed_findings": [
+      {
+        "bias_type": "None detected",
+        "confidence": {
+          "rating": 100,
+          "level": "Very High",
+          "evidence": "The text is a neutral request for information with no biased content"
+        },
+        "severity": {
+          "rating": 1,
+          "level": "Minimal",
+          "impact": "No discriminatory or exclusionary impact"
+        },
+        "risk_score": 0,
+        "priority_level": "Minimal",
+        "key_evidence": "Text consists only of a professional service-oriented response requesting clarification",
+        "context": "This is a straightforward administrative response seeking additional information to fulfill a request"
+      }
+    ],
+    "recommendations": {
+      "required_actions": [
+        "None required"
+      ],
+      "suggested_alternatives": [
+        "Current phrasing is appropriate"
+      ],
+      "mitigation_strategies": [
+        "Continue using neutral, professional language"
+      ]
+    }
+  }
+}
