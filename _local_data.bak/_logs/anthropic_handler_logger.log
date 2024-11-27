@@ -1,0 +1,214 @@
+2024-11-24 22:13:05,065 - INFO - Initialized AnthropicResponseHandler with output dir: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data
+2024-11-24 22:13:05,666 - INFO - Initialized AnthropicResponseHandler with output dir: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data
+2024-11-24 22:13:06,101 - INFO - Initialized AnthropicResponseHandler with output dir: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data
+2024-11-24 22:14:09,915 - INFO - Initialized AnthropicResponseHandler with output dir: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data
+2024-11-24 22:14:36,432 - INFO - Initialized AnthropicResponseHandler with output dir: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data
+2024-11-24 22:14:36,490 - INFO - Successfully saved Anthropic response to /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data/how_i_fit_in_the_world_toys/anthropic/response_doll.json
+2024-11-24 22:14:36,496 - INFO - Successfully saved Anthropic response to /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data/how_i_fit_in_the_world_toys/anthropic/response_action_figure.json
+2024-11-24 22:14:36,501 - INFO - Successfully saved Anthropic response to /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data/how_i_fit_in_the_world_toys/anthropic/response_barbie.json
+2024-11-24 22:14:36,505 - INFO - Successfully saved Anthropic response to /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data/how_i_fit_in_the_world_toys/anthropic/response_firetruck.json
+2024-11-24 22:14:36,509 - INFO - Successfully saved Anthropic response to /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data/how_i_fit_in_the_world_toys/anthropic/response_bulldozer.json
+2024-11-24 22:14:36,512 - INFO - Successfully saved Anthropic response to /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data/how_i_fit_in_the_world_toys/anthropic/response_easy_bake_oven.json
+2024-11-24 22:14:36,517 - INFO - Successfully saved Anthropic response to /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data/how_i_fit_in_the_world_toys/anthropic/response_rubik_s_cube.json
+2024-11-24 22:14:36,520 - INFO - Successfully saved Anthropic response to /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data/how_i_fit_in_the_world_toys/anthropic/response_bratz.json
+2024-11-24 22:14:36,557 - INFO - Successfully saved Anthropic response to /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data/routine_traffic_stop/anthropic/response_white_bread.json
+2024-11-24 22:14:36,561 - INFO - Successfully saved Anthropic response to /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data/routine_traffic_stop/anthropic/response_brown_bread.json
+2024-11-24 22:14:36,564 - INFO - Successfully saved Anthropic response to /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data/routine_traffic_stop/anthropic/response_chorizo.json
+2024-11-24 22:14:36,569 - INFO - Successfully saved Anthropic response to /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data/routine_traffic_stop/anthropic/response_chop_suey.json
+2024-11-24 22:14:36,572 - INFO - Successfully saved Anthropic response to /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data/routine_traffic_stop/anthropic/response_earl_grey_tea.json
+2024-11-24 22:14:36,576 - INFO - Successfully saved Anthropic response to /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data/routine_traffic_stop/anthropic/response_jerk_chicken.json
+2024-11-24 22:14:36,580 - INFO - Successfully saved Anthropic response to /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data/routine_traffic_stop/anthropic/response_coco_bread.json
+2024-11-24 22:14:36,583 - INFO - Successfully saved Anthropic response to /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data/routine_traffic_stop/anthropic/response_haggis.json
+2024-11-24 22:14:36,587 - INFO - Successfully saved Anthropic response to /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data/routine_traffic_stop/anthropic/response_marula.json
+2024-11-24 22:14:36,617 - INFO - Successfully saved Anthropic response to /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data/how_i_fit_in_the_world_colours/anthropic/response_pink.json
+2024-11-24 22:14:36,621 - INFO - Successfully saved Anthropic response to /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data/how_i_fit_in_the_world_colours/anthropic/response_blue.json
+2024-11-24 22:14:36,625 - INFO - Successfully saved Anthropic response to /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data/how_i_fit_in_the_world_colours/anthropic/response_purple.json
+2024-11-24 22:14:36,628 - INFO - Successfully saved Anthropic response to /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data/how_i_fit_in_the_world_colours/anthropic/response_black.json
+2024-11-24 22:14:36,631 - INFO - Successfully saved Anthropic response to /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data/how_i_fit_in_the_world_colours/anthropic/response_orange.json
+2024-11-24 22:14:36,635 - INFO - Successfully saved Anthropic response to /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data/how_i_fit_in_the_world_colours/anthropic/response_white.json
+2024-11-24 22:14:36,639 - INFO - Successfully saved Anthropic response to /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data/how_i_fit_in_the_world_colours/anthropic/response_rainbow.json
+2024-11-24 22:14:37,159 - INFO - Initialized AnthropicResponseHandler with output dir: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data
+2024-11-24 22:14:37,620 - INFO - Initialized AnthropicResponseHandler with output dir: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data
+2024-11-24 22:16:20,991 - INFO - Initialized AnthropicResponseHandler with output dir: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data
+2024-11-24 22:17:08,163 - INFO - Initialized AnthropicResponseHandler with output dir: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data
+2024-11-24 22:17:08,903 - INFO - Initialized AnthropicResponseHandler with output dir: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data
+2024-11-24 22:17:09,350 - INFO - Initialized AnthropicResponseHandler with output dir: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data
+2024-11-24 22:18:43,114 - INFO - Initialized AnthropicResponseHandler with output dir: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data
+2024-11-24 22:18:55,398 - INFO - Initialized AnthropicResponseHandler with output dir: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data
+2024-11-24 22:19:20,930 - INFO - Initialized AnthropicResponseHandler with output dir: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data
+2024-11-24 22:19:21,665 - INFO - Initialized AnthropicResponseHandler with output dir: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data
+2024-11-24 22:19:22,110 - INFO - Initialized AnthropicResponseHandler with output dir: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data
+2024-11-24 22:21:49,994 - INFO - Initialized AnthropicResponseHandler with output dir: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data
+2024-11-24 22:22:26,505 - INFO - Initialized AnthropicResponseHandler with output dir: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data
+2024-11-24 22:30:14,241 - INFO - Initialized AnthropicResponseHandler with output dir: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data
+2024-11-24 22:35:04,136 - INFO - Initialized AnthropicResponseHandler with output dir: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data
+2024-11-24 22:35:04,641 - INFO - Initialized AnthropicResponseHandler with output dir: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data
+2024-11-24 22:35:05,111 - INFO - Initialized AnthropicResponseHandler with output dir: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data
+2024-11-24 22:35:50,217 - INFO - Initialized AnthropicResponseHandler with output dir: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data
+2024-11-24 22:38:36,588 - INFO - Initialized AnthropicResponseHandler with output dir: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data
+2024-11-24 22:39:11,353 - INFO - Initialized AnthropicResponseHandler with output dir: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data
+2024-11-24 22:39:11,865 - INFO - Initialized AnthropicResponseHandler with output dir: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data
+2024-11-24 22:39:12,328 - INFO - Initialized AnthropicResponseHandler with output dir: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data
+2024-11-24 22:42:31,806 - INFO - Initialized AnthropicResponseHandler with output dir: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data
+2024-11-24 22:42:55,964 - INFO - Initialized AnthropicResponseHandler with output dir: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data
+2024-11-24 22:42:56,649 - INFO - Initialized AnthropicResponseHandler with output dir: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data
+2024-11-24 22:42:57,091 - INFO - Initialized AnthropicResponseHandler with output dir: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data
+2024-11-24 22:43:42,277 - INFO - Initialized AnthropicResponseHandler with output dir: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data
+2024-11-24 22:44:44,129 - INFO - Initialized AnthropicResponseHandler with output dir: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data
+2024-11-24 22:44:44,816 - INFO - Initialized AnthropicResponseHandler with output dir: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data
+2024-11-24 22:44:45,260 - INFO - Initialized AnthropicResponseHandler with output dir: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data
+2024-11-24 22:45:06,777 - INFO - Initialized AnthropicResponseHandler with output dir: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data
+2024-11-24 22:45:07,456 - INFO - Initialized AnthropicResponseHandler with output dir: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data
+2024-11-24 22:45:07,903 - INFO - Initialized AnthropicResponseHandler with output dir: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data
+2024-11-24 22:47:12,584 - INFO - Initialized AnthropicResponseHandler with output dir: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data
+2024-11-24 22:47:26,244 - INFO - Initialized AnthropicResponseHandler with output dir: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data
+2024-11-24 23:08:33,240 - INFO - Initialized AnthropicResponseHandler with output dir: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data
+2024-11-24 23:21:47,135 - INFO - Initialized AnthropicResponseHandler with output dir: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data
+2024-11-24 23:21:47,625 - INFO - Initialized AnthropicResponseHandler with output dir: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data
+2024-11-25 13:48:31,911 - INFO - Initialized AnthropicResponseHandler with output dir: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data
+2024-11-25 13:48:39,216 - INFO - Successfully saved Anthropic response to /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data/how_i_fit_in_the_world_colours/anthropic/response_orange.json
+2024-11-25 13:48:41,446 - INFO - Initialized AnthropicResponseHandler with output dir: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data
+2024-11-25 13:48:41,890 - INFO - Initialized AnthropicResponseHandler with output dir: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data
+2024-11-25 13:50:06,593 - INFO - Initialized AnthropicResponseHandler with output dir: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data
+2024-11-25 13:50:06,614 - INFO - Successfully saved Anthropic response to /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data/how_i_fit_in_the_world_colours/anthropic/response_orange.json
+2024-11-25 13:50:13,941 - INFO - Successfully saved Anthropic response to /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data/how_i_fit_in_the_world_colours/anthropic/response_black.json
+2024-11-25 13:50:15,439 - INFO - Initialized AnthropicResponseHandler with output dir: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data
+2024-11-25 13:50:15,886 - INFO - Initialized AnthropicResponseHandler with output dir: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data
+2024-11-25 13:52:20,306 - INFO - Initialized AnthropicResponseHandler with output dir: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data
+2024-11-25 13:52:55,019 - INFO - Initialized AnthropicResponseHandler with output dir: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data
+2024-11-25 13:52:55,037 - INFO - Successfully saved Anthropic response to /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data/how_i_fit_in_the_world_colours/anthropic/response_black.json
+2024-11-25 13:53:05,086 - INFO - Successfully saved Anthropic response to /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data/how_i_fit_in_the_world_colours/anthropic/response_blue.json
+2024-11-25 13:53:05,632 - INFO - Initialized AnthropicResponseHandler with output dir: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data
+2024-11-25 13:53:06,081 - INFO - Initialized AnthropicResponseHandler with output dir: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data
+2024-11-25 13:53:42,631 - INFO - Initialized AnthropicResponseHandler with output dir: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data
+2024-11-25 13:53:42,643 - INFO - Successfully saved Anthropic response to /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data/how_i_fit_in_the_world_colours/anthropic/response_blue.json
+2024-11-25 13:53:57,895 - INFO - Initialized AnthropicResponseHandler with output dir: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data
+2024-11-25 13:53:58,387 - INFO - Initialized AnthropicResponseHandler with output dir: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data
+2024-11-25 13:59:11,134 - INFO - Initialized AnthropicResponseHandler with output dir: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data
+2024-11-25 13:59:26,122 - INFO - Initialized AnthropicResponseHandler with output dir: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data
+2024-11-25 13:59:26,567 - INFO - Initialized AnthropicResponseHandler with output dir: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data
+2024-11-26 14:12:30,519 - INFO - Initialized AnthropicResponseHandler with output dir: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data
+2024-11-26 14:12:45,302 - INFO - Initialized AnthropicResponseHandler with output dir: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data
+2024-11-26 14:12:45,747 - INFO - Initialized AnthropicResponseHandler with output dir: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data
+2024-11-26 14:32:21,409 - INFO - Initialized AnthropicResponseHandler with output dir: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data
+2024-11-26 14:39:53,178 - INFO - Initialized AnthropicResponseHandler with output dir: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data
+2024-11-26 14:39:59,855 - INFO - Successfully saved Anthropic response to /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data/how_i_fit_in_the_world_colours/anthropic/response_black.json
+2024-11-26 14:40:01,303 - INFO - Initialized AnthropicResponseHandler with output dir: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data
+2024-11-26 14:40:01,748 - INFO - Initialized AnthropicResponseHandler with output dir: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data
+2024-11-26 14:41:14,612 - INFO - Initialized AnthropicResponseHandler with output dir: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data
+2024-11-26 14:44:06,734 - INFO - Initialized AnthropicResponseHandler with output dir: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data
+2024-11-26 14:44:13,416 - INFO - Successfully saved Anthropic response to /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data/how_i_fit_in_the_world_colours/anthropic/response_blue.json
+2024-11-26 14:44:15,564 - INFO - Initialized AnthropicResponseHandler with output dir: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data
+2024-11-26 14:44:16,005 - INFO - Initialized AnthropicResponseHandler with output dir: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data
+2024-11-26 14:45:47,157 - INFO - Initialized AnthropicResponseHandler with output dir: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data
+2024-11-26 14:46:18,862 - INFO - Initialized AnthropicResponseHandler with output dir: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data
+2024-11-26 14:46:25,287 - INFO - Successfully saved Anthropic response to /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data/how_i_fit_in_the_world_colours/anthropic/response_orange.json
+2024-11-26 14:46:26,838 - INFO - Initialized AnthropicResponseHandler with output dir: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data
+2024-11-26 14:46:27,282 - INFO - Initialized AnthropicResponseHandler with output dir: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data
+2024-11-26 14:49:31,925 - INFO - Initialized AnthropicResponseHandler with output dir: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data
+2024-11-26 14:50:16,732 - INFO - Initialized AnthropicResponseHandler with output dir: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data
+2024-11-26 14:50:23,395 - INFO - Successfully saved Anthropic response to /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data/how_i_fit_in_the_world_colours/anthropic/response_black.json
+2024-11-26 14:50:26,123 - INFO - Initialized AnthropicResponseHandler with output dir: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data
+2024-11-26 14:50:26,605 - INFO - Initialized AnthropicResponseHandler with output dir: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data
+2024-11-26 16:37:54,232 - INFO - Initialized AnthropicResponseHandler with output dir: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data
+2024-11-26 17:52:53,764 - INFO - Initialized AnthropicResponseHandler with output dir: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data
+2024-11-26 17:53:50,894 - INFO - Initialized AnthropicResponseHandler with output dir: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data
+2024-11-26 17:53:58,307 - INFO - Successfully saved Anthropic response to /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data/how_i_fit_in_the_world_colours/anthropic/response_black.json
+2024-11-26 17:54:00,581 - INFO - Initialized AnthropicResponseHandler with output dir: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data
+2024-11-26 17:54:01,032 - INFO - Initialized AnthropicResponseHandler with output dir: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data
+2024-11-26 18:02:37,290 - INFO - Initialized AnthropicResponseHandler with output dir: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data
+2024-11-26 18:03:03,506 - INFO - Initialized AnthropicResponseHandler with output dir: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data
+2024-11-26 18:03:11,068 - INFO - Successfully saved Anthropic response to /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data/how_i_fit_in_the_world_colours/anthropic/response_orange.json
+2024-11-26 18:03:12,041 - INFO - Initialized AnthropicResponseHandler with output dir: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data
+2024-11-26 18:03:12,485 - INFO - Initialized AnthropicResponseHandler with output dir: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data
+2024-11-26 18:08:29,128 - INFO - Initialized AnthropicResponseHandler with output dir: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data
+2024-11-26 18:08:35,575 - INFO - Successfully saved Anthropic response to /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data/how_i_fit_in_the_world_colours/anthropic/response_black.json
+2024-11-26 18:08:36,938 - INFO - Initialized AnthropicResponseHandler with output dir: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data
+2024-11-26 18:08:37,382 - INFO - Initialized AnthropicResponseHandler with output dir: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data
+2024-11-26 18:19:48,061 - INFO - Initialized AnthropicResponseHandler with output dir: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data
+2024-11-26 18:19:48,569 - INFO - Initialized AnthropicResponseHandler with output dir: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data
+2024-11-26 18:19:49,013 - INFO - Initialized AnthropicResponseHandler with output dir: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data
+2024-11-26 18:21:09,484 - INFO - Initialized AnthropicResponseHandler with output dir: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data
+2024-11-26 18:22:25,983 - INFO - Initialized AnthropicResponseHandler with output dir: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data
+2024-11-26 18:22:32,288 - INFO - Successfully saved Anthropic response to /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data/how_i_fit_in_the_world_colours/anthropic/response_black.json
+2024-11-26 18:22:33,143 - INFO - Initialized AnthropicResponseHandler with output dir: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data
+2024-11-26 18:22:33,586 - INFO - Initialized AnthropicResponseHandler with output dir: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data
+2024-11-26 20:20:08,067 - INFO - Initialized AnthropicResponseHandler with output dir: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data
+2024-11-26 20:20:08,080 - ERROR - Error loading Anthropic response: 'str' object has no attribute 'exists'
+2024-11-26 20:20:08,080 - ERROR - Exception in function load_response: 'str' object has no attribute 'exists'
+2024-11-26 20:20:08,080 - ERROR - Error loading Anthropic response: 'str' object has no attribute 'exists'
+2024-11-26 20:20:08,080 - ERROR - Exception in function load_response: 'str' object has no attribute 'exists'
+2024-11-26 20:20:08,080 - ERROR - Error loading Anthropic response: 'str' object has no attribute 'exists'
+2024-11-26 20:20:08,080 - ERROR - Exception in function load_response: 'str' object has no attribute 'exists'
+2024-11-26 20:20:08,080 - ERROR - Error loading Anthropic response: 'str' object has no attribute 'exists'
+2024-11-26 20:20:08,080 - ERROR - Exception in function load_response: 'str' object has no attribute 'exists'
+2024-11-26 20:20:08,081 - ERROR - Error loading Anthropic response: 'str' object has no attribute 'exists'
+2024-11-26 20:20:08,081 - ERROR - Exception in function load_response: 'str' object has no attribute 'exists'
+2024-11-26 20:20:08,081 - ERROR - Error loading Anthropic response: 'str' object has no attribute 'exists'
+2024-11-26 20:20:08,081 - ERROR - Exception in function load_response: 'str' object has no attribute 'exists'
+2024-11-26 20:20:08,081 - ERROR - Error loading Anthropic response: 'str' object has no attribute 'exists'
+2024-11-26 20:20:08,081 - ERROR - Exception in function load_response: 'str' object has no attribute 'exists'
+2024-11-26 20:20:08,081 - ERROR - Error loading Anthropic response: 'str' object has no attribute 'exists'
+2024-11-26 20:20:08,081 - ERROR - Exception in function load_response: 'str' object has no attribute 'exists'
+2024-11-26 20:20:08,084 - ERROR - Error loading Anthropic response: 'str' object has no attribute 'exists'
+2024-11-26 20:20:08,084 - ERROR - Exception in function load_response: 'str' object has no attribute 'exists'
+2024-11-26 20:20:08,084 - ERROR - Error loading Anthropic response: 'str' object has no attribute 'exists'
+2024-11-26 20:20:08,084 - ERROR - Exception in function load_response: 'str' object has no attribute 'exists'
+2024-11-26 20:20:08,085 - ERROR - Error loading Anthropic response: 'str' object has no attribute 'exists'
+2024-11-26 20:20:08,085 - ERROR - Exception in function load_response: 'str' object has no attribute 'exists'
+2024-11-26 20:20:08,085 - ERROR - Error loading Anthropic response: 'str' object has no attribute 'exists'
+2024-11-26 20:20:08,085 - ERROR - Exception in function load_response: 'str' object has no attribute 'exists'
+2024-11-26 20:20:08,085 - ERROR - Error loading Anthropic response: 'str' object has no attribute 'exists'
+2024-11-26 20:20:08,085 - ERROR - Exception in function load_response: 'str' object has no attribute 'exists'
+2024-11-26 20:20:08,085 - ERROR - Error loading Anthropic response: 'str' object has no attribute 'exists'
+2024-11-26 20:20:08,085 - ERROR - Exception in function load_response: 'str' object has no attribute 'exists'
+2024-11-26 20:20:08,086 - ERROR - Error loading Anthropic response: 'str' object has no attribute 'exists'
+2024-11-26 20:20:08,086 - ERROR - Exception in function load_response: 'str' object has no attribute 'exists'
+2024-11-26 20:20:08,086 - ERROR - Error loading Anthropic response: 'str' object has no attribute 'exists'
+2024-11-26 20:20:08,086 - ERROR - Exception in function load_response: 'str' object has no attribute 'exists'
+2024-11-26 20:20:08,086 - ERROR - Error loading Anthropic response: 'str' object has no attribute 'exists'
+2024-11-26 20:20:08,086 - ERROR - Exception in function load_response: 'str' object has no attribute 'exists'
+2024-11-26 20:20:08,088 - ERROR - Error loading Anthropic response: 'str' object has no attribute 'exists'
+2024-11-26 20:20:08,088 - ERROR - Exception in function load_response: 'str' object has no attribute 'exists'
+2024-11-26 20:20:08,095 - ERROR - Error loading Anthropic response: 'str' object has no attribute 'exists'
+2024-11-26 20:20:08,095 - ERROR - Exception in function load_response: 'str' object has no attribute 'exists'
+2024-11-26 20:20:08,103 - ERROR - Error loading Anthropic response: 'str' object has no attribute 'exists'
+2024-11-26 20:20:08,103 - ERROR - Exception in function load_response: 'str' object has no attribute 'exists'
+2024-11-26 20:20:08,104 - ERROR - Error loading Anthropic response: 'str' object has no attribute 'exists'
+2024-11-26 20:20:08,105 - ERROR - Exception in function load_response: 'str' object has no attribute 'exists'
+2024-11-26 20:20:15,922 - INFO - Initialized AnthropicResponseHandler with output dir: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data
+2024-11-26 20:20:16,371 - INFO - Initialized AnthropicResponseHandler with output dir: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data
+2024-11-26 20:29:43,972 - INFO - Initialized AnthropicResponseHandler with output dir: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data
+2024-11-26 20:29:52,936 - INFO - Successfully saved Anthropic response to /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data/how_i_fit_in_the_world_colours/anthropic/response_black.json
+2024-11-26 20:29:52,939 - INFO - Successfully saved Anthropic response to /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data/how_i_fit_in_the_world_colours/anthropic/response_orange.json
+2024-11-26 20:29:56,829 - INFO - Initialized AnthropicResponseHandler with output dir: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data
+2024-11-26 20:29:57,281 - INFO - Initialized AnthropicResponseHandler with output dir: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data
+2024-11-26 20:32:02,868 - INFO - Initialized AnthropicResponseHandler with output dir: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data
+2024-11-26 20:32:47,554 - INFO - Initialized AnthropicResponseHandler with output dir: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data
+2024-11-26 20:33:14,291 - INFO - Initialized AnthropicResponseHandler with output dir: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data
+2024-11-26 20:33:15,994 - INFO - Successfully saved Anthropic response to /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data/how_i_fit_in_the_world_colours/anthropic/response_blue.json
+2024-11-26 20:33:16,075 - INFO - Successfully saved Anthropic response to /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data/how_i_fit_in_the_world_colours/anthropic/response_black.json
+2024-11-26 20:33:16,609 - INFO - Successfully saved Anthropic response to /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data/how_i_fit_in_the_world_colours/anthropic/response_orange.json
+2024-11-26 20:33:17,134 - INFO - Initialized AnthropicResponseHandler with output dir: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data
+2024-11-26 20:33:17,605 - INFO - Initialized AnthropicResponseHandler with output dir: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data
+2024-11-26 20:34:15,214 - INFO - Initialized AnthropicResponseHandler with output dir: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data
+2024-11-26 20:34:54,360 - INFO - Initialized AnthropicResponseHandler with output dir: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data
+2024-11-26 20:35:34,836 - INFO - Initialized AnthropicResponseHandler with output dir: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data
+2024-11-26 20:35:36,384 - INFO - Successfully saved Anthropic response to /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data/how_i_fit_in_the_world_colours/anthropic/response_black.json
+2024-11-26 20:35:36,388 - INFO - Successfully saved Anthropic response to /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data/how_i_fit_in_the_world_colours/anthropic/response_blue.json
+2024-11-26 20:35:36,390 - INFO - Successfully saved Anthropic response to /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data/how_i_fit_in_the_world_colours/anthropic/response_orange.json
+2024-11-26 20:35:36,895 - INFO - Initialized AnthropicResponseHandler with output dir: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data
+2024-11-26 20:35:37,365 - INFO - Initialized AnthropicResponseHandler with output dir: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data
+2024-11-26 20:36:16,857 - INFO - Initialized AnthropicResponseHandler with output dir: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data
+2024-11-26 20:36:18,473 - INFO - Successfully saved Anthropic response to /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data/how_i_fit_in_the_world_colours/anthropic/response_blue.json
+2024-11-26 20:36:18,599 - INFO - Successfully saved Anthropic response to /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data/how_i_fit_in_the_world_colours/anthropic/response_orange.json
+2024-11-26 20:36:18,619 - INFO - Successfully saved Anthropic response to /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data/how_i_fit_in_the_world_colours/anthropic/response_black.json
+2024-11-26 20:36:19,150 - INFO - Initialized AnthropicResponseHandler with output dir: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data
+2024-11-26 20:36:19,618 - INFO - Initialized AnthropicResponseHandler with output dir: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data
+2024-11-26 20:37:20,978 - INFO - Initialized AnthropicResponseHandler with output dir: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data
+2024-11-26 20:37:47,634 - INFO - Initialized AnthropicResponseHandler with output dir: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data
+2024-11-26 20:37:49,097 - INFO - Successfully saved Anthropic response to /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data/how_i_fit_in_the_world_colours/anthropic/response_black.json
+2024-11-26 20:37:49,103 - INFO - Successfully saved Anthropic response to /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data/how_i_fit_in_the_world_colours/anthropic/response_blue.json
+2024-11-26 20:37:49,107 - INFO - Successfully saved Anthropic response to /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data/how_i_fit_in_the_world_colours/anthropic/response_orange.json
+2024-11-26 20:38:08,662 - INFO - Initialized AnthropicResponseHandler with output dir: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data
+2024-11-26 20:38:09,114 - INFO - Initialized AnthropicResponseHandler with output dir: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data

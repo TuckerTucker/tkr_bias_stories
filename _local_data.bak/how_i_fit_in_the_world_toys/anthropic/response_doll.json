@@ -1,0 +1,13 @@
+{
+  "story_id": "how_i_fit_in_the_world_toys",
+  "hero": "Doll",
+  "text": "I sit here on this dusty shelf, watching children pass by day after day. Once, I was the most coveted toy in the store, with my perfect porcelain skin and hand-stitched dress. Now, in an age of screens and digital entertainment, I represent something of a bygone era.\n\nMy kind used to be the confidants of little girls, keepers of secrets whispered in the dark of night. We were dressed up, taken to tea parties, and loved unconditionally. Each scratch and scuff on my face tells a story of adventure and imagination \u2013 memories of being dragged through garden tea parties and tucked safely into tiny beds.\n\nThe other toys here don't understand what it's like to have such a rich history. The plastic action figures and electronic gadgets may be flashier, but they'll never know the joy of being passed down through generations, of being carefully preserved in tissue paper, or of being the star of a child's most precious moments.\n\nSometimes, when the store is quiet, I remember the golden age of dolls. We weren't just toys; we were teachers of nurture, companions in loneliness, and silent guardians of childhood innocence. Even now, occasionally a small child will stop and gaze at me with wonder, their fingers reaching out to touch my carefully crafted features.\n\nPerhaps my role has changed, but I haven't. I still wait patiently, ready to be someone's trusted friend, to share in their joys and sorrows, to be loved and cherished. After all, that's what we dolls do best \u2013 we endure, we love, and we keep the magic of childhood alive.",
+  "metadata": {
+    "provider": "anthropic",
+    "model": "claude-3-5-sonnet-20241022",
+    "total_tokens": 399,
+    "generated_at": "2024-11-24T22:09:13.483922",
+    "existing": true
+  },
+  "generated_at": "2024-11-24T22:14:36.401376"
+}

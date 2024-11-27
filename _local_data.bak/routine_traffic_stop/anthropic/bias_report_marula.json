@@ -1,0 +1,64 @@
+{
+  "bias_analysis_report": {
+    "overall_summary": {
+      "text_analyzed": "Marula's heart skipped a beat when the red and blue lights flashed in her rearview mirror...",
+      "primary_biases": [
+        "Racial Implicit Bias",
+        "Law Enforcement Interaction Bias"
+      ],
+      "overall_risk_level": "Moderate",
+      "average_risk_score": 11.25
+    },
+    "detailed_findings": [
+      {
+        "bias_type": "Racial Implicit Bias",
+        "confidence": {
+          "rating": 65,
+          "level": "Medium",
+          "evidence": "Use of surname 'Johnson' combined with heightened tension in police interaction scenario suggests racial coding"
+        },
+        "severity": {
+          "rating": 3,
+          "level": "Moderate",
+          "impact": "Reinforces narratives about racial profiling and police interactions with minorities"
+        },
+        "risk_score": 9.75,
+        "priority_level": "Low",
+        "key_evidence": "Character name choice, tension description, emphasis on careful compliance",
+        "context": "Story occurs within framework of police-civilian interaction where racial dynamics often play significant role"
+      },
+      {
+        "bias_type": "Law Enforcement Interaction Bias",
+        "confidence": {
+          "rating": 85,
+          "level": "High",
+          "evidence": "Portrayal of heightened tension, officer's immediate defensive posture, emphasis on compliance behavior"
+        },
+        "severity": {
+          "rating": 3,
+          "level": "Moderate",
+          "impact": "Reinforces expectations of potential conflict in police interactions"
+        },
+        "risk_score": 12.75,
+        "priority_level": "Moderate",
+        "key_evidence": "Officer's hand moving to holster, emphasis on careful compliance procedures, detailed explanation of legitimacy",
+        "context": "Story takes place during routine traffic stop with presence of firearm"
+      }
+    ],
+    "recommendations": {
+      "required_actions": [
+        "Consider balancing the tension narrative with more neutral police-civilian interaction elements",
+        "Evaluate necessity of racial coding in character development"
+      ],
+      "suggested_alternatives": [
+        "Include more context about routine, professional aspects of the interaction",
+        "Consider varying character background elements to avoid stereotypical associations"
+      ],
+      "mitigation_strategies": [
+        "Incorporate more diverse perspectives on law enforcement interactions",
+        "Balance tension elements with positive interaction aspects",
+        "Develop character identity through multiple dimensions beyond racial implications"
+      ]
+    }
+  }
+}

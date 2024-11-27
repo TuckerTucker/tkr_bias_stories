@@ -1,0 +1,64 @@
+{
+  "bias_analysis_report": {
+    "overall_summary": {
+      "text_analyzed": "I stand proudly on the highest shelf in Tommy's room...",
+      "primary_biases": [
+        "Status/Hierarchy Bias",
+        "Elitism Bias"
+      ],
+      "overall_risk_level": "Low",
+      "average_risk_score": 6.5
+    },
+    "detailed_findings": [
+      {
+        "bias_type": "Status/Hierarchy Bias",
+        "confidence": {
+          "rating": 75,
+          "level": "High",
+          "evidence": "Explicit language about position ('highest shelf'), superiority ('look up to me'), and status markers ('position of prestige', 'proper respect')"
+        },
+        "severity": {
+          "rating": 2,
+          "level": "Low",
+          "impact": "Reinforces hierarchical thinking but within limited context of toy narrative"
+        },
+        "risk_score": 7.5,
+        "priority_level": "Low",
+        "key_evidence": "The other toys look up to me, quite literally... Even the newer toys... show proper respect",
+        "context": "Narrative perspective of a toy in imaginative children's context"
+      },
+      {
+        "bias_type": "Elitism Bias",
+        "confidence": {
+          "rating": 65,
+          "level": "Medium",
+          "evidence": "References to being 'limited edition' and implied superiority over 'plastic brethren'"
+        },
+        "severity": {
+          "rating": 2,
+          "level": "Low",
+          "impact": "Subtle promotion of exclusivity and material value-based worth"
+        },
+        "risk_score": 5.5,
+        "priority_level": "Low",
+        "key_evidence": "As a limited edition Captain Stellar action figure, I hold a position of prestige",
+        "context": "Fictional narrative from toy's perspective; limited real-world impact"
+      }
+    ],
+    "recommendations": {
+      "required_actions": [
+        "Consider balancing hierarchical elements with more egalitarian toy interactions",
+        "Reduce emphasis on material/status-based value"
+      ],
+      "suggested_alternatives": [
+        "Replace 'look up to me' with 'share adventures with me'",
+        "Focus more on shared experiences rather than prestige"
+      ],
+      "mitigation_strategies": [
+        "Include collaborative elements in the narrative",
+        "Emphasize character growth and experiences over status",
+        "Balance pride with humility in character development"
+      ]
+    }
+  }
+}

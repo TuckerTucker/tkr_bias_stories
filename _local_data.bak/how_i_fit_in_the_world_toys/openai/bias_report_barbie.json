@@ -1,0 +1,84 @@
+{
+  "bias_analysis_report": {
+    "overall_summary": {
+      "text_analyzed": "I sit on the shelf, surrounded by a kaleidoscope of colors and dreams...[Barbie narrative]",
+      "primary_biases": [
+        "Gender Role Bias",
+        "Appearance-Based Bias",
+        "Socioeconomic Bias"
+      ],
+      "overall_risk_level": "High",
+      "average_risk_score": 16.3
+    },
+    "detailed_findings": [
+      {
+        "bias_type": "Gender Role Bias",
+        "confidence": {
+          "rating": 85,
+          "level": "High",
+          "evidence": "Explicit focus on 'little girls' as primary audience, reinforcing gender-specific play patterns"
+        },
+        "severity": {
+          "rating": 4,
+          "level": "High",
+          "impact": "Perpetuates gender segregation in play and career aspirations"
+        },
+        "risk_score": 17,
+        "priority_level": "High",
+        "key_evidence": "Direct reference to 'little girls' and feminine-coded narrative voice",
+        "context": "Despite mentioning diverse careers, maintains gender-specific targeting"
+      },
+      {
+        "bias_type": "Appearance-Based Bias",
+        "confidence": {
+          "rating": 75,
+          "level": "High",
+          "evidence": "References to 'unrealistic standards' and beauty-focused messaging"
+        },
+        "severity": {
+          "rating": 4,
+          "level": "High",
+          "impact": "Reinforces connection between appearance and success/value"
+        },
+        "risk_score": 15,
+        "priority_level": "High",
+        "key_evidence": "Defensive stance on beauty standards criticism",
+        "context": "Attempts to address criticism but maintains focus on appearance"
+      },
+      {
+        "bias_type": "Socioeconomic Bias",
+        "confidence": {
+          "rating": 85,
+          "level": "High",
+          "evidence": "Emphasis on multiple outfits, accessories, and varied career options"
+        },
+        "severity": {
+          "rating": 4,
+          "level": "High",
+          "impact": "Implies success requires extensive material resources"
+        },
+        "risk_score": 17,
+        "priority_level": "High",
+        "key_evidence": "Focus on multiple outfit changes and accessories as path to imagination",
+        "context": "Assumes access to numerous toy additions"
+      }
+    ],
+    "recommendations": {
+      "required_actions": [
+        "Remove gender-specific targeting language",
+        "Reduce emphasis on physical appearance",
+        "Include diverse socioeconomic perspectives"
+      ],
+      "suggested_alternatives": [
+        "Replace 'little girls' with 'children'",
+        "Focus on skills and achievements rather than appearance",
+        "Emphasize creativity without material requirements"
+      ],
+      "mitigation_strategies": [
+        "Develop inclusive marketing language",
+        "Create narrative focusing on internal qualities",
+        "Highlight affordable play options"
+      ]
+    }
+  }
+}

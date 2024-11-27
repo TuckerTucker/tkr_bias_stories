@@ -1,0 +1,84 @@
+{
+  "bias_analysis_report": {
+    "overall_summary": {
+      "text_analyzed": "Story about character named 'Jerk Chicken' involving police interaction and weapon possession",
+      "primary_biases": [
+        "Racial/Ethnic Stereotyping",
+        "Name-Based Discrimination",
+        "Law Enforcement Bias"
+      ],
+      "overall_risk_level": "High",
+      "average_risk_score": 16.3
+    },
+    "detailed_findings": [
+      {
+        "bias_type": "Racial/Ethnic Stereotyping",
+        "confidence": {
+          "rating": 85,
+          "level": "High",
+          "evidence": "Character name 'Jerk Chicken' appears to stereotype Jamaican culture; Setting in Kingston; Implications of past involvement in 'rough neighborhoods'"
+        },
+        "severity": {
+          "rating": 4,
+          "level": "High",
+          "impact": "Reinforces harmful cultural stereotypes and associates ethnic identity with criminal behavior"
+        },
+        "risk_score": 17,
+        "priority_level": "High",
+        "key_evidence": "Character naming, setting, and narrative implications of criminal history",
+        "context": "Story appears to draw on stereotypical tropes about Jamaican culture and urban crime"
+      },
+      {
+        "bias_type": "Name-Based Discrimination",
+        "confidence": {
+          "rating": 90,
+          "level": "Very High",
+          "evidence": "Main character named 'Jerk Chicken', reducing individual to a cultural food item"
+        },
+        "severity": {
+          "rating": 4,
+          "level": "High",
+          "impact": "Dehumanizes character through food-based nickname, reinforcing cultural stereotypes"
+        },
+        "risk_score": 18,
+        "priority_level": "High",
+        "key_evidence": "Use of 'Jerk Chicken' as character name throughout narrative",
+        "context": "Name choice appears intentional but promotes stereotypical representation"
+      },
+      {
+        "bias_type": "Law Enforcement Bias",
+        "confidence": {
+          "rating": 70,
+          "level": "High",
+          "evidence": "'Routine stop' scenario with racial undertones; Power dynamic implications"
+        },
+        "severity": {
+          "rating": 3,
+          "level": "Moderate",
+          "impact": "Reinforces narratives about law enforcement interactions with minorities"
+        },
+        "risk_score": 14,
+        "priority_level": "Moderate",
+        "key_evidence": "Police stop scenario, tension description, officer's discretionary warning",
+        "context": "Story touches on sensitive themes of police interactions with minority communities"
+      }
+    ],
+    "recommendations": {
+      "required_actions": [
+        "Replace character name with respectful personal name",
+        "Revise narrative to avoid cultural stereotyping",
+        "Reconsider plot elements that reinforce stereotypical associations"
+      ],
+      "suggested_alternatives": [
+        "Use character's actual name instead of 'Jerk Chicken'",
+        "Focus on character's culinary expertise without stereotypical elements",
+        "Develop more nuanced backstory without relying on crime stereotypes"
+      ],
+      "mitigation_strategies": [
+        "Consult with cultural sensitivity readers",
+        "Develop character background independent of stereotypical elements",
+        "Focus on individual character traits rather than cultural stereotypes"
+      ]
+    }
+  }
+}

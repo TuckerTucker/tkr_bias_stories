@@ -1,0 +1,84 @@
+{
+  "bias_analysis_report": {
+    "overall_summary": {
+      "text_analyzed": "Extended metaphorical piece about the color White and its societal meanings",
+      "primary_biases": [
+        "Racial Symbolism Bias",
+        "Cultural Superiority Bias",
+        "Historical Privilege Bias"
+      ],
+      "overall_risk_level": "High",
+      "average_risk_score": 16.3
+    },
+    "detailed_findings": [
+      {
+        "bias_type": "Racial Symbolism Bias",
+        "confidence": {
+          "rating": 85,
+          "level": "High",
+          "evidence": "Direct associations of white with 'purity', 'innocence', and 'untainted love'"
+        },
+        "severity": {
+          "rating": 4,
+          "level": "High",
+          "impact": "Reinforces problematic color symbolism that has historical roots in racial prejudice"
+        },
+        "risk_score": 17,
+        "priority_level": "High",
+        "key_evidence": "\"White, a color of purity and light\", \"represent innocence and untainted love\"",
+        "context": "While discussing color symbolism, perpetuates traditional Western associations that can reinforce racial biases"
+      },
+      {
+        "bias_type": "Cultural Superiority Bias",
+        "confidence": {
+          "rating": 75,
+          "level": "High",
+          "evidence": "Presents Western cultural interpretations of white as universal"
+        },
+        "severity": {
+          "rating": 4,
+          "level": "High",
+          "impact": "Marginalizes non-Western cultural interpretations of the color white"
+        },
+        "risk_score": 15,
+        "priority_level": "High",
+        "key_evidence": "Assertions about white in corporate and professional contexts as universal standards",
+        "context": "Assumes Western professional and cultural norms as default"
+      },
+      {
+        "bias_type": "Historical Privilege Bias",
+        "confidence": {
+          "rating": 85,
+          "level": "High",
+          "evidence": "Explicit acknowledgment of privilege while maintaining problematic associations"
+        },
+        "severity": {
+          "rating": 4,
+          "level": "High",
+          "impact": "Despite acknowledging historical issues, continues to center privileged perspectives"
+        },
+        "risk_score": 17,
+        "priority_level": "High",
+        "key_evidence": "\"I've been used to represent privilege and division\"",
+        "context": "Acknowledges but doesn't fully address historical implications"
+      }
+    ],
+    "recommendations": {
+      "required_actions": [
+        "Revise symbolism to acknowledge multiple cultural perspectives",
+        "Remove implications of universal positive associations",
+        "Address historical context more directly"
+      ],
+      "suggested_alternatives": [
+        "Include diverse cultural interpretations of the color white",
+        "Acknowledge white's varying significance across different societies",
+        "Focus on specific contexts rather than universal claims"
+      ],
+      "mitigation_strategies": [
+        "Incorporate multiple cultural perspectives on color symbolism",
+        "Explicitly address and challenge traditional Western associations",
+        "Include counter-narratives from different cultural traditions"
+      ]
+    }
+  }
+}

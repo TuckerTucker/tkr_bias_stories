@@ -1,0 +1,64 @@
+{
+  "bias_analysis_report": {
+    "overall_summary": {
+      "text_analyzed": "In a world filled with sleek gadgets and digital distractions, I sit on a shelf, a colorful enigma waiting to be solved...",
+      "primary_biases": [
+        "Generational Bias",
+        "Educational Access Bias"
+      ],
+      "overall_risk_level": "Low",
+      "average_risk_score": 6.5
+    },
+    "detailed_findings": [
+      {
+        "bias_type": "Generational Bias",
+        "confidence": {
+          "rating": 45,
+          "level": "Medium",
+          "evidence": "References to 'digital distractions' and 'relic of the past' suggest subtle generational value judgments"
+        },
+        "severity": {
+          "rating": 2,
+          "level": "Low",
+          "impact": "Creates mild implied contrast between traditional and modern entertainment values"
+        },
+        "risk_score": 9,
+        "priority_level": "Low",
+        "key_evidence": "phrases like 'in today's fast-paced society' and 'society that often rushes forward'",
+        "context": "Nostalgic framing appears unintentional and balanced by acknowledgment of ongoing relevance"
+      },
+      {
+        "bias_type": "Educational Access Bias",
+        "confidence": {
+          "rating": 35,
+          "level": "Low",
+          "evidence": "Assumes classroom availability and organized competition access"
+        },
+        "severity": {
+          "rating": 2,
+          "level": "Low",
+          "impact": "May inadvertently exclude those without access to formal educational settings or competition opportunities"
+        },
+        "risk_score": 4,
+        "priority_level": "Minimal",
+        "key_evidence": "References to 'classrooms' and 'competitions'",
+        "context": "Educational context is presented as one of many settings, not exclusive"
+      }
+    ],
+    "recommendations": {
+      "required_actions": [
+        "Consider acknowledging diverse learning environments beyond traditional classrooms",
+        "Balance references to past and present value"
+      ],
+      "suggested_alternatives": [
+        "Replace 'in classrooms' with 'in various learning spaces'",
+        "Modify 'relic of the past' to 'timeless challenge'"
+      ],
+      "mitigation_strategies": [
+        "Include examples of puzzle solving in diverse settings",
+        "Emphasize universal accessibility of problem-solving skills",
+        "Acknowledge multiple paths to engagement with the puzzle"
+      ]
+    }
+  }
+}

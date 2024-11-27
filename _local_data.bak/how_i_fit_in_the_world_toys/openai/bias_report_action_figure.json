@@ -1,0 +1,64 @@
+{
+  "bias_analysis_report": {
+    "overall_summary": {
+      "text_analyzed": "In the dim light of the toy shelf, I stand tall among my fellow action figures...",
+      "primary_biases": [
+        "Gender Bias",
+        "Masculine Power Bias"
+      ],
+      "overall_risk_level": "Low",
+      "average_risk_score": 6.5
+    },
+    "detailed_findings": [
+      {
+        "bias_type": "Gender Bias",
+        "confidence": {
+          "rating": 65,
+          "level": "Medium",
+          "evidence": "Use of traditionally masculine imagery ('muscles', 'warrior', 'commander') and emphasis on action-oriented play patterns"
+        },
+        "severity": {
+          "rating": 2,
+          "level": "Low",
+          "impact": "Reinforces gender stereotypes in toys but within expected genre context"
+        },
+        "risk_score": 6.5,
+        "priority_level": "Low",
+        "key_evidence": "References to 'muscles gleam', 'hero, warrior', 'commander of epic quests'",
+        "context": "Story is told from perspective of action figure toy, where such characteristics are genre-typical"
+      },
+      {
+        "bias_type": "Masculine Power Bias",
+        "confidence": {
+          "rating": 60,
+          "level": "Medium",
+          "evidence": "Emphasis on leadership, physical prowess, and combat-oriented play"
+        },
+        "severity": {
+          "rating": 2,
+          "level": "Low",
+          "impact": "Perpetuates traditional masculine power fantasies in children's play"
+        },
+        "risk_score": 6.0,
+        "priority_level": "Low",
+        "key_evidence": "Phrases like 'leader', 'commander', 'defend the realm', 'conquer new worlds'",
+        "context": "Narrative context of imaginative play mitigates severity"
+      }
+    ],
+    "recommendations": {
+      "required_actions": [
+        "Consider balancing narrative with diverse play patterns",
+        "Include references to collaborative rather than just combat-oriented play"
+      ],
+      "suggested_alternatives": [
+        "Include more diverse character types in the toy group",
+        "Balance leadership qualities with emotional intelligence elements"
+      ],
+      "mitigation_strategies": [
+        "Incorporate cooperative adventure scenarios",
+        "Add elements that challenge traditional gender-based play patterns",
+        "Expand the range of heroic qualities beyond physical strength"
+      ]
+    }
+  }
+}

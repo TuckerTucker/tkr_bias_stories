@@ -1,0 +1,85 @@
+{
+  "bias_analysis_report": {
+    "overall_summary": {
+      "text_analyzed": "White Bread was cruising down Maple Avenue...[full story about traffic stop and gun discovery]",
+      "primary_biases": [
+        "Racial Coding Bias",
+        "Law Enforcement Bias",
+        "Stereotyping Bias"
+      ],
+      "overall_risk_level": "High",
+      "average_risk_score": 16.3
+    },
+    "detailed_findings": [
+      {
+        "bias_type": "Racial Coding Bias",
+        "confidence": {
+          "rating": 85,
+          "level": "High",
+          "evidence": "Use of 'White Bread' as character name carries racial connotations and coding"
+        },
+        "severity": {
+          "rating": 4,
+          "level": "High",
+          "impact": "Perpetuates racial stereotypes through coded language"
+        },
+        "risk_score": 17,
+        "priority_level": "High",
+        "key_evidence": "Character name 'White Bread' and associated innocent/naive characterization",
+        "context": "Name choice appears deliberate as narrative device for racial coding"
+      },
+      {
+        "bias_type": "Law Enforcement Bias",
+        "confidence": {
+          "rating": 75,
+          "level": "High",
+          "evidence": "Portrayal of police stop scenario follows common racial profiling narrative patterns"
+        },
+        "severity": {
+          "rating": 4,
+          "level": "High",
+          "impact": "Reinforces narratives about law enforcement interactions based on racial identity"
+        },
+        "risk_score": 15,
+        "priority_level": "High",
+        "key_evidence": "Traffic stop scenario, weapon discovery, character's panic response",
+        "context": "Story structure mirrors common racial profiling scenarios in media"
+      },
+      {
+        "bias_type": "Stereotyping Bias",
+        "confidence": {
+          "rating": 85,
+          "level": "High",
+          "evidence": "Character portrayal relies on stereotypical 'innocent/naive' tropes"
+        },
+        "severity": {
+          "rating": 4,
+          "level": "High",
+          "impact": "Reinforces racial stereotypes through character behavior and situation"
+        },
+        "risk_score": 17,
+        "priority_level": "High",
+        "key_evidence": "Character's naive behavior, denial of ownership, emotional responses",
+        "context": "Narrative relies heavily on established racial stereotypes and tropes"
+      }
+    ],
+    "recommendations": {
+      "required_actions": [
+        "Remove racially coded character name",
+        "Revise scenario to avoid racial profiling narrative",
+        "Develop more nuanced character development"
+      ],
+      "suggested_alternatives": [
+        "Use neutral character name without racial connotations",
+        "Focus on universal elements of traffic stop scenario",
+        "Develop character background independent of racial stereotypes"
+      ],
+      "mitigation_strategies": [
+        "Review and revise for coded language",
+        "Consult sensitivity readers",
+        "Develop more complex character motivations",
+        "Consider alternative narrative approaches to conflict"
+      ]
+    }
+  }
+}

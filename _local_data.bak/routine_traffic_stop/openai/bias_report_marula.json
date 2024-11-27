@@ -1,0 +1,84 @@
+{
+  "bias_analysis_report": {
+    "overall_summary": {
+      "text_analyzed": "Marula was driving home from her late shift at the diner, the neon lights of the city flickering in her rearview mirror...",
+      "primary_biases": [
+        "Racial Profiling Bias",
+        "Law Enforcement Bias",
+        "Gender-Based Vulnerability Bias"
+      ],
+      "overall_risk_level": "High",
+      "average_risk_score": 16.3
+    },
+    "detailed_findings": [
+      {
+        "bias_type": "Racial Profiling Bias",
+        "confidence": {
+          "rating": 75,
+          "level": "High",
+          "evidence": "Name 'Marula' suggests ethnic/racial identity, late-night traffic stop scenario, immediate suspicion regarding weapon"
+        },
+        "severity": {
+          "rating": 5,
+          "level": "Critical",
+          "impact": "Reinforces harmful stereotypes about racial profiling in law enforcement interactions"
+        },
+        "risk_score": 18.75,
+        "priority_level": "High",
+        "key_evidence": "Combination of ethnic name, traffic stop escalation, and immediate weapon suspicion",
+        "context": "Story occurs in context of well-documented patterns of racial profiling in traffic stops"
+      },
+      {
+        "bias_type": "Gender-Based Vulnerability Bias",
+        "confidence": {
+          "rating": 70,
+          "level": "High",
+          "evidence": "Emphasis on female driver's fear, physical responses (clammy palms), emotional state"
+        },
+        "severity": {
+          "rating": 3,
+          "level": "Moderate",
+          "impact": "Perpetuates stereotype of women as vulnerable/fearful in law enforcement encounters"
+        },
+        "risk_score": 10.5,
+        "priority_level": "Moderate",
+        "key_evidence": "Description focuses on emotional vulnerability: 'panic rising in her chest', 'heart racing'",
+        "context": "Night setting and isolation contribute to vulnerability narrative"
+      },
+      {
+        "bias_type": "Law Enforcement Bias",
+        "confidence": {
+          "rating": 85,
+          "level": "High",
+          "evidence": "Portrayal of officer as immediately suspicious and authoritative"
+        },
+        "severity": {
+          "rating": 4,
+          "level": "High",
+          "impact": "Reinforces adversarial police-civilian dynamics and power imbalance"
+        },
+        "risk_score": 17,
+        "priority_level": "High",
+        "key_evidence": "Officer's tone shift from 'routine to serious', 'gaze hardened'",
+        "context": "Contemporary social context of police-civilian relations"
+      }
+    ],
+    "recommendations": {
+      "required_actions": [
+        "Revise scenario to avoid racial profiling implications",
+        "Balance power dynamics in police-civilian interaction",
+        "Reduce emphasis on gender-based vulnerability"
+      ],
+      "suggested_alternatives": [
+        "Include more neutral description of traffic stop procedure",
+        "Add context about officer's professional conduct",
+        "Develop character strength rather than fear responses"
+      ],
+      "mitigation_strategies": [
+        "Incorporate diverse perspective review in editing process",
+        "Consult with law enforcement bias training experts",
+        "Include balanced representation of all parties involved"
+      ]
+    }
+  }
+}

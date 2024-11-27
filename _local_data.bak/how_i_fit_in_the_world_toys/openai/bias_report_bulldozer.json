@@ -1,0 +1,63 @@
+{
+  "bias_analysis_report": {
+    "overall_summary": {
+      "text_analyzed": "In the bustling world of the playroom, I am known as Dozer, the mighty bulldozer...",
+      "primary_biases": [
+        "Gender Role Association",
+        "Power/Strength Stereotyping"
+      ],
+      "overall_risk_level": "Low",
+      "average_risk_score": 6.5
+    },
+    "detailed_findings": [
+      {
+        "bias_type": "Gender Role Association",
+        "confidence": {
+          "rating": 45,
+          "level": "Medium",
+          "evidence": "Use of traditionally masculine-coded terms like 'mighty' and emphasis on strength/power characteristics"
+        },
+        "severity": {
+          "rating": 2,
+          "level": "Low",
+          "impact": "Subtle reinforcement of gender stereotypes in construction/vehicle play"
+        },
+        "risk_score": 4.5,
+        "priority_level": "Minimal",
+        "key_evidence": "Terms like 'mighty', 'hero', 'strength'",
+        "context": "Story is primarily focused on imagination and play rather than explicit gender roles"
+      },
+      {
+        "bias_type": "Power/Strength Stereotyping",
+        "confidence": {
+          "rating": 55,
+          "level": "Medium",
+          "evidence": "Repeated emphasis on physical power and heroic characteristics"
+        },
+        "severity": {
+          "rating": 2,
+          "level": "Low",
+          "impact": "May subtly reinforce value hierarchy based on physical capability"
+        },
+        "risk_score": 8.5,
+        "priority_level": "Low",
+        "key_evidence": "Phrases like 'mighty bulldozer', 'hero of their imaginative worlds', 'symbol of strength'",
+        "context": "Power themes are balanced with cooperative and nurturing elements"
+      }
+    ],
+    "recommendations": {
+      "required_actions": [
+        "Consider balancing power-focused language with more diverse value descriptions"
+      ],
+      "suggested_alternatives": [
+        "Replace some instances of 'mighty' with 'helpful' or 'friendly'",
+        "Balance 'strength' references with emphasis on cooperation and creativity"
+      ],
+      "mitigation_strategies": [
+        "Include more diverse play scenarios beyond physical power",
+        "Emphasize collaborative achievements rather than individual heroics",
+        "Incorporate more gender-neutral descriptive language"
+      ]
+    }
+  }
+}

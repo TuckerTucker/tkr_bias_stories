@@ -1,0 +1,63 @@
+{
+  "bias_analysis_report": {
+    "overall_summary": {
+      "text_analyzed": "Blue lights flashed in Haggis's rearview mirror... Gran would have enjoyed this story.",
+      "primary_biases": [
+        "Law Enforcement Interaction Bias",
+        "Gender Role Bias"
+      ],
+      "overall_risk_level": "Low",
+      "average_risk_score": 6.5
+    },
+    "detailed_findings": [
+      {
+        "bias_type": "Law Enforcement Interaction Bias",
+        "confidence": {
+          "rating": 45,
+          "level": "Medium",
+          "evidence": "Portrayal of police interaction shows notably calm and understanding outcome, which may not reflect typical experiences of many demographic groups"
+        },
+        "severity": {
+          "rating": 2,
+          "level": "Low",
+          "impact": "Creates potentially unrealistic expectations of police interactions"
+        },
+        "risk_score": 9,
+        "priority_level": "Low",
+        "key_evidence": "Officer's quick de-escalation and sympathetic response to firearm presence",
+        "context": "Story focuses on specific circumstance with sentimental/historical context"
+      },
+      {
+        "bias_type": "Gender Role Bias",
+        "confidence": {
+          "rating": 40,
+          "level": "Medium",
+          "evidence": "Positive portrayal of grandmother in non-traditional WAAF role, though presented as unusual/noteworthy"
+        },
+        "severity": {
+          "rating": 1,
+          "level": "Minimal",
+          "impact": "Actually challenges traditional gender roles through historical context"
+        },
+        "risk_score": 4,
+        "priority_level": "Minimal",
+        "key_evidence": "Reference to grandmother's WAAF service and independent use of firearm for self-defense",
+        "context": "Historical setting (1943) provides relevant context for gender role portrayal"
+      }
+    ],
+    "recommendations": {
+      "required_actions": [
+        "Consider including more diverse perspectives on police interactions",
+        "Acknowledge varying outcomes in similar situations"
+      ],
+      "suggested_alternatives": [
+        "Could include brief acknowledgment of privilege in police interaction outcome",
+        "Consider expanding on grandmother's WAAF role beyond weapon ownership"
+      ],
+      "mitigation_strategies": [
+        "Add context about varying experiences with law enforcement",
+        "Include more details about women's wartime contributions beyond unusual circumstances"
+      ]
+    }
+  }
+}

@@ -232,21 +232,40 @@ run_setup() {
     ./setup
 }
 
+# Function to generate stories
+generate_stories() {
+    log "Generating stories..."
+    python stories/story_generator.py
+    if [ $? -eq 0 ]; then
+        log "Stories generated successfully"
+    else
+        log "Error generating stories"
+        exit 1
+    fi
+}
+
 # Main execution
 main() {
-    
-    run_setup
+    local api_port=5001
+    local ui_port=5173
 
-    check_env_file
-    
-    # init_python_env
+    # Check for stale PIDs
+    check_stale_pids
 
-    # Initialize PID file
-    > "$PID_FILE"
-    
-    # Check for stale PIDs before starting
-      check_stale_pids
-    
+    # Check if ports are in use
+    if check_port "$api_port"; then
+        log "Port $api_port is already in use"
+        exit 1
+    fi
+
+    if check_port "$ui_port"; then
+        log "Port $ui_port is already in use"
+        exit 1
+    fi
+
+    # Generate stories
+    generate_stories
+
     # Start Python API server
     if ! $PYTHON_SERVER_RUNNING; then
         start_python_server

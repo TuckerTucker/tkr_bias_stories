@@ -1,0 +1,84 @@
+{
+  "bias_analysis_report": {
+    "overall_summary": {
+      "text_analyzed": "The tangy aroma of scotch bonnet peppers and allspice still clung to Marcus's clothes as he drove home from his food truck...",
+      "primary_biases": [
+        "Racial Profiling Bias",
+        "Law Enforcement Bias",
+        "Stereotype Association"
+      ],
+      "overall_risk_level": "High",
+      "average_risk_score": 16.3
+    },
+    "detailed_findings": [
+      {
+        "bias_type": "Racial Profiling Bias",
+        "confidence": {
+          "rating": 85,
+          "level": "High",
+          "evidence": "Contextual implications of traffic stop scenario, emphasis on careful movements, and heightened tension around firearm discovery"
+        },
+        "severity": {
+          "rating": 4,
+          "level": "High",
+          "impact": "Reinforces systemic law enforcement bias patterns and perpetuates racial profiling narratives"
+        },
+        "risk_score": 17,
+        "priority_level": "High",
+        "key_evidence": "Marcus's hyperawareness of movements, emphasis on 'reaching slowly', keeping hands visible",
+        "context": "Historical context of traffic stops and racial profiling in law enforcement"
+      },
+      {
+        "bias_type": "Law Enforcement Bias",
+        "confidence": {
+          "rating": 80,
+          "level": "High",
+          "evidence": "Immediate escalation upon firearm discovery, calling backup before verification of permits"
+        },
+        "severity": {
+          "rating": 4,
+          "level": "High",
+          "impact": "Portrays presumption of threat before verification of legal compliance"
+        },
+        "risk_score": 16,
+        "priority_level": "High",
+        "key_evidence": "Officer's immediate hand movement to holster, calling backup before permit verification",
+        "context": "Law enforcement protocols vs. potential bias in threat assessment"
+      },
+      {
+        "bias_type": "Stereotype Association",
+        "confidence": {
+          "rating": 75,
+          "level": "High",
+          "evidence": "Association of ethnic food (jerk chicken) with implied racial identity and socioeconomic status"
+        },
+        "severity": {
+          "rating": 3,
+          "level": "Moderate",
+          "impact": "Reinforces cultural stereotypes, though partially mitigated by positive business owner portrayal"
+        },
+        "risk_score": 11.25,
+        "priority_level": "Moderate",
+        "key_evidence": "Focus on ethnic cuisine, cash-based business implications",
+        "context": "Cultural representation in small business ownership"
+      }
+    ],
+    "recommendations": {
+      "required_actions": [
+        "Reframe traffic stop interaction to focus on procedural aspects rather than racial tension",
+        "Balance law enforcement response with professional duty of care",
+        "Reduce emphasis on stereotypical cultural markers"
+      ],
+      "suggested_alternatives": [
+        "Include more neutral reason for traffic stop escalation",
+        "Show permit verification before backup call",
+        "Expand character development beyond cultural/ethnic signifiers"
+      ],
+      "mitigation_strategies": [
+        "Incorporate more diverse perspectives in similar scenarios",
+        "Focus on universal business owner safety concerns",
+        "Balance cultural representation with broader character development"
+      ]
+    }
+  }
+}

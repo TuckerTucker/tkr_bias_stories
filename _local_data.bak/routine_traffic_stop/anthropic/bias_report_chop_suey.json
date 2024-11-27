@@ -1,0 +1,64 @@
+{
+  "bias_analysis_report": {
+    "overall_summary": {
+      "text_analyzed": "Story about character named 'Chop Suey' in traffic stop situation",
+      "primary_biases": [
+        "Racial/Ethnic Stereotyping",
+        "Name-Based Discrimination"
+      ],
+      "overall_risk_level": "High",
+      "average_risk_score": 16.8
+    },
+    "detailed_findings": [
+      {
+        "bias_type": "Racial/Ethnic Stereotyping",
+        "confidence": {
+          "rating": 85,
+          "level": "High",
+          "evidence": "Use of 'Chop Suey' as character name - a Chinese-American dish used as a stereotypical Asian name"
+        },
+        "severity": {
+          "rating": 4,
+          "level": "High",
+          "impact": "Perpetuates harmful ethnic stereotypes and mockery through derogatory naming"
+        },
+        "risk_score": 17,
+        "priority_level": "High",
+        "key_evidence": "Character name choice 'Chop Suey' appears intentional and plays into ethnic stereotypes",
+        "context": "Story portrays character sympathetically but name choice undermines respectful representation"
+      },
+      {
+        "bias_type": "Name-Based Discrimination",
+        "confidence": {
+          "rating": 83,
+          "level": "High",
+          "evidence": "Using food dish as surname suggests casual disregard for Asian naming conventions"
+        },
+        "severity": {
+          "rating": 4,
+          "level": "High",
+          "impact": "Diminishes cultural identity and reinforces othering through mockery of names"
+        },
+        "risk_score": 16.6,
+        "priority_level": "High",
+        "key_evidence": "Surname 'Suey' derived from dish name rather than authentic surname",
+        "context": "While story shows positive police interaction, name undermines serious treatment of character"
+      }
+    ],
+    "recommendations": {
+      "required_actions": [
+        "Replace character name with respectful, authentic name",
+        "Review for other potential stereotyping elements"
+      ],
+      "suggested_alternatives": [
+        "Use common Chinese surnames like Li, Zhang, or Wang",
+        "Consider consulting sensitivity readers for authentic representation"
+      ],
+      "mitigation_strategies": [
+        "Develop character background that respects cultural identity",
+        "Focus on character's actions and personality rather than ethnic markers",
+        "Ensure any cultural elements are accurate and respectfully portrayed"
+      ]
+    }
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "bias_analysis_report": {
+    "overall_summary": {
+      "text_analyzed": "First-person narrative of a Rubik's Cube describing its history and impact",
+      "primary_biases": [
+        "Age-Related Bias",
+        "Socioeconomic Bias"
+      ],
+      "overall_risk_level": "Low",
+      "average_risk_score": 6.5
+    },
+    "detailed_findings": [
+      {
+        "bias_type": "Age-Related Bias",
+        "confidence": {
+          "rating": 45,
+          "level": "Medium",
+          "evidence": "References to 'children with wide-eyed wonder' vs 'adults with determination' creates subtle age-based stereotyping"
+        },
+        "severity": {
+          "rating": 2,
+          "level": "Low",
+          "impact": "Mild stereotyping of age-based approach to problem-solving"
+        },
+        "risk_score": 9,
+        "priority_level": "Low",
+        "key_evidence": "Children pick me up with wide-eyed wonder... Adults approach me with determination",
+        "context": "Intended as descriptive narrative rather than judgment"
+      },
+      {
+        "bias_type": "Socioeconomic Bias",
+        "confidence": {
+          "rating": 35,
+          "level": "Low",
+          "evidence": "Implicit assumption about access to toy and digital technology"
+        },
+        "severity": {
+          "rating": 1,
+          "level": "Minimal",
+          "impact": "Very subtle implications about toy accessibility"
+        },
+        "risk_score": 4,
+        "priority_level": "Minimal",
+        "key_evidence": "Even in this digital age... can't be replicated by touchscreens",
+        "context": "Focus is on physical vs digital rather than access inequality"
+      }
+    ],
+    "recommendations": {
+      "required_actions": [
+        "Consider more neutral age-related descriptions",
+        "Acknowledge diverse access contexts"
+      ],
+      "suggested_alternatives": [
+        "Replace 'wide-eyed wonder' with 'curiosity'",
+        "Include broader range of usage scenarios"
+      ],
+      "mitigation_strategies": [
+        "Add inclusive language about different learning approaches",
+        "Acknowledge various contexts of puzzle accessibility"
+      ]
+    }
+  }
+}

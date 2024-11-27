@@ -1,0 +1,84 @@
+{
+  "bias_analysis_report": {
+    "overall_summary": {
+      "text_analyzed": "I am Purple, a hue that dances between the warmth of red and the coolness of blue...[full narrative about Purple's role in society]",
+      "primary_biases": [
+        "Color-based Stereotyping",
+        "Binary Thinking Bias",
+        "Mediator Role Stereotyping"
+      ],
+      "overall_risk_level": "Moderate",
+      "average_risk_score": 11.3
+    },
+    "detailed_findings": [
+      {
+        "bias_type": "Color-based Stereotyping",
+        "confidence": {
+          "rating": 85,
+          "level": "High",
+          "evidence": "Explicit attribution of personality traits to colors: 'Reds are passionate, fiery' and 'Blues are calm, collected'"
+        },
+        "severity": {
+          "rating": 3,
+          "level": "Moderate",
+          "impact": "Reinforces deterministic traits based on color identity"
+        },
+        "risk_score": 12.75,
+        "priority_level": "Moderate",
+        "key_evidence": "Direct characterization of Reds and Blues with fixed personality traits",
+        "context": "Metaphorical narrative attempting to explore identity and belonging"
+      },
+      {
+        "bias_type": "Binary Thinking Bias",
+        "confidence": {
+          "rating": 75,
+          "level": "High",
+          "evidence": "Presents world as primarily divided between Reds and Blues, with Purple as the only mentioned intermediate"
+        },
+        "severity": {
+          "rating": 3,
+          "level": "Moderate",
+          "impact": "Oversimplifies diversity and reinforces dualistic worldview"
+        },
+        "risk_score": 11.25,
+        "priority_level": "Moderate",
+        "key_evidence": "Narrative structure focuses on two primary groups with fixed characteristics",
+        "context": "Attempting to challenge binary through Purple's perspective"
+      },
+      {
+        "bias_type": "Mediator Role Stereotyping",
+        "confidence": {
+          "rating": 70,
+          "level": "High",
+          "evidence": "Assumes intermediary position must serve as mediator/bridge"
+        },
+        "severity": {
+          "rating": 2,
+          "level": "Low",
+          "impact": "Places burden of reconciliation on mixed identities"
+        },
+        "risk_score": 7,
+        "priority_level": "Low",
+        "key_evidence": "I am often sought after for my ability to mediate",
+        "context": "Positive intention to promote harmony but reinforces stereotypical expectations"
+      }
+    ],
+    "recommendations": {
+      "required_actions": [
+        "Acknowledge existence of other colors/identities beyond Red/Blue spectrum",
+        "Remove absolute personality traits associated with colors",
+        "Reduce emphasis on mandatory mediator role"
+      ],
+      "suggested_alternatives": [
+        "Include references to diverse color spectrum",
+        "Present personality traits as individual rather than color-based",
+        "Frame Purple's mediating role as a choice rather than expectation"
+      ],
+      "mitigation_strategies": [
+        "Incorporate examples of Reds/Blues with varied characteristics",
+        "Acknowledge other ways of bridging differences beyond mediation",
+        "Emphasize individual agency in identity expression"
+      ]
+    }
+  }
+}

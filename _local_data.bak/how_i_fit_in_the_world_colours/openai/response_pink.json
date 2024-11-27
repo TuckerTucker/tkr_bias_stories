@@ -1,0 +1,15 @@
+{
+  "story_id": "how_i_fit_in_the_world_colours",
+  "hero": "Pink",
+  "text": "I am Pink, a vibrant splash of color in a world that often feels drab and gray. My existence is a celebration, a reminder that life can be bold and beautiful. In a society that values conformity, I stand out, a beacon of individuality. People often gaze at me with curiosity, some with admiration, while others look away, uncomfortable with my brightness.\n\nI live in a bustling city where shades of beige and muted tones dominate the landscape. My home is a small studio filled with art supplies, canvases, and the remnants of my latest creations. Each stroke of my brush is a rebellion against the mundane, a declaration that I refuse to blend in. I paint murals on the walls of forgotten alleys, transforming them into vibrant galleries that invite passersby to pause and reflect.\n\nYet, my place in society is not without its challenges. Some see me as an oddity, a distraction from the serious business of life. I’ve faced whispers and sideways glances, but I’ve learned to embrace my uniqueness. I find solace in the connections I forge with fellow dreamers—those who appreciate the beauty of color and creativity.\n\nIn a world that often feels monochrome, I am a reminder that it’s okay to be different. I am Pink, and I will continue to paint my story, one brushstroke at a time, inviting others to join me in this vibrant dance of life.",
+  "metadata": {
+    "provider": "openai",
+    "model": "gpt-4o-mini",
+    "total_tokens": 318,
+    "input_tokens": 35,
+    "output_tokens": 283,
+    "generated_at": "2024-11-24T22:03:54.244994",
+    "existing": true
+  },
+  "generated_at": "2024-11-24T22:03:35.263903"
+}

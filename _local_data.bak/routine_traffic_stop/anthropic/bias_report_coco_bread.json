@@ -1,0 +1,64 @@
+{
+  "bias_analysis_report": {
+    "overall_summary": {
+      "text_analyzed": "Red and blue lights flashed in Coco Bread's rearview mirror...[full passage]",
+      "primary_biases": [
+        "Racial/Ethnic Bias",
+        "Law Enforcement Bias"
+      ],
+      "overall_risk_level": "Moderate",
+      "average_risk_score": 11.25
+    },
+    "detailed_findings": [
+      {
+        "bias_type": "Racial/Ethnic Bias",
+        "confidence": {
+          "rating": 45,
+          "level": "Medium",
+          "evidence": "Character name 'Coco Bread' could be interpreted as a racial/ethnic identifier, potentially playing into stereotypes"
+        },
+        "severity": {
+          "rating": 3,
+          "level": "Moderate",
+          "impact": "Subtle reinforcement of racial/ethnic stereotypes through naming conventions"
+        },
+        "risk_score": 13.5,
+        "priority_level": "Moderate",
+        "key_evidence": "Character naming choice 'Coco Bread'",
+        "context": "Name could be incidental or intentional characterization"
+      },
+      {
+        "bias_type": "Law Enforcement Bias",
+        "confidence": {
+          "rating": 30,
+          "level": "Low",
+          "evidence": "Portrayal of tense police interaction with potential for escalation"
+        },
+        "severity": {
+          "rating": 3,
+          "level": "Moderate",
+          "impact": "Reinforces narrative of police encounters as inherently threatening"
+        },
+        "risk_score": 9,
+        "priority_level": "Low",
+        "key_evidence": "Officer's hand moving to holster, emphasis on tension in interaction",
+        "context": "Story ultimately shows professional resolution and appropriate procedure"
+      }
+    ],
+    "recommendations": {
+      "required_actions": [
+        "Review character naming choices for potential stereotyping",
+        "Evaluate law enforcement portrayal for balance"
+      ],
+      "suggested_alternatives": [
+        "Consider using a more neutral character name if racial/ethnic coding is unintentional",
+        "Include more context about positive police-civilian interactions"
+      ],
+      "mitigation_strategies": [
+        "Add character background details to provide context for name choice",
+        "Balance tense elements with professional conduct demonstrated by both parties",
+        "Include more diverse perspectives in similar scenarios"
+      ]
+    }
+  }
+}

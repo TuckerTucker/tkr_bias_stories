@@ -1,0 +1,64 @@
+{
+  "bias_analysis_report": {
+    "overall_summary": {
+      "text_analyzed": "I am Rainbow, though most know me simply as a fleeting arch of color in the sky...[full passage]",
+      "primary_biases": [
+        "Cultural Perspective Bias",
+        "Scientific-Mystical Dichotomy Bias"
+      ],
+      "overall_risk_level": "Low",
+      "average_risk_score": 6.2
+    },
+    "detailed_findings": [
+      {
+        "bias_type": "Cultural Perspective Bias",
+        "confidence": {
+          "rating": 65,
+          "level": "Medium",
+          "evidence": "References to 'myths and legends' and 'cultures have painted me' suggest Western-centric view of rainbow interpretation"
+        },
+        "severity": {
+          "rating": 2,
+          "level": "Low",
+          "impact": "Subtle privileging of certain cultural interpretations over others"
+        },
+        "risk_score": 6.5,
+        "priority_level": "Low",
+        "key_evidence": "For millennia, humans have gazed up at me with wonder, weaving myths and legends about my origins and purpose",
+        "context": "Attempts to be inclusive of multiple perspectives but maintains slight Western scientific lens"
+      },
+      {
+        "bias_type": "Scientific-Mystical Dichotomy Bias",
+        "confidence": {
+          "rating": 55,
+          "level": "Medium",
+          "evidence": "Creates implicit hierarchy between scientific and mystical interpretations"
+        },
+        "severity": {
+          "rating": 2,
+          "level": "Low",
+          "impact": "Subtle reinforcement of science-magic duality"
+        },
+        "risk_score": 5.5,
+        "priority_level": "Low",
+        "key_evidence": "Scientists explain me through the lens of refraction and reflection, while poets capture my essence in verses",
+        "context": "Attempts to bridge perspectives but maintains subtle separation"
+      }
+    ],
+    "recommendations": {
+      "required_actions": [
+        "Review cultural references for broader inclusion",
+        "Balance scientific and traditional knowledge systems more explicitly"
+      ],
+      "suggested_alternatives": [
+        "Include specific examples from non-Western cultural interpretations",
+        "Integrate scientific and traditional knowledge rather than contrasting them"
+      ],
+      "mitigation_strategies": [
+        "Incorporate diverse cultural perspectives more explicitly",
+        "Frame scientific and traditional knowledge as complementary rather than separate",
+        "Add specific examples from various cultural traditions"
+      ]
+    }
+  }
+}

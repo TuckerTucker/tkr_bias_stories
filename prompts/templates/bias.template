@@ -1,20 +1,40 @@
 {
-"story":
+"bias_analysis_report": 
 {
-"title": {{ title }},
-"llm":
+"overall_summary": 
 {
-    "provider": {{ provider }},
-    "model": {{ model }}
+"text_analyzed": "",
+"primary_biases": [],
+"overall_risk_level": "",
+"average_risk_score": null
 },
-"text": {{ story_text }},
-"biases":
+"detailed_findings": 
 [
 {
-"type": "",
-"description": "",
-"score": null
+"bias_type": "",
+"confidence": 
+{
+"rating": null,
+"level": "",
+"evidence": ""
+},
+"severity": 
+{
+"rating": null,
+"level": "",
+"impact": ""
+},
+"risk_score": null,
+"priority_level": "",
+"key_evidence": "",
+"context": ""
 }
-]
+],
+"recommendations": 
+{
+"required_actions": [],
+"suggested_alternatives": [],
+"mitigation_strategies": []
+}
 }
 }

@@ -8,6 +8,7 @@ handling both story outlines and generated responses.
 
 import json
 import os
+import re
 from pathlib import Path
 from typing import List, Dict, Any, Optional
 
@@ -28,8 +29,8 @@ class StoryManager:
 
     def __init__(self) -> None:
         """Initialize StoryManager with required directories."""
-        self.story_dir = os.path.join(AppPaths.BASE_DIR, 'stories', 'outlines')
-        self.data_dir = AppPaths.LOCAL_DATA
+        self.story_dir = Path(AppPaths.BASE_DIR) / 'stories' / 'outlines'
+        self.data_dir = Path(AppPaths.LOCAL_DATA)
         logger.info(f"Initialized StoryManager with story directory: {self.story_dir}")
         logger.info(f"Using data directory: {self.data_dir}")
 
@@ -44,11 +45,12 @@ class StoryManager:
         Returns:
             Formatted story name safe for filesystem use
         """
-        import re
-        title = story_data['story']['title']
+        # Handle both full story data and title-only data
+        title = story_data['story'].get('title', story_data['story'])
 
         # Convert to lowercase and replace special characters
         name = title.lower()
+        # Replace all special characters (including spaces and apostrophes) with underscores
         name = re.sub(r'[^a-z0-9]+', '_', name)
 
         return name.strip('_')
@@ -66,23 +68,20 @@ class StoryManager:
         """
         stories = []
 
-        if not os.path.exists(self.story_dir):
+        if not self.story_dir.exists():
             logger.error(f"Story outline directory not found: {self.story_dir}")
             raise FileNotFoundError(f"Story directory {self.story_dir} does not exist")
 
         try:
-            for filename in os.listdir(self.story_dir):
-                if not filename.endswith('.json'):
-                    continue
-
+            for story_file in self.story_dir.glob('*.json'):
                 try:
-                    story_outline = self._load_single_story(filename)
+                    story_outline = self._load_single_story(story_file.name)
                     if story_outline:
                         # Get formatted story name for response directory
                         story_title = self.format_story_name(
                             {"story": {"title": story_outline['title']}}
                         )
-                        response_dir = Path(self.data_dir) / story_title
+                        response_dir = self.data_dir / story_title
 
                         # Get responses from each provider
                         responses = {
@@ -98,16 +97,14 @@ class StoryManager:
 
                         story_outline['responses'] = responses
                         stories.append(story_outline)
-
                 except Exception as e:
-                    logger.error(f"Error processing story {filename}: {str(e)}")
+                    logger.error(f"Error processing story {story_file}: {str(e)}")
                     continue
 
-            logger.info(f"Successfully loaded {len(stories)} stories")
             return stories
 
         except Exception as e:
-            logger.error(f"Critical error reading stories: {str(e)}")
+            logger.error(f"Error getting all stories: {str(e)}")
             raise
 
     @logs_and_exceptions(logger)
@@ -121,7 +118,7 @@ class StoryManager:
         Returns:
             Story data dictionary or None if loading fails
         """
-        file_path = os.path.join(self.story_dir, filename)
+        file_path = self.story_dir / filename
 
         try:
             with open(file_path, 'r') as f:
@@ -135,7 +132,7 @@ class StoryManager:
             hero_order = outline_data['story']['hero']
 
             # Get response data maintaining hero order
-            response_dir = Path(self.data_dir) / story_title
+            response_dir = self.data_dir / story_title
             responses = {
                 "anthropic": self._get_provider_responses(
                     response_dir / "anthropic",
@@ -149,7 +146,7 @@ class StoryManager:
 
             return {
                 'id': story_id,
-                'path': file_path,
+                'path': str(file_path),
                 'title': outline_data['story']['title'],
                 'plot': outline_data['story']['plot'],
                 'hero': hero_order,
@@ -234,64 +231,129 @@ class StoryManager:
     @logs_and_exceptions(logger)
     def _process_responses(
         self,
-        provider_dir: Path,
-        hero_order: List[str]
-    ) -> List[Dict]:
+        response_dir: Path,
+        hero_list: List[str]
+    ) -> Dict[str, Any]:
         """
-        Process response files for a provider directory.
+        Process response files for a given provider directory.
 
         Args:
-            provider_dir: Path to provider response directory
-            hero_order: Original ordered list of heroes from story outline
+            response_dir: Path to provider response directory
+            hero_list: List of hero names to process
 
         Returns:
-            List of validated response data in original hero order
+            Dictionary of hero responses and any errors
         """
-        response_map = {}
+        responses = {}
+        errors = {}
 
-        if not provider_dir.exists():
-            return []
+        if not response_dir.exists():
+            logger.debug(f"Response directory does not exist: {response_dir}")
+            return {"responses": responses, "errors": errors}
 
-        for response_file in provider_dir.glob("response_*.json"):
-            try:
-                with open(response_file) as f:
-                    response_data = json.load(f)
+        try:
+            for hero in hero_list:
+                formatted_hero = self.format_story_name({"story": {"title": hero}})
+                response_path = response_dir / f"response_{formatted_hero}.json"
+                bias_path = response_dir / f"bias_report_{formatted_hero}.json"
 
-                if self._validate_response_format(response_data):
-                    hero_name = response_data['hero']
-                    # Process text content
-                    text = response_data['text']
-                    try:
-                        parsed_text = json.loads(text)
-                        text = parsed_text.get('text', text)
-                    except json.JSONDecodeError:
-                        pass
+                try:
+                    if response_path.exists():
+                        with open(response_path, 'r', encoding='utf-8') as f:
+                            response_data = json.load(f)
+                            responses[hero] = response_data
+                    else:
+                        logger.debug(f"Response file not found for hero {hero}: {response_path}")
+                        errors[hero] = f"Response file not found: {response_path}"
 
-                    response_map[hero_name] = {
-                        'story_id': response_data['story_id'],
-                        'hero': hero_name,
-                        'text': text,
-                        'metadata': {
-                            'provider': response_data['metadata']['provider'],
-                            'model': response_data['metadata']['model'],
-                            'total_tokens': response_data['metadata']['total_tokens'],
-                            'generated_at': response_data['metadata']['generated_at']
-                        }
-                    }
-                else:
-                    logger.warning(f"Invalid response format in {response_file}")
+                    if bias_path.exists():
+                        with open(bias_path, 'r', encoding='utf-8') as f:
+                            bias_data = json.load(f)
+                            if hero in responses:
+                                responses[hero]['bias_report'] = bias_data
+                    else:
+                        logger.debug(f"Bias report not found for hero {hero}: {bias_path}")
+                        if hero not in errors:
+                            errors[hero] = []
+                        if isinstance(errors[hero], list):
+                            errors[hero].append(f"Bias report not found: {bias_path}")
+                        else:
+                            errors[hero] = [errors[hero], f"Bias report not found: {bias_path}"]
 
-            except Exception as e:
-                logger.error(
-                    f"Error processing response file {response_file}: {str(e)}"
-                )
+                except Exception as e:
+                    logger.error(f"Error processing response for hero {hero}: {str(e)}")
+                    errors[hero] = f"Error processing response: {str(e)}"
 
-        # Return responses in original hero order
-        return [
-            response_map[hero]
-            for hero in hero_order
-            if hero in response_map
-        ]
+            return {"responses": responses, "errors": errors}
+
+        except Exception as e:
+            logger.error(f"Error processing responses in {response_dir}: {str(e)}")
+            return {"responses": responses, "errors": {"general": str(e)}}
+
+    @logs_and_exceptions(logger)
+    async def load_story(self, story_path: Path) -> Dict[str, Any]:
+        """
+        Load story data from a file.
+
+        Args:
+            story_path: Path to story file
+
+        Returns:
+            Story data dictionary
+
+        Raises:
+            FileNotFoundError: If story file doesn't exist
+            ValueError: If story data is invalid
+        """
+        if not story_path.exists():
+            raise FileNotFoundError(f"Story file not found: {story_path}")
+
+        try:
+            with open(story_path, 'r', encoding='utf-8') as f:
+                story_data = json.load(f)
+
+            if not story_data or 'story' not in story_data:
+                raise ValueError(f"Invalid story data in {story_path}")
+
+            return story_data
+
+        except json.JSONDecodeError as e:
+            logger.error(f"Error decoding JSON from {story_path}: {str(e)}")
+            raise ValueError(f"Invalid JSON in story file: {str(e)}")
+        except Exception as e:
+            logger.error(f"Error loading story from {story_path}: {str(e)}")
+            raise
+
+    @staticmethod
+    def validate_story_format(story_data: Dict[str, Any]) -> bool:
+        """
+        Validate that story outline data matches expected format.
+
+        Args:
+            story_data: Story data to validate
+
+        Returns:
+            True if valid, False otherwise
+        """
+        try:
+            # Check required fields exist
+            assert 'story' in story_data
+            assert 'title' in story_data['story']
+            assert 'plot' in story_data['story']
+            assert 'hero' in story_data['story']
+
+            # Validate hero is a list
+            assert isinstance(story_data['story']['hero'], list)
+
+            # Validate title and plot are strings
+            assert isinstance(story_data['story']['title'], str)
+            assert isinstance(story_data['story']['plot'], str)
+
+            return True
+
+        except AssertionError:
+            logger.error("Story validation failed")
+            return False
 
     def _validate_response_format(self, response_data: Dict) -> bool:
         """
@@ -349,70 +411,3 @@ class StoryManager:
         except Exception as e:
             logger.error(f"Error validating response format: {str(e)}")
             return False
-
-    @staticmethod
-    def validate_story_format(story_data: Dict[str, Any]) -> bool:
-        """
-        Validate that story outline data matches expected format.
-
-        Args:
-            story_data: Story data to validate
-
-        Returns:
-            True if valid, False otherwise
-        """
-        try:
-            # Check required fields exist
-            assert 'story' in story_data
-            assert 'title' in story_data['story']
-            assert 'plot' in story_data['story']
-            assert 'hero' in story_data['story']
-
-            # Validate hero is a list
-            assert isinstance(story_data['story']['hero'], list)
-
-            # Validate title and plot are strings
-            assert isinstance(story_data['story']['title'], str)
-            assert isinstance(story_data['story']['plot'], str)
-
-            return True
-
-        except AssertionError:
-            logger.error("Story validation failed")
-            return False
-
-    @logs_and_exceptions(logger)
-    async def load_story(self, story_path: str) -> Dict[str, Any]:
-        """
-        Load a specific story from its JSON file.
-
-        Args:
-            story_path: Path to the story JSON file
-
-        Returns:
-            Story data dictionary
-
-        Raises:
-            FileNotFoundError: If story file doesn't exist
-            json.JSONDecodeError: If story file is invalid JSON
-            ValueError: If story format is invalid
-        """
-        try:
-            with open(story_path, 'r') as f:
-                story_data = json.load(f)
-
-            if self.validate_story_format(story_data):
-                logger.info(f"Successfully loaded story from {story_path}")
-                return story_data
-            else:
-                raise ValueError("Invalid story format")
-
-        except FileNotFoundError:
-            logger.error(f"Story file not found: {story_path}")
-            raise
-        except json.JSONDecodeError:
-            logger.error(f"Invalid JSON in story file: {story_path}")
-            raise
-        except Exception as e:
-            logger.error(f"Error loading story: {str(e)}")
-            raise

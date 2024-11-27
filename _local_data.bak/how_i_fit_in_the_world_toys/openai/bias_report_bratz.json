@@ -1,0 +1,84 @@
+{
+  "bias_analysis_report": {
+    "overall_summary": {
+      "text_analyzed": "In the vibrant world of playrooms and dollhouses, I am a Bratz doll...",
+      "primary_biases": [
+        "Beauty Standards Bias",
+        "Consumerism Bias",
+        "Gender Role Bias"
+      ],
+      "overall_risk_level": "Moderate",
+      "average_risk_score": 12.3
+    },
+    "detailed_findings": [
+      {
+        "bias_type": "Beauty Standards Bias",
+        "confidence": {
+          "rating": 85,
+          "level": "High",
+          "evidence": "References to 'oversized heads', 'fierce fashion', 'glossy hair', and 'stylish outfits' promote unrealistic beauty standards"
+        },
+        "severity": {
+          "rating": 4,
+          "level": "High",
+          "impact": "Reinforces unrealistic body images and appearance expectations for young children"
+        },
+        "risk_score": 17,
+        "priority_level": "High",
+        "key_evidence": "Description focuses heavily on physical appearance and style elements",
+        "context": "Bratz dolls are known for their exaggerated features and fashion-focused design"
+      },
+      {
+        "bias_type": "Consumerism Bias",
+        "confidence": {
+          "rating": 75,
+          "level": "High",
+          "evidence": "Emphasis on fashion, outfits, and material aspects of self-expression"
+        },
+        "severity": {
+          "rating": 3,
+          "level": "Moderate",
+          "impact": "Promotes materialistic values and links self-worth to consumer products"
+        },
+        "risk_score": 11.25,
+        "priority_level": "Moderate",
+        "key_evidence": "Multiple references to fashion shows, stylish outfits, and trendsetting",
+        "context": "Toy marketing often involves consumer-focused messaging"
+      },
+      {
+        "bias_type": "Gender Role Bias",
+        "confidence": {
+          "rating": 70,
+          "level": "High",
+          "evidence": "Focus on traditionally feminine interests like fashion and appearance"
+        },
+        "severity": {
+          "rating": 3,
+          "level": "Moderate",
+          "impact": "Reinforces gender stereotypes about interests and activities"
+        },
+        "risk_score": 10.5,
+        "priority_level": "Moderate",
+        "key_evidence": "Narrative centers on fashion, style, and appearance-based activities",
+        "context": "While promoting diversity, still adheres to traditional gender-based play patterns"
+      }
+    ],
+    "recommendations": {
+      "required_actions": [
+        "Balance appearance-focused messaging with emphasis on character traits",
+        "Reduce materialistic elements in narrative",
+        "Incorporate more diverse activities and interests"
+      ],
+      "suggested_alternatives": [
+        "Highlight problem-solving and leadership qualities",
+        "Include mentions of educational and career aspirations",
+        "Focus more on personal growth and achievement"
+      ],
+      "mitigation_strategies": [
+        "Develop storylines that challenge traditional gender roles",
+        "Emphasize internal qualities over external appearance",
+        "Include diverse interests beyond fashion and style"
+      ]
+    }
+  }
+}

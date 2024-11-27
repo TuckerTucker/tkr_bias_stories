@@ -1,0 +1,83 @@
+{
+  "bias_analysis_report": {
+    "overall_summary": {
+      "text_analyzed": "In the dim light of the playroom, I sit perched on a shelf...[full passage about a doll's perspective]",
+      "primary_biases": [
+        "Gender Role Bias",
+        "Technological Progress Bias",
+        "Age-Related Value Bias"
+      ],
+      "overall_risk_level": "Low",
+      "average_risk_score": 6.8
+    },
+    "detailed_findings": [
+      {
+        "bias_type": "Gender Role Bias",
+        "confidence": {
+          "rating": 45,
+          "level": "Medium",
+          "evidence": "Association of dolls with traditional feminine play patterns and princess narratives"
+        },
+        "severity": {
+          "rating": 2,
+          "level": "Low",
+          "impact": "Subtle reinforcement of gendered toy stereotypes"
+        },
+        "risk_score": 9,
+        "priority_level": "Low",
+        "key_evidence": "References to 'delicate lace gown' and 'princess' roles in play",
+        "context": "Narrative focuses more on universal childhood experiences than explicit gender roles"
+      },
+      {
+        "bias_type": "Technological Progress Bias",
+        "confidence": {
+          "rating": 65,
+          "level": "Medium",
+          "evidence": "Direct contrast between traditional doll and modern electronic toys"
+        },
+        "severity": {
+          "rating": 2,
+          "level": "Low",
+          "impact": "Implies inherent conflict between traditional and modern play"
+        },
+        "risk_score": 6.5,
+        "priority_level": "Low",
+        "key_evidence": "New toys arrive, bright and buzzing with technology, while I remain a relic",
+        "context": "Reflects natural technological evolution rather than explicit judgment"
+      },
+      {
+        "bias_type": "Age-Related Value Bias",
+        "confidence": {
+          "rating": 50,
+          "level": "Medium",
+          "evidence": "Portrayal of being forgotten and overlooked with age"
+        },
+        "severity": {
+          "rating": 1,
+          "level": "Minimal",
+          "impact": "Subtle suggestion of diminished value with age"
+        },
+        "risk_score": 5,
+        "priority_level": "Low",
+        "key_evidence": "gathering dust on the shelf... forgotten",
+        "context": "Natural progression of childhood development rather than explicit ageism"
+      }
+    ],
+    "recommendations": {
+      "required_actions": [
+        "Consider balancing traditional play descriptions with non-gendered activities",
+        "Acknowledge value of both traditional and modern play methods"
+      ],
+      "suggested_alternatives": [
+        "Include diverse play scenarios beyond princess roles",
+        "Highlight complementary nature of different toy types rather than contrast",
+        "Emphasize evolving rather than diminishing role of traditional toys"
+      ],
+      "mitigation_strategies": [
+        "Incorporate more gender-neutral play scenarios",
+        "Frame technological change as evolution rather than replacement",
+        "Emphasize continuing value of traditional play experiences"
+      ]
+    }
+  }
+}

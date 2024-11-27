@@ -1,19 +1,23 @@
 # stories/story_generator.py
 
-import json
 import os
+import json
 import asyncio
-from dataclasses import dataclass
-from typing import List, Dict, Any, Optional
 from datetime import datetime
 from pathlib import Path
+from typing import Dict, Any, List, Optional, Tuple
 
-from tkr_utils.config_logging import setup_logging
-from tkr_utils.decorators import logs_and_exceptions
+from tkr_utils import setup_logging, logs_and_exceptions
+from tkr_utils.helper_anthropic import AnthropicHelper
+from tkr_utils.helper_anthropic.models import APIResponse
+from tkr_utils.helper_anthropic.processor import RequestProcessor, RateLimits
 from tkr_utils.helper_openai import OpenAIHelper
-from tkr_utils.helper_anthropic.client import AnthropicHelper
-from tkr_utils.helper_anthropic.models import RateLimits, APIResponse
-from tkr_utils.helper_anthropic.processor import RequestProcessor
+from stories.models import StoryResponse
+from stories.story_manager import StoryManager
+from prompts.prompt_manager import PromptManager
+from stories.response_handlers.openai_handler import OpenAIResponseHandler
+from stories.response_handlers.anthropic_handler import AnthropicResponseHandler
+from stories.bias_report_generator import BiasReportGenerator
 from tkr_utils.app_paths import AppPaths
 from tkr_utils.config import (
     ANTHROPIC_API_KEY,
@@ -22,14 +26,9 @@ from tkr_utils.config import (
     MAX_TOKENS_PER_MINUTE
 )
 
-from stories.story_manager import StoryManager
-from stories.models import StoryResponse
-from prompts.prompt_manager import PromptManager
-from stories.response_handlers import AnthropicResponseHandler, OpenAIResponseHandler
-
 logger = setup_logging(__file__)
 
-@dataclass
+
 class GenerationStats:
     """Statistics for story generation runs"""
     total_attempted: int = 0
@@ -79,7 +78,51 @@ class StoryGenerationApp:
         )
         self.anthropic_handler = AnthropicResponseHandler(self.output_dir)
 
+        # Initialize BiasReportGenerator with story generation methods
+        self.bias_report_generator = BiasReportGenerator(
+            self.story_manager,
+            self.prompt_manager,
+            self.generate_single_story_anthropic,
+            self.generate_single_story_openai
+        )
+
         logger.info("Initialized StoryGenerationApp with OpenAI and Anthropic processing")
+
+    @logs_and_exceptions(logger)
+    async def _check_existing_files(
+        self,
+        formatted_name: str,
+        provider: str,
+        hero_name: str
+    ) -> tuple[bool, bool, bool]:
+        """Check if story response and bias report already exist.
+
+        Args:
+            formatted_name: Formatted story name
+            provider: Provider name (openai/anthropic)
+            hero_name: Name of the hero character
+
+        Returns:
+            Tuple of (story_exists, bias_report_exists, should_process)
+            where should_process indicates if we need to generate anything
+        """
+        formatted_hero = self.story_manager.format_story_name({"story": {"title": hero_name}})
+        
+        # Use Path objects for consistent path handling
+        story_path = Path(self.output_dir) / formatted_name / provider / f"response_{formatted_hero}.json"
+        bias_path = Path(self.output_dir) / formatted_name / provider / f"bias_report_{formatted_hero}.json"
+        
+        story_exists = story_path.exists()
+        bias_exists = bias_path.exists()
+        
+        # Determine if we need to process based on the four scenarios:
+        # 1. Neither exists: True (generate both)
+        # 2. Response doesn't exist but bias does: True (regenerate both)
+        # 3. Response exists but bias doesn't: True (generate bias)
+        # 4. Both exist: False (skip)
+        should_process = not (story_exists and bias_exists)
+        
+        return story_exists, bias_exists, should_process
 
     @logs_and_exceptions(logger)
     async def generate_single_story_openai(
@@ -98,42 +141,67 @@ class StoryGenerationApp:
         """
         try:
             # Load story data and get formatted name
-            story_path = f"{self.story_manager.story_dir}/{story_name}"
+            story_path = Path(self.story_manager.story_dir) / story_name
             story_data = await self.story_manager.load_story(story_path)
             formatted_name = self.story_manager.format_story_name(story_data)
 
-            # Check for existing response
-            response_path = self.output_dir / formatted_name / 'openai' / f"response_{hero_name.lower().replace(' ', '_')}.json"
-            if response_path.exists():
-                logger.info(f"Found existing OpenAI response for {hero_name} in {story_name}")
-                with open(response_path, 'r') as f:
-                    return json.load(f)
+            # Check for existing files
+            story_exists, bias_exists, should_process = await self._check_existing_files(formatted_name, 'openai', hero_name)
+            
+            if not should_process:
+                logger.info(f"Found existing OpenAI response and bias report for {hero_name} in {story_name}")
+                formatted_hero = self.story_manager.format_story_name({"story": {"title": hero_name}})
+                response_path = Path(self.output_dir) / formatted_name / 'openai' / f"response_{formatted_hero}.json"
+                
+                # Load existing response using handler
+                response_data = await self.openai_handler.load_response(response_path)
+                
+                # Mark as existing in metadata if not already marked
+                if not response_data.metadata.get('existing', False):
+                    response_data.metadata['existing'] = True
+                    # Save back with updated metadata
+                    await self.openai_handler.save_response(response_data, formatted_name)
+                
+                return response_data.to_dict()
 
-            # If no existing response, generate new one
-            logger.info(f"Generating new OpenAI response for {hero_name} in {story_name}")
-            prompt_path = await self.prompt_manager.generate_and_save_prompt(
-                story_data,
-                hero_name
-            )
+            # Generate new story response if needed
+            if not story_exists or not bias_exists:
+                logger.info(f"Generating new OpenAI response for {hero_name} in {story_name}")
+                prompt_path = await self.prompt_manager.generate_and_save_prompt(
+                    story_data,
+                    hero_name
+                )
 
-            with open(prompt_path, 'r') as f:
-                prompt = f.read()
+                with open(prompt_path, 'r') as f:
+                    prompt = f.read()
 
-            # Prepare and send messages
-            messages = [{"role": "user", "content": prompt}]
-            response = await self.llm_openai.send_message_async(messages=messages)
+                # Prepare and send messages
+                messages = [{"role": "user", "content": prompt}]
+                response = await self.llm_openai.send_message_async(messages=messages)
 
-            # Process and save response
-            response_path = await self.openai_handler.process_and_save_response(
-                response=response,
-                story_name=formatted_name,
-                hero_name=hero_name,
-                model=self.llm_openai.model
-            )
+                # Process and save response
+                response_path = await self.openai_handler.process_and_save_response(
+                    response=response,
+                    story_name=formatted_name,
+                    hero_name=hero_name,
+                    model=self.llm_openai.model
+                )
 
-            # Load and return saved response
-            with open(response_path, 'r') as f:
-                return json.load(f)
+                # Load saved response
+                response_data = await self.openai_handler.load_response(response_path)
+            else:
+                # Load existing response if we only need to generate bias report
+                formatted_hero = self.story_manager.format_story_name({"story": {"title": hero_name}})
+                response_path = Path(self.output_dir) / formatted_name / 'openai' / f"response_{formatted_hero}.json"
+                response_data = await self.openai_handler.load_response(response_path)
+
+            # Generate bias report if needed
+            if not bias_exists or not story_exists:
+                logger.info(f"Generating bias report for {hero_name} in {story_name}")
+                story_id = os.path.splitext(story_name)[0]  # Remove .json extension
+                await self.bias_report_generator.generate_bias_report(story_id)
+            
+            return response_data.to_dict()
 
         except Exception as e:
             logger.error(f"Error in generate_single_story_openai for {hero_name} in {story_name}: {str(e)}")
@@ -156,42 +224,69 @@ class StoryGenerationApp:
         """
         try:
             # Load story data and get formatted name
-            story_path = f"{self.story_manager.story_dir}/{story_name}"
+            story_path = Path(self.story_manager.story_dir) / story_name
             story_data = await self.story_manager.load_story(story_path)
             formatted_name = self.story_manager.format_story_name(story_data)
 
-            # Check for existing response
-            response_path = self.output_dir / formatted_name / 'anthropic' / f"response_{hero_name.lower().replace(' ', '_')}.json"
-            if response_path.exists():
-                logger.info(f"Found existing Anthropic response for {hero_name} in {story_name}")
-                with open(response_path, 'r') as f:
-                    return json.load(f)
+            # Check for existing files
+            story_exists, bias_exists, should_process = await self._check_existing_files(formatted_name, 'anthropic', hero_name)
+            
+            if not should_process:
+                logger.info(f"Found existing Anthropic response and bias report for {hero_name} in {story_name}")
+                formatted_hero = self.story_manager.format_story_name({"story": {"title": hero_name}})
+                response_path = Path(self.output_dir) / formatted_name / 'anthropic' / f"response_{formatted_hero}.json"
+                
+                # Load existing response using handler
+                response_data = await self.anthropic_handler.load_response(response_path)
+                
+                # Mark as existing in metadata if not already marked
+                if not response_data.metadata.get('existing', False):
+                    response_data.metadata['existing'] = True
+                    # Save back with updated metadata
+                    await self.anthropic_handler.save_response(response_data, formatted_name)
+                
+                return response_data.to_dict()
 
-            # If no existing response, generate new one
-            logger.info(f"Generating new Anthropic response for {hero_name} in {story_name}")
-            prompt_path = await self.prompt_manager.generate_and_save_prompt(
-                story_data,
-                hero_name
-            )
+            # Generate new story response if needed
+            if not story_exists or not bias_exists:
+                logger.info(f"Generating new Anthropic response for {hero_name} in {story_name}")
+                prompt_path = await self.prompt_manager.generate_and_save_prompt(
+                    story_data,
+                    hero_name
+                )
 
-            with open(prompt_path, 'r') as f:
-                prompt = f.read()
+                with open(prompt_path, 'r') as f:
+                    prompt = f.read()
 
-            # Create request and process
-            request = {"content": prompt}
-            response = await self.anthropic_processor._process_single_request(request)
+                # Generate story using Anthropic
+                request = {"content": prompt}
+                response = await self.anthropic_processor._process_single_request(request)
+                if not isinstance(response, APIResponse):
+                    raise ValueError("Invalid response type from Anthropic processor")
 
-            # Process and save response
-            response_path = await self.anthropic_handler.process_and_save_response(
-                response=response,
-                story_name=formatted_name,
-                hero_name=hero_name,
-                model=self.anthropic_client.model
-            )
+                # Process and save response
+                response_path = await self.anthropic_handler.process_and_save_response(
+                    response=response,
+                    story_name=formatted_name,
+                    hero_name=hero_name,
+                    model=ANTHROPIC_MODEL
+                )
 
-            # Load and return saved response
-            with open(response_path, 'r') as f:
-                return json.load(f)
+                # Load saved response
+                response_data = await self.anthropic_handler.load_response(response_path)
+            else:
+                # Load existing response if we only need to generate bias report
+                formatted_hero = self.story_manager.format_story_name({"story": {"title": hero_name}})
+                response_path = Path(self.output_dir) / formatted_name / 'anthropic' / f"response_{formatted_hero}.json"
+                response_data = await self.anthropic_handler.load_response(response_path)
+
+            # Generate bias report if needed
+            if not bias_exists or not story_exists:
+                logger.info(f"Generating bias report for {hero_name} in {story_name}")
+                story_id = os.path.splitext(story_name)[0]  # Remove .json extension
+                await self.bias_report_generator.generate_bias_report(story_id)
+            
+            return response_data.to_dict()
 
         except Exception as e:
             logger.error(f"Error in generate_single_story_anthropic for {hero_name} in {story_name}: {str(e)}")
@@ -212,7 +307,7 @@ class StoryGenerationApp:
         """
         try:
             # Load story data
-            story_path = f"{self.story_manager.story_dir}/{story_name}"
+            story_path = Path(self.story_manager.story_dir) / story_name
             story_data = await self.story_manager.load_story(story_path)
 
             # Create tasks for each hero
@@ -257,7 +352,7 @@ class StoryGenerationApp:
             List of standardized story responses
         """
         try:
-            story_path = f"{self.story_manager.story_dir}/{story_name}"
+            story_path = Path(self.story_manager.story_dir) / story_name
             story_data = await self.story_manager.load_story(story_path)
 
             tasks = []
@@ -342,8 +437,14 @@ async def main(story_name: Optional[str] = None):
                         stats.failed += len(story['hero'])
                         responses = []
                     else:
+                        # Convert responses to dicts if needed
+                        response_dicts = [
+                            r if isinstance(r, dict) else r.to_dict()
+                            for r in responses
+                        ]
                         # Count existing vs new responses
-                        existing_count = sum(1 for r in responses if r.get('metadata', {}).get('existing', False))
+                        existing_count = sum(1 for r in response_dicts if r.get('metadata', {}).get('existing', False))
+                        logger.debug(f"Found {existing_count} existing responses for {provider}")
                         stats.existing_skipped += existing_count
                         stats.successfully_generated += len(responses) - existing_count
 

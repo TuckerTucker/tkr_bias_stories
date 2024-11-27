@@ -1,0 +1,84 @@
+{
+  "bias_analysis_report": {
+    "overall_summary": {
+      "text_analyzed": "First-person narrative from a doll's perspective on a store shelf, reflecting on changing times and roles",
+      "primary_biases": [
+        "Gender Role Bias",
+        "Age-Related Technology Bias",
+        "Traditional Play Bias"
+      ],
+      "overall_risk_level": "Moderate",
+      "average_risk_score": 12.3
+    },
+    "detailed_findings": [
+      {
+        "bias_type": "Gender Role Bias",
+        "confidence": {
+          "rating": 85,
+          "level": "High",
+          "evidence": "Explicit association of dolls with 'little girls', tea parties, and nurturing activities"
+        },
+        "severity": {
+          "rating": 4,
+          "level": "High",
+          "impact": "Reinforces traditional gender roles and stereotypes about appropriate play patterns for girls"
+        },
+        "risk_score": 17,
+        "priority_level": "High",
+        "key_evidence": "We were teachers of nurture... My kind used to be the confidants of little girls",
+        "context": "Historical perspective of traditional doll play patterns"
+      },
+      {
+        "bias_type": "Age-Related Technology Bias",
+        "confidence": {
+          "rating": 75,
+          "level": "High",
+          "evidence": "Direct criticism of modern digital entertainment and implied superiority of traditional toys"
+        },
+        "severity": {
+          "rating": 2,
+          "level": "Low",
+          "impact": "Creates false dichotomy between traditional and modern play patterns"
+        },
+        "risk_score": 7.5,
+        "priority_level": "Low",
+        "key_evidence": "Now, in an age of screens and digital entertainment... The plastic action figures and electronic gadgets may be flashier",
+        "context": "Reflection on changing play patterns over time"
+      },
+      {
+        "bias_type": "Traditional Play Bias",
+        "confidence": {
+          "rating": 80,
+          "level": "High",
+          "evidence": "Implies superiority of traditional play methods and devalues modern play patterns"
+        },
+        "severity": {
+          "rating": 3,
+          "level": "Moderate",
+          "impact": "May discourage acceptance of diverse play patterns and toy preferences"
+        },
+        "risk_score": 12,
+        "priority_level": "Moderate",
+        "key_evidence": "They'll never know the joy of being passed down through generations",
+        "context": "Nostalgic perspective on traditional toy value"
+      }
+    ],
+    "recommendations": {
+      "required_actions": [
+        "Remove explicit gender associations",
+        "Acknowledge value of diverse play patterns",
+        "Include multiple perspectives on play value"
+      ],
+      "suggested_alternatives": [
+        "Replace 'little girls' with 'children'",
+        "Acknowledge benefits of both traditional and modern toys",
+        "Focus on universal play experiences rather than gender-specific ones"
+      ],
+      "mitigation_strategies": [
+        "Incorporate inclusive language about play patterns",
+        "Balance traditional and modern toy perspectives",
+        "Emphasize universal emotional connections rather than gender-specific roles"
+      ]
+    }
+  }
+}

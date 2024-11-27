@@ -1,0 +1,84 @@
+{
+  "bias_analysis_report": {
+    "overall_summary": {
+      "text_analyzed": "First-person narrative from the perspective of the color Pink, discussing its cultural associations and evolution",
+      "primary_biases": [
+        "Gender Stereotyping",
+        "Binary Gender Framework",
+        "Historical Gender Role Bias"
+      ],
+      "overall_risk_level": "Moderate",
+      "average_risk_score": 12.3
+    },
+    "detailed_findings": [
+      {
+        "bias_type": "Gender Stereotyping",
+        "confidence": {
+          "rating": 75,
+          "level": "High",
+          "evidence": "Direct references to pink being associated with 'feminine' qualities and 'nurseries and little girls' bedrooms'"
+        },
+        "severity": {
+          "rating": 3,
+          "level": "Moderate",
+          "impact": "Reinforces traditional gender-color associations while attempting to challenge them"
+        },
+        "risk_score": 11.25,
+        "priority_level": "Moderate",
+        "key_evidence": "Society sees me as soft, delicate, feminine",
+        "context": "The text acknowledges and critiques these stereotypes while partially reinforcing them"
+      },
+      {
+        "bias_type": "Binary Gender Framework",
+        "confidence": {
+          "rating": 85,
+          "level": "High",
+          "evidence": "Consistent framing of gender in binary terms (masculine/feminine) throughout the narrative"
+        },
+        "severity": {
+          "rating": 4,
+          "level": "High",
+          "impact": "Maintains rigid gender binary despite attempting to challenge gender norms"
+        },
+        "risk_score": 17,
+        "priority_level": "High",
+        "key_evidence": "Marketing teams love to use me to target feminine products",
+        "context": "While challenging stereotypes, maintains binary gender framework"
+      },
+      {
+        "bias_type": "Historical Gender Role Bias",
+        "confidence": {
+          "rating": 70,
+          "level": "High",
+          "evidence": "References to historical gender-based marketing and social norms"
+        },
+        "severity": {
+          "rating": 2,
+          "level": "Low",
+          "impact": "Acknowledges historical bias while attempting to subvert it"
+        },
+        "risk_score": 8.75,
+        "priority_level": "Low",
+        "key_evidence": "Once, I was a symbol of masculinity, adorning the garments of young boys",
+        "context": "Used to illustrate historical change in gender associations"
+      }
+    ],
+    "recommendations": {
+      "required_actions": [
+        "Expand discussion beyond binary gender framework",
+        "Include more diverse gender expressions",
+        "Reduce emphasis on traditional gender associations"
+      ],
+      "suggested_alternatives": [
+        "Replace 'feminine products' with 'specific product categories'",
+        "Expand beyond binary masculine/feminine descriptors",
+        "Include non-binary and gender-neutral perspectives"
+      ],
+      "mitigation_strategies": [
+        "Incorporate inclusive language throughout",
+        "Focus on color properties rather than gender associations",
+        "Emphasize universal human experiences over gendered ones"
+      ]
+    }
+  }
+}

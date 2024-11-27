@@ -1,0 +1,84 @@
+{
+  "bias_analysis_report": {
+    "overall_summary": {
+      "text_analyzed": "Story about Earl Grey tea and Officer Coffee traffic stop interaction",
+      "primary_biases": [
+        "Law Enforcement Stereotyping",
+        "Racial Coding",
+        "Cultural Stereotyping"
+      ],
+      "overall_risk_level": "Moderate",
+      "average_risk_score": 11.3
+    },
+    "detailed_findings": [
+      {
+        "bias_type": "Law Enforcement Stereotyping",
+        "confidence": {
+          "rating": 65,
+          "level": "Medium",
+          "evidence": "Portrayal of tense police interaction, weapon assumption, and authority dynamics"
+        },
+        "severity": {
+          "rating": 3,
+          "level": "Moderate",
+          "impact": "Reinforces stereotypical police behavior and tension in traffic stops"
+        },
+        "risk_score": 9.75,
+        "priority_level": "Low",
+        "key_evidence": "Officer's immediate reaction to sugar dispenser as weapon, hand moving to holster",
+        "context": "Story uses metaphorical elements for humor but draws on real-world police interaction stereotypes"
+      },
+      {
+        "bias_type": "Racial Coding",
+        "confidence": {
+          "rating": 75,
+          "level": "High",
+          "evidence": "Use of beverage types as stand-ins for racial/ethnic identities"
+        },
+        "severity": {
+          "rating": 4,
+          "level": "High",
+          "impact": "Creates problematic racial metaphors through beverage characteristics"
+        },
+        "risk_score": 15,
+        "priority_level": "High",
+        "key_evidence": "Description of 'dark roast complexion' for Officer Coffee, British identity for Earl Grey",
+        "context": "While presented as playful personification, maps onto real-world racial dynamics"
+      },
+      {
+        "bias_type": "Cultural Stereotyping",
+        "confidence": {
+          "rating": 70,
+          "level": "High",
+          "evidence": "British tea stereotype and associated behavioral traits"
+        },
+        "severity": {
+          "rating": 2,
+          "level": "Low",
+          "impact": "Reinforces cultural stereotypes but with limited harmful impact"
+        },
+        "risk_score": 7,
+        "priority_level": "Low",
+        "key_evidence": "British tea reference, Harrods mention, 'gracious' behavior",
+        "context": "Uses mild cultural stereotypes for character development"
+      }
+    ],
+    "recommendations": {
+      "required_actions": [
+        "Remove racial coding through beverage characteristics",
+        "Revise police interaction scenario to avoid stereotypical tension",
+        "Reconsider metaphorical framework that maps onto sensitive real-world dynamics"
+      ],
+      "suggested_alternatives": [
+        "Focus on beverage characteristics without racial/ethnic coding",
+        "Develop conflict based on beverage properties rather than weapon assumption",
+        "Create character distinction through personality rather than cultural stereotypes"
+      ],
+      "mitigation_strategies": [
+        "Review and revise metaphorical elements to avoid racial/ethnic implications",
+        "Consult sensitivity readers for metaphorical framework assessment",
+        "Develop alternative conflict drivers that don't reference real-world tensions"
+      ]
+    }
+  }
+}

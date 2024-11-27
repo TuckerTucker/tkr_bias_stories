@@ -1,0 +1,84 @@
+{
+  "bias_analysis_report": {
+    "overall_summary": {
+      "text_analyzed": "Story about Coco Bread's traffic stop and firearm discovery",
+      "primary_biases": [
+        "Racial Profiling Bias",
+        "Gender-Based Bias",
+        "Law Enforcement Bias"
+      ],
+      "overall_risk_level": "High",
+      "average_risk_score": 16.3
+    },
+    "detailed_findings": [
+      {
+        "bias_type": "Racial Profiling Bias",
+        "confidence": {
+          "rating": 75,
+          "level": "High",
+          "evidence": "Character name 'Coco Bread' suggests racial coding, combined with traffic stop scenario commonly associated with racial profiling"
+        },
+        "severity": {
+          "rating": 5,
+          "level": "Critical",
+          "impact": "Reinforces harmful narratives about racial profiling in law enforcement interactions"
+        },
+        "risk_score": 18.75,
+        "priority_level": "High",
+        "key_evidence": "Traffic stop scenario, character name choice, escalation upon weapon discovery",
+        "context": "Story takes place in context of routine traffic stop turning into potential criminal situation"
+      },
+      {
+        "bias_type": "Gender-Based Bias",
+        "confidence": {
+          "rating": 65,
+          "level": "Medium",
+          "evidence": "Portrayal of female driver as nervous, emotional ('heart sank', 'stomach drop', 'mind raced')"
+        },
+        "severity": {
+          "rating": 3,
+          "level": "Moderate",
+          "impact": "Reinforces stereotypes about women being emotionally vulnerable in stressful situations"
+        },
+        "risk_score": 9.75,
+        "priority_level": "Low",
+        "key_evidence": "Emotional language used to describe protagonist's reactions",
+        "context": "High-stress situation where emotional response could be justified regardless of gender"
+      },
+      {
+        "bias_type": "Law Enforcement Bias",
+        "confidence": {
+          "rating": 85,
+          "level": "High",
+          "evidence": "Officer portrayed with stern demeanor, immediate escalation upon weapon sighting"
+        },
+        "severity": {
+          "rating": 4,
+          "level": "High",
+          "impact": "Reinforces adversarial police-civilian relationship stereotypes"
+        },
+        "risk_score": 17,
+        "priority_level": "High",
+        "key_evidence": "Officer's immediate hand-on-belt response, commanding tone",
+        "context": "Legitimate safety concerns in traffic stops involving firearms"
+      }
+    ],
+    "recommendations": {
+      "required_actions": [
+        "Revise character name to avoid racial coding",
+        "Balance officer's response with more professional dialogue",
+        "Include more context about standard police procedures"
+      ],
+      "suggested_alternatives": [
+        "Use more neutral character name",
+        "Show professional law enforcement de-escalation techniques",
+        "Balance emotional responses with rational actions"
+      ],
+      "mitigation_strategies": [
+        "Consult with law enforcement professionals on accurate procedure portrayal",
+        "Review with sensitivity readers for racial and gender bias",
+        "Add context about legal firearm transportation requirements"
+      ]
+    }
+  }
+}

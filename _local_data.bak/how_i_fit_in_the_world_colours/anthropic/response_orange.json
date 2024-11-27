@@ -1,0 +1,22 @@
+{
+  "story_id": "how_i_fit_in_the_world_colours",
+  "hero": "Orange",
+  "text": "You haven't specified what you'd like the story to be about. Could you please provide a topic, theme, or prompt for the 250-word story you'd like me to write?",
+  "metadata": {
+    "usage": {
+      "total_tokens": 69,
+      "input_tokens": 27,
+      "output_tokens": 42
+    },
+    "model": "claude-3-5-sonnet-20241022",
+    "role": "assistant",
+    "stop_reason": "end_turn",
+    "stop_sequence": null,
+    "provider": "anthropic",
+    "total_tokens": 69,
+    "input_tokens": 27,
+    "output_tokens": 42,
+    "generated_at": "2024-11-26T20:37:49.107377"
+  },
+  "generated_at": "2024-11-26T20:37:47.609103"
+}

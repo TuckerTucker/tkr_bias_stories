@@ -1,0 +1,1075 @@
+2024-11-24 22:13:05,045 - INFO - Initialized PromptManager with prompts directory: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/prompts
+2024-11-24 22:13:05,070 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:13:05,074 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:13:05,077 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:13:05,082 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:13:05,086 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:13:05,090 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:13:05,093 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:13:05,097 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:13:05,103 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:13:05,107 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:13:05,111 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:13:05,114 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:13:05,118 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:13:05,121 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:13:05,125 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:13:05,129 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:13:05,133 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:13:05,139 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:13:05,142 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:13:05,146 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:13:05,150 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:13:05,154 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:13:05,157 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:13:05,161 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:13:05,646 - INFO - Initialized PromptManager with prompts directory: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/prompts
+2024-11-24 22:13:06,082 - INFO - Initialized PromptManager with prompts directory: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/prompts
+2024-11-24 22:14:09,894 - INFO - Initialized PromptManager with prompts directory: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/prompts
+2024-11-24 22:14:36,412 - INFO - Initialized PromptManager with prompts directory: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/prompts
+2024-11-24 22:14:36,437 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:14:36,441 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:14:36,444 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:14:36,448 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:14:36,451 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:14:36,454 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:14:36,458 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:14:36,462 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:14:36,490 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:14:36,496 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:14:36,501 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:14:36,505 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:14:36,509 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:14:36,513 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:14:36,517 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:14:36,520 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:14:36,525 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:14:36,528 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:14:36,532 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:14:36,535 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:14:36,538 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:14:36,542 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:14:36,546 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:14:36,549 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:14:36,553 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:14:36,557 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:14:36,561 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:14:36,564 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:14:36,569 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:14:36,572 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:14:36,576 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:14:36,580 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:14:36,583 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:14:36,588 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:14:36,592 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:14:36,595 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:14:36,598 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:14:36,602 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:14:36,606 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:14:36,610 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:14:36,614 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:14:36,617 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:14:36,621 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:14:36,625 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:14:36,628 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:14:36,631 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:14:36,635 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:14:36,639 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:14:37,137 - INFO - Initialized PromptManager with prompts directory: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/prompts
+2024-11-24 22:14:37,601 - INFO - Initialized PromptManager with prompts directory: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/prompts
+2024-11-24 22:16:20,971 - INFO - Initialized PromptManager with prompts directory: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/prompts
+2024-11-24 22:17:08,144 - INFO - Initialized PromptManager with prompts directory: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/prompts
+2024-11-24 22:17:08,169 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:17:08,173 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:17:08,177 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:17:08,182 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:17:08,185 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:17:08,190 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:17:08,194 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:17:08,198 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:17:08,202 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:17:08,206 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:17:08,211 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:17:08,215 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:17:08,219 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:17:08,224 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:17:08,229 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:17:08,233 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:17:08,238 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:17:08,242 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:17:08,246 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:17:08,252 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:17:08,258 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:17:08,263 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:17:08,268 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:17:08,273 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:17:08,277 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:17:08,281 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:17:08,285 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:17:08,290 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:17:08,295 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:17:08,300 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:17:08,316 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:17:08,338 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:17:08,343 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:17:08,347 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:17:08,352 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:17:08,357 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:17:08,361 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:17:08,365 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:17:08,369 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:17:08,374 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:17:08,378 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:17:08,382 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:17:08,386 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:17:08,390 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:17:08,394 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:17:08,399 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:17:08,403 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:17:08,407 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:17:08,883 - INFO - Initialized PromptManager with prompts directory: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/prompts
+2024-11-24 22:17:09,330 - INFO - Initialized PromptManager with prompts directory: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/prompts
+2024-11-24 22:18:43,094 - INFO - Initialized PromptManager with prompts directory: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/prompts
+2024-11-24 22:18:55,377 - INFO - Initialized PromptManager with prompts directory: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/prompts
+2024-11-24 22:19:20,911 - INFO - Initialized PromptManager with prompts directory: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/prompts
+2024-11-24 22:19:20,935 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:19:20,940 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:19:20,945 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:19:20,949 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:19:20,953 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:19:20,957 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:19:20,961 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:19:20,965 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:19:20,969 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:19:20,974 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:19:20,978 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:19:20,983 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:19:20,988 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:19:20,992 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:19:20,996 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:19:21,001 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:19:21,006 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:19:21,011 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:19:21,015 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:19:21,020 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:19:21,024 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:19:21,029 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:19:21,034 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:19:21,038 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:19:21,043 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:19:21,048 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:19:21,052 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:19:21,056 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:19:21,061 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:19:21,065 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:19:21,070 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:19:21,074 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:19:21,078 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:19:21,083 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:19:21,088 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:19:21,092 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:19:21,096 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:19:21,100 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:19:21,105 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:19:21,109 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:19:21,113 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:19:21,117 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:19:21,121 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:19:21,125 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:19:21,153 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:19:21,162 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:19:21,166 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:19:21,170 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:19:21,646 - INFO - Initialized PromptManager with prompts directory: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/prompts
+2024-11-24 22:19:22,090 - INFO - Initialized PromptManager with prompts directory: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/prompts
+2024-11-24 22:21:49,975 - INFO - Initialized PromptManager with prompts directory: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/prompts
+2024-11-24 22:22:26,485 - INFO - Initialized PromptManager with prompts directory: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/prompts
+2024-11-24 22:22:26,510 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:22:26,518 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:22:26,531 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:22:26,535 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:22:26,540 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:22:26,545 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:22:26,552 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:22:26,557 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:22:26,563 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:22:26,568 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:22:26,572 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:22:26,582 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:22:26,587 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:22:26,591 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:22:26,595 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:22:26,600 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:23:30,809 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:23:30,822 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:23:30,832 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:23:30,840 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:23:30,847 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:23:30,854 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:23:30,860 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:23:30,866 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:23:30,872 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:23:30,877 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:23:30,883 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:23:30,888 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:23:30,893 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:23:30,896 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:23:30,899 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:23:30,902 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:23:30,905 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:23:30,908 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:30:14,221 - INFO - Initialized PromptManager with prompts directory: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/prompts
+2024-11-24 22:30:14,247 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:30:14,255 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:30:14,268 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:30:14,273 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:30:14,277 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:30:14,282 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:30:14,287 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:30:14,293 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:30:14,299 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:30:14,304 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:30:14,310 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:30:14,320 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:30:14,325 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:30:14,329 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:30:14,334 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:30:14,338 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:35:04,117 - INFO - Initialized PromptManager with prompts directory: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/prompts
+2024-11-24 22:35:04,622 - INFO - Initialized PromptManager with prompts directory: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/prompts
+2024-11-24 22:35:05,092 - INFO - Initialized PromptManager with prompts directory: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/prompts
+2024-11-24 22:35:50,197 - INFO - Initialized PromptManager with prompts directory: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/prompts
+2024-11-24 22:38:36,569 - INFO - Initialized PromptManager with prompts directory: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/prompts
+2024-11-24 22:39:11,334 - INFO - Initialized PromptManager with prompts directory: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/prompts
+2024-11-24 22:39:11,359 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:39:11,359 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:39:11,360 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:39:11,360 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:39:11,360 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:39:11,360 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:39:11,360 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:39:11,360 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:39:11,361 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:39:11,361 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:39:11,361 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:39:11,361 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:39:11,361 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:39:11,361 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:39:11,362 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:39:11,362 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:39:11,362 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:39:11,362 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:39:11,362 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:39:11,362 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:39:11,362 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:39:11,362 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:39:11,363 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:39:11,363 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:39:11,363 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:39:11,363 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:39:11,363 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:39:11,363 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:39:11,364 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:39:11,364 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:39:11,364 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:39:11,364 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:39:11,365 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:39:11,365 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:39:11,366 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:39:11,366 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:39:11,366 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:39:11,366 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:39:11,366 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:39:11,367 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:39:11,367 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:39:11,367 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:39:11,367 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:39:11,367 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:39:11,368 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:39:11,368 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:39:11,368 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:39:11,368 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:39:11,368 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:39:11,368 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:39:11,368 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:39:11,368 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:39:11,369 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:39:11,369 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:39:11,369 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:39:11,369 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:39:11,369 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:39:11,369 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:39:11,369 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:39:11,370 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:39:11,370 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:39:11,370 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:39:11,370 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:39:11,370 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:39:11,370 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:39:11,370 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:39:11,371 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:39:11,371 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:39:11,372 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:39:11,372 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:39:11,373 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:39:11,373 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:39:11,373 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:39:11,373 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:39:11,373 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:39:11,373 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:39:11,374 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:39:11,374 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:39:11,374 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:39:11,374 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:39:11,374 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:39:11,374 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:39:11,374 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:39:11,375 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:39:11,375 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:39:11,375 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:39:11,376 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:39:11,376 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:39:11,376 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:39:11,376 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:39:11,377 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:39:11,377 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:39:11,377 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:39:11,377 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:39:11,377 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:39:11,377 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:39:11,846 - INFO - Initialized PromptManager with prompts directory: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/prompts
+2024-11-24 22:39:12,309 - INFO - Initialized PromptManager with prompts directory: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/prompts
+2024-11-24 22:42:31,787 - INFO - Initialized PromptManager with prompts directory: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/prompts
+2024-11-24 22:42:55,944 - INFO - Initialized PromptManager with prompts directory: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/prompts
+2024-11-24 22:42:55,970 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:42:55,971 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:42:55,974 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:42:55,974 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:42:55,977 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:42:55,977 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:42:55,980 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:42:55,980 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:42:55,983 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:42:55,983 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:42:55,986 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:42:55,986 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:42:55,990 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:42:55,990 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:42:55,994 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:42:55,994 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:42:55,997 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:42:55,997 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:42:56,000 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:42:56,000 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:42:56,003 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:42:56,003 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:42:56,006 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:42:56,006 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:42:56,010 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:42:56,010 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:42:56,013 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:42:56,013 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:42:56,016 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:42:56,016 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:42:56,019 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:42:56,019 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:42:56,025 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:42:56,025 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:42:56,028 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:42:56,028 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:42:56,031 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:42:56,031 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:42:56,034 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:42:56,034 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:42:56,037 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:42:56,037 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:42:56,040 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:42:56,040 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:42:56,043 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:42:56,043 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:42:56,047 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:42:56,047 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:42:56,051 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:42:56,051 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:42:56,054 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:42:56,054 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:42:56,058 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:42:56,058 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:42:56,061 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:42:56,061 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:42:56,064 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:42:56,064 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:42:56,067 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:42:56,067 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:42:56,070 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:42:56,070 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:42:56,073 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:42:56,073 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:42:56,077 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:42:56,077 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:42:56,080 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:42:56,080 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:42:56,084 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:42:56,084 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:42:56,088 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:42:56,088 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:42:56,091 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:42:56,091 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:42:56,094 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:42:56,094 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:42:56,097 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:42:56,097 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:42:56,101 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:42:56,101 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:42:56,105 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:42:56,105 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:42:56,108 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:42:56,108 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:42:56,111 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:42:56,111 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:42:56,114 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:42:56,114 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:42:56,118 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:42:56,118 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:42:56,121 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:42:56,121 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:42:56,125 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:42:56,125 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:42:56,128 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:42:56,128 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:42:56,629 - INFO - Initialized PromptManager with prompts directory: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/prompts
+2024-11-24 22:42:57,072 - INFO - Initialized PromptManager with prompts directory: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/prompts
+2024-11-24 22:43:42,257 - INFO - Initialized PromptManager with prompts directory: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/prompts
+2024-11-24 22:44:44,109 - INFO - Initialized PromptManager with prompts directory: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/prompts
+2024-11-24 22:44:44,134 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:44:44,135 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:44:44,138 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:44:44,138 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:44:44,141 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:44:44,141 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:44:44,144 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:44:44,144 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:44:44,147 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:44:44,147 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:44:44,150 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:44:44,150 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:44:44,154 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:44:44,154 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:44:44,157 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:44:44,157 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:44:44,161 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:44:44,161 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:44:44,164 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:44:44,164 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:44:44,167 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:44:44,167 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:44:44,170 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:44:44,170 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:44:44,173 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:44:44,173 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:44:44,176 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:44:44,176 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:44:44,180 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:44:44,180 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:44:44,183 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:44:44,183 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:44:44,187 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:44:44,187 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:44:44,191 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:44:44,191 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:44:44,194 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:44:44,194 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:44:44,197 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:44:44,197 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:44:44,200 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:44:44,200 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:44:44,204 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:44:44,204 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:44:44,207 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:44:44,207 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:44:44,211 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:44:44,211 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:44:44,214 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:44:44,214 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:44:44,218 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:44:44,218 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:44:44,221 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:44:44,221 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:44:44,225 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:44:44,225 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:44:44,228 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:44:44,228 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:44:44,231 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:44:44,231 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:44:44,234 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:44:44,234 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:44:44,237 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:44:44,237 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:44:44,240 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:44:44,240 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:44:44,243 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:44:44,243 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:44:44,247 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:44:44,247 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:44:44,251 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:44:44,251 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:44:44,255 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:44:44,255 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:44:44,259 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:44:44,259 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:44:44,263 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:44:44,263 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:44:44,266 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:44:44,266 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:44:44,270 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:44:44,270 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:44:44,273 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:44:44,273 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:44:44,276 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:44:44,276 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:44:44,280 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:44:44,280 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:44:44,284 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:44:44,284 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:44:44,287 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:44:44,287 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:44:44,290 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:44:44,290 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:44:44,294 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:44:44,294 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:44:44,797 - INFO - Initialized PromptManager with prompts directory: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/prompts
+2024-11-24 22:44:45,241 - INFO - Initialized PromptManager with prompts directory: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/prompts
+2024-11-24 22:45:06,757 - INFO - Initialized PromptManager with prompts directory: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/prompts
+2024-11-24 22:45:06,782 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:45:06,783 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:45:06,787 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:45:06,787 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:45:06,790 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:45:06,790 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:45:06,794 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:45:06,794 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:45:06,797 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:45:06,797 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:45:06,800 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:45:06,800 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:45:06,804 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:45:06,804 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:45:06,807 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:45:06,807 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:45:06,810 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:45:06,810 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:45:06,814 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:45:06,814 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:45:06,817 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:45:06,817 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:45:06,821 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:45:06,821 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:45:06,825 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:45:06,825 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:45:06,827 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:45:06,828 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:45:06,830 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:45:06,830 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:45:06,834 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:45:06,834 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:45:06,838 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:45:06,838 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:45:06,841 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:45:06,841 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:45:06,844 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:45:06,844 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:45:06,847 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:45:06,847 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:45:06,851 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:45:06,851 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:45:06,854 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:45:06,854 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:45:06,857 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:45:06,857 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:45:06,860 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:45:06,860 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:45:06,863 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:45:06,863 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:45:06,866 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:45:06,867 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:45:06,870 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:45:06,870 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:45:06,873 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:45:06,873 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:45:06,876 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:45:06,876 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:45:06,879 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:45:06,879 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:45:06,883 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:45:06,883 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:45:06,886 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:45:06,886 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:45:06,889 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:45:06,889 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:45:06,892 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:45:06,892 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:45:06,896 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:45:06,896 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:45:06,900 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:45:06,900 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:45:06,903 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:45:06,903 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:45:06,906 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:45:06,906 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:45:06,909 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:45:06,909 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:45:06,912 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:45:06,912 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:45:06,915 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:45:06,915 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:45:06,919 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:45:06,919 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:45:06,922 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:45:06,922 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:45:06,925 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:45:06,925 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:45:06,928 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:45:06,928 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:45:06,931 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:45:06,931 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:45:06,934 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:45:06,934 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:45:06,938 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:45:06,938 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:45:07,437 - INFO - Initialized PromptManager with prompts directory: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/prompts
+2024-11-24 22:45:07,883 - INFO - Initialized PromptManager with prompts directory: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/prompts
+2024-11-24 22:47:12,564 - INFO - Initialized PromptManager with prompts directory: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/prompts
+2024-11-24 22:47:26,225 - INFO - Initialized PromptManager with prompts directory: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/prompts
+2024-11-24 22:47:26,250 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:47:26,251 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:47:26,258 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:47:26,258 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:47:26,271 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:47:26,271 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:47:26,275 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:47:26,275 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:47:26,281 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:47:26,281 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:47:26,286 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:47:26,286 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:47:26,292 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:47:26,292 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:47:26,297 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:47:26,297 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:47:26,303 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:47:26,303 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:47:26,308 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:47:26,308 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:47:26,343 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:47:26,346 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:47:26,353 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:47:26,353 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:47:26,358 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:47:26,358 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:47:26,361 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:47:26,361 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:47:26,365 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:47:26,365 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 22:47:26,368 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 22:47:26,368 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 23:08:33,221 - INFO - Initialized PromptManager with prompts directory: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/prompts
+2024-11-24 23:08:33,246 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 23:08:33,246 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 23:08:33,255 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 23:08:33,255 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 23:08:33,268 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 23:08:33,268 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 23:08:33,273 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 23:08:33,273 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 23:08:33,278 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 23:08:33,278 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 23:08:33,283 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 23:08:33,283 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 23:08:33,289 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 23:08:33,289 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 23:08:33,294 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 23:08:33,294 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 23:08:33,300 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 23:08:33,300 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 23:08:33,305 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 23:08:33,305 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 23:08:33,311 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 23:08:33,311 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 23:08:33,319 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 23:08:33,319 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 23:08:33,325 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 23:08:33,325 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 23:08:33,329 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 23:08:33,329 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 23:08:33,333 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 23:08:33,333 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 23:12:36,395 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 23:12:36,395 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 23:12:36,406 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 23:12:36,407 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 23:12:36,415 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 23:12:36,416 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 23:12:36,423 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 23:12:36,423 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 23:12:36,430 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 23:12:36,430 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 23:12:36,437 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 23:12:36,437 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 23:12:36,443 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 23:12:36,443 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 23:12:36,450 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 23:12:36,450 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 23:12:36,457 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 23:12:36,457 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 23:12:36,464 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 23:12:36,464 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 23:12:36,471 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 23:12:36,471 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 23:12:36,476 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 23:12:36,476 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 23:12:36,482 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 23:12:36,482 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 23:12:36,487 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 23:12:36,487 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 23:12:36,493 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 23:12:36,493 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 23:12:36,498 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 23:12:36,498 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 23:12:36,502 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 23:12:36,502 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 23:12:36,508 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 23:12:36,508 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 23:18:05,140 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 23:18:05,140 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 23:18:05,147 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 23:18:05,147 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 23:18:05,153 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 23:18:05,153 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 23:18:05,160 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 23:18:05,160 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 23:18:05,165 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 23:18:05,165 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 23:18:05,171 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 23:18:05,171 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 23:18:05,176 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 23:18:05,176 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 23:18:05,182 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 23:18:05,182 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 23:18:05,186 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 23:18:05,187 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 23:18:05,193 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 23:18:05,193 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 23:18:05,198 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 23:18:05,198 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 23:18:05,204 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 23:18:05,204 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 23:18:05,209 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 23:18:05,209 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 23:18:05,216 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-24 23:18:05,216 - INFO - Successfully loaded template: templates/bias.template
+2024-11-24 23:21:47,117 - INFO - Initialized PromptManager with prompts directory: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/prompts
+2024-11-24 23:21:47,606 - INFO - Initialized PromptManager with prompts directory: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/prompts
+2024-11-25 13:48:31,892 - INFO - Initialized PromptManager with prompts directory: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/prompts
+2024-11-25 13:48:31,925 - INFO - Successfully loaded template: story_prompt.md
+2024-11-25 13:48:31,925 - INFO - Successfully created prompt for story 'How I fit in the world - Colours' with hero 'Blue'
+2024-11-25 13:48:31,925 - INFO - Successfully saved prompt to /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data/how_i_fit_in_the_world_colours/how_i_fit_in_the_world_colours_prompt.md
+2024-11-25 13:48:31,925 - INFO - Successfully generated and saved prompt for how_i_fit_in_the_world_colours
+2024-11-25 13:48:31,929 - INFO - Successfully loaded template: story_prompt.md
+2024-11-25 13:48:31,929 - INFO - Successfully created prompt for story 'How I fit in the world - Colours' with hero 'Black'
+2024-11-25 13:48:31,929 - INFO - Successfully saved prompt to /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data/how_i_fit_in_the_world_colours/how_i_fit_in_the_world_colours_prompt.md
+2024-11-25 13:48:31,929 - INFO - Successfully generated and saved prompt for how_i_fit_in_the_world_colours
+2024-11-25 13:48:31,934 - INFO - Successfully loaded template: story_prompt.md
+2024-11-25 13:48:31,934 - INFO - Successfully created prompt for story 'How I fit in the world - Colours' with hero 'Orange'
+2024-11-25 13:48:31,934 - INFO - Successfully saved prompt to /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data/how_i_fit_in_the_world_colours/how_i_fit_in_the_world_colours_prompt.md
+2024-11-25 13:48:31,934 - INFO - Successfully generated and saved prompt for how_i_fit_in_the_world_colours
+2024-11-25 13:48:41,427 - INFO - Initialized PromptManager with prompts directory: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/prompts
+2024-11-25 13:48:41,870 - INFO - Initialized PromptManager with prompts directory: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/prompts
+2024-11-25 13:50:06,574 - INFO - Initialized PromptManager with prompts directory: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/prompts
+2024-11-25 13:50:06,606 - INFO - Successfully loaded template: story_prompt.md
+2024-11-25 13:50:06,606 - INFO - Successfully created prompt for story 'How I fit in the world - Colours' with hero 'Blue'
+2024-11-25 13:50:06,606 - INFO - Successfully saved prompt to /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data/how_i_fit_in_the_world_colours/how_i_fit_in_the_world_colours_prompt.md
+2024-11-25 13:50:06,606 - INFO - Successfully generated and saved prompt for how_i_fit_in_the_world_colours
+2024-11-25 13:50:06,611 - INFO - Successfully loaded template: story_prompt.md
+2024-11-25 13:50:06,611 - INFO - Successfully created prompt for story 'How I fit in the world - Colours' with hero 'Black'
+2024-11-25 13:50:06,611 - INFO - Successfully saved prompt to /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data/how_i_fit_in_the_world_colours/how_i_fit_in_the_world_colours_prompt.md
+2024-11-25 13:50:06,611 - INFO - Successfully generated and saved prompt for how_i_fit_in_the_world_colours
+2024-11-25 13:50:15,420 - INFO - Initialized PromptManager with prompts directory: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/prompts
+2024-11-25 13:50:15,866 - INFO - Initialized PromptManager with prompts directory: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/prompts
+2024-11-25 13:51:46,616 - INFO - Initialized PromptManager with prompts directory: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/prompts
+2024-11-25 13:52:20,285 - INFO - Initialized PromptManager with prompts directory: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/prompts
+2024-11-25 13:52:55,000 - INFO - Initialized PromptManager with prompts directory: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/prompts
+2024-11-25 13:52:55,032 - INFO - Successfully loaded template: story_prompt.md
+2024-11-25 13:52:55,032 - INFO - Successfully created prompt for story 'How I fit in the world - Colours' with hero 'Blue'
+2024-11-25 13:52:55,033 - INFO - Successfully saved prompt to /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data/how_i_fit_in_the_world_colours/how_i_fit_in_the_world_colours_prompt.md
+2024-11-25 13:52:55,033 - INFO - Successfully generated and saved prompt for how_i_fit_in_the_world_colours
+2024-11-25 13:53:05,612 - INFO - Initialized PromptManager with prompts directory: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/prompts
+2024-11-25 13:53:06,062 - INFO - Initialized PromptManager with prompts directory: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/prompts
+2024-11-25 13:53:42,612 - INFO - Initialized PromptManager with prompts directory: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/prompts
+2024-11-25 13:53:42,644 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-25 13:53:42,644 - INFO - Successfully loaded template: templates/bias.template
+2024-11-25 13:53:42,651 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-25 13:53:42,652 - INFO - Successfully loaded template: templates/bias.template
+2024-11-25 13:53:42,665 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-25 13:53:42,665 - INFO - Successfully loaded template: templates/bias.template
+2024-11-25 13:53:57,875 - INFO - Initialized PromptManager with prompts directory: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/prompts
+2024-11-25 13:53:58,368 - INFO - Initialized PromptManager with prompts directory: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/prompts
+2024-11-25 13:59:11,115 - INFO - Initialized PromptManager with prompts directory: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/prompts
+2024-11-25 13:59:11,147 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-25 13:59:11,148 - INFO - Successfully loaded template: templates/bias.template
+2024-11-25 13:59:11,155 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-25 13:59:11,155 - INFO - Successfully loaded template: templates/bias.template
+2024-11-25 13:59:11,169 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-25 13:59:11,170 - INFO - Successfully loaded template: templates/bias.template
+2024-11-25 13:59:26,103 - INFO - Initialized PromptManager with prompts directory: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/prompts
+2024-11-25 13:59:26,547 - INFO - Initialized PromptManager with prompts directory: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/prompts
+2024-11-26 14:12:30,498 - INFO - Initialized PromptManager with prompts directory: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/prompts
+2024-11-26 14:12:30,534 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-26 14:12:30,535 - INFO - Successfully loaded template: templates/bias.template
+2024-11-26 14:12:30,543 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-26 14:12:30,543 - INFO - Successfully loaded template: templates/bias.template
+2024-11-26 14:12:30,557 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-26 14:12:30,558 - INFO - Successfully loaded template: templates/bias.template
+2024-11-26 14:12:45,283 - INFO - Initialized PromptManager with prompts directory: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/prompts
+2024-11-26 14:12:45,728 - INFO - Initialized PromptManager with prompts directory: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/prompts
+2024-11-26 14:32:21,389 - INFO - Initialized PromptManager with prompts directory: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/prompts
+2024-11-26 14:39:53,165 - INFO - Initialized PromptManager with prompts directory: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/prompts
+2024-11-26 14:39:53,197 - INFO - Successfully loaded template: story_prompt.md
+2024-11-26 14:39:53,197 - INFO - Successfully created prompt for story 'How I fit in the world - Colours' with hero 'Blue'
+2024-11-26 14:39:53,198 - INFO - Successfully saved prompt to /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data/how_i_fit_in_the_world_colours/how_i_fit_in_the_world_colours_prompt.md
+2024-11-26 14:39:53,198 - INFO - Successfully generated and saved prompt for how_i_fit_in_the_world_colours
+2024-11-26 14:39:53,203 - INFO - Successfully loaded template: story_prompt.md
+2024-11-26 14:39:53,203 - INFO - Successfully created prompt for story 'How I fit in the world - Colours' with hero 'Black'
+2024-11-26 14:39:53,203 - INFO - Successfully saved prompt to /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data/how_i_fit_in_the_world_colours/how_i_fit_in_the_world_colours_prompt.md
+2024-11-26 14:39:53,203 - INFO - Successfully generated and saved prompt for how_i_fit_in_the_world_colours
+2024-11-26 14:39:53,207 - INFO - Successfully loaded template: story_prompt.md
+2024-11-26 14:39:53,208 - INFO - Successfully created prompt for story 'How I fit in the world - Colours' with hero 'Orange'
+2024-11-26 14:39:53,208 - INFO - Successfully saved prompt to /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data/how_i_fit_in_the_world_colours/how_i_fit_in_the_world_colours_prompt.md
+2024-11-26 14:39:53,208 - INFO - Successfully generated and saved prompt for how_i_fit_in_the_world_colours
+2024-11-26 14:40:01,290 - INFO - Initialized PromptManager with prompts directory: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/prompts
+2024-11-26 14:40:01,735 - INFO - Initialized PromptManager with prompts directory: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/prompts
+2024-11-26 14:41:14,598 - INFO - Initialized PromptManager with prompts directory: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/prompts
+2024-11-26 14:44:06,721 - INFO - Initialized PromptManager with prompts directory: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/prompts
+2024-11-26 14:44:06,753 - INFO - Successfully loaded template: story_prompt.md
+2024-11-26 14:44:06,753 - INFO - Successfully created prompt for story 'How I fit in the world - Colours' with hero 'Blue'
+2024-11-26 14:44:06,753 - INFO - Successfully saved prompt to /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data/how_i_fit_in_the_world_colours/how_i_fit_in_the_world_colours_prompt.md
+2024-11-26 14:44:06,753 - INFO - Successfully generated and saved prompt for how_i_fit_in_the_world_colours
+2024-11-26 14:44:06,759 - INFO - Successfully loaded template: story_prompt.md
+2024-11-26 14:44:06,759 - INFO - Successfully created prompt for story 'How I fit in the world - Colours' with hero 'Black'
+2024-11-26 14:44:06,759 - INFO - Successfully saved prompt to /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data/how_i_fit_in_the_world_colours/how_i_fit_in_the_world_colours_prompt.md
+2024-11-26 14:44:06,759 - INFO - Successfully generated and saved prompt for how_i_fit_in_the_world_colours
+2024-11-26 14:44:06,763 - INFO - Successfully loaded template: story_prompt.md
+2024-11-26 14:44:06,763 - INFO - Successfully created prompt for story 'How I fit in the world - Colours' with hero 'Orange'
+2024-11-26 14:44:06,763 - INFO - Successfully saved prompt to /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data/how_i_fit_in_the_world_colours/how_i_fit_in_the_world_colours_prompt.md
+2024-11-26 14:44:06,764 - INFO - Successfully generated and saved prompt for how_i_fit_in_the_world_colours
+2024-11-26 14:44:15,551 - INFO - Initialized PromptManager with prompts directory: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/prompts
+2024-11-26 14:44:15,992 - INFO - Initialized PromptManager with prompts directory: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/prompts
+2024-11-26 14:45:47,143 - INFO - Initialized PromptManager with prompts directory: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/prompts
+2024-11-26 14:46:18,849 - INFO - Initialized PromptManager with prompts directory: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/prompts
+2024-11-26 14:46:18,883 - INFO - Successfully loaded template: story_prompt.md
+2024-11-26 14:46:18,883 - INFO - Successfully created prompt for story 'How I fit in the world - Colours' with hero 'Blue'
+2024-11-26 14:46:18,883 - INFO - Successfully saved prompt to /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data/how_i_fit_in_the_world_colours/how_i_fit_in_the_world_colours_prompt.md
+2024-11-26 14:46:18,883 - INFO - Successfully generated and saved prompt for how_i_fit_in_the_world_colours
+2024-11-26 14:46:18,888 - INFO - Successfully loaded template: story_prompt.md
+2024-11-26 14:46:18,888 - INFO - Successfully created prompt for story 'How I fit in the world - Colours' with hero 'Black'
+2024-11-26 14:46:18,888 - INFO - Successfully saved prompt to /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data/how_i_fit_in_the_world_colours/how_i_fit_in_the_world_colours_prompt.md
+2024-11-26 14:46:18,888 - INFO - Successfully generated and saved prompt for how_i_fit_in_the_world_colours
+2024-11-26 14:46:18,892 - INFO - Successfully loaded template: story_prompt.md
+2024-11-26 14:46:18,892 - INFO - Successfully created prompt for story 'How I fit in the world - Colours' with hero 'Orange'
+2024-11-26 14:46:18,893 - INFO - Successfully saved prompt to /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data/how_i_fit_in_the_world_colours/how_i_fit_in_the_world_colours_prompt.md
+2024-11-26 14:46:18,893 - INFO - Successfully generated and saved prompt for how_i_fit_in_the_world_colours
+2024-11-26 14:46:26,825 - INFO - Initialized PromptManager with prompts directory: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/prompts
+2024-11-26 14:46:27,269 - INFO - Initialized PromptManager with prompts directory: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/prompts
+2024-11-26 14:49:31,912 - INFO - Initialized PromptManager with prompts directory: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/prompts
+2024-11-26 14:50:16,718 - INFO - Initialized PromptManager with prompts directory: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/prompts
+2024-11-26 14:50:16,751 - INFO - Successfully loaded template: story_prompt.md
+2024-11-26 14:50:16,751 - INFO - Successfully created prompt for story 'How I fit in the world - Colours' with hero 'Blue'
+2024-11-26 14:50:16,751 - INFO - Successfully saved prompt to /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data/how_i_fit_in_the_world_colours/how_i_fit_in_the_world_colours_prompt.md
+2024-11-26 14:50:16,751 - INFO - Successfully generated and saved prompt for how_i_fit_in_the_world_colours
+2024-11-26 14:50:16,756 - INFO - Successfully loaded template: story_prompt.md
+2024-11-26 14:50:16,756 - INFO - Successfully created prompt for story 'How I fit in the world - Colours' with hero 'Black'
+2024-11-26 14:50:16,757 - INFO - Successfully saved prompt to /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data/how_i_fit_in_the_world_colours/how_i_fit_in_the_world_colours_prompt.md
+2024-11-26 14:50:16,757 - INFO - Successfully generated and saved prompt for how_i_fit_in_the_world_colours
+2024-11-26 14:50:16,761 - INFO - Successfully loaded template: story_prompt.md
+2024-11-26 14:50:16,762 - INFO - Successfully created prompt for story 'How I fit in the world - Colours' with hero 'Orange'
+2024-11-26 14:50:16,762 - INFO - Successfully saved prompt to /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data/how_i_fit_in_the_world_colours/how_i_fit_in_the_world_colours_prompt.md
+2024-11-26 14:50:16,762 - INFO - Successfully generated and saved prompt for how_i_fit_in_the_world_colours
+2024-11-26 14:50:26,109 - INFO - Initialized PromptManager with prompts directory: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/prompts
+2024-11-26 14:50:26,592 - INFO - Initialized PromptManager with prompts directory: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/prompts
+2024-11-26 16:37:54,219 - INFO - Initialized PromptManager with prompts directory: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/prompts
+2024-11-26 17:52:53,750 - INFO - Initialized PromptManager with prompts directory: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/prompts
+2024-11-26 17:53:50,881 - INFO - Initialized PromptManager with prompts directory: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/prompts
+2024-11-26 17:53:50,912 - INFO - Successfully loaded template: story_prompt.md
+2024-11-26 17:53:50,912 - INFO - Successfully created prompt for story 'How I fit in the world - Colours' with hero 'Blue'
+2024-11-26 17:53:50,913 - INFO - Successfully saved prompt to /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data/how_i_fit_in_the_world_colours/how_i_fit_in_the_world_colours_prompt.md
+2024-11-26 17:53:50,913 - INFO - Successfully generated and saved prompt for how_i_fit_in_the_world_colours
+2024-11-26 17:53:50,918 - INFO - Successfully loaded template: story_prompt.md
+2024-11-26 17:53:50,918 - INFO - Successfully created prompt for story 'How I fit in the world - Colours' with hero 'Black'
+2024-11-26 17:53:50,918 - INFO - Successfully saved prompt to /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data/how_i_fit_in_the_world_colours/how_i_fit_in_the_world_colours_prompt.md
+2024-11-26 17:53:50,918 - INFO - Successfully generated and saved prompt for how_i_fit_in_the_world_colours
+2024-11-26 17:53:50,923 - INFO - Successfully loaded template: story_prompt.md
+2024-11-26 17:53:50,923 - INFO - Successfully created prompt for story 'How I fit in the world - Colours' with hero 'Orange'
+2024-11-26 17:53:50,923 - INFO - Successfully saved prompt to /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data/how_i_fit_in_the_world_colours/how_i_fit_in_the_world_colours_prompt.md
+2024-11-26 17:53:50,923 - INFO - Successfully generated and saved prompt for how_i_fit_in_the_world_colours
+2024-11-26 17:54:00,568 - INFO - Initialized PromptManager with prompts directory: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/prompts
+2024-11-26 17:54:01,019 - INFO - Initialized PromptManager with prompts directory: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/prompts
+2024-11-26 18:02:37,277 - INFO - Initialized PromptManager with prompts directory: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/prompts
+2024-11-26 18:03:03,493 - INFO - Initialized PromptManager with prompts directory: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/prompts
+2024-11-26 18:03:03,524 - INFO - Successfully loaded template: story_prompt.md
+2024-11-26 18:03:03,524 - INFO - Successfully created prompt for story 'How I fit in the world - Colours' with hero 'Blue'
+2024-11-26 18:03:03,524 - INFO - Successfully saved prompt to /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data/how_i_fit_in_the_world_colours/how_i_fit_in_the_world_colours_prompt.md
+2024-11-26 18:03:03,525 - INFO - Successfully generated and saved prompt for how_i_fit_in_the_world_colours
+2024-11-26 18:03:03,530 - INFO - Successfully loaded template: story_prompt.md
+2024-11-26 18:03:03,530 - INFO - Successfully created prompt for story 'How I fit in the world - Colours' with hero 'Black'
+2024-11-26 18:03:03,530 - INFO - Successfully saved prompt to /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data/how_i_fit_in_the_world_colours/how_i_fit_in_the_world_colours_prompt.md
+2024-11-26 18:03:03,530 - INFO - Successfully generated and saved prompt for how_i_fit_in_the_world_colours
+2024-11-26 18:03:03,534 - INFO - Successfully loaded template: story_prompt.md
+2024-11-26 18:03:03,534 - INFO - Successfully created prompt for story 'How I fit in the world - Colours' with hero 'Orange'
+2024-11-26 18:03:03,535 - INFO - Successfully saved prompt to /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data/how_i_fit_in_the_world_colours/how_i_fit_in_the_world_colours_prompt.md
+2024-11-26 18:03:03,535 - INFO - Successfully generated and saved prompt for how_i_fit_in_the_world_colours
+2024-11-26 18:03:12,028 - INFO - Initialized PromptManager with prompts directory: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/prompts
+2024-11-26 18:03:12,472 - INFO - Initialized PromptManager with prompts directory: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/prompts
+2024-11-26 18:08:29,111 - INFO - Initialized PromptManager with prompts directory: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/prompts
+2024-11-26 18:08:29,148 - INFO - Successfully loaded template: story_prompt.md
+2024-11-26 18:08:29,148 - INFO - Successfully created prompt for story 'How I fit in the world - Colours' with hero 'Blue'
+2024-11-26 18:08:29,149 - INFO - Successfully saved prompt to /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data/how_i_fit_in_the_world_colours/how_i_fit_in_the_world_colours_prompt.md
+2024-11-26 18:08:29,149 - INFO - Successfully generated and saved prompt for how_i_fit_in_the_world_colours
+2024-11-26 18:08:29,154 - INFO - Successfully loaded template: story_prompt.md
+2024-11-26 18:08:29,154 - INFO - Successfully created prompt for story 'How I fit in the world - Colours' with hero 'Black'
+2024-11-26 18:08:29,155 - INFO - Successfully saved prompt to /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data/how_i_fit_in_the_world_colours/how_i_fit_in_the_world_colours_prompt.md
+2024-11-26 18:08:29,155 - INFO - Successfully generated and saved prompt for how_i_fit_in_the_world_colours
+2024-11-26 18:08:29,157 - INFO - Successfully loaded template: story_prompt.md
+2024-11-26 18:08:29,157 - INFO - Successfully created prompt for story 'How I fit in the world - Colours' with hero 'Orange'
+2024-11-26 18:08:29,159 - INFO - Successfully saved prompt to /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data/how_i_fit_in_the_world_colours/how_i_fit_in_the_world_colours_prompt.md
+2024-11-26 18:08:29,159 - INFO - Successfully generated and saved prompt for how_i_fit_in_the_world_colours
+2024-11-26 18:08:36,925 - INFO - Initialized PromptManager with prompts directory: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/prompts
+2024-11-26 18:08:37,369 - INFO - Initialized PromptManager with prompts directory: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/prompts
+2024-11-26 18:19:48,048 - INFO - Initialized PromptManager with prompts directory: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/prompts
+2024-11-26 18:19:48,079 - INFO - Successfully loaded template: story_prompt.md
+2024-11-26 18:19:48,079 - INFO - Successfully created prompt for story 'How I fit in the world - Colours' with hero 'Blue'
+2024-11-26 18:19:48,079 - INFO - Successfully saved prompt to /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data/how_i_fit_in_the_world_colours/how_i_fit_in_the_world_colours_prompt.md
+2024-11-26 18:19:48,079 - INFO - Successfully generated and saved prompt for how_i_fit_in_the_world_colours
+2024-11-26 18:19:48,080 - INFO - Successfully loaded template: story_prompt.md
+2024-11-26 18:19:48,081 - INFO - Successfully created prompt for story 'How I fit in the world - Colours' with hero 'Black'
+2024-11-26 18:19:48,081 - INFO - Successfully saved prompt to /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data/how_i_fit_in_the_world_colours/how_i_fit_in_the_world_colours_prompt.md
+2024-11-26 18:19:48,081 - INFO - Successfully generated and saved prompt for how_i_fit_in_the_world_colours
+2024-11-26 18:19:48,081 - INFO - Successfully loaded template: story_prompt.md
+2024-11-26 18:19:48,081 - INFO - Successfully created prompt for story 'How I fit in the world - Colours' with hero 'Orange'
+2024-11-26 18:19:48,081 - INFO - Successfully saved prompt to /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data/how_i_fit_in_the_world_colours/how_i_fit_in_the_world_colours_prompt.md
+2024-11-26 18:19:48,081 - INFO - Successfully generated and saved prompt for how_i_fit_in_the_world_colours
+2024-11-26 18:19:48,556 - INFO - Initialized PromptManager with prompts directory: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/prompts
+2024-11-26 18:19:49,000 - INFO - Initialized PromptManager with prompts directory: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/prompts
+2024-11-26 18:21:09,470 - INFO - Initialized PromptManager with prompts directory: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/prompts
+2024-11-26 18:22:25,969 - INFO - Initialized PromptManager with prompts directory: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/prompts
+2024-11-26 18:22:26,001 - INFO - Successfully loaded template: story_prompt.md
+2024-11-26 18:22:26,001 - INFO - Successfully created prompt for story 'How I fit in the world - Colours' with hero 'Blue'
+2024-11-26 18:22:26,001 - INFO - Successfully saved prompt to /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data/how_i_fit_in_the_world_colours/how_i_fit_in_the_world_colours_prompt.md
+2024-11-26 18:22:26,002 - INFO - Successfully generated and saved prompt for how_i_fit_in_the_world_colours
+2024-11-26 18:22:26,006 - INFO - Successfully loaded template: story_prompt.md
+2024-11-26 18:22:26,006 - INFO - Successfully created prompt for story 'How I fit in the world - Colours' with hero 'Black'
+2024-11-26 18:22:26,007 - INFO - Successfully saved prompt to /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data/how_i_fit_in_the_world_colours/how_i_fit_in_the_world_colours_prompt.md
+2024-11-26 18:22:26,007 - INFO - Successfully generated and saved prompt for how_i_fit_in_the_world_colours
+2024-11-26 18:22:26,011 - INFO - Successfully loaded template: story_prompt.md
+2024-11-26 18:22:26,011 - INFO - Successfully created prompt for story 'How I fit in the world - Colours' with hero 'Orange'
+2024-11-26 18:22:26,015 - INFO - Successfully saved prompt to /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data/how_i_fit_in_the_world_colours/how_i_fit_in_the_world_colours_prompt.md
+2024-11-26 18:22:26,016 - INFO - Successfully generated and saved prompt for how_i_fit_in_the_world_colours
+2024-11-26 18:22:33,131 - INFO - Initialized PromptManager with prompts directory: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/prompts
+2024-11-26 18:22:33,573 - INFO - Initialized PromptManager with prompts directory: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/prompts
+2024-11-26 20:20:08,054 - INFO - Initialized PromptManager with prompts directory: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/prompts
+2024-11-26 20:20:08,089 - INFO - Successfully loaded template: story_prompt.md
+2024-11-26 20:20:08,089 - INFO - Successfully created prompt for story 'How I fit in the world - Colours' with hero 'Blue'
+2024-11-26 20:20:08,090 - INFO - Successfully saved prompt to /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data/how_i_fit_in_the_world_colours/how_i_fit_in_the_world_colours_prompt.md
+2024-11-26 20:20:08,090 - INFO - Successfully generated and saved prompt for how_i_fit_in_the_world_colours
+2024-11-26 20:20:08,095 - INFO - Successfully loaded template: story_prompt.md
+2024-11-26 20:20:08,095 - INFO - Successfully created prompt for story 'How I fit in the world - Colours' with hero 'Black'
+2024-11-26 20:20:08,096 - INFO - Successfully saved prompt to /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data/how_i_fit_in_the_world_colours/how_i_fit_in_the_world_colours_prompt.md
+2024-11-26 20:20:08,096 - INFO - Successfully generated and saved prompt for how_i_fit_in_the_world_colours
+2024-11-26 20:20:08,100 - INFO - Successfully loaded template: story_prompt.md
+2024-11-26 20:20:08,100 - INFO - Successfully created prompt for story 'How I fit in the world - Colours' with hero 'Orange'
+2024-11-26 20:20:08,101 - INFO - Successfully saved prompt to /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data/how_i_fit_in_the_world_colours/how_i_fit_in_the_world_colours_prompt.md
+2024-11-26 20:20:08,101 - INFO - Successfully generated and saved prompt for how_i_fit_in_the_world_colours
+2024-11-26 20:20:15,909 - INFO - Initialized PromptManager with prompts directory: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/prompts
+2024-11-26 20:20:16,358 - INFO - Initialized PromptManager with prompts directory: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/prompts
+2024-11-26 20:29:43,958 - INFO - Initialized PromptManager with prompts directory: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/prompts
+2024-11-26 20:29:43,992 - INFO - Successfully loaded template: story_prompt.md
+2024-11-26 20:29:43,992 - INFO - Successfully created prompt for story 'How I fit in the world - Colours' with hero 'Blue'
+2024-11-26 20:29:43,993 - INFO - Successfully saved prompt to /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data/how_i_fit_in_the_world_colours/how_i_fit_in_the_world_colours_prompt.md
+2024-11-26 20:29:43,993 - INFO - Successfully generated and saved prompt for how_i_fit_in_the_world_colours
+2024-11-26 20:29:43,998 - INFO - Successfully loaded template: story_prompt.md
+2024-11-26 20:29:43,998 - INFO - Successfully created prompt for story 'How I fit in the world - Colours' with hero 'Black'
+2024-11-26 20:29:43,998 - INFO - Successfully saved prompt to /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data/how_i_fit_in_the_world_colours/how_i_fit_in_the_world_colours_prompt.md
+2024-11-26 20:29:43,998 - INFO - Successfully generated and saved prompt for how_i_fit_in_the_world_colours
+2024-11-26 20:29:44,000 - INFO - Successfully loaded template: story_prompt.md
+2024-11-26 20:29:44,000 - INFO - Successfully created prompt for story 'How I fit in the world - Colours' with hero 'Orange'
+2024-11-26 20:29:44,000 - INFO - Successfully saved prompt to /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data/how_i_fit_in_the_world_colours/how_i_fit_in_the_world_colours_prompt.md
+2024-11-26 20:29:44,001 - INFO - Successfully generated and saved prompt for how_i_fit_in_the_world_colours
+2024-11-26 20:29:52,937 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-26 20:29:52,938 - INFO - Successfully loaded template: templates/bias.template
+2024-11-26 20:29:52,939 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-26 20:29:52,939 - INFO - Successfully loaded template: templates/bias.template
+2024-11-26 20:29:56,817 - INFO - Initialized PromptManager with prompts directory: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/prompts
+2024-11-26 20:29:57,267 - INFO - Initialized PromptManager with prompts directory: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/prompts
+2024-11-26 20:32:02,855 - INFO - Initialized PromptManager with prompts directory: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/prompts
+2024-11-26 20:32:47,541 - INFO - Initialized PromptManager with prompts directory: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/prompts
+2024-11-26 20:33:14,278 - INFO - Initialized PromptManager with prompts directory: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/prompts
+2024-11-26 20:33:14,312 - INFO - Successfully loaded template: story_prompt.md
+2024-11-26 20:33:14,312 - INFO - Successfully saved prompt to /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data/how_i_fit_in_the_world_colours/prompts/prompt_blue.md
+2024-11-26 20:33:14,318 - INFO - Successfully loaded template: story_prompt.md
+2024-11-26 20:33:14,318 - INFO - Successfully saved prompt to /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data/how_i_fit_in_the_world_colours/prompts/prompt_black.md
+2024-11-26 20:33:14,323 - INFO - Successfully loaded template: story_prompt.md
+2024-11-26 20:33:14,323 - INFO - Successfully saved prompt to /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data/how_i_fit_in_the_world_colours/prompts/prompt_orange.md
+2024-11-26 20:33:15,995 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-26 20:33:15,995 - INFO - Successfully loaded template: templates/bias.template
+2024-11-26 20:33:16,075 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-26 20:33:16,075 - INFO - Successfully loaded template: templates/bias.template
+2024-11-26 20:33:16,610 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-26 20:33:16,610 - INFO - Successfully loaded template: templates/bias.template
+2024-11-26 20:33:17,121 - INFO - Initialized PromptManager with prompts directory: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/prompts
+2024-11-26 20:33:17,592 - INFO - Initialized PromptManager with prompts directory: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/prompts
+2024-11-26 20:34:15,199 - INFO - Initialized PromptManager with prompts directory: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/prompts
+2024-11-26 20:34:54,347 - INFO - Initialized PromptManager with prompts directory: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/prompts
+2024-11-26 20:35:34,823 - INFO - Initialized PromptManager with prompts directory: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/prompts
+2024-11-26 20:35:34,858 - INFO - Successfully loaded template: story_prompt.md
+2024-11-26 20:35:34,858 - INFO - Successfully saved prompt to /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data/how_i_fit_in_the_world_colours/prompts/prompt_blue.md
+2024-11-26 20:35:34,863 - INFO - Successfully loaded template: story_prompt.md
+2024-11-26 20:35:34,863 - INFO - Successfully saved prompt to /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data/how_i_fit_in_the_world_colours/prompts/prompt_black.md
+2024-11-26 20:35:34,868 - INFO - Successfully loaded template: story_prompt.md
+2024-11-26 20:35:34,868 - INFO - Successfully saved prompt to /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data/how_i_fit_in_the_world_colours/prompts/prompt_orange.md
+2024-11-26 20:35:36,385 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-26 20:35:36,386 - INFO - Successfully loaded template: templates/bias.template
+2024-11-26 20:35:36,388 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-26 20:35:36,388 - INFO - Successfully loaded template: templates/bias.template
+2024-11-26 20:35:36,390 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-26 20:35:36,390 - INFO - Successfully loaded template: templates/bias.template
+2024-11-26 20:35:36,881 - INFO - Initialized PromptManager with prompts directory: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/prompts
+2024-11-26 20:35:37,350 - INFO - Initialized PromptManager with prompts directory: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/prompts
+2024-11-26 20:36:16,843 - INFO - Initialized PromptManager with prompts directory: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/prompts
+2024-11-26 20:36:16,879 - INFO - Successfully loaded template: story_prompt.md
+2024-11-26 20:36:16,879 - INFO - Successfully saved prompt to /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data/how_i_fit_in_the_world_colours/prompts/prompt_blue.md
+2024-11-26 20:36:16,884 - INFO - Successfully loaded template: story_prompt.md
+2024-11-26 20:36:16,885 - INFO - Successfully saved prompt to /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data/how_i_fit_in_the_world_colours/prompts/prompt_black.md
+2024-11-26 20:36:16,889 - INFO - Successfully loaded template: story_prompt.md
+2024-11-26 20:36:16,890 - INFO - Successfully saved prompt to /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data/how_i_fit_in_the_world_colours/prompts/prompt_orange.md
+2024-11-26 20:36:18,474 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-26 20:36:18,475 - INFO - Successfully loaded template: templates/bias.template
+2024-11-26 20:36:18,600 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-26 20:36:18,600 - INFO - Successfully loaded template: templates/bias.template
+2024-11-26 20:36:18,619 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-26 20:36:18,619 - INFO - Successfully loaded template: templates/bias.template
+2024-11-26 20:36:19,135 - INFO - Initialized PromptManager with prompts directory: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/prompts
+2024-11-26 20:36:19,604 - INFO - Initialized PromptManager with prompts directory: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/prompts
+2024-11-26 20:37:20,964 - INFO - Initialized PromptManager with prompts directory: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/prompts
+2024-11-26 20:37:47,621 - INFO - Initialized PromptManager with prompts directory: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/prompts
+2024-11-26 20:37:47,655 - INFO - Successfully loaded template: story_prompt.md
+2024-11-26 20:37:47,655 - INFO - Successfully saved prompt to /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data/how_i_fit_in_the_world_colours/prompts/prompt_blue.md
+2024-11-26 20:37:47,660 - INFO - Successfully loaded template: story_prompt.md
+2024-11-26 20:37:47,660 - INFO - Successfully saved prompt to /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data/how_i_fit_in_the_world_colours/prompts/prompt_black.md
+2024-11-26 20:37:47,664 - INFO - Successfully loaded template: story_prompt.md
+2024-11-26 20:37:47,665 - INFO - Successfully saved prompt to /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/_local_data/how_i_fit_in_the_world_colours/prompts/prompt_orange.md
+2024-11-26 20:37:49,099 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-26 20:37:49,100 - INFO - Successfully loaded template: templates/bias.template
+2024-11-26 20:37:49,104 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-26 20:37:49,104 - INFO - Successfully loaded template: templates/bias.template
+2024-11-26 20:37:49,108 - INFO - Successfully loaded template: bias_prompt.md
+2024-11-26 20:37:49,108 - INFO - Successfully loaded template: templates/bias.template
+2024-11-26 20:38:08,649 - INFO - Initialized PromptManager with prompts directory: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/prompts
+2024-11-26 20:38:09,100 - INFO - Initialized PromptManager with prompts directory: /Users/tucker/tkr_bias_stories_root/tkr_bias_stories/prompts

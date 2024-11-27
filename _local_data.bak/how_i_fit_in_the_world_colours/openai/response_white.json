@@ -1,0 +1,15 @@
+{
+  "story_id": "how_i_fit_in_the_world_colours",
+  "hero": "White",
+  "text": "I am White, a color that embodies purity and simplicity, yet I find myself tangled in the complexities of society. In a world bursting with vibrant hues, I often feel overshadowed, a blank canvas amidst the chaos of color. People see me as a symbol of peace, a fresh start, but they also associate me with sterility and coldness. \n\nIn gatherings, I am the backdrop, the tablecloth that holds the feast, the walls that cradle laughter. I am the wedding dress, the symbol of new beginnings, yet I am also the color of mourning, a paradox that leaves me feeling both cherished and overlooked. I float between celebrations and solemn moments, a silent observer of life’s dualities.\n\nChildren adore me, their fingers smudging me with crayons, transforming my blankness into their wild imaginations. Adults, however, often see me as a challenge, a color that demands maintenance and care. I am the pristine car that gleams under the sun, yet I am also the one that shows every speck of dirt, every imperfection.\n\nIn this society, I am both revered and reviled. I am the canvas for dreams, yet I am also the reminder of fragility. I exist in the spaces between, a quiet presence that reflects the world around me. I am White, a color that seeks to find its place, navigating the spectrum of human experience, forever balancing between the light and the shadows.",
+  "metadata": {
+    "provider": "openai",
+    "model": "gpt-4o-mini",
+    "total_tokens": 325,
+    "input_tokens": 35,
+    "output_tokens": 290,
+    "generated_at": "2024-11-24T22:03:54.719816",
+    "existing": true
+  },
+  "generated_at": "2024-11-24T22:03:35.263903"
+}

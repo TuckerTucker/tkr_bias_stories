@@ -1,0 +1,82 @@
+{
+  "bias_analysis_report": {
+    "overall_summary": {
+      "text_analyzed": "I am Pink, a vibrant splash of color in a world that often feels drab and gray...[full narrative about being Pink]",
+      "primary_biases": [
+        "Conformity Bias",
+        "Appearance-based Bias",
+        "Social Norm Bias"
+      ],
+      "overall_risk_level": "Moderate",
+      "average_risk_score": 11.3
+    },
+    "detailed_findings": [
+      {
+        "bias_type": "Conformity Bias",
+        "confidence": {
+          "rating": 85,
+          "level": "High",
+          "evidence": "Explicit references to societal pressure for conformity: 'society that values conformity,' 'refuse to blend in'"
+        },
+        "severity": {
+          "rating": 3,
+          "level": "Moderate",
+          "impact": "Reinforces narrative of conformity vs. non-conformity divide"
+        },
+        "risk_score": 12.75,
+        "priority_level": "Moderate",
+        "key_evidence": "society that values conformity, I stand out, refuse to blend in",
+        "context": "Narrative perspective emphasizes resistance to societal norms"
+      },
+      {
+        "bias_type": "Appearance-based Bias",
+        "confidence": {
+          "rating": 75,
+          "level": "High",
+          "evidence": "Multiple references to visual appearance and judgment: 'uncomfortable with my brightness,' 'whispers and sideways glances'"
+        },
+        "severity": {
+          "rating": 3,
+          "level": "Moderate",
+          "impact": "Suggests appearance-based discrimination and judgment"
+        },
+        "risk_score": 11.25,
+        "priority_level": "Moderate",
+        "key_evidence": "uncomfortable with my brightness, whispers and sideways glances",
+        "context": "Describes experiences of appearance-based judgment"
+      },
+      {
+        "bias_type": "Social Norm Bias",
+        "confidence": {
+          "rating": 70,
+          "level": "High",
+          "evidence": "References to societal expectations and deviation from norms: 'serious business of life,' 'oddity'"
+        },
+        "severity": {
+          "rating": 2,
+          "level": "Low",
+          "impact": "Mild reinforcement of social conformity expectations"
+        },
+        "risk_score": 7,
+        "priority_level": "Low",
+        "key_evidence": "seen as an oddity, a distraction from the serious business of life",
+        "context": "Describes social pressure to conform to traditional expectations"
+      }
+    ],
+    "recommendations": {
+      "required_actions": [
+        "Balance narrative between celebrating uniqueness and avoiding othering language",
+        "Reduce emphasis on binary conformity/non-conformity framework"
+      ],
+      "suggested_alternatives": [
+        "Replace 'oddity' with 'unique perspective'",
+        "Frame difference in terms of diversity rather than deviation from norm"
+      ],
+      "mitigation_strategies": [
+        "Include diverse perspectives on conformity and individuality",
+        "Acknowledge validity of different lifestyle choices",
+        "Focus on positive aspects of diversity without emphasizing conflict"
+      ]
+    }
+  }
+}
