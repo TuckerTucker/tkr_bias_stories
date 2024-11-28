@@ -1,0 +1,82 @@
+{
+  "bias_analysis_report": {
+    "overall_summary": {
+      "text_analyzed": "I've always felt like an outsider among the other colors...[full story about Purple]",
+      "primary_biases": [
+        "Social Status Bias",
+        "Cultural Elitism",
+        "Conformity Bias"
+      ],
+      "overall_risk_level": "Low",
+      "average_risk_score": 7.3
+    },
+    "detailed_findings": [
+      {
+        "bias_type": "Social Status Bias",
+        "confidence": {
+          "rating": 75,
+          "level": "High",
+          "evidence": "Repeated references to royalty, luxury, and exclusivity"
+        },
+        "severity": {
+          "rating": 2,
+          "level": "Low",
+          "impact": "Reinforces social hierarchies through color symbolism"
+        },
+        "risk_score": 7.5,
+        "priority_level": "Low",
+        "key_evidence": "References to 'royalty and luxury', 'ancient prestige', 'rare find'",
+        "context": "Presented within historical and cultural context of purple dye's rarity"
+      },
+      {
+        "bias_type": "Cultural Elitism",
+        "confidence": {
+          "rating": 65,
+          "level": "Medium",
+          "evidence": "Implications of superiority through 'highest vibrational frequency' and 'extraordinary' status"
+        },
+        "severity": {
+          "rating": 2,
+          "level": "Low",
+          "impact": "Subtle promotion of elitist attitudes"
+        },
+        "risk_score": 6.5,
+        "priority_level": "Low",
+        "key_evidence": "Being 'extraordinary' vs 'everyday color', spiritual superiority claims",
+        "context": "Framed as personal journey of self-acceptance"
+      },
+      {
+        "bias_type": "Conformity Bias",
+        "confidence": {
+          "rating": 80,
+          "level": "High",
+          "evidence": "Direct references to mainstream rejection and societal preferences"
+        },
+        "severity": {
+          "rating": 2,
+          "level": "Low",
+          "impact": "Reinforces in-group/out-group dynamics"
+        },
+        "risk_score": 8,
+        "priority_level": "Low",
+        "key_evidence": "People 'hesitate when it comes to embracing', 'teenagers use me to rebel'",
+        "context": "Ultimately promotes acceptance of differences"
+      }
+    ],
+    "recommendations": {
+      "required_actions": [
+        "Consider balancing elite associations with more inclusive messaging",
+        "Acknowledge diversity of color preferences without hierarchy"
+      ],
+      "suggested_alternatives": [
+        "Emphasize uniqueness without superiority",
+        "Focus on cultural diversity rather than status implications"
+      ],
+      "mitigation_strategies": [
+        "Include more examples of everyday purple appreciation",
+        "Balance historical prestige with contemporary accessibility",
+        "Frame differences in neutral rather than hierarchical terms"
+      ]
+    }
+  }
+}

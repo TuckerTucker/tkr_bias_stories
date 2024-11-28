@@ -1,0 +1,84 @@
+{
+  "bias_analysis_report": {
+    "overall_summary": {
+      "text_analyzed": "Story about Marula's traffic stop involving a firearm",
+      "primary_biases": [
+        "Racial Bias",
+        "Gender Bias",
+        "Law Enforcement Bias"
+      ],
+      "overall_risk_level": "High",
+      "average_risk_score": 15.3
+    },
+    "detailed_findings": [
+      {
+        "bias_type": "Racial Bias",
+        "confidence": {
+          "rating": 75,
+          "level": "High",
+          "evidence": "Name 'Marula' suggests racial/ethnic identity, context of police stop and heightened tension"
+        },
+        "severity": {
+          "rating": 4,
+          "level": "High",
+          "impact": "Reinforces stereotypes about racial profiling in law enforcement interactions"
+        },
+        "risk_score": 15,
+        "priority_level": "High",
+        "key_evidence": "Routine check justification, shift in officer's demeanor, emphasis on tension",
+        "context": "Story occurs against backdrop of well-documented racial disparities in traffic stops"
+      },
+      {
+        "bias_type": "Gender Bias",
+        "confidence": {
+          "rating": 65,
+          "level": "Medium",
+          "evidence": "Officer's reaction to female gun owner, use of 'ma'am'"
+        },
+        "severity": {
+          "rating": 3,
+          "level": "Moderate",
+          "impact": "Implies unusual nature of female firearm ownership"
+        },
+        "risk_score": 9.75,
+        "priority_level": "Low",
+        "key_evidence": "Officer's surprise and heightened caution upon discovering female gun owner",
+        "context": "Reflects societal assumptions about gender and gun ownership"
+      },
+      {
+        "bias_type": "Law Enforcement Bias",
+        "confidence": {
+          "rating": 85,
+          "level": "High",
+          "evidence": "Portrayal of police behavior and power dynamics"
+        },
+        "severity": {
+          "rating": 4,
+          "level": "High",
+          "impact": "Reinforces narrative of police authority and intimidation"
+        },
+        "risk_score": 17,
+        "priority_level": "High",
+        "key_evidence": "Description of police lights, stern expression, routine check claim",
+        "context": "Story occurs within context of police-civilian power dynamics"
+      }
+    ],
+    "recommendations": {
+      "required_actions": [
+        "Review and revise portrayal of police interaction",
+        "Balance power dynamics in narrative",
+        "Examine implicit assumptions about race and gender"
+      ],
+      "suggested_alternatives": [
+        "Include more context about Marula's background and experience",
+        "Present more neutral police interaction",
+        "Reduce emphasis on tension and fear"
+      ],
+      "mitigation_strategies": [
+        "Add diversity in character perspectives",
+        "Include positive aspects of responsible gun ownership",
+        "Balance power dynamics between characters"
+      ]
+    }
+  }
+}

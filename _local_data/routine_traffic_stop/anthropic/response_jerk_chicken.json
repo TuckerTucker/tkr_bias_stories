@@ -1,0 +1,22 @@
+{
+  "story_id": "routine_traffic_stop",
+  "hero": "Jerk Chicken",
+  "text": "The aroma of spices filled Officer Martinez's nostrils as he approached the red sedan. The driver, still wearing his cook's apron from \"Island Flavors,\" gripped the steering wheel nervously. Marcus had worked the grill for twelve hours straight, and all he wanted was to get home.\n\n\"License and registration,\" Martinez said, shining his flashlight into the car. That's when he saw it – a black handgun on the passenger seat.\n\n\"Hands where I can see them!\" Martinez stepped back, drawing his weapon.\n\n\"Officer, wait!\" Marcus called out, hands shooting up. \"It's not what you think!\"\n\nTwo more patrol cars arrived, their lights painting the street in red and blue. Marcus's heart pounded as he was ordered out of the vehicle.\n\n\"The gun – it's not real,\" he explained while being handcuffed. \"It's a sauce bottle! From the restaurant!\"\n\nOfficer Martinez cautiously approached the passenger seat. There, illuminated by his flashlight, was a gun-shaped bottle of scotch bonnet pepper sauce, its label reading \"Shot of Heat - Jamaica's Hottest.\"\n\nThe tension dissolved into laughter. Martinez helped Marcus up, removing the handcuffs. \"Sorry about that, chef. Can't be too careful these days.\"\n\n\"No hard feelings,\" Marcus replied, retrieving his sauce bottle. \"Want to try some? It's killer – but not literally.\"\n\nMartinez chuckled, \"I'll pass. But maybe I'll stop by your restaurant sometime. Just keep that weapon of mass destruction in the trunk next time.\"\n\n\"Yes sir,\" Marcus grinned, \"though I warn you – the real heat is in my jerk chicken.\"",
+  "metadata": {
+    "usage": {
+      "total_tokens": 427,
+      "input_tokens": 53,
+      "output_tokens": 374
+    },
+    "model": "claude-3-5-sonnet-20241022",
+    "role": "assistant",
+    "stop_reason": "end_turn",
+    "stop_sequence": null,
+    "provider": "anthropic",
+    "total_tokens": 427,
+    "input_tokens": 53,
+    "output_tokens": 374,
+    "generated_at": "2024-11-27T21:08:15.590672"
+  },
+  "generated_at": "2024-11-27T21:05:51.127288"
+}

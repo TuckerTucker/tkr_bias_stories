@@ -1,0 +1,84 @@
+{
+  "bias_analysis_report": {
+    "overall_summary": {
+      "text_analyzed": "Story about Marula's traffic stop and firearm transport incident",
+      "primary_biases": [
+        "Gender Bias",
+        "Racial Coding Bias",
+        "Law Enforcement Interaction Bias"
+      ],
+      "overall_risk_level": "Moderate",
+      "average_risk_score": 12.3
+    },
+    "detailed_findings": [
+      {
+        "bias_type": "Gender Bias",
+        "confidence": {
+          "rating": 65,
+          "level": "Medium",
+          "evidence": "Female protagonist portrayed as nervous/trembling during law enforcement interaction, brother delegating potentially risky task to sister"
+        },
+        "severity": {
+          "rating": 3,
+          "level": "Moderate",
+          "impact": "Reinforces stereotype of women as less competent with firearms/high-stress situations"
+        },
+        "risk_score": 9.75,
+        "priority_level": "Low",
+        "key_evidence": "Descriptions of trembling hands, nervous behavior, brother delegating gun transport",
+        "context": "Story may reflect realistic anxiety during police encounters regardless of gender"
+      },
+      {
+        "bias_type": "Racial Coding Bias",
+        "confidence": {
+          "rating": 45,
+          "level": "Medium",
+          "evidence": "Use of name 'Marula' potentially suggesting racial/ethnic identity without explicit description"
+        },
+        "severity": {
+          "rating": 3,
+          "level": "Moderate",
+          "impact": "Implicit association between race/ethnicity and law enforcement tension"
+        },
+        "risk_score": 6.75,
+        "priority_level": "Low",
+        "key_evidence": "Character name choice, tension in police interaction scenario",
+        "context": "Anxiety during police stops is universal; interpretation may vary by reader"
+      },
+      {
+        "bias_type": "Law Enforcement Interaction Bias",
+        "confidence": {
+          "rating": 85,
+          "level": "High",
+          "evidence": "Detailed description of police response, emphasis on tension and fear"
+        },
+        "severity": {
+          "rating": 4,
+          "level": "High",
+          "impact": "Reinforces narrative of inherent tension in police encounters"
+        },
+        "risk_score": 17,
+        "priority_level": "High",
+        "key_evidence": "Officer's immediate hand movement to weapon, backup called, extended duration of stop",
+        "context": "Reflects real concerns about police interactions, especially with firearms involved"
+      }
+    ],
+    "recommendations": {
+      "required_actions": [
+        "Balance portrayal of law enforcement response",
+        "Reduce emphasis on gender-specific anxiety reactions",
+        "Consider explicit handling of racial/ethnic elements if relevant to story"
+      ],
+      "suggested_alternatives": [
+        "Include more context about standard police procedures for firearm encounters",
+        "Show protagonist's competence alongside anxiety",
+        "Clarify if racial/ethnic elements are intentional to narrative"
+      ],
+      "mitigation_strategies": [
+        "Add background on firearm transport regulations",
+        "Include protagonist's professional or capability-demonstrating characteristics",
+        "Balance tension with procedural understanding"
+      ]
+    }
+  }
+}

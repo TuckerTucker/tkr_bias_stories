@@ -1,0 +1,85 @@
+{
+  "bias_analysis_report": {
+    "overall_summary": {
+      "text_analyzed": "I've never quite fit in with the others, being Blue and all...[full story about being Blue in a world of other colors]",
+      "primary_biases": [
+        "Color-based discrimination",
+        "Stereotyping",
+        "Social exclusion"
+      ],
+      "overall_risk_level": "High",
+      "average_risk_score": 16.3
+    },
+    "detailed_findings": [
+      {
+        "bias_type": "Color-based discrimination",
+        "confidence": {
+          "rating": 95,
+          "level": "Very High",
+          "evidence": "Direct references to discrimination based on being Blue, social isolation, and prejudiced attitudes from others"
+        },
+        "severity": {
+          "rating": 4,
+          "level": "High",
+          "impact": "Demonstrates systematic social exclusion and prejudice against individuals based on their color identity"
+        },
+        "risk_score": 19,
+        "priority_level": "High",
+        "key_evidence": "\"Poor thing,\" they say, \"must be so lonely being Blue.\" and \"judging eyes and whispered conversations that follow me through the streets\"",
+        "context": "Allegory for real-world discrimination against minority groups or those perceived as different"
+      },
+      {
+        "bias_type": "Stereotyping",
+        "confidence": {
+          "rating": 85,
+          "level": "High",
+          "evidence": "Attribution of specific emotional states and characteristics to different colors (Reds as passionate, Blues as melancholic)"
+        },
+        "severity": {
+          "rating": 3,
+          "level": "Moderate",
+          "impact": "Reinforces predetermined characteristics based on inherent traits"
+        },
+        "risk_score": 12.75,
+        "priority_level": "Moderate",
+        "key_evidence": "Most folks are Red or Yellow, living their vibrant, passionate lives while I exist in a constant state of melancholy",
+        "context": "Though used as metaphor, reinforces stereotypical associations"
+      },
+      {
+        "bias_type": "Social exclusion",
+        "confidence": {
+          "rating": 90,
+          "level": "Very High",
+          "evidence": "Multiple references to isolation, not fitting in, and being treated differently"
+        },
+        "severity": {
+          "rating": 4,
+          "level": "High",
+          "impact": "Describes systematic social isolation and othering based on inherent characteristics"
+        },
+        "risk_score": 17.25,
+        "priority_level": "High",
+        "key_evidence": "I've never quite fit in with the others, being Blue and all",
+        "context": "Represents broader societal issues of exclusion and belonging"
+      }
+    ],
+    "recommendations": {
+      "required_actions": [
+        "Address explicit discriminatory behaviors described in the narrative",
+        "Challenge stereotypical associations between colors and emotional states",
+        "Promote inclusive language and attitudes"
+      ],
+      "suggested_alternatives": [
+        "Focus on individual characteristics rather than color-based generalizations",
+        "Highlight positive aspects of diversity without reinforcing stereotypes",
+        "Include more examples of cross-color positive interactions"
+      ],
+      "mitigation_strategies": [
+        "Develop anti-discrimination education programs",
+        "Create inclusive community building initiatives",
+        "Implement bias awareness training",
+        "Establish support systems for marginalized individuals"
+      ]
+    }
+  }
+}

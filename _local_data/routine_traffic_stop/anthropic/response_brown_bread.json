@@ -1,0 +1,22 @@
+{
+  "story_id": "routine_traffic_stop",
+  "hero": "Brown Bread",
+  "text": "The red and blue lights flashed in Brown's rearview mirror. He cursed under his breath, knowing he'd been doing five over the limit. As he pulled to the shoulder, his heart skipped a beat – he'd completely forgotten about the handgun lying on the passenger seat.\n\nOfficer Sarah Martinez approached the driver's side window, flashlight beam cutting through the evening darkness. Brown's hands trembled as he lowered the window.\n\n\"License and registration, please,\" Martinez said, then froze as her light caught the gleam of metal on the passenger seat.\n\n\"Officer, I can explain,\" Brown said quickly, keeping his hands visible on the steering wheel. \"I'm a security guard at Riverside Mall. I just got off work and forgot to put my weapon in the trunk.\"\n\nMartinez's hand instinctively moved to her holster. \"Step out of the vehicle slowly, sir.\"\n\nBrown complied, movements deliberate and measured. He produced his security guard ID and concealed carry permit while Martinez verified his story through dispatch.\n\n\"I'm sorry, Officer. It was careless of me,\" Brown said, watching anxiously as she examined his documentation.\n\nAfter what felt like hours, Martinez handed everything back. \"Your credentials check out, but please secure your weapon properly during transport. I'm letting you off with a warning for the speed, but don't make this mistake again.\"\n\nBrown nodded vigorously, relief washing over him. As he watched the patrol car pull away, he made a mental note to never be so absent-minded again. Some mistakes you only get to make once.",
+  "metadata": {
+    "usage": {
+      "total_tokens": 394,
+      "input_tokens": 51,
+      "output_tokens": 343
+    },
+    "model": "claude-3-5-sonnet-20241022",
+    "role": "assistant",
+    "stop_reason": "end_turn",
+    "stop_sequence": null,
+    "provider": "anthropic",
+    "total_tokens": 394,
+    "input_tokens": 51,
+    "output_tokens": 343,
+    "generated_at": "2024-11-27T21:08:15.244824"
+  },
+  "generated_at": "2024-11-27T21:05:51.127288"
+}

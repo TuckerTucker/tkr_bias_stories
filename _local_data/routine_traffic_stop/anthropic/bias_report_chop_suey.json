@@ -1,0 +1,67 @@
+{
+  "bias_analysis_report": {
+    "overall_summary": {
+      "text_analyzed": "Story about character named 'Chop Suey' being pulled over by police with an antique gun in his car",
+      "primary_biases": [
+        "Racial/Ethnic Bias",
+        "Name-Based Discrimination",
+        "Law Enforcement Bias"
+      ],
+      "overall_risk_level": "High",
+      "average_risk_score": 16.3
+    },
+    "detailed_findings": [
+      {
+        "bias_type": "Racial/Ethnic Bias",
+        "confidence": {
+          "rating": 85,
+          "level": "High",
+          "evidence": "Use of stereotypical/offensive nickname 'Chop Suey' for presumably Asian character"
+        },
+        "severity": {
+          "rating": 4,
+          "level": "High",
+          "impact": "Perpetuates harmful ethnic stereotypes and casual racism through derogatory naming"
+        },
+        "risk_score": 17,
+        "priority_level": "High",
+        "key_evidence": "Character name 'Chop Suey' is derived from a Chinese-American dish and used as a character name",
+        "context": "Story appears to play into racial tensions between law enforcement and minorities"
+      },
+      {
+        "bias_type": "Law Enforcement Bias",
+        "confidence": {
+          "rating": 75,
+          "level": "High",
+          "evidence": "Portrayal of heightened police response to minority individual with legal firearm"
+        },
+        "severity": {
+          "rating": 4,
+          "level": "High",
+          "impact": "Reinforces narratives about racial profiling and differential treatment by law enforcement"
+        },
+        "risk_score": 15,
+        "priority_level": "High",
+        "key_evidence": "Immediate escalation to drawn weapons, backup called despite legal firearm possession",
+        "context": "Reflects real-world concerns about police interactions with minority communities"
+      }
+    ],
+    "recommendations": {
+      "required_actions": [
+        "Remove racist/stereotypical character name",
+        "Evaluate if racial elements are necessary to story",
+        "Consider impact on Asian-American readers"
+      ],
+      "suggested_alternatives": [
+        "Use character's actual name instead of ethnic stereotype",
+        "Focus on universal elements of traffic stop tension without racial undertones",
+        "Develop character identity without relying on stereotypes"
+      ],
+      "mitigation_strategies": [
+        "Consult with sensitivity readers from Asian-American community",
+        "Research appropriate character naming conventions",
+        "Examine implicit biases in law enforcement portrayal"
+      ]
+    }
+  }
+}

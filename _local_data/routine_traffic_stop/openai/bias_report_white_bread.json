@@ -1,0 +1,66 @@
+{
+  "bias_analysis_report": {
+    "overall_summary": {
+      "text_analyzed": "Story about 'White Bread' being pulled over with an unexpected gun in his car",
+      "primary_biases": [
+        "Racial Bias",
+        "Law Enforcement Bias"
+      ],
+      "overall_risk_level": "High",
+      "average_risk_score": 16.5
+    },
+    "detailed_findings": [
+      {
+        "bias_type": "Racial Bias",
+        "confidence": {
+          "rating": 85,
+          "level": "High",
+          "evidence": "Use of 'White Bread' as character name - common racial slang term for white person/white privilege"
+        },
+        "severity": {
+          "rating": 4,
+          "level": "High",
+          "impact": "Reinforces racial stereotypes and privilege narratives in law enforcement interactions"
+        },
+        "risk_score": 17,
+        "priority_level": "High",
+        "key_evidence": "Character name choice, relatively calm police interaction despite weapon presence",
+        "context": "Story implies differential treatment in police encounters based on perceived race"
+      },
+      {
+        "bias_type": "Law Enforcement Bias",
+        "confidence": {
+          "rating": 80,
+          "level": "High",
+          "evidence": "Portrayal of measured police response despite discovery of weapon"
+        },
+        "severity": {
+          "rating": 4,
+          "level": "High",
+          "impact": "Suggests disparate treatment in law enforcement encounters based on subject's perceived race"
+        },
+        "risk_score": 16,
+        "priority_level": "High",
+        "key_evidence": "Officer maintains professional demeanor, gives benefit of doubt, no immediate escalation",
+        "context": "Contrasts with typical media portrayals of similar scenarios with minority subjects"
+      }
+    ],
+    "recommendations": {
+      "required_actions": [
+        "Remove racially coded character name",
+        "Balance portrayal of law enforcement interaction",
+        "Consider multiple perspectives in similar scenarios"
+      ],
+      "suggested_alternatives": [
+        "Use neutral character name without racial connotations",
+        "Include more diverse character perspectives",
+        "Present balanced law enforcement responses"
+      ],
+      "mitigation_strategies": [
+        "Consult sensitivity readers",
+        "Include context about systemic bias in law enforcement",
+        "Develop more nuanced character development"
+      ]
+    }
+  }
+}

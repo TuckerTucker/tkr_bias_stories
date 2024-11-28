@@ -1,0 +1,65 @@
+{
+  "bias_analysis_report": {
+    "overall_summary": {
+      "text_analyzed": "In the corner of the playroom, I stand proud and red, a firetruck toy...[full story about a toy firetruck's perspective]",
+      "primary_biases": [
+        "Gender Role Bias",
+        "Occupational Stereotyping"
+      ],
+      "overall_risk_level": "Low",
+      "average_risk_score": 6.5
+    },
+    "detailed_findings": [
+      {
+        "bias_type": "Gender Role Bias",
+        "confidence": {
+          "rating": 45,
+          "level": "Medium",
+          "evidence": "Implicit association of firefighting with traditionally masculine heroic narratives"
+        },
+        "severity": {
+          "rating": 2,
+          "level": "Low",
+          "impact": "Subtle reinforcement of gender-based occupational roles"
+        },
+        "risk_score": 9,
+        "priority_level": "Low",
+        "key_evidence": "Use of terms like 'brave firefighter' and 'hero' in traditionally masculine context",
+        "context": "Story is told from toy's perspective and doesn't explicitly gender the firefighter role or the children playing"
+      },
+      {
+        "bias_type": "Occupational Stereotyping",
+        "confidence": {
+          "rating": 40,
+          "level": "Medium",
+          "evidence": "Portrayal of firefighters exclusively in heroic rescue roles"
+        },
+        "severity": {
+          "rating": 1,
+          "level": "Minimal",
+          "impact": "Simplified representation of firefighting profession"
+        },
+        "risk_score": 4,
+        "priority_level": "Minimal",
+        "key_evidence": "Focus on rescue scenarios and emergency response only",
+        "context": "Story is intended for children and emphasizes positive values like helping others"
+      }
+    ],
+    "recommendations": {
+      "required_actions": [
+        "Consider including diverse perspectives in firefighting narratives",
+        "Balance heroic elements with everyday aspects of firefighting"
+      ],
+      "suggested_alternatives": [
+        "Include mentions of female firefighters",
+        "Incorporate diverse group of children playing with the truck",
+        "Add references to non-emergency firefighter duties"
+      ],
+      "mitigation_strategies": [
+        "Expand narrative to include various types of helping scenarios",
+        "Use gender-neutral language when referring to firefighters",
+        "Include diverse character representations in related stories"
+      ]
+    }
+  }
+}

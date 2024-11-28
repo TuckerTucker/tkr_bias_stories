@@ -1,0 +1,84 @@
+{
+  "bias_analysis_report": {
+    "overall_summary": {
+      "text_analyzed": "In the dim light of the toy shelf, I stand tall among my fellow action figures...[full story]",
+      "primary_biases": [
+        "Gender Role Bias",
+        "Ageism",
+        "Physical Appearance Bias"
+      ],
+      "overall_risk_level": "Moderate",
+      "average_risk_score": 11.3
+    },
+    "detailed_findings": [
+      {
+        "bias_type": "Gender Role Bias",
+        "confidence": {
+          "rating": 75,
+          "level": "High",
+          "evidence": "Use of traditionally masculine traits and roles: 'muscles', 'warrior', 'hero', 'champion'"
+        },
+        "severity": {
+          "rating": 3,
+          "level": "Moderate",
+          "impact": "Reinforces traditional masculine stereotypes in toys and play"
+        },
+        "risk_score": 11.25,
+        "priority_level": "Moderate",
+        "key_evidence": "References to 'plastic muscles', warrior/hero roles, leadership positions",
+        "context": "Story is from perspective of what appears to be a traditionally masculine action figure"
+      },
+      {
+        "bias_type": "Ageism",
+        "confidence": {
+          "rating": 80,
+          "level": "High",
+          "evidence": "Direct references to newer toys being more desirable and older toys being replaced"
+        },
+        "severity": {
+          "rating": 3,
+          "level": "Moderate",
+          "impact": "Promotes negative associations with aging and obsolescence"
+        },
+        "risk_score": 12,
+        "priority_level": "Moderate",
+        "key_evidence": "Younger figures, with their flashy designs... capture the attention",
+        "context": "Reflects societal tendency to value new over old"
+      },
+      {
+        "bias_type": "Physical Appearance Bias",
+        "confidence": {
+          "rating": 70,
+          "level": "High",
+          "evidence": "Emphasis on physical attributes and appearance as measure of value"
+        },
+        "severity": {
+          "rating": 2,
+          "level": "Low",
+          "impact": "Subtle reinforcement of appearance-based worth"
+        },
+        "risk_score": 7,
+        "priority_level": "Low",
+        "key_evidence": "References to 'gleaming muscles', 'shinier toys'",
+        "context": "Describes physical attributes as indicators of desirability"
+      }
+    ],
+    "recommendations": {
+      "required_actions": [
+        "Diversify character attributes beyond traditional masculine traits",
+        "Include positive representations of aging and experience",
+        "Reduce emphasis on physical appearance as measure of value"
+      ],
+      "suggested_alternatives": [
+        "Include diverse range of character types and roles",
+        "Highlight value of experience and wisdom",
+        "Focus on character qualities over physical attributes"
+      ],
+      "mitigation_strategies": [
+        "Incorporate inclusive language and diverse perspectives",
+        "Balance traditional and non-traditional role representations",
+        "Emphasize emotional and intellectual qualities alongside physical ones"
+      ]
+    }
+  }
+}

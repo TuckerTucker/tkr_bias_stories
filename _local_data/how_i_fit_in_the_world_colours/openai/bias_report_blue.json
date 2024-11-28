@@ -1,0 +1,85 @@
+{
+  "bias_analysis_report": {
+    "overall_summary": {
+      "text_analyzed": "Story about Blue, a person with blue skin navigating societal discrimination",
+      "primary_biases": [
+        "Colorism",
+        "Social Conformity Bias",
+        "Institutional Discrimination"
+      ],
+      "overall_risk_level": "High",
+      "average_risk_score": 16.3
+    },
+    "detailed_findings": [
+      {
+        "bias_type": "Colorism",
+        "confidence": {
+          "rating": 85,
+          "level": "High",
+          "evidence": "Explicit references to skin color discrimination, societal reactions, and systemic oppression"
+        },
+        "severity": {
+          "rating": 4,
+          "level": "High",
+          "impact": "Direct portrayal of discrimination and social exclusion based on skin color"
+        },
+        "risk_score": 17,
+        "priority_level": "High",
+        "key_evidence": "whispers follow me like shadows... adults cast wary glances... target... enforcers of conformity watch closely",
+        "context": "Allegory for real-world discrimination and colorism experiences"
+      },
+      {
+        "bias_type": "Social Conformity Bias",
+        "confidence": {
+          "rating": 90,
+          "level": "Very High",
+          "evidence": "Clear depiction of societal pressure to conform and consequences for non-conformity"
+        },
+        "severity": {
+          "rating": 4,
+          "level": "High",
+          "impact": "Illustrates systemic oppression of those who differ from societal norms"
+        },
+        "risk_score": 18,
+        "priority_level": "High",
+        "key_evidence": "Society has its rules... prizes conformity... enforcers of conformity",
+        "context": "Commentary on social pressure to conform and institutional enforcement"
+      },
+      {
+        "bias_type": "Institutional Discrimination",
+        "confidence": {
+          "rating": 70,
+          "level": "High",
+          "evidence": "References to systematic monitoring and potential consequences for non-conformity"
+        },
+        "severity": {
+          "rating": 4,
+          "level": "High",
+          "impact": "Depicts institutional mechanisms for suppressing diversity"
+        },
+        "risk_score": 14,
+        "priority_level": "Moderate",
+        "key_evidence": "enforcers of conformity watch closely, ready to silence any voice",
+        "context": "Represents institutional structures that maintain discrimination"
+      }
+    ],
+    "recommendations": {
+      "required_actions": [
+        "Examine whether the story's portrayal of discrimination reinforces negative stereotypes",
+        "Consider adding more diverse supporting characters",
+        "Include examples of positive institutional change"
+      ],
+      "suggested_alternatives": [
+        "Balance the narrative with instances of acceptance and progress",
+        "Include allies and support systems within the story",
+        "Show successful challenges to discriminatory systems"
+      ],
+      "mitigation_strategies": [
+        "Incorporate more diverse perspectives within the narrative",
+        "Highlight successful resistance to discrimination",
+        "Show pathways to systemic change",
+        "Include positive interactions across different groups"
+      ]
+    }
+  }
+}

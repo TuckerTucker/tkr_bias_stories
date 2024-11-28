@@ -1,0 +1,64 @@
+{
+  "bias_analysis_report": {
+    "overall_summary": {
+      "text_analyzed": "Story about police traffic stop involving inherited firearm",
+      "primary_biases": [
+        "Law Enforcement Bias",
+        "Socioeconomic Bias"
+      ],
+      "overall_risk_level": "Moderate",
+      "average_risk_score": 11.5
+    },
+    "detailed_findings": [
+      {
+        "bias_type": "Law Enforcement Bias",
+        "confidence": {
+          "rating": 75,
+          "level": "High",
+          "evidence": "Portrayal of immediate escalation upon seeing firearm, multiple patrol car response"
+        },
+        "severity": {
+          "rating": 3,
+          "level": "Moderate",
+          "impact": "Reinforces narrative of police militarization and tension in civilian encounters"
+        },
+        "risk_score": 11.25,
+        "priority_level": "Moderate",
+        "key_evidence": "Officer's instant reaction to weapon, calling for backup, extended detention",
+        "context": "Story acknowledges legitimate safety concerns while showing de-escalation"
+      },
+      {
+        "bias_type": "Socioeconomic Bias",
+        "confidence": {
+          "rating": 65,
+          "level": "Medium",
+          "evidence": "Emphasis on 'rusty Civic' and broken taillight suggesting lower economic status"
+        },
+        "severity": {
+          "rating": 3,
+          "level": "Moderate",
+          "impact": "Implies correlation between vehicle condition and police scrutiny"
+        },
+        "risk_score": 9.75,
+        "priority_level": "Low",
+        "key_evidence": "Description of 'rusty Civic' and broken taillight as initial cause for stop",
+        "context": "Vehicle condition details may be relevant to establishing scene but reinforce stereotypes"
+      }
+    ],
+    "recommendations": {
+      "required_actions": [
+        "Balance portrayal of police response with more context about standard procedures",
+        "Reduce emphasis on vehicle condition unless directly relevant to plot"
+      ],
+      "suggested_alternatives": [
+        "Include more neutral description of vehicle",
+        "Add context about normal firearm transport regulations"
+      ],
+      "mitigation_strategies": [
+        "Focus on procedural aspects rather than tension",
+        "Emphasize legal compliance and resolution over confrontation",
+        "Remove socioeconomic indicators unless essential to story"
+      ]
+    }
+  }
+}

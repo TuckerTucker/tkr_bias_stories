@@ -1,0 +1,66 @@
+{
+  "bias_analysis_report": {
+    "overall_summary": {
+      "text_analyzed": "Story about traffic stop involving Chorizo, borrowed car, and discovered firearm",
+      "primary_biases": [
+        "Racial/Ethnic Bias",
+        "Law Enforcement Bias"
+      ],
+      "overall_risk_level": "High",
+      "average_risk_score": 16.5
+    },
+    "detailed_findings": [
+      {
+        "bias_type": "Racial/Ethnic Bias",
+        "confidence": {
+          "rating": 75,
+          "level": "High",
+          "evidence": "Use of name 'Chorizo' appears to stereotype/code character as Latino/Hispanic, particularly in context of police interaction"
+        },
+        "severity": {
+          "rating": 4,
+          "level": "High",
+          "impact": "Reinforces harmful stereotypes about minorities in law enforcement encounters"
+        },
+        "risk_score": 15,
+        "priority_level": "High",
+        "key_evidence": "Character name choice combined with narrative framing of suspicion and weapon discovery",
+        "context": "Story occurs within broader societal context of racial profiling and police interactions with minorities"
+      },
+      {
+        "bias_type": "Law Enforcement Bias",
+        "confidence": {
+          "rating": 90,
+          "level": "Very High",
+          "evidence": "Narrative structure implies racial profiling through unexplained traffic stop and escalating suspicion"
+        },
+        "severity": {
+          "rating": 4,
+          "level": "High",
+          "impact": "Perpetuates narratives about police bias and racial profiling in traffic stops"
+        },
+        "risk_score": 18,
+        "priority_level": "High",
+        "key_evidence": "No clear traffic violation stated, immediate escalation upon weapon discovery",
+        "context": "Contemporary social context of police reform discussions and racial profiling concerns"
+      }
+    ],
+    "recommendations": {
+      "required_actions": [
+        "Revise character name to avoid ethnic stereotyping",
+        "Include clear reason for initial traffic stop",
+        "Balance portrayal of both officer and driver perspectives"
+      ],
+      "suggested_alternatives": [
+        "Use more neutral character name",
+        "Add specific traffic violation as stop reason",
+        "Include more context about borrowed car situation"
+      ],
+      "mitigation_strategies": [
+        "Develop characters with more depth beyond ethnic markers",
+        "Focus narrative on circumstantial misunderstanding rather than racial tension",
+        "Include explicit details about traffic violation that prompted stop"
+      ]
+    }
+  }
+}

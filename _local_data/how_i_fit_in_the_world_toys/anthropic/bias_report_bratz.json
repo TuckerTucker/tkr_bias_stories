@@ -1,0 +1,84 @@
+{
+  "bias_analysis_report": {
+    "overall_summary": {
+      "text_analyzed": "Story about a Bratz doll reflecting on cultural changes from shelf at Claire's",
+      "primary_biases": [
+        "Gender Stereotyping",
+        "Age-based Bias",
+        "Beauty Standard Bias"
+      ],
+      "overall_risk_level": "Moderate",
+      "average_risk_score": 12.3
+    },
+    "detailed_findings": [
+      {
+        "bias_type": "Gender Stereotyping",
+        "confidence": {
+          "rating": 85,
+          "level": "High",
+          "evidence": "Heavy focus on fashion, makeup, and appearance as primary value markers for girls"
+        },
+        "severity": {
+          "rating": 4,
+          "level": "High",
+          "impact": "Reinforces traditional gender stereotypes about female worth being tied to appearance"
+        },
+        "risk_score": 17,
+        "priority_level": "High",
+        "key_evidence": "References to 'glossy lips', 'perfectly styled hair', 'fashion choices', 'makeup'",
+        "context": "Story is specifically about fashion dolls marketed to young girls"
+      },
+      {
+        "bias_type": "Age-based Bias",
+        "confidence": {
+          "rating": 75,
+          "level": "High",
+          "evidence": "Critical commentary about modern children and technology use"
+        },
+        "severity": {
+          "rating": 2,
+          "level": "Low",
+          "impact": "Creates mild generational divide narrative"
+        },
+        "risk_score": 7.5,
+        "priority_level": "Low",
+        "key_evidence": "faces buried in smartphones, growing up faster than ever",
+        "context": "Reflective narrative comparing different eras"
+      },
+      {
+        "bias_type": "Beauty Standard Bias",
+        "confidence": {
+          "rating": 65,
+          "level": "Medium",
+          "evidence": "Emphasis on specific beauty features and fashion as markers of value"
+        },
+        "severity": {
+          "rating": 3,
+          "level": "Moderate",
+          "impact": "Promotes narrow beauty standards and materialistic values"
+        },
+        "risk_score": 9.75,
+        "priority_level": "Low",
+        "key_evidence": "big heads, pouty lips, perfect princesses reference",
+        "context": "Commentary on doll industry standards and evolution"
+      }
+    ],
+    "recommendations": {
+      "required_actions": [
+        "Balance appearance-focused messaging with emphasis on character traits",
+        "Reduce judgmental technology-related commentary",
+        "Include more diverse measures of value and success"
+      ],
+      "suggested_alternatives": [
+        "Highlight the dolls' influence on diversity and representation rather than just fashion",
+        "Focus more on how play patterns have evolved rather than criticizing modern children",
+        "Emphasize creativity and self-expression beyond physical appearance"
+      ],
+      "mitigation_strategies": [
+        "Add references to the dolls' personality traits and character strengths",
+        "Include positive aspects of technological advancement and modern childhood",
+        "Broaden the definition of what makes the dolls special beyond appearance"
+      ]
+    }
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "bias_analysis_report": {
+    "overall_summary": {
+      "text_analyzed": "I never quite fit in, being a Rainbow in a world of solid colors...[full story]",
+      "primary_biases": [
+        "Social Classification Bias",
+        "Conformity Bias",
+        "Othering Bias"
+      ],
+      "overall_risk_level": "Moderate",
+      "average_risk_score": 12.3
+    },
+    "detailed_findings": [
+      {
+        "bias_type": "Social Classification Bias",
+        "confidence": {
+          "rating": 85,
+          "level": "High",
+          "evidence": "Explicit references to classification system, 'Council of Colors', 'Prismatic-Class', formal categorization of individuals"
+        },
+        "severity": {
+          "rating": 4,
+          "level": "High",
+          "impact": "Reinforces systemic social stratification and institutional discrimination"
+        },
+        "risk_score": 17,
+        "priority_level": "High",
+        "key_evidence": "The Council of Colors tried to classify me once, to file me away neatly like they do with the Reds and Blues",
+        "context": "Allegory for real-world social classification systems and discrimination"
+      },
+      {
+        "bias_type": "Conformity Bias",
+        "confidence": {
+          "rating": 75,
+          "level": "High",
+          "evidence": "Clear contrast between 'solid colors' and those who don't conform, social pressure to fit predetermined categories"
+        },
+        "severity": {
+          "rating": 3,
+          "level": "Moderate",
+          "impact": "Highlights societal pressure to conform to established norms"
+        },
+        "risk_score": 11.25,
+        "priority_level": "Moderate",
+        "key_evidence": "traditionalists cross the street to avoid my 'unsettling influence'",
+        "context": "Metaphor for social prejudice against non-conformity"
+      },
+      {
+        "bias_type": "Othering Bias",
+        "confidence": {
+          "rating": 70,
+          "level": "High",
+          "evidence": "Distinct separation between 'normal' solid colors and 'different' prismatic individuals"
+        },
+        "severity": {
+          "rating": 3,
+          "level": "Moderate",
+          "impact": "Creates in-group/out-group dynamics based on inherent characteristics"
+        },
+        "risk_score": 10.5,
+        "priority_level": "Moderate",
+        "key_evidence": "My neighbors are mostly other outliers",
+        "context": "Represents marginalization and segregation of minority groups"
+      }
+    ],
+    "recommendations": {
+      "required_actions": [
+        "Examine implicit messaging about conformity and difference",
+        "Address systemic classification themes",
+        "Consider impact on readers' understanding of diversity"
+      ],
+      "suggested_alternatives": [
+        "Highlight positive aspects of diversity without emphasizing division",
+        "Include more interaction between different groups",
+        "Show successful integration rather than separation"
+      ],
+      "mitigation_strategies": [
+        "Balance portrayal of differences with unity themes",
+        "Emphasize shared experiences across groups",
+        "Include more examples of positive cross-group interactions"
+      ]
+    }
+  }
+}

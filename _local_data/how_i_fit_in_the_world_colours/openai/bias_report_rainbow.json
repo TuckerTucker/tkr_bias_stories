@@ -1,0 +1,64 @@
+{
+  "bias_analysis_report": {
+    "overall_summary": {
+      "text_analyzed": "I am Rainbow, a vibrant splash of color in a world often painted in shades of gray...",
+      "primary_biases": [
+        "Age Bias",
+        "Conformity Bias"
+      ],
+      "overall_risk_level": "Low",
+      "average_risk_score": 6.5
+    },
+    "detailed_findings": [
+      {
+        "bias_type": "Age Bias",
+        "confidence": {
+          "rating": 75,
+          "level": "High",
+          "evidence": "Clear contrast between children's and adults' perceptions, portraying adults negatively"
+        },
+        "severity": {
+          "rating": 2,
+          "level": "Low",
+          "impact": "Creates mild stereotyping of adults as jaded and less imaginative"
+        },
+        "risk_score": 7.5,
+        "priority_level": "Low",
+        "key_evidence": "Some adults, burdened by the weight of their responsibilities, dismiss me as a fleeting illusion",
+        "context": "Used as literary device to contrast wonder vs. cynicism"
+      },
+      {
+        "bias_type": "Conformity Bias",
+        "confidence": {
+          "rating": 55,
+          "level": "Medium",
+          "evidence": "Implies gray/monochrome world is negative, while being different is inherently positive"
+        },
+        "severity": {
+          "rating": 2,
+          "level": "Low",
+          "impact": "Subtle negative portrayal of conformity and conventional perspectives"
+        },
+        "risk_score": 5.5,
+        "priority_level": "Low",
+        "key_evidence": "In a society that sometimes feels monochrome, I stand out",
+        "context": "Used metaphorically to promote diversity and uniqueness"
+      }
+    ],
+    "recommendations": {
+      "required_actions": [
+        "Consider balancing the portrayal of adults to include some who maintain wonder and imagination",
+        "Acknowledge potential value in both conventional and unique perspectives"
+      ],
+      "suggested_alternatives": [
+        "Include examples of adults who appreciate wonder alongside children",
+        "Frame conformity and uniqueness as complementary rather than opposing forces"
+      ],
+      "mitigation_strategies": [
+        "Maintain the positive message about diversity while avoiding negative stereotypes about any group",
+        "Include nuanced perspectives about both conventional and unique viewpoints",
+        "Emphasize unity without diminishing either traditional or non-traditional perspectives"
+      ]
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "bias_analysis_report": {
+    "overall_summary": {
+      "text_analyzed": "Personal narrative about Black identity and experience in America",
+      "primary_biases": [
+        "Racial Bias (Referenced)",
+        "Systemic Discrimination",
+        "Social Prejudice"
+      ],
+      "overall_risk_level": "Low - Document describes experiences of bias rather than expressing bias",
+      "average_risk_score": 4.2
+    },
+    "detailed_findings": [
+      {
+        "bias_type": "Racial Bias (Referenced)",
+        "confidence": {
+          "rating": 95,
+          "level": "Very High",
+          "evidence": "Direct references to racial discrimination experiences and systemic racism"
+        },
+        "severity": {
+          "rating": 1,
+          "level": "Minimal",
+          "impact": "Text describes rather than perpetuates bias"
+        },
+        "risk_score": 4.75,
+        "priority_level": "Minimal",
+        "key_evidence": "References to code-switching, clutched purses, drinking fountains",
+        "context": "Personal narrative documenting lived experiences of racial bias rather than expressing bias"
+      },
+      {
+        "bias_type": "Systemic Discrimination",
+        "confidence": {
+          "rating": 90,
+          "level": "Very High",
+          "evidence": "Multiple references to institutional and historical discrimination"
+        },
+        "severity": {
+          "rating": 1,
+          "level": "Minimal",
+          "impact": "Documents rather than promotes systemic issues"
+        },
+        "risk_score": 4.5,
+        "priority_level": "Minimal",
+        "key_evidence": "References to being 'first' or 'only' in professional spaces, historical segregation",
+        "context": "Historical and contemporary systemic racism discussed as experienced reality"
+      }
+    ],
+    "recommendations": {
+      "required_actions": [
+        "No corrective actions needed - text appropriately discusses experiences of bias"
+      ],
+      "suggested_alternatives": [
+        "Current framing is appropriate for the content and context"
+      ],
+      "mitigation_strategies": [
+        "Continue maintaining clear distinction between describing experiences of bias versus expressing bias",
+        "Consider adding additional context about systemic nature of described experiences"
+      ]
+    }
+  }
+}

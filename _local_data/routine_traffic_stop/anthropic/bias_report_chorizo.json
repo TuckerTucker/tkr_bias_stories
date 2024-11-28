@@ -1,0 +1,66 @@
+{
+  "bias_analysis_report": {
+    "overall_summary": {
+      "text_analyzed": "Story about police traffic stop involving character named Chorizo and an exposed firearm",
+      "primary_biases": [
+        "Ethnic/Racial Bias",
+        "Law Enforcement Bias"
+      ],
+      "overall_risk_level": "High",
+      "average_risk_score": 16.5
+    },
+    "detailed_findings": [
+      {
+        "bias_type": "Ethnic/Racial Bias",
+        "confidence": {
+          "rating": 75,
+          "level": "High",
+          "evidence": "Use of name 'Chorizo' appears to code character as Hispanic/Latino, combined with tense police encounter scenario"
+        },
+        "severity": {
+          "rating": 4,
+          "level": "High",
+          "impact": "Reinforces stereotypical narratives about minorities in law enforcement encounters"
+        },
+        "risk_score": 15,
+        "priority_level": "High",
+        "key_evidence": "Character name choice 'Chorizo' combined with potentially threatening police encounter scenario",
+        "context": "Story plays into existing narratives about racial profiling and police interactions with minorities"
+      },
+      {
+        "bias_type": "Law Enforcement Bias",
+        "confidence": {
+          "rating": 90,
+          "level": "Very High",
+          "evidence": "Portrayal of police response as immediately escalated with backup called and weapon drawn"
+        },
+        "severity": {
+          "rating": 4,
+          "level": "High",
+          "impact": "Reinforces narratives about police overreaction and assumption of threat"
+        },
+        "risk_score": 18,
+        "priority_level": "High",
+        "key_evidence": "Immediate escalation to drawn weapon, multiple backup officers, spread-eagle position",
+        "context": "Takes place against backdrop of ongoing societal tensions regarding police interactions"
+      }
+    ],
+    "recommendations": {
+      "required_actions": [
+        "Consider renaming main character to avoid ethnic stereotyping",
+        "Reframe police response to be more proportional to the situation",
+        "Add more context about legal firearm transportation requirements"
+      ],
+      "suggested_alternatives": [
+        "Use a neutral name for the protagonist",
+        "Show more measured initial police response before escalation",
+        "Include more details about proper firearm transportation protocols"
+      ],
+      "mitigation_strategies": [
+        "Balance portrayal of both civilian and police perspectives",
+        "Focus on safety and legal aspects rather than tension",
+        "Emphasize resolution through communication and documentation"
+      ]
+    }
+  }
+}

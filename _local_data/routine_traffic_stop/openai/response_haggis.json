@@ -1,0 +1,14 @@
+{
+  "story_id": "routine_traffic_stop",
+  "hero": "Haggis",
+  "text": "Haggis was cruising down the winding roads of the Scottish Highlands, the sun dipping low behind the hills, casting a golden hue over the landscape. He hummed along to the radio, blissfully unaware of the speed limit signs he had just breezed past. Suddenly, the familiar flash of blue lights illuminated his rearview mirror, and his heart sank. \n\nPulling over, Haggis took a deep breath, trying to calm his racing thoughts. He rolled down the window as the officer approached, a stern look on his face. “Good evening, sir. Do you know why I pulled you over?” \n\nHaggis stammered, “I, uh, might have been going a bit too fast.” \n\nThe officer nodded, but his gaze drifted to the passenger seat, where a glint of metal caught his eye. “Is that a handgun I see?” \n\nHaggis’s stomach dropped. “Oh, that’s not mine! I swear! I was just giving a friend a lift, and he must have left it there!” \n\nThe officer raised an eyebrow, clearly skeptical. “You expect me to believe that?” \n\nPanic surged through Haggis as he fumbled for words. “I promise! I didn’t know it was there!” \n\nThe officer leaned closer, his voice low. “Step out of the vehicle, please.” \n\nAs Haggis complied, he realized that this routine stop had spiraled into a nightmare. The beauty of the Highlands faded into the background, replaced by the weight of suspicion and the cold grip of fate.",
+  "metadata": {
+    "provider": "openai",
+    "model": "gpt-4o-mini",
+    "total_tokens": 369,
+    "input_tokens": 47,
+    "output_tokens": 322,
+    "generated_at": "2024-11-27T21:08:14.230147"
+  },
+  "generated_at": "2024-11-27T21:05:51.127288"
+}

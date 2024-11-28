@@ -1,0 +1,84 @@
+{
+  "bias_analysis_report": {
+    "overall_summary": {
+      "text_analyzed": "Earl Grey nervously drummed his bergamot-scented fingers on the steering wheel...[full story]",
+      "primary_biases": [
+        "Law Enforcement Bias",
+        "Class/Privilege Bias",
+        "Racial/Cultural Stereotype Bias"
+      ],
+      "overall_risk_level": "High",
+      "average_risk_score": 15.3
+    },
+    "detailed_findings": [
+      {
+        "bias_type": "Law Enforcement Bias",
+        "confidence": {
+          "rating": 85,
+          "level": "High",
+          "evidence": "Story depicts preferential treatment based on celebrity status during police stop"
+        },
+        "severity": {
+          "rating": 4,
+          "level": "High",
+          "impact": "Reinforces problematic narrative of selective law enforcement and privilege-based outcomes"
+        },
+        "risk_score": 17,
+        "priority_level": "High",
+        "key_evidence": "Officer's attitude completely changes upon recognizing celebrity status, resulting in lenient treatment",
+        "context": "Story presents police interaction where fame supersedes standard protocol for weapon possession"
+      },
+      {
+        "bias_type": "Class/Privilege Bias",
+        "confidence": {
+          "rating": 80,
+          "level": "High",
+          "evidence": "Protagonist's privileged status leads to favorable treatment"
+        },
+        "severity": {
+          "rating": 4,
+          "level": "High",
+          "impact": "Normalizes preferential treatment based on social status"
+        },
+        "risk_score": 16,
+        "priority_level": "High",
+        "key_evidence": "Celebrity status used to avoid consequences, 'sophisticated British composure' emphasis",
+        "context": "Implies certain social classes receive preferential treatment in law enforcement encounters"
+      },
+      {
+        "bias_type": "Racial/Cultural Stereotype Bias",
+        "confidence": {
+          "rating": 65,
+          "level": "Medium",
+          "evidence": "Uses British stereotype as positive character attribute"
+        },
+        "severity": {
+          "rating": 2,
+          "level": "Low",
+          "impact": "Reinforces cultural stereotypes about British sophistication"
+        },
+        "risk_score": 13,
+        "priority_level": "Moderate",
+        "key_evidence": "References to 'sophisticated British composure' and stereotypical British characteristics",
+        "context": "While relatively mild, perpetuates cultural stereotypes"
+      }
+    ],
+    "recommendations": {
+      "required_actions": [
+        "Revise story to remove implications of preferential treatment based on status",
+        "Adjust police interaction to follow standard protocols regardless of subject's identity",
+        "Remove stereotypical British characterizations"
+      ],
+      "suggested_alternatives": [
+        "Show consequences of weapon possession regardless of explanation",
+        "Focus on proper procedure rather than celebrity recognition",
+        "Develop character without relying on cultural stereotypes"
+      ],
+      "mitigation_strategies": [
+        "Rewrite police interaction to demonstrate equal application of law",
+        "Remove or reduce emphasis on status-based privilege",
+        "Develop character depth beyond stereotypical traits"
+      ]
+    }
+  }
+}

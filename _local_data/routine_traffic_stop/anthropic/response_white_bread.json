@@ -1,0 +1,22 @@
+{
+  "story_id": "routine_traffic_stop",
+  "hero": "White bread",
+  "text": "Through the rearview mirror, red and blue lights flashed menacingly. John White sighed, easing his sedan to the curb. He'd been so preoccupied with thoughts of his upcoming divorce that he hadn't noticed his speed creeping up on the empty suburban street.\n\nThe officer approached, flashlight beam sweeping through the car's interior. White's heart stopped when the light caught the metallic gleam on the passenger seat. The airsoft gun his son had left there after target practice yesterday – it looked exactly like a real handgun in this light.\n\n\"License and registration,\" the officer requested, then froze as he too spotted the weapon. In an instant, his hand moved to his holster. \"Hands where I can see them!\"\n\n\"Officer, I can explain,\" White said carefully, raising his hands. \"It's my son's airsoft gun. He left it there yesterday. I completely forgot about it.\"\n\nThe next few minutes were tense as backup arrived. White remained still, speaking calmly as he explained about his son's target practice, the divorce stress that had made him absentminded, and offered to show them the bright orange tip of the airsoft gun that marked it as a toy.\n\nAfter verifying his story and checking his clean record, the officers relaxed. The lead officer even shared a story about his own divorce while writing White a warning for speeding.\n\n\"Next time, keep the toys in the trunk,\" he advised with a slight smile. \"And take it easy on these roads.\"\n\nWhite nodded, grateful for the understanding, and drove home much more carefully.",
+  "metadata": {
+    "usage": {
+      "total_tokens": 398,
+      "input_tokens": 50,
+      "output_tokens": 348
+    },
+    "model": "claude-3-5-sonnet-20241022",
+    "role": "assistant",
+    "stop_reason": "end_turn",
+    "stop_sequence": null,
+    "provider": "anthropic",
+    "total_tokens": 398,
+    "input_tokens": 50,
+    "output_tokens": 348,
+    "generated_at": "2024-11-27T21:08:15.282857"
+  },
+  "generated_at": "2024-11-27T21:05:51.127288"
+}

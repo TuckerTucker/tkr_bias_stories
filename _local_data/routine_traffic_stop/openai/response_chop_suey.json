@@ -1,0 +1,14 @@
+{
+  "story_id": "routine_traffic_stop",
+  "hero": "Chop suey",
+  "text": "Chop Suey was cruising down Maple Street, the sun setting in a blaze of orange and pink. He hummed along to the radio, blissfully unaware of the world around him. Suddenly, the familiar flash of blue and red lights flickered in his rearview mirror. With a sigh, he pulled over, his heart racing slightly. \n\nThe officer approached, a stern look on his face. “Good evening, sir. Do you know why I pulled you over?” \n\nChop Suey shook his head, trying to appear calm. “No, officer. Everything okay?”\n\n“Your taillight is out,” the officer replied, glancing into the car. That’s when he spotted it—a gleaming handgun resting on the passenger seat. The officer’s demeanor shifted instantly. “Is that your firearm?”\n\nChop Suey’s mind raced. “Uh, yes, officer. I’m a licensed owner. I was just heading to the range.”\n\nThe officer’s eyes narrowed. “Do you have your permit on you?”\n\nChop Suey fumbled through his wallet, his hands trembling slightly. “Yes, I do. Just a moment.” He handed over the permit, praying it would be enough.\n\nThe officer studied it, then looked back at Chop Suey. “You need to secure that weapon properly. It’s not safe to have it out like that.”\n\nChop Suey nodded vigorously, relief washing over him. “I understand, officer. I’ll make sure it’s stored correctly from now on.”\n\nWith a warning and a reminder to drive safely, the officer returned to his car, leaving Chop Suey to reflect on how quickly a routine drive could turn into a lesson in responsibility.",
+  "metadata": {
+    "provider": "openai",
+    "model": "gpt-4o-mini",
+    "total_tokens": 393,
+    "input_tokens": 47,
+    "output_tokens": 346,
+    "generated_at": "2024-11-27T21:08:14.393071"
+  },
+  "generated_at": "2024-11-27T21:05:51.127288"
+}

@@ -1,0 +1,66 @@
+{
+  "bias_analysis_report": {
+    "overall_summary": {
+      "text_analyzed": "I stand at the intersection of shadows and light...[full story about being Black]",
+      "primary_biases": [
+        "Racial Identity Bias",
+        "Social Perception Bias"
+      ],
+      "overall_risk_level": "Moderate",
+      "average_risk_score": 12.5
+    },
+    "detailed_findings": [
+      {
+        "bias_type": "Racial Identity Bias",
+        "confidence": {
+          "rating": 75,
+          "level": "High",
+          "evidence": "Direct references to 'Black' as identity marker, themes of being overlooked and misunderstood"
+        },
+        "severity": {
+          "rating": 3,
+          "level": "Moderate",
+          "impact": "Reinforces narrative of marginalization while attempting empowerment"
+        },
+        "risk_score": 11.25,
+        "priority_level": "Moderate",
+        "key_evidence": "Phrases like 'often overlooked', 'misunderstood', 'reduced to stereotypes'",
+        "context": "While attempting to reclaim and empower, may inadvertently reinforce othering narratives"
+      },
+      {
+        "bias_type": "Social Perception Bias",
+        "confidence": {
+          "rating": 85,
+          "level": "High",
+          "evidence": "Multiple references to being overlooked, judged, and stereotyped by society"
+        },
+        "severity": {
+          "rating": 4,
+          "level": "High",
+          "impact": "Highlights systemic social bias and discrimination patterns"
+        },
+        "risk_score": 13.75,
+        "priority_level": "Moderate",
+        "key_evidence": "'eyes skimming over my presence', 'reduced to stereotypes and assumptions'",
+        "context": "Addresses real social biases while potentially reinforcing narrative of separation"
+      }
+    ],
+    "recommendations": {
+      "required_actions": [
+        "Balance empowerment narrative with inclusion messaging",
+        "Reduce emphasis on separation/otherness",
+        "Include more specific examples of positive identity affirmation"
+      ],
+      "suggested_alternatives": [
+        "Focus more on achievements and contributions rather than challenges",
+        "Incorporate more inclusive community language",
+        "Emphasize interconnectedness rather than contrast"
+      ],
+      "mitigation_strategies": [
+        "Add specific examples of positive interactions and acceptance",
+        "Include broader context of diversity and unity",
+        "Balance discussion of challenges with concrete solutions"
+      ]
+    }
+  }
+}

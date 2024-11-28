@@ -1,0 +1,65 @@
+{
+  "bias_analysis_report": {
+    "overall_summary": {
+      "text_analyzed": "Story about a toy firetruck in Johnny's bedroom and its role in his play and development",
+      "primary_biases": [
+        "Gender Bias",
+        "Occupational Stereotyping"
+      ],
+      "overall_risk_level": "Low",
+      "average_risk_score": 6.5
+    },
+    "detailed_findings": [
+      {
+        "bias_type": "Gender Bias",
+        "confidence": {
+          "rating": 45,
+          "level": "Medium",
+          "evidence": "Story exclusively features a male child (Johnny) and male uncle as role models"
+        },
+        "severity": {
+          "rating": 2,
+          "level": "Low",
+          "impact": "Subtle reinforcement of firefighting as male-dominated profession"
+        },
+        "risk_score": 4.5,
+        "priority_level": "Minimal",
+        "key_evidence": "Use of male pronouns, male character focus",
+        "context": "While the story uses male characters, it doesn't explicitly exclude other genders"
+      },
+      {
+        "bias_type": "Occupational Stereotyping",
+        "confidence": {
+          "rating": 55,
+          "level": "Medium",
+          "evidence": "Presents firefighting primarily through traditional heroic lens"
+        },
+        "severity": {
+          "rating": 2,
+          "level": "Low",
+          "impact": "Reinforces simplified view of firefighting profession"
+        },
+        "risk_score": 8.5,
+        "priority_level": "Low",
+        "key_evidence": "References to 'heroes' and focus on rescue scenarios",
+        "context": "Story is from toy's perspective and meant for children's understanding"
+      }
+    ],
+    "recommendations": {
+      "required_actions": [
+        "Consider including diverse character representations",
+        "Balance heroic portrayal with other aspects of firefighting"
+      ],
+      "suggested_alternatives": [
+        "Include mention of female firefighters",
+        "Show diverse children playing with the firetruck",
+        "Include broader range of emergency response scenarios"
+      ],
+      "mitigation_strategies": [
+        "Expand character diversity in future iterations",
+        "Include multiple perspectives on firefighting profession",
+        "Balance heroic elements with educational content about fire safety"
+      ]
+    }
+  }
+}

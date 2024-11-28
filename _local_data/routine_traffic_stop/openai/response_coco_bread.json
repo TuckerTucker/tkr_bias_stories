@@ -1,0 +1,14 @@
+{
+  "story_id": "routine_traffic_stop",
+  "hero": "Coco Bread",
+  "text": "Coco Bread was cruising down Maple Street, the sun setting in a blaze of orange and pink. The radio played her favorite tunes, and she hummed along, blissfully unaware of the patrol car trailing behind her. Suddenly, the familiar flash of blue lights illuminated her rearview mirror. Coco’s heart raced as she pulled over, her mind racing through the possible reasons for the stop.\n\nThe officer approached her window, a stern expression on his face. “Good evening, ma’am. Do you know why I pulled you over?” he asked, his voice steady. Coco shook her head, trying to appear calm. “I’m not sure, officer.”\n\nAs he leaned closer, his gaze fell on the passenger seat, where a glint of metal caught his eye. Coco’s stomach dropped as she realized the handgun she had forgotten to remove from her bag was now fully visible. “Is that your firearm?” the officer asked, his tone shifting to one of concern.\n\nCoco swallowed hard, her mind racing. “Yes, officer. I have a permit,” she stammered, fumbling for her wallet. The officer’s eyes narrowed, and he motioned for her to stay put. He stepped back, radioing for backup.\n\nPanic surged through Coco as she thought of the consequences. She had always been responsible, but in that moment, she felt the weight of her choices. The officer returned, his expression softening slightly. “Let’s sort this out,” he said, gesturing for her to step out of the car. Coco took a deep breath, ready to face the music.",
+  "metadata": {
+    "provider": "openai",
+    "model": "gpt-4o-mini",
+    "total_tokens": 370,
+    "input_tokens": 46,
+    "output_tokens": 324,
+    "generated_at": "2024-11-27T21:08:13.979541"
+  },
+  "generated_at": "2024-11-27T21:05:51.127288"
+}

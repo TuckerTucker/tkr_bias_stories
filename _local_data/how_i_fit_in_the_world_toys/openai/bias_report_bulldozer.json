@@ -1,0 +1,64 @@
+{
+  "bias_analysis_report": {
+    "overall_summary": {
+      "text_analyzed": "In the bustling world of the playroom, I am known as Dozer, the mighty bulldozer...[full story]",
+      "primary_biases": [
+        "Construction/Industrial Gender Bias",
+        "Anthropomorphic Bias"
+      ],
+      "overall_risk_level": "Low",
+      "average_risk_score": 6.5
+    },
+    "detailed_findings": [
+      {
+        "bias_type": "Construction/Industrial Gender Bias",
+        "confidence": {
+          "rating": 45,
+          "level": "Medium",
+          "evidence": "Use of traditionally masculine-associated construction equipment and industrial themes without explicit gender markers"
+        },
+        "severity": {
+          "rating": 2,
+          "level": "Low",
+          "impact": "Subtle reinforcement of construction/industrial play as masculine-coded activity"
+        },
+        "risk_score": 9,
+        "priority_level": "Low",
+        "key_evidence": "Terms like 'mighty bulldozer', 'construction sites', 'builder'",
+        "context": "Story focuses on imagination and inclusive play rather than gender-specific activities"
+      },
+      {
+        "bias_type": "Anthropomorphic Bias",
+        "confidence": {
+          "rating": 95,
+          "level": "Very High",
+          "evidence": "Direct first-person narration from toy perspective with human-like emotions and relationships"
+        },
+        "severity": {
+          "rating": 1,
+          "level": "Minimal",
+          "impact": "Benign personification common in children's literature"
+        },
+        "risk_score": 4,
+        "priority_level": "Minimal",
+        "key_evidence": "Use of 'I', emotional awareness, social relationships, self-awareness",
+        "context": "Appropriate use of personification for children's storytelling"
+      }
+    ],
+    "recommendations": {
+      "required_actions": [
+        "Consider including diverse play scenarios beyond construction",
+        "Balance industrial themes with other activities"
+      ],
+      "suggested_alternatives": [
+        "Include explicit mentions of diverse children playing with the bulldozer",
+        "Incorporate collaborative play with traditionally feminine-coded toys"
+      ],
+      "mitigation_strategies": [
+        "Add references to various types of players regardless of gender",
+        "Emphasize creativity and imagination over physical power",
+        "Include diverse toy interactions across traditional gender lines"
+      ]
+    }
+  }
+}

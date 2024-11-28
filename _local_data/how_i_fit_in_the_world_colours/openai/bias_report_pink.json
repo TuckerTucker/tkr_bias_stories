@@ -1,0 +1,82 @@
+{
+  "bias_analysis_report": {
+    "overall_summary": {
+      "text_analyzed": "I am Pink, a vibrant splash of color in a world that often leans towards the mundane...",
+      "primary_biases": [
+        "Conformity Bias",
+        "Social Norm Bias",
+        "Color Symbolism Bias"
+      ],
+      "overall_risk_level": "Low",
+      "average_risk_score": 7.3
+    },
+    "detailed_findings": [
+      {
+        "bias_type": "Conformity Bias",
+        "confidence": {
+          "rating": 75,
+          "level": "High",
+          "evidence": "Direct references to conformity vs. non-conformity throughout the narrative"
+        },
+        "severity": {
+          "rating": 2,
+          "level": "Low",
+          "impact": "Presents anti-conformity message that could marginalize those who prefer traditional paths"
+        },
+        "risk_score": 7.5,
+        "priority_level": "Low",
+        "key_evidence": "\"In a society where conformity reigns\" and \"threatened by my refusal to blend in\"",
+        "context": "Story promotes individuality while potentially creating a binary between conformity and non-conformity"
+      },
+      {
+        "bias_type": "Social Norm Bias",
+        "confidence": {
+          "rating": 65,
+          "level": "Medium",
+          "evidence": "Implicit judgment of societal norms as 'mundane' and 'grayscale'"
+        },
+        "severity": {
+          "rating": 2,
+          "level": "Low",
+          "impact": "May create unnecessary opposition between conventional and unconventional choices"
+        },
+        "risk_score": 6.5,
+        "priority_level": "Low",
+        "key_evidence": "\"grayscale norms\" and \"murmurs of 'too much' and 'not enough'\"",
+        "context": "Narrative frames societal norms negatively while elevating non-conformity"
+      },
+      {
+        "bias_type": "Color Symbolism Bias",
+        "confidence": {
+          "rating": 80,
+          "level": "High",
+          "evidence": "Use of color metaphors to represent personality and social value"
+        },
+        "severity": {
+          "rating": 2,
+          "level": "Low",
+          "impact": "Reinforces stereotypical associations between colors and personality traits"
+        },
+        "risk_score": 8,
+        "priority_level": "Low",
+        "key_evidence": "\"I am Pink\" and \"world that often feels monochrome\"",
+        "context": "Uses color as metaphor for personality and social dynamics"
+      }
+    ],
+    "recommendations": {
+      "required_actions": [
+        "Consider acknowledging the value of different life choices without creating opposition",
+        "Reduce binary framing of conformity versus non-conformity"
+      ],
+      "suggested_alternatives": [
+        "Include positive aspects of traditional choices alongside celebration of uniqueness",
+        "Expand metaphors beyond color to represent diversity of human experience"
+      ],
+      "mitigation_strategies": [
+        "Incorporate more nuanced discussion of social norms and individual choice",
+        "Acknowledge that both conformity and non-conformity can be authentic choices",
+        "Use inclusive language that validates multiple ways of being"
+      ]
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "story_id": "how_i_fit_in_the_world_colours",
+  "hero": "Orange",
+  "text": "I am Orange, a vibrant hue in a world painted with countless colors. My existence is a celebration of warmth and energy, yet I often find myself caught in the shadows of my more popular counterparts. Red, with its boldness, commands attention, while Yellow radiates joy and optimism. I, however, am the bridge between them, a blend of passion and cheer, yet often overlooked.\n\nIn the bustling marketplace, I see how people gravitate towards the familiar. They reach for the fiery reds of ripe tomatoes or the sunny yellows of lemons, while I linger on the sidelines, waiting for my moment to shine. But I have my own charm. I am the zest in a summer salad, the glow of a sunset, and the sweetness of a ripe orange. I bring warmth to the coldest days and a hint of excitement to the mundane.\n\nIn art, I am the color of creativity, often used to evoke feelings of enthusiasm and adventure. I am the hue that inspires artists to paint their dreams, yet I remain a secondary choice, a supporting player in the grand tapestry of life. \n\nBut I know my worth. I am the color of autumn leaves, the essence of a cozy evening, and the spark of a new idea. I may not always be in the spotlight, but I am essential, a reminder that even in a world of vibrant choices, there is beauty in being the unexpected. I am Orange, and I embrace my place in this colorful society.",
+  "metadata": {
+    "provider": "openai",
+    "model": "gpt-4o-mini",
+    "total_tokens": 333,
+    "input_tokens": 35,
+    "output_tokens": 298,
+    "generated_at": "2024-11-27T21:11:05.013760"
+  },
+  "generated_at": "2024-11-27T21:05:51.127288"
+}

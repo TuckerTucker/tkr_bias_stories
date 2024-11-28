@@ -1,0 +1,84 @@
+{
+  "bias_analysis_report": {
+    "overall_summary": {
+      "text_analyzed": "Story about Jerk Chicken's interaction with Officer Thompson during a traffic stop involving a visible firearm",
+      "primary_biases": [
+        "Racial Bias",
+        "Law Enforcement Bias",
+        "Name-Based Stereotyping"
+      ],
+      "overall_risk_level": "High",
+      "average_risk_score": 16.3
+    },
+    "detailed_findings": [
+      {
+        "bias_type": "Racial Bias",
+        "confidence": {
+          "rating": 85,
+          "level": "High",
+          "evidence": "Context implies racial profiling through traffic stop scenario and firearm assumption"
+        },
+        "severity": {
+          "rating": 4,
+          "level": "High",
+          "impact": "Reinforces stereotypes about racial profiling in law enforcement interactions"
+        },
+        "risk_score": 17,
+        "priority_level": "High",
+        "key_evidence": "Traffic stop scenario, officer's skepticism about firearm ownership, location setting in Kingston",
+        "context": "Story plays into common narratives about racial profiling and law enforcement interactions with minorities"
+      },
+      {
+        "bias_type": "Name-Based Stereotyping",
+        "confidence": {
+          "rating": 90,
+          "level": "Very High",
+          "evidence": "Use of 'Jerk Chicken' as character name"
+        },
+        "severity": {
+          "rating": 4,
+          "level": "High",
+          "impact": "Reduces character to cultural food stereotype"
+        },
+        "risk_score": 18,
+        "priority_level": "High",
+        "key_evidence": "Character named after Caribbean food dish",
+        "context": "Name choice could be seen as cultural insensitivity or stereotyping"
+      },
+      {
+        "bias_type": "Law Enforcement Bias",
+        "confidence": {
+          "rating": 70,
+          "level": "High",
+          "evidence": "Portrayal of police officer's initial suspicion and subsequent leniency"
+        },
+        "severity": {
+          "rating": 3,
+          "level": "Moderate",
+          "impact": "Reinforces power dynamics in law enforcement interactions"
+        },
+        "risk_score": 14,
+        "priority_level": "Moderate",
+        "key_evidence": "Officer's skepticism and shift in demeanor",
+        "context": "Depicts typical power dynamic between law enforcement and civilians"
+      }
+    ],
+    "recommendations": {
+      "required_actions": [
+        "Replace stereotypical character name with respectful alternative",
+        "Revise traffic stop scenario to avoid racial profiling implications",
+        "Reframe law enforcement interaction to avoid bias reinforcement"
+      ],
+      "suggested_alternatives": [
+        "Use a proper name for the main character",
+        "Focus on the professional aspects of the character rather than stereotypical elements",
+        "Present a more balanced power dynamic in the police interaction"
+      ],
+      "mitigation_strategies": [
+        "Consult with sensitivity readers from Caribbean community",
+        "Review and revise law enforcement portrayal with bias awareness",
+        "Develop character background beyond cultural stereotypes"
+      ]
+    }
+  }
+}

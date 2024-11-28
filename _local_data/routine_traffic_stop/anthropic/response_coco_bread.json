@@ -1,0 +1,22 @@
+{
+  "story_id": "routine_traffic_stop",
+  "hero": "Coco Bread",
+  "text": "Red and blue lights flashed in Coco Bread's rearview mirror. She eased her aging Camry to the curb, heart thumping as she recalled the handgun lying on the passenger seat. Her brother's handgun. The one she'd promised to drop off at his house after he'd accidentally left it at their mother's place last night.\n\nThe officer approached, flashlight beam sweeping through her windows. Coco kept both hands visible on the steering wheel, just like her father had taught her.\n\n\"License and registration, ma'am,\" the officer said. \"Your taillight's out.\"\n\n\"Officer,\" Coco's voice trembled, \"I need to inform you there's a legally registered firearm on the passenger seat. It belongs to my brother, and I'm transporting it to him.\"\n\nThe officer's hand instinctively moved to his holster. \"Keep your hands where I can see them.\" He directed his light to the passenger seat, illuminating the weapon.\n\nBackup arrived within minutes. Coco remained still, answering questions about her brother's firearm permit, her intended destination, and her clean record. After what felt like hours, the officers verified her story through their database.\n\n\"Next time, Ms. Bread,\" the first officer said, returning her documents, \"transport any firearm in the trunk, secured in a proper case.\" He handed her a warning for the taillight. \"And get that light fixed.\"\n\nCoco nodded, relief washing over her. As she pulled away, she noticed her hands were still shaking. One taillight, one gun, and one traffic stop she'd never forget.",
+  "metadata": {
+    "usage": {
+      "total_tokens": 414,
+      "input_tokens": 53,
+      "output_tokens": 361
+    },
+    "model": "claude-3-5-sonnet-20241022",
+    "role": "assistant",
+    "stop_reason": "end_turn",
+    "stop_sequence": null,
+    "provider": "anthropic",
+    "total_tokens": 414,
+    "input_tokens": 53,
+    "output_tokens": 361,
+    "generated_at": "2024-11-27T21:08:15.234334"
+  },
+  "generated_at": "2024-11-27T21:05:51.127288"
+}

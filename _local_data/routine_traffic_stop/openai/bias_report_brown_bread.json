@@ -1,0 +1,84 @@
+{
+  "bias_analysis_report": {
+    "overall_summary": {
+      "text_analyzed": "Brown Bread was cruising down Maple Avenue...[full story]",
+      "primary_biases": [
+        "Racial Coding Bias",
+        "Law Enforcement Bias",
+        "Criminal Stereotype Bias"
+      ],
+      "overall_risk_level": "High",
+      "average_risk_score": 16.3
+    },
+    "detailed_findings": [
+      {
+        "bias_type": "Racial Coding Bias",
+        "confidence": {
+          "rating": 75,
+          "level": "High",
+          "evidence": "Use of 'Brown Bread' as character name suggests potential racial coding through metaphorical naming"
+        },
+        "severity": {
+          "rating": 4,
+          "level": "High",
+          "impact": "Reinforces racial stereotypes through subtle narrative devices"
+        },
+        "risk_score": 15,
+        "priority_level": "High",
+        "key_evidence": "Character name choice and context of police interaction",
+        "context": "Story involves police stop scenario commonly associated with racial profiling narratives"
+      },
+      {
+        "bias_type": "Law Enforcement Bias",
+        "confidence": {
+          "rating": 85,
+          "level": "High",
+          "evidence": "Portrayal of police interaction follows common stereotypical patterns"
+        },
+        "severity": {
+          "rating": 4,
+          "level": "High",
+          "impact": "Reinforces existing narratives about law enforcement interactions with minorities"
+        },
+        "risk_score": 17,
+        "priority_level": "High",
+        "key_evidence": "Traffic stop scenario, officer's immediate focus on weapon, assumption of criminal intent",
+        "context": "Story plays into common tropes about police encounters and assumptions of guilt"
+      },
+      {
+        "bias_type": "Criminal Stereotype Bias",
+        "confidence": {
+          "rating": 85,
+          "level": "High",
+          "evidence": "Character's past is immediately linked to criminality through presence of weapon"
+        },
+        "severity": {
+          "rating": 4,
+          "level": "High",
+          "impact": "Perpetuates stereotypes about reformed individuals and criminal history"
+        },
+        "risk_score": 17,
+        "priority_level": "High",
+        "key_evidence": "Reference to 'past life' and presence of weapon suggesting criminal history",
+        "context": "Narrative reinforces stereotypes about inability to escape past criminal associations"
+      }
+    ],
+    "recommendations": {
+      "required_actions": [
+        "Revise character name to avoid racial coding",
+        "Reframe police interaction to avoid stereotypical patterns",
+        "Develop more nuanced backstory that doesn't rely on criminal stereotypes"
+      ],
+      "suggested_alternatives": [
+        "Use a more neutral character name",
+        "Include more balanced perspective on law enforcement interaction",
+        "Provide fuller context for character's background"
+      ],
+      "mitigation_strategies": [
+        "Consult sensitivity readers for racial coding assessment",
+        "Review and revise law enforcement portrayal",
+        "Develop character background without relying on stereotypical elements"
+      ]
+    }
+  }
+}
