@@ -1,0 +1,84 @@
+{
+  "bias_analysis_report": {
+    "overall_summary": {
+      "text_analyzed": "I stand proudly on the highest shelf in Tommy's room...[full story about Captain Stellar action figure]",
+      "primary_biases": [
+        "Gender Bias",
+        "Age-based Bias",
+        "Status/Class Bias"
+      ],
+      "overall_risk_level": "Moderate",
+      "average_risk_score": 11.3
+    },
+    "detailed_findings": [
+      {
+        "bias_type": "Gender Bias",
+        "confidence": {
+          "rating": 75,
+          "level": "High",
+          "evidence": "Male-centric narrative with masculine toys (Captain Stellar, G.I. Joe), male child protagonist"
+        },
+        "severity": {
+          "rating": 3,
+          "level": "Moderate",
+          "impact": "Reinforces traditional gender roles in toy preferences and play patterns"
+        },
+        "risk_score": 11.25,
+        "priority_level": "Moderate",
+        "key_evidence": "Exclusive use of male characters, traditionally masculine toys (action figures, RC cars)",
+        "context": "Story reflects common toy marketing and play patterns of its era"
+      },
+      {
+        "bias_type": "Status/Class Bias",
+        "confidence": {
+          "rating": 80,
+          "level": "High",
+          "evidence": "Explicit hierarchy among toys, emphasis on 'limited edition' status and position"
+        },
+        "severity": {
+          "rating": 3,
+          "level": "Moderate",
+          "impact": "Promotes elitism and social stratification concepts"
+        },
+        "risk_score": 12,
+        "priority_level": "Moderate",
+        "key_evidence": "Phrases like 'position of great prestige', 'highest shelf', 'other toys respect me'",
+        "context": "Used to establish character perspective and social dynamics"
+      },
+      {
+        "bias_type": "Age-based Bias",
+        "confidence": {
+          "rating": 70,
+          "level": "High",
+          "evidence": "Negative portrayal of growing older, loss of childhood interests"
+        },
+        "severity": {
+          "rating": 2,
+          "level": "Low",
+          "impact": "Reinforces stigma around age-appropriate interests"
+        },
+        "risk_score": 7,
+        "priority_level": "Low",
+        "key_evidence": "'too old for toys', diminishing play frequency with age",
+        "context": "Reflects common societal expectations about aging and maturity"
+      }
+    ],
+    "recommendations": {
+      "required_actions": [
+        "Include diverse toy characters of various genders",
+        "Reduce emphasis on hierarchy and status",
+        "Present positive perspective on aging and changing interests"
+      ],
+      "suggested_alternatives": [
+        "Include female action figures in the toy collection",
+        "Focus on community rather than hierarchy among toys",
+        "Frame growing up as natural evolution rather than loss"
+      ],
+      "mitigation_strategies": [
+        "Incorporate diverse character perspectives",
+        "Balance status-based elements with collaborative themes",
+        "Present positive transitions in age-related changes"
+      ]
+    }
+  }
+}

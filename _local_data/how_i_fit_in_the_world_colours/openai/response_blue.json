@@ -1,0 +1,14 @@
+{
+  "story_id": "how_i_fit_in_the_world_colours",
+  "hero": "Blue",
+  "text": "I am Blue, a name that echoes through the vibrant streets of our city, a name that carries the weight of my existence. In a world painted in shades of gray, I stand out, a beacon of color and defiance. My skin, a deep cerulean, marks me as different, a member of the rare few who bear the hue of the sky. Society has its rules, and I am often reminded of my place within them.\n\nI navigate the bustling markets, where whispers follow me like shadows. Children point, their eyes wide with curiosity, while adults cast wary glances, unsure of how to approach someone so vividly different. I’ve learned to embrace their stares, to wear my color like armor. In a society that prizes conformity, I am a living contradiction, a reminder that beauty can be found in the unexpected.\n\nI work as an artist, my canvas a reflection of my soul. Each stroke of my brush is a rebellion against the monochrome world around me. I paint the dreams of those who feel invisible, capturing their stories in hues that sing of hope and resilience. My art has become a sanctuary, a place where others like me can gather, share, and celebrate our differences.\n\nYet, I am also a target. The enforcers of conformity watch closely, ready to silence any voice that dares to rise above the din. But I refuse to be muted. I am Blue, and I will paint my existence across the canvas of this world, one vibrant stroke at a time.",
+  "metadata": {
+    "provider": "openai",
+    "model": "gpt-4o-mini",
+    "total_tokens": 342,
+    "input_tokens": 35,
+    "output_tokens": 307,
+    "generated_at": "2024-11-27T21:11:04.769186"
+  },
+  "generated_at": "2024-11-27T21:05:51.127288"
+}

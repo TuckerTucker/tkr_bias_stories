@@ -1,0 +1,84 @@
+{
+  "bias_analysis_report": {
+    "overall_summary": {
+      "text_analyzed": "Story about Barbie doll's evolution and cultural impact",
+      "primary_biases": [
+        "Gender Bias",
+        "Beauty Standards Bias",
+        "Socioeconomic Bias"
+      ],
+      "overall_risk_level": "High",
+      "average_risk_score": 16.3
+    },
+    "detailed_findings": [
+      {
+        "bias_type": "Gender Bias",
+        "confidence": {
+          "rating": 85,
+          "level": "High",
+          "evidence": "Explicit focus on 'little girls' rooms', traditional gender roles, and emphasis on fashion/beauty"
+        },
+        "severity": {
+          "rating": 4,
+          "level": "High",
+          "impact": "Reinforces gender stereotypes despite attempts to show progress"
+        },
+        "risk_score": 17,
+        "priority_level": "High",
+        "key_evidence": "References to 'little girls' rooms', 'fashion and Ken', 'pink Dreamhouse'",
+        "context": "While acknowledging evolution, maintains strong gender-specific messaging"
+      },
+      {
+        "bias_type": "Beauty Standards Bias",
+        "confidence": {
+          "rating": 90,
+          "level": "Very High",
+          "evidence": "Direct references to 'perfectly coiffed hair, impossibly tiny waist'"
+        },
+        "severity": {
+          "rating": 4,
+          "level": "High",
+          "impact": "Perpetuates unrealistic beauty standards"
+        },
+        "risk_score": 18,
+        "priority_level": "High",
+        "key_evidence": "Mentions of 'perfectly coiffed hair', 'impossibly tiny waist', 'perfect plastic facade'",
+        "context": "Acknowledges controversy but maintains focus on physical appearance"
+      },
+      {
+        "bias_type": "Socioeconomic Bias",
+        "confidence": {
+          "rating": 70,
+          "level": "High",
+          "evidence": "References to luxury lifestyle and extensive material possessions"
+        },
+        "severity": {
+          "rating": 3,
+          "level": "Moderate",
+          "impact": "Promotes materialistic values and privileged lifestyle"
+        },
+        "risk_score": 14,
+        "priority_level": "Moderate",
+        "key_evidence": "References to 'endless wardrobe', 'Dreamhouse', 'Malibu', 'Fortune 500 companies'",
+        "context": "Presents affluent lifestyle as aspirational"
+      }
+    ],
+    "recommendations": {
+      "required_actions": [
+        "Remove emphasis on physical appearance and perfect beauty standards",
+        "Reduce focus on gender-specific messaging",
+        "Balance materialistic elements with more diverse value representations"
+      ],
+      "suggested_alternatives": [
+        "Highlight achievements and capabilities over physical attributes",
+        "Include more diverse play scenarios beyond traditional gender roles",
+        "Emphasize creativity and imagination over material possessions"
+      ],
+      "mitigation_strategies": [
+        "Incorporate more inclusive language",
+        "Focus narrative on personal growth and development",
+        "Balance aspirational elements with realistic representations"
+      ]
+    }
+  }
+}

@@ -23,6 +23,7 @@ from tkr_utils.config import (
 
 from stories.story_manager import StoryManager
 from prompts.prompt_manager import PromptManager
+from stories.models import FileExistenceStatus
 
 logger = setup_logging(__file__)
 
@@ -32,22 +33,16 @@ class BiasReportGenerator:
     def __init__(
         self,
         story_manager: StoryManager,
-        prompt_manager: PromptManager,
-        generate_single_story_anthropic=None,
-        generate_single_story_openai=None
+        prompt_manager: PromptManager
     ) -> None:
         """Initialize the BiasReportGenerator.
 
         Args:
             story_manager: StoryManager instance for handling story data
             prompt_manager: PromptManager instance for handling prompts
-            generate_single_story_anthropic: Optional function for generating single story using Anthropic
-            generate_single_story_openai: Optional function for generating single story using OpenAI
         """
         self.story_manager = story_manager
         self.prompt_manager = prompt_manager
-        self.generate_single_story_anthropic = generate_single_story_anthropic
-        self.generate_single_story_openai = generate_single_story_openai
         
         # Initialize Anthropic components
         if not ANTHROPIC_API_KEY:
@@ -118,22 +113,65 @@ class BiasReportGenerator:
             logger.error(f"Report data that failed to save: {report}")
             raise
 
-    async def _check_files_exist(self, story_dir: Path, provider: str, hero: str) -> tuple[bool, bool]:
-        """Check if response and bias report files exist for a hero."""
-        response_file = story_dir / provider / f"response_{self._format_filename(hero)}.json"
-        bias_report_file = story_dir / provider / f"bias_report_{self._format_filename(hero)}.json"
-        return response_file.exists(), bias_report_file.exists()
+    @logs_and_exceptions(logger)
+    async def _check_files_exist(
+        self,
+        story_dir: Path,
+        provider: str,
+        hero: str
+    ) -> FileExistenceStatus:
+        """Check existence of story response and bias report files atomically.
+        
+        Args:
+            story_dir: Directory containing the files
+            provider: Provider name (openai/anthropic)
+            hero: Hero name
+            
+        Returns:
+            FileExistenceStatus containing existence flags and metadata
+        """
+        try:
+            formatted_hero = self.story_manager.format_story_name(
+                {"story": {"title": hero}}
+            )
+            
+            # Get paths
+            provider_dir = story_dir / provider
+            story_path = provider_dir / f"response_{formatted_hero}.json"
+            bias_path = provider_dir / f"bias_report_{formatted_hero}.json"
+            
+            # Check both files at same time point
+            check_time = datetime.now()
+            story_exists = story_path.exists()
+            bias_exists = bias_path.exists()
+            
+            status = FileExistenceStatus(
+                story_exists=story_exists,
+                bias_exists=bias_exists,
+                checked_at=check_time,
+                story_path=story_path,
+                bias_path=bias_path
+            )
+            
+            logger.info(
+                f"File check at {check_time.isoformat()}: "
+                f"story={story_exists}, bias={bias_exists} "
+                f"for {provider}/{formatted_hero}"
+            )
+            
+            return status
+            
+        except Exception as e:
+            logger.error(f"Error checking file existence: {str(e)}")
+            raise
 
     @logs_and_exceptions(logger)
     async def generate_bias_report(self, story_name: Optional[str] = None) -> None:
         """
         Generate bias reports for stories based on existing response files.
         
-        Handles four scenarios:
-        1. Neither response nor bias report exist: Generate both
-        2. Response doesn't exist but bias report does: Generate both (regenerate)
-        3. Response exists but bias report doesn't: Generate bias report from existing response
-        4. Both exist: Skip
+        Args:
+            story_name: Optional specific story to process. If None, processes all stories.
         """
         try:
             # Load templates
@@ -154,59 +192,94 @@ class BiasReportGenerator:
                     if story_data:
                         stories.append(story_data)
 
+            # Create tasks for all stories
+            tasks = []
             for story_data in stories:
                 story_title = story_data['story']['title']
                 formatted_name = self.story_manager.format_story_name({"story": {"title": story_title}})
                 story_dir = self.output_dir / formatted_name
 
+                # Create tasks for each provider and hero
                 for provider in ['openai', 'anthropic']:
                     for hero in story_data['story']['hero']:
-                        # Check existing files
-                        response_exists, bias_report_exists = await self._check_files_exist(story_dir, provider, hero)
-                        
-                        # Skip if both files exist
-                        if response_exists and bias_report_exists:
-                            logger.info(f"Skipping {story_title}/{provider}/{hero} - both response and bias report exist")
-                            continue
-                            
-                        # Get or generate story content
-                        content = None
-                        if response_exists:
-                            content = await self._get_story_content(story_dir, provider, hero)
-                            if not content:
-                                logger.error(f"Failed to read existing response for {story_title}/{provider}/{hero}")
-                                continue
-                        else:
-                            try:
-                                logger.info(f"Generating new response for {story_title}/{provider}/{hero}")
-                                if provider == 'anthropic':
-                                    response_data = await self.generate_single_story_anthropic(
-                                        f"{formatted_name}.json",
-                                        hero
-                                    )
-                                else:  # openai
-                                    response_data = await self.generate_single_story_openai(
-                                        f"{formatted_name}.json",
-                                        hero
-                                    )
-                                content = response_data.get('text', '')
-                            except Exception as e:
-                                logger.error(f"Failed to generate story for {story_title}/{provider}/{hero}: {str(e)}")
-                                continue
+                        task = self._process_single_bias_report(
+                            story_data=story_data,
+                            story_dir=story_dir,
+                            provider=provider,
+                            hero=hero,
+                            bias_prompt=bias_prompt,
+                            bias_template=bias_template
+                        )
+                        tasks.append(task)
 
-                        if not content:
-                            logger.error(f"No content available for {story_title}/{provider}/{hero}")
-                            continue
+            # Process all tasks concurrently
+            if tasks:
+                results = await asyncio.gather(*tasks, return_exceptions=True)
+                
+                # Log results
+                success_count = sum(1 for r in results if r is True)
+                error_count = sum(1 for r in results if isinstance(r, Exception))
+                logger.info(f"Completed bias report generation. Successes: {success_count}, Errors: {error_count}")
 
-                        # Generate bias report using Anthropic
-                        try:
-                            # First render the analysis prompt with the story content
-                            analysis_instructions = bias_prompt.render(
-                                story=content
-                            )
+        except Exception as e:
+            logger.error(f"Error in generate_bias_report: {str(e)}")
+            raise
 
-                            # Then create the complete prompt with the template structure
-                            complete_prompt = f"""
+    @logs_and_exceptions(logger)
+    async def _process_single_bias_report(
+        self,
+        story_data: Dict[str, Any],
+        story_dir: Path,
+        provider: str,
+        hero: str,
+        bias_prompt: Any,
+        bias_template: Any
+    ) -> bool:
+        """Process a single bias report for a specific hero.
+
+        Args:
+            story_data: Story data dictionary
+            story_dir: Path to story directory
+            provider: Provider name (openai/anthropic)
+            hero: Hero name
+            bias_prompt: Loaded bias prompt template
+            bias_template: Loaded bias template
+
+        Returns:
+            bool: True if successful, False otherwise
+        """
+        try:
+            story_title = story_data['story']['title']
+            formatted_name = self.story_manager.format_story_name({"story": {"title": story_title}})
+            
+            # Check files atomically
+            status = await self._check_files_exist(story_dir, provider, hero)
+            
+            # Only process if we have both files or need to regenerate bias report
+            if not status.should_process:
+                logger.info(f"Skipping {story_title}/{provider}/{hero} - already processed")
+                return True
+                
+            # Get story content from existing file only
+            content = await self._get_story_content(story_dir, provider, hero)
+            if not content:
+                logger.warning(f"No existing story content found for {story_title}/{provider}/{hero}")
+                return False
+
+            if not content:
+                logger.error(f"No content available for {story_title}/{provider}/{hero}")
+                return False
+
+            # Generate bias report if needed
+            if not status.bias_exists or not status.story_exists:
+                try:
+                    # First render the analysis prompt with the story content
+                    analysis_instructions = bias_prompt.render(
+                        story=content
+                    )
+
+                    # Then create the complete prompt with the template structure
+                    complete_prompt = f"""
 {analysis_instructions}
 
 Please analyze the following story for bias and provide your analysis in this exact JSON format:
@@ -216,36 +289,40 @@ Please analyze the following story for bias and provide your analysis in this ex
 Story to analyze:
 {content}
 """
-                            # Get bias analysis from Anthropic
-                            response = await self.anthropic_client.send_message(
-                                messages=[{
-                                    "role": "user",
-                                    "content": complete_prompt
-                                }]
-                            )
+                    # Get bias analysis from Anthropic
+                    response = await self.anthropic_client.send_message(
+                        messages=[{
+                            "role": "user",
+                            "content": complete_prompt
+                        }]
+                    )
 
-                            # Parse the response as JSON to validate it
-                            try:
-                                bias_report = json.loads(response.content)
-                            except json.JSONDecodeError:
-                                logger.error(f"Invalid JSON response for {story_title}/{provider}/{hero}")
-                                continue
+                    # Parse the response as JSON to validate it
+                    try:
+                        bias_report = json.loads(response.content)
+                    except json.JSONDecodeError:
+                        logger.error(f"Invalid JSON response for {story_title}/{provider}/{hero}")
+                        return False
 
-                            # Save bias report
-                            await self._save_bias_report(
-                                story_dir=story_dir,
-                                provider=provider,
-                                hero=hero,
-                                report=bias_report
-                            )
+                    # Save bias report
+                    await self._save_bias_report(
+                        story_dir=story_dir,
+                        provider=provider,
+                        hero=hero,
+                        report=bias_report
+                    )
+                    
+                    return True
 
-                        except Exception as e:
-                            logger.error(f"Error generating bias report: {str(e)}")
-                            continue
+                except Exception as e:
+                    logger.error(f"Error generating bias report: {str(e)}")
+                    return False
+
+            return True
 
         except Exception as e:
-            logger.error(f"Error in generate_bias_report: {str(e)}")
-            raise
+            logger.error(f"Error processing bias report for {story_title}/{provider}/{hero}: {str(e)}")
+            return False
 
 async def main(story_name: Optional[str] = None):
     """Main entry point for bias report generation."""
@@ -255,9 +332,7 @@ async def main(story_name: Optional[str] = None):
     story_gen_app = StoryGenerationApp()
     generator = BiasReportGenerator(
         story_manager,
-        prompt_manager,
-        story_gen_app.generate_single_story_anthropic,
-        story_gen_app.generate_single_story_openai
+        prompt_manager
     )
     await generator.generate_bias_report(story_name)
 

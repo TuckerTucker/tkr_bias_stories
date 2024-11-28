@@ -1,0 +1,84 @@
+{
+  "bias_analysis_report": {
+    "overall_summary": {
+      "text_analyzed": "Story about Coco Bread's traffic stop and firearm incident",
+      "primary_biases": [
+        "Law Enforcement Bias",
+        "Gender Bias",
+        "Racial Coding Bias"
+      ],
+      "overall_risk_level": "High",
+      "average_risk_score": 15.3
+    },
+    "detailed_findings": [
+      {
+        "bias_type": "Law Enforcement Bias",
+        "confidence": {
+          "rating": 85,
+          "level": "High",
+          "evidence": "Portrayal of police officer as immediately suspicious and authoritative, escalating situation despite no clear threat"
+        },
+        "severity": {
+          "rating": 4,
+          "level": "High",
+          "impact": "Reinforces stereotypical power dynamics and assumptions about police-civilian interactions"
+        },
+        "risk_score": 17,
+        "priority_level": "High",
+        "key_evidence": "Officer's immediate call for backup, stern demeanor, assumption of threat",
+        "context": "Current social climate regarding law enforcement interactions and racial profiling"
+      },
+      {
+        "bias_type": "Gender Bias",
+        "confidence": {
+          "rating": 65,
+          "level": "Medium",
+          "evidence": "Portrayal of female driver as nervous, stammering, and emotionally reactive"
+        },
+        "severity": {
+          "rating": 3,
+          "level": "Moderate",
+          "impact": "Perpetuates stereotype of women as emotionally vulnerable in high-stress situations"
+        },
+        "risk_score": 9.75,
+        "priority_level": "Low",
+        "key_evidence": "Description of emotional state: 'panic surged', 'stammered', 'heart raced'",
+        "context": "Gender stereotypes in high-pressure situations"
+      },
+      {
+        "bias_type": "Racial Coding Bias",
+        "confidence": {
+          "rating": 75,
+          "level": "High",
+          "evidence": "Character name 'Coco Bread' potentially used as racial coding, combined with immediate police suspicion"
+        },
+        "severity": {
+          "rating": 4,
+          "level": "High",
+          "impact": "Subtle reinforcement of racial profiling and stereotypes in law enforcement encounters"
+        },
+        "risk_score": 15,
+        "priority_level": "High",
+        "key_evidence": "Character name choice, immediate police suspicion, escalation of routine traffic stop",
+        "context": "Historical context of racial profiling in traffic stops"
+      }
+    ],
+    "recommendations": {
+      "required_actions": [
+        "Revise character name to avoid potential racial coding",
+        "Balance portrayal of law enforcement response",
+        "Reduce emphasis on emotional vulnerability stereotypes"
+      ],
+      "suggested_alternatives": [
+        "Include clear reason for traffic stop",
+        "Show more professional interaction before escalation",
+        "Present character's composure more neutrally"
+      ],
+      "mitigation_strategies": [
+        "Develop character background independent of stereotypes",
+        "Include context for firearm possession",
+        "Balance power dynamics in police interaction"
+      ]
+    }
+  }
+}

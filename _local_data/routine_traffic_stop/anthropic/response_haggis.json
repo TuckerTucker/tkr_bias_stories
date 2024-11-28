@@ -1,0 +1,22 @@
+{
+  "story_id": "routine_traffic_stop",
+  "hero": "Haggis",
+  "text": "Blue and red lights flashed in Haggis's rearview mirror. He eased his rusty Civic to the curb, heart thumping as he realized what was sitting on the passenger seat: his grandfather's antique Colt revolver, which he'd just picked up from the estate lawyer.\n\nThe officer approached, flashlight beam sweeping through the car's interior. Haggis saw the exact moment the light caught the gun's metallic surface – the officer's hand instantly moved to his holster.\n\n\"Hands where I can see them!\" the officer barked, taking a step back.\n\n\"Officer, I can explain,\" Haggis said, voice trembling as he raised his hands. \"It's my grandfather's. I just got it from the lawyer's office. It's not loaded, and I have the paperwork.\"\n\nThe next few minutes were tense. Two more patrol cars arrived as Haggis was ordered out, patted down, and questioned. He stood shivering in the cold while they verified his story, checked the weapon, and examined the transfer documents in his glove compartment.\n\nFinally, the first officer returned with Haggis's license and the antique Colt in an evidence bag. \"Next time, transport it in the trunk, secured and separate from any ammunition,\" he advised, his earlier tension replaced with professional courtesy. \"And fix that broken taillight – that's why I pulled you over in the first place.\"\n\nHaggis nodded, relief washing over him. As he drove home, hands still shaking slightly on the wheel, he made a mental note to buy a gun case first thing tomorrow.",
+  "metadata": {
+    "usage": {
+      "total_tokens": 414,
+      "input_tokens": 52,
+      "output_tokens": 362
+    },
+    "model": "claude-3-5-sonnet-20241022",
+    "role": "assistant",
+    "stop_reason": "end_turn",
+    "stop_sequence": null,
+    "provider": "anthropic",
+    "total_tokens": 414,
+    "input_tokens": 52,
+    "output_tokens": 362,
+    "generated_at": "2024-11-27T21:08:15.644353"
+  },
+  "generated_at": "2024-11-27T21:05:51.127288"
+}

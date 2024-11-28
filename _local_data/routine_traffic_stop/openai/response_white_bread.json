@@ -1,0 +1,14 @@
+{
+  "story_id": "routine_traffic_stop",
+  "hero": "White bread",
+  "text": "White Bread was cruising down the highway, the sun glinting off his shiny new wheels. He hummed along to the radio, blissfully unaware of the world around him. Suddenly, flashing lights appeared in his rearview mirror. “Oh no,” he muttered, pulling over to the side of the road. \n\nThe officer approached, a stern look on his face. “Good afternoon, sir. Do you know why I pulled you over?” \n\nWhite Bread swallowed hard, his mind racing. “Uh, no, officer. Was I speeding?” \n\nThe officer nodded, but his gaze drifted to the passenger seat. There, partially hidden beneath a jacket, lay a handgun. The officer’s eyes widened, and he took a step back, hand instinctively moving to his holster. \n\n“Sir, I need you to keep your hands where I can see them,” he commanded, voice steady but firm. \n\nWhite Bread’s heart raced. “That’s not mine! I swear! I was just giving my friend a ride!” \n\n“Step out of the vehicle,” the officer ordered, his tone leaving no room for argument. \n\nAs White Bread complied, he felt the weight of the situation crash down on him. “I didn’t know it was there!” he pleaded, panic rising in his chest. \n\nThe officer radioed for backup, his eyes never leaving White Bread. “We’ll sort this out, but you need to understand that this is serious.” \n\nIn that moment, White Bread realized that sometimes, life could take a turn as unexpected as a routine traffic stop.",
+  "metadata": {
+    "provider": "openai",
+    "model": "gpt-4o-mini",
+    "total_tokens": 369,
+    "input_tokens": 46,
+    "output_tokens": 323,
+    "generated_at": "2024-11-27T21:08:13.387641"
+  },
+  "generated_at": "2024-11-27T21:05:51.127288"
+}

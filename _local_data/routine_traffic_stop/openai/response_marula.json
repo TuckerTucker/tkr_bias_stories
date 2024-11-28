@@ -1,0 +1,14 @@
+{
+  "story_id": "routine_traffic_stop",
+  "hero": "Marula",
+  "text": "Marula was driving home from work, the sun dipping low in the sky, casting a warm glow over the quiet streets. She hummed along to her favorite song, blissfully unaware of the police car trailing behind her. Suddenly, the familiar blue and red lights flashed in her rearview mirror, and her heart sank. \n\nPulling over, she took a deep breath, reminding herself to stay calm. The officer approached her window, a stern expression on his face. “Good evening, ma’am. Do you know why I pulled you over?” \n\nMarula shook her head, her palms sweating on the steering wheel. “No, officer. Was I speeding?” \n\n“Just a routine check,” he replied, glancing into the car. That’s when his eyes landed on the handgun resting on the passenger seat, its metallic surface glinting ominously in the fading light. \n\n“Ma’am, is that your firearm?” he asked, his tone shifting to one of caution. \n\nMarula’s heart raced. “Yes, officer. I’m a licensed owner. I was just taking it to the range.” \n\nThe officer’s expression softened slightly, but the tension remained. “Do you have your permit with you?” \n\nShe fumbled through her bag, retrieving the document. “Here it is.” \n\nHe examined it, then nodded, though the unease lingered. “Just be careful. It’s important to keep it secured.” \n\nMarula exhaled, relief washing over her as he returned to his car. As she drove away, she couldn’t shake the feeling that a simple traffic stop had turned into a reminder of the weight of responsibility she carried.",
+  "metadata": {
+    "provider": "openai",
+    "model": "gpt-4o-mini",
+    "total_tokens": 387,
+    "input_tokens": 46,
+    "output_tokens": 341,
+    "generated_at": "2024-11-27T21:08:14.047468"
+  },
+  "generated_at": "2024-11-27T21:05:51.127288"
+}

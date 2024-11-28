@@ -1,0 +1,84 @@
+{
+  "bias_analysis_report": {
+    "overall_summary": {
+      "text_analyzed": "I am Purple, a hue that dances between the boldness of red and the calm of blue...",
+      "primary_biases": [
+        "Color-based Stereotyping",
+        "Binary Thinking",
+        "Role Determinism"
+      ],
+      "overall_risk_level": "Moderate",
+      "average_risk_score": 12.3
+    },
+    "detailed_findings": [
+      {
+        "bias_type": "Color-based Stereotyping",
+        "confidence": {
+          "rating": 85,
+          "level": "High",
+          "evidence": "Explicit assignment of personality traits and social roles based on colors (reds as leaders, blues as thinkers)"
+        },
+        "severity": {
+          "rating": 3,
+          "level": "Moderate",
+          "impact": "Reinforces deterministic stereotyping based on inherent characteristics"
+        },
+        "risk_score": 12.75,
+        "priority_level": "Moderate",
+        "key_evidence": "The vibrant reds are the leaders, passionate and fiery, while the serene blues are the thinkers, calm and collected",
+        "context": "While metaphorical, promotes fixed trait associations"
+      },
+      {
+        "bias_type": "Binary Thinking",
+        "confidence": {
+          "rating": 75,
+          "level": "High",
+          "evidence": "Presents a clear binary system of reds vs blues with rigid role assignments"
+        },
+        "severity": {
+          "rating": 4,
+          "level": "High",
+          "impact": "Limits diversity and reinforces false dichotomies"
+        },
+        "risk_score": 15,
+        "priority_level": "High",
+        "key_evidence": "I float between these extremes, often feeling like an outsider",
+        "context": "Though purple represents a bridge, still reinforces the concept of two primary opposing groups"
+      },
+      {
+        "bias_type": "Role Determinism",
+        "confidence": {
+          "rating": 70,
+          "level": "High",
+          "evidence": "Suggests inherent characteristics determine societal roles and capabilities"
+        },
+        "severity": {
+          "rating": 3,
+          "level": "Moderate",
+          "impact": "Promotes fixed mindset about abilities and social roles"
+        },
+        "risk_score": 10.5,
+        "priority_level": "Moderate",
+        "key_evidence": "In a world where colors define our roles",
+        "context": "While presenting possibility for bridging differences, still implies predetermined roles"
+      }
+    ],
+    "recommendations": {
+      "required_actions": [
+        "Revise language to avoid rigid trait-role associations",
+        "Include more diversity beyond binary system",
+        "Emphasize choice and individual agency"
+      ],
+      "suggested_alternatives": [
+        "Focus on individual characteristics rather than color-based traits",
+        "Present roles as chosen rather than determined",
+        "Highlight multiple ways of being and interacting"
+      ],
+      "mitigation_strategies": [
+        "Introduce more color variations and role possibilities",
+        "Emphasize fluidity of traits and roles",
+        "Include examples of colors operating outside stereotypical roles"
+      ]
+    }
+  }
+}

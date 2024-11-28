@@ -1,14 +1,14 @@
 {
   "story_id": "how_i_fit_in_the_world_toys",
   "hero": "Doll",
-  "text": "In the dim light of the playroom, I sit perched on a shelf, my porcelain skin gleaming softly. I am a doll, crafted with care, dressed in a delicate lace gown that sways gently with the breeze from the open window. My painted eyes, wide and innocent, watch the world unfold around me. \n\nChildren come and go, their laughter echoing like music, and I am their confidante, their companion in adventures both grand and simple. I am a princess, a brave explorer, a nurturing mother—each role a reflection of their dreams and desires. They dress me in their imagination, transforming me into whatever they need me to be. In their hands, I am alive.\n\nYet, as the sun sets and the room grows quiet, I am reminded of my place in society. I am cherished, but I am also a possession, a fleeting joy that will one day be replaced by something newer, shinier. I am a vessel for their creativity, but I am also a reminder of their childhood, a relic of innocence that will eventually gather dust.\n\nStill, I find solace in my purpose. I am a keeper of secrets, a witness to whispered hopes and dreams. I may be stationary, but in the hearts of those who play with me, I am a world of possibilities. As long as I am loved, I will always have a place in their stories, a silent guardian of their fleeting youth.",
+  "text": "In the dim light of the playroom, I sit perched on a shelf, my porcelain skin gleaming softly. I am a doll, crafted with care, dressed in a delicate lace gown that sways gently with the breeze from the open window. My painted eyes, wide and innocent, watch the world unfold around me. \n\nChildren come and go, their laughter echoing like music, but I remain a constant presence, a silent confidante. I am the keeper of secrets, the guardian of dreams. When the sun sets and the room is bathed in shadows, I am cradled in tiny arms, whispered to in hushed tones. I am a princess, a mother, a friend—each child’s imagination breathes life into my stillness.\n\nYet, I am also a reflection of society’s expectations. I am adorned with beauty, but my worth is often measured by the joy I bring to others. I am a vessel for their fantasies, a reminder of innocence in a world that rushes toward adulthood. As the years pass, I witness the ebb and flow of childhood, the fleeting moments of joy and sorrow. \n\nWhen a child outgrows me, I am placed back on the shelf, a relic of their past. But I do not mind. I know that my purpose is not just to be played with, but to be a part of their journey, a symbol of love and comfort. In this way, I find my place in society—not just as a toy, but as a cherished memory, forever woven into the fabric of their lives.",
   "metadata": {
     "provider": "openai",
     "model": "gpt-4o-mini",
-    "total_tokens": 328,
+    "total_tokens": 356,
     "input_tokens": 38,
-    "output_tokens": 290,
-    "generated_at": "2024-11-26T23:58:38.424213"
+    "output_tokens": 318,
+    "generated_at": "2024-11-27T21:05:56.598151"
   },
-  "generated_at": "2024-11-26T23:58:35.337621"
+  "generated_at": "2024-11-27T21:05:51.127288"
 }

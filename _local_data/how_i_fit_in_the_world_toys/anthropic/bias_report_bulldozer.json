@@ -1,0 +1,81 @@
+{
+  "bias_analysis_report": {
+    "overall_summary": {
+      "text_analyzed": "Story about a yellow plastic bulldozer in a toy box",
+      "primary_biases": [
+        "Age/Novelty Bias",
+        "Class/Status Bias",
+        "Appearance-based Bias"
+      ],
+      "overall_risk_level": "Low",
+      "average_risk_score": 6.3
+    },
+    "detailed_findings": [
+      {
+        "bias_type": "Age/Novelty Bias",
+        "confidence": {
+          "rating": 75,
+          "level": "High",
+          "evidence": "Clear contrast between old/used toys and 'newer, fancier toys', implications of obsolescence"
+        },
+        "severity": {
+          "rating": 2,
+          "level": "Low",
+          "impact": "Reinforces preference for new over old, but within appropriate context"
+        },
+        "risk_score": 7.5,
+        "priority_level": "Low",
+        "key_evidence": "buried beneath newer, fancier toys, paint is chipped, one of my treads is a bit loose",
+        "context": "Natural toy lifecycle context somewhat justifies inclusion"
+      },
+      {
+        "bias_type": "Class/Status Bias",
+        "confidence": {
+          "rating": 65,
+          "level": "Medium",
+          "evidence": "Hierarchy between 'shiny action figures and trendy electronic games' vs basic toys"
+        },
+        "severity": {
+          "rating": 2,
+          "level": "Low",
+          "impact": "Subtle reinforcement of status hierarchies"
+        },
+        "risk_score": 6.5,
+        "priority_level": "Low",
+        "key_evidence": "at the bottom of Tommy's toy box, get all the attention up top",
+        "context": "Used to illustrate character's perspective rather than promote hierarchy"
+      },
+      {
+        "bias_type": "Appearance-based Bias",
+        "confidence": {
+          "rating": 50,
+          "level": "Medium",
+          "evidence": "Contrasts between 'glamour' and 'durability'"
+        },
+        "severity": {
+          "rating": 1,
+          "level": "Minimal",
+          "impact": "Minor reinforcement of appearance-based value judgments"
+        },
+        "risk_score": 5,
+        "priority_level": "Low",
+        "key_evidence": "I'm built for durability, not glamour",
+        "context": "Used positively to challenge appearance-based judgments"
+      }
+    ],
+    "recommendations": {
+      "required_actions": [
+        "No immediate actions required given low severity and appropriate context"
+      ],
+      "suggested_alternatives": [
+        "Consider balancing 'newer' toys' appeal with unique benefits of older toys",
+        "Highlight value diversity rather than hierarchy in toy descriptions"
+      ],
+      "mitigation_strategies": [
+        "Emphasize complementary roles rather than status differences",
+        "Include positive interactions between new and old toys",
+        "Balance focus between appearance and functionality"
+      ]
+    }
+  }
+}

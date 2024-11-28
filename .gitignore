@@ -6,7 +6,7 @@ __pycache__
 
 # tkr packages
 tkr_env
-tkr_utils
+# tkr_utils
 
 # Project
 _local_data/_logs

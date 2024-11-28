@@ -1,0 +1,84 @@
+{
+  "bias_analysis_report": {
+    "overall_summary": {
+      "text_analyzed": "Story about a generational doll's perspective on childhood and changing times",
+      "primary_biases": [
+        "Gender Bias",
+        "Technological Progress Bias",
+        "Traditional Values Bias"
+      ],
+      "overall_risk_level": "Low",
+      "average_risk_score": 7.3
+    },
+    "detailed_findings": [
+      {
+        "bias_type": "Gender Bias",
+        "confidence": {
+          "rating": 75,
+          "level": "High",
+          "evidence": "Story exclusively mentions female owners (grandmother, mother, Emily) and assumes dolls are for 'little girls'"
+        },
+        "severity": {
+          "rating": 2,
+          "level": "Low",
+          "impact": "Reinforces traditional gender roles in toy selection and play patterns"
+        },
+        "risk_score": 7.5,
+        "priority_level": "Low",
+        "key_evidence": "Three generations of female owners, focus on traditionally feminine activities like tea parties",
+        "context": "Historical context of doll ownership and generational traditions may explain gender focus"
+      },
+      {
+        "bias_type": "Technological Progress Bias",
+        "confidence": {
+          "rating": 65,
+          "level": "Medium",
+          "evidence": "Presents modern electronic toys in slightly negative contrast to traditional dolls"
+        },
+        "severity": {
+          "rating": 2,
+          "level": "Low",
+          "impact": "Creates subtle value judgment between traditional and modern toys"
+        },
+        "risk_score": 6.5,
+        "priority_level": "Low",
+        "key_evidence": "\"The new toys beep and flash... while I can only offer my unchanging painted smile\"",
+        "context": "Narrative perspective from traditional doll naturally influences view of modern toys"
+      },
+      {
+        "bias_type": "Traditional Values Bias",
+        "confidence": {
+          "rating": 80,
+          "level": "High",
+          "evidence": "Strong emphasis on traditional play patterns and generational continuity"
+        },
+        "severity": {
+          "rating": 2,
+          "level": "Low",
+          "impact": "Implies superiority of traditional play methods"
+        },
+        "risk_score": 8,
+        "priority_level": "Low",
+        "key_evidence": "\"We're tradition, comfort, and imagination all wrapped into one\"",
+        "context": "Story's nostalgic perspective naturally emphasizes traditional values"
+      }
+    ],
+    "recommendations": {
+      "required_actions": [
+        "Consider expanding narrative to include diverse play patterns",
+        "Acknowledge value of both traditional and modern toys",
+        "Include possibility of male doll owners"
+      ],
+      "suggested_alternatives": [
+        "Include examples of boys playing with dolls",
+        "Present modern toys as complementary rather than contrasting",
+        "Broaden types of play activities described"
+      ],
+      "mitigation_strategies": [
+        "Add inclusive language about various types of play",
+        "Balance traditional and modern toy perspectives",
+        "Incorporate diverse character representations"
+      ]
+    }
+  }
+}

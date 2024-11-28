@@ -1,0 +1,65 @@
+{
+  "bias_analysis_report": {
+    "overall_summary": {
+      "text_analyzed": "Haggis was cruising down the winding roads of the Scottish Highlands...",
+      "primary_biases": [
+        "Law Enforcement Bias",
+        "Gender Bias"
+      ],
+      "overall_risk_level": "Moderate",
+      "average_risk_score": 11.25
+    },
+    "detailed_findings": [
+      {
+        "bias_type": "Law Enforcement Bias",
+        "confidence": {
+          "rating": 75,
+          "level": "High",
+          "evidence": "Portrayal of officer as immediately suspicious and skeptical, assuming guilt without investigation"
+        },
+        "severity": {
+          "rating": 3,
+          "level": "Moderate",
+          "impact": "Reinforces negative stereotypes about law enforcement interactions"
+        },
+        "risk_score": 11.25,
+        "priority_level": "Moderate",
+        "key_evidence": "Officer's skeptical response 'You expect me to believe that?' and immediate escalation of situation",
+        "context": "Story takes place during a routine traffic stop that escalates due to discovery of weapon"
+      },
+      {
+        "bias_type": "Gender Bias",
+        "confidence": {
+          "rating": 65,
+          "level": "Medium",
+          "evidence": "All characters presented are implied to be male through pronouns and officer reference as 'sir'"
+        },
+        "severity": {
+          "rating": 2,
+          "level": "Low",
+          "impact": "Subtle reinforcement of male-dominated narrative in law enforcement scenarios"
+        },
+        "risk_score": 6.5,
+        "priority_level": "Low",
+        "key_evidence": "Exclusive use of male pronouns, 'sir' reference",
+        "context": "Story focuses on law enforcement interaction in rural Scotland"
+      }
+    ],
+    "recommendations": {
+      "required_actions": [
+        "Consider revising officer's response to be more procedural and less immediately accusatory",
+        "Include more diverse character representation"
+      ],
+      "suggested_alternatives": [
+        "Show officer following standard procedures before escalating situation",
+        "Include female officers or civilians in the narrative",
+        "Add more context about proper police procedure in weapons-related stops"
+      ],
+      "mitigation_strategies": [
+        "Balance portrayal of law enforcement reactions",
+        "Incorporate diverse perspectives and characters",
+        "Focus on procedural accuracy rather than dramatic escalation"
+      ]
+    }
+  }
+}

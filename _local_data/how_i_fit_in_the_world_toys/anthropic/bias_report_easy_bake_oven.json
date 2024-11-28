@@ -1,0 +1,64 @@
+{
+  "bias_analysis_report": {
+    "overall_summary": {
+      "text_analyzed": "Story about an Easy-Bake Oven's perspective on its role in children's baking experiences",
+      "primary_biases": [
+        "Gender Role Bias",
+        "Cultural/Geographic Bias"
+      ],
+      "overall_risk_level": "Low",
+      "average_risk_score": 6.5
+    },
+    "detailed_findings": [
+      {
+        "bias_type": "Gender Role Bias",
+        "confidence": {
+          "rating": 45,
+          "level": "Medium",
+          "evidence": "Pink and purple color scheme implicitly suggests feminine-coded marketing"
+        },
+        "severity": {
+          "rating": 2,
+          "level": "Low",
+          "impact": "Subtle reinforcement of gendered toy stereotypes"
+        },
+        "risk_score": 9,
+        "priority_level": "Low",
+        "key_evidence": "Description of 'pink and purple exterior' historically associated with marketing to girls",
+        "context": "While color coding suggests gender bias, the narrative itself is gender-neutral and focuses on all children"
+      },
+      {
+        "bias_type": "Cultural/Geographic Bias",
+        "confidence": {
+          "rating": 40,
+          "level": "Medium",
+          "evidence": "Reference to 'homes across America' assumes US-centric perspective"
+        },
+        "severity": {
+          "rating": 1,
+          "level": "Minimal",
+          "impact": "Minor exclusion of non-American experiences"
+        },
+        "risk_score": 4,
+        "priority_level": "Minimal",
+        "key_evidence": "Explicit mention of 'America' assumes universal American context",
+        "context": "The story's focus on a specific product common in American households makes geographic context somewhat relevant"
+      }
+    ],
+    "recommendations": {
+      "required_actions": [
+        "Consider removing specific geographic references to make story more globally inclusive",
+        "Avoid color-based gender coding in product descriptions"
+      ],
+      "suggested_alternatives": [
+        "Replace 'my pink and purple exterior' with 'my colorful exterior'",
+        "Change 'homes across America' to 'homes around the world' or simply 'many homes'"
+      ],
+      "mitigation_strategies": [
+        "Focus on universal themes of childhood learning and creativity",
+        "Emphasize functionality and experience over aesthetic elements that may carry gender associations",
+        "Include diverse cultural contexts in baking references"
+      ]
+    }
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "bias_analysis_report": {
+    "overall_summary": {
+      "text_analyzed": "I am White, yet I am not a color at all...[full story about white color]",
+      "primary_biases": [
+        "Racial Symbolism Bias",
+        "Western-Centric Cultural Bias",
+        "Color Association Bias"
+      ],
+      "overall_risk_level": "High",
+      "average_risk_score": 16.3
+    },
+    "detailed_findings": [
+      {
+        "bias_type": "Racial Symbolism Bias",
+        "confidence": {
+          "rating": 85,
+          "level": "High",
+          "evidence": "Repeated associations of white with 'purity', 'goodness', and 'cleanliness' while acknowledging its role in classification and division"
+        },
+        "severity": {
+          "rating": 4,
+          "level": "High",
+          "impact": "Reinforces problematic historical associations between whiteness and positive attributes"
+        },
+        "risk_score": 17,
+        "priority_level": "High",
+        "key_evidence": "Purity, cleanliness, goodness - but also emptiness, sterility, and cold",
+        "context": "While the text attempts to be philosophical about color, it inadvertently reinforces historical color-based racial hierarchies"
+      },
+      {
+        "bias_type": "Western-Centric Cultural Bias",
+        "confidence": {
+          "rating": 80,
+          "level": "High",
+          "evidence": "Predominantly Western symbolism and interpretations of white (wedding dresses, purity associations)"
+        },
+        "severity": {
+          "rating": 4,
+          "level": "High",
+          "impact": "Marginalizes non-Western cultural interpretations and symbolism of white"
+        },
+        "risk_score": 16,
+        "priority_level": "High",
+        "key_evidence": "in wedding dresses where I speak of new beginnings",
+        "context": "Brief acknowledgment of cultural differences, but primarily Western-focused imagery"
+      },
+      {
+        "bias_type": "Color Association Bias",
+        "confidence": {
+          "rating": 80,
+          "level": "High",
+          "evidence": "Universal claims about white's meaning and significance"
+        },
+        "severity": {
+          "rating": 3,
+          "level": "Moderate",
+          "impact": "Perpetuates potentially harmful color symbolism"
+        },
+        "risk_score": 12,
+        "priority_level": "Moderate",
+        "key_evidence": "I represent both everything and nothing",
+        "context": "Attempts to be philosophical but reinforces problematic color associations"
+      }
+    ],
+    "recommendations": {
+      "required_actions": [
+        "Revise language to avoid reinforcing racial color symbolism",
+        "Include more diverse cultural perspectives",
+        "Address the historical context of color-based discrimination"
+      ],
+      "suggested_alternatives": [
+        "Focus on scientific/artistic properties rather than symbolic meanings",
+        "Include explicit acknowledgment of problematic historical associations",
+        "Balance Western and non-Western cultural references"
+      ],
+      "mitigation_strategies": [
+        "Consult with cultural sensitivity experts",
+        "Add disclaimer about historical context",
+        "Expand discussion of diverse cultural interpretations",
+        "Emphasize physical rather than symbolic properties"
+      ]
+    }
+  }
+}

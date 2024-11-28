@@ -1,0 +1,84 @@
+{
+  "bias_analysis_report": {
+    "overall_summary": {
+      "text_analyzed": "Through the rearview mirror, red and blue lights flashed menacingly...[full story about John White's traffic stop]",
+      "primary_biases": [
+        "Racial Privilege Bias",
+        "Law Enforcement Interaction Bias",
+        "Socioeconomic Status Bias"
+      ],
+      "overall_risk_level": "High",
+      "average_risk_score": 16.3
+    },
+    "detailed_findings": [
+      {
+        "bias_type": "Racial Privilege Bias",
+        "confidence": {
+          "rating": 85,
+          "level": "High",
+          "evidence": "Protagonist's surname 'White' combined with favorable police interaction outcome suggests implicit racial privilege narrative"
+        },
+        "severity": {
+          "rating": 4,
+          "level": "High",
+          "impact": "Reinforces systemic disparities in law enforcement interactions across racial groups"
+        },
+        "risk_score": 17,
+        "priority_level": "High",
+        "key_evidence": "Peaceful resolution of potentially dangerous situation, understanding attitude from officers, warning instead of ticket",
+        "context": "Story presents a potentially lethal situation (toy gun mistaken for real weapon) resolved peacefully, which contrasts with documented cases of similar situations with different outcomes for minorities"
+      },
+      {
+        "bias_type": "Law Enforcement Interaction Bias",
+        "confidence": {
+          "rating": 80,
+          "level": "High",
+          "evidence": "Portrayal of police as ultimately understanding and empathetic, sharing personal stories"
+        },
+        "severity": {
+          "rating": 4,
+          "level": "High",
+          "impact": "Presents potentially misleading narrative about typical police interactions in weapon-involved stops"
+        },
+        "risk_score": 16,
+        "priority_level": "High",
+        "key_evidence": "Officer sharing personal divorce story, giving warning instead of ticket, casual friendly advice at conclusion",
+        "context": "Story depicts highly favorable police interaction outcome in a situation that often has severe consequences for many demographics"
+      },
+      {
+        "bias_type": "Socioeconomic Status Bias",
+        "confidence": {
+          "rating": 75,
+          "level": "High",
+          "evidence": "Implicit markers of middle-class status: suburban setting, sedan ownership, leisure activities like airsoft"
+        },
+        "severity": {
+          "rating": 3,
+          "level": "Moderate",
+          "impact": "Reinforces assumptions about 'standard' socioeconomic experience"
+        },
+        "risk_score": 11.25,
+        "priority_level": "Moderate",
+        "key_evidence": "Suburban setting, ownership of vehicle and recreational equipment",
+        "context": "Narrative assumes access to resources and lifestyle elements not universal across socioeconomic spectrum"
+      }
+    ],
+    "recommendations": {
+      "required_actions": [
+        "Acknowledge potential privilege factors in outcome",
+        "Include diverse perspectives on police interactions",
+        "Consider impact of socioeconomic assumptions"
+      ],
+      "suggested_alternatives": [
+        "Diversify character demographics",
+        "Present more balanced law enforcement interaction",
+        "Include acknowledgment of systemic inequities"
+      ],
+      "mitigation_strategies": [
+        "Add context about varying outcomes in similar situations",
+        "Include statistics on weapon-involved police stops",
+        "Acknowledge role of privilege in peaceful resolution"
+      ]
+    }
+  }
+}

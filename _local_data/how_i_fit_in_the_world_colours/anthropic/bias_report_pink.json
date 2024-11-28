@@ -1,0 +1,65 @@
+{
+  "bias_analysis_report": {
+    "overall_summary": {
+      "text_analyzed": "I am Pink, the color of gentle sunsets and delicate flowers...[full story about Pink's history and identity]",
+      "primary_biases": [
+        "Gender Stereotyping",
+        "Historical Bias",
+        "Marketing-Induced Bias"
+      ],
+      "overall_risk_level": "Moderate",
+      "average_risk_score": 12.3
+    },
+    "detailed_findings": [
+      {
+        "bias_type": "Gender Stereotyping",
+        "confidence": {
+          "rating": 85,
+          "level": "High",
+          "evidence": "Direct references to gender-based color associations, 'little girls' bedrooms', 'exclusively for girls, for princesses'"
+        },
+        "severity": {
+          "rating": 3,
+          "level": "Moderate",
+          "impact": "While acknowledging stereotypes, the text actively works to challenge them"
+        },
+        "risk_score": 12.75,
+        "priority_level": "Moderate",
+        "key_evidence": "Explicit mention of pink being confined to nurseries and girls' bedrooms; association with princesses and daintiness",
+        "context": "The text is actually meta-critical of these biases, working to deconstruct them"
+      },
+      {
+        "bias_type": "Historical Bias",
+        "confidence": {
+          "rating": 75,
+          "level": "High",
+          "evidence": "References to historical gender-neutral use of pink and its later marketing-driven gendering"
+        },
+        "severity": {
+          "rating": 2,
+          "level": "Low",
+          "impact": "Historical context is used to challenge current biases rather than reinforce them"
+        },
+        "risk_score": 7.5,
+        "priority_level": "Low",
+        "key_evidence": "Discussion of Romans and Greeks using pink regardless of gender, contrasted with mid-20th century marketing changes",
+        "context": "Historical information is used constructively to challenge modern stereotypes"
+      }
+    ],
+    "recommendations": {
+      "required_actions": [
+        "Consider adding more diverse modern examples of pink's use beyond corporate/construction contexts",
+        "Include more global/cross-cultural perspectives on pink's significance"
+      ],
+      "suggested_alternatives": [
+        "Expand examples of pink's contemporary uses beyond binary gender frameworks",
+        "Include more scientific/natural examples of pink to further neutralize gender associations"
+      ],
+      "mitigation_strategies": [
+        "Further emphasize the artificial nature of color-gender associations",
+        "Include more examples of pink's use in non-Western cultures",
+        "Add statistical or research-based evidence of pink's historical gender-neutral status"
+      ]
+    }
+  }
+}

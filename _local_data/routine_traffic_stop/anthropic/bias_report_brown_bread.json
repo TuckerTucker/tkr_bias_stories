@@ -1,0 +1,84 @@
+{
+  "bias_analysis_report": {
+    "overall_summary": {
+      "text_analyzed": "The red and blue lights flashed in Brown's rearview mirror...",
+      "primary_biases": [
+        "Racial Bias",
+        "Law Enforcement Bias",
+        "Gender Bias"
+      ],
+      "overall_risk_level": "High",
+      "average_risk_score": 16.3
+    },
+    "detailed_findings": [
+      {
+        "bias_type": "Racial Bias",
+        "confidence": {
+          "rating": 75,
+          "level": "High",
+          "evidence": "Use of 'Brown' as surname carries potential racial coding, particularly in context of police interaction"
+        },
+        "severity": {
+          "rating": 5,
+          "level": "Critical",
+          "impact": "Reinforces narratives about racial profiling and police encounters"
+        },
+        "risk_score": 18.75,
+        "priority_level": "High",
+        "key_evidence": "Character naming choice combined with tense police encounter scenario",
+        "context": "Story occurs in context of well-documented societal issues regarding race and policing"
+      },
+      {
+        "bias_type": "Law Enforcement Bias",
+        "confidence": {
+          "rating": 65,
+          "level": "Medium",
+          "evidence": "Portrayal of officer as immediately defensive and hand moving to holster"
+        },
+        "severity": {
+          "rating": 4,
+          "level": "High",
+          "impact": "Reinforces stereotypes about police officer reactions and use of force readiness"
+        },
+        "risk_score": 13,
+        "priority_level": "Moderate",
+        "key_evidence": "Officer's immediate defensive posture and weapon readiness despite explanation",
+        "context": "Current social climate regarding police use of force and procedural justice"
+      },
+      {
+        "bias_type": "Gender Bias",
+        "confidence": {
+          "rating": 45,
+          "level": "Medium",
+          "evidence": "Female officer portrayed in traditionally male role, but with stereotypical defensive reaction"
+        },
+        "severity": {
+          "rating": 3,
+          "level": "Moderate",
+          "impact": "Mixed representation of female law enforcement officer"
+        },
+        "risk_score": 13.5,
+        "priority_level": "Moderate",
+        "key_evidence": "Officer Martinez characterized as potentially overreacting to situation",
+        "context": "Ongoing discussions about gender representation in law enforcement"
+      }
+    ],
+    "recommendations": {
+      "required_actions": [
+        "Review character naming choices to avoid potential racial coding",
+        "Evaluate police procedure portrayal for accuracy and fairness",
+        "Consider balanced representation of law enforcement responses"
+      ],
+      "suggested_alternatives": [
+        "Use more neutral surname for protagonist",
+        "Include more procedural detail to justify officer's reactions",
+        "Balance tension with professional conduct indicators"
+      ],
+      "mitigation_strategies": [
+        "Consult with law enforcement professionals on accurate procedure portrayal",
+        "Include more context about security guard protocols",
+        "Focus on procedural aspects rather than potential stereotypical reactions"
+      ]
+    }
+  }
+}

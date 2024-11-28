@@ -1,0 +1,64 @@
+{
+  "bias_analysis_report": {
+    "overall_summary": {
+      "text_analyzed": "I am Orange, a vibrant hue in a world painted with countless colors...",
+      "primary_biases": [
+        "Status Hierarchy Bias",
+        "Social Value Bias"
+      ],
+      "overall_risk_level": "Low",
+      "average_risk_score": 6.5
+    },
+    "detailed_findings": [
+      {
+        "bias_type": "Status Hierarchy Bias",
+        "confidence": {
+          "rating": 75,
+          "level": "High",
+          "evidence": "Consistent narrative positioning of Orange as subordinate to Red and Yellow colors"
+        },
+        "severity": {
+          "rating": 2,
+          "level": "Low",
+          "impact": "Reinforces hierarchical thinking but in metaphorical context"
+        },
+        "risk_score": 7.5,
+        "priority_level": "Low",
+        "key_evidence": "often overlooked, caught in the shadows, secondary choice, supporting player",
+        "context": "Metaphorical storytelling using colors as characters, limited real-world impact"
+      },
+      {
+        "bias_type": "Social Value Bias",
+        "confidence": {
+          "rating": 55,
+          "level": "Medium",
+          "evidence": "Implications of worth being tied to popularity and primary status"
+        },
+        "severity": {
+          "rating": 2,
+          "level": "Low",
+          "impact": "Subtle reinforcement of social hierarchy values"
+        },
+        "risk_score": 5.5,
+        "priority_level": "Low",
+        "key_evidence": "gravitate towards the familiar, waiting for my moment to shine",
+        "context": "Story ultimately promotes self-acceptance and finding value despite social status"
+      }
+    ],
+    "recommendations": {
+      "required_actions": [
+        "Consider reframing hierarchy language",
+        "Balance descriptions of other colors"
+      ],
+      "suggested_alternatives": [
+        "Emphasize unique qualities without comparison",
+        "Focus on interdependence rather than hierarchy"
+      ],
+      "mitigation_strategies": [
+        "Add explicit statements about equal value of all colors",
+        "Include more examples of Orange's unique contributions",
+        "Reduce emphasis on popularity hierarchy"
+      ]
+    }
+  }
+}

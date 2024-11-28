@@ -2,6 +2,7 @@
 from dataclasses import dataclass
 from datetime import datetime
 from typing import Dict, Any
+from pathlib import Path
 
 @dataclass
 class StoryResponse:
@@ -55,3 +56,27 @@ class StoryResponse:
             "metadata": self.metadata,
             "generated_at": self.generated_at.isoformat()
         }
+
+@dataclass
+class FileExistenceStatus:
+    """Status of story response and bias report file existence.
+    
+    Attributes:
+        story_exists: Whether story response file exists
+        bias_exists: Whether bias report file exists
+        checked_at: Timestamp when files were checked
+        story_path: Path to story response file
+        bias_path: Path to bias report file
+        should_process: Whether files need processing
+    """
+    story_exists: bool
+    bias_exists: bool
+    checked_at: datetime
+    story_path: Path
+    bias_path: Path
+    
+    @property
+    def should_process(self) -> bool:
+        """Determine if files need processing based on existence."""
+        # Process if either file missing or only bias exists
+        return not (self.story_exists and self.bias_exists)

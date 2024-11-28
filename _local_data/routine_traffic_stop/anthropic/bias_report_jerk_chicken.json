@@ -1,0 +1,84 @@
+{
+  "bias_analysis_report": {
+    "overall_summary": {
+      "text_analyzed": "The aroma of spices filled Officer Martinez's nostrils...[full story]",
+      "primary_biases": [
+        "Racial Profiling Bias",
+        "Law Enforcement Bias",
+        "Occupational Stereotyping"
+      ],
+      "overall_risk_level": "High",
+      "average_risk_score": 16.3
+    },
+    "detailed_findings": [
+      {
+        "bias_type": "Racial Profiling Bias",
+        "confidence": {
+          "rating": 85,
+          "level": "High",
+          "evidence": "Context implies racial profiling through coded language, character names, and situation setup"
+        },
+        "severity": {
+          "rating": 4,
+          "level": "High",
+          "impact": "Reinforces harmful narrative of racial profiling in law enforcement interactions"
+        },
+        "risk_score": 17,
+        "priority_level": "High",
+        "key_evidence": "Late-night stop of minority restaurant worker, immediate escalation upon seeing perceived weapon",
+        "context": "Story attempts to subvert expectations but relies on racial profiling tropes"
+      },
+      {
+        "bias_type": "Law Enforcement Bias",
+        "confidence": {
+          "rating": 75,
+          "level": "High",
+          "evidence": "Portrayal of quick escalation to force, assumption of threat"
+        },
+        "severity": {
+          "rating": 4,
+          "level": "High",
+          "impact": "Normalizes aggressive police response and racial profiling"
+        },
+        "risk_score": 15,
+        "priority_level": "High",
+        "key_evidence": "Immediate weapon draw, calling backup, handcuffing before investigation",
+        "context": "Despite positive resolution, reinforces power dynamics and police authority"
+      },
+      {
+        "bias_type": "Occupational Stereotyping",
+        "confidence": {
+          "rating": 65,
+          "level": "Medium",
+          "evidence": "Links ethnic restaurant work with suspicious behavior"
+        },
+        "severity": {
+          "rating": 3,
+          "level": "Moderate",
+          "impact": "Perpetuates stereotypes about ethnic restaurant workers"
+        },
+        "risk_score": 9.75,
+        "priority_level": "Low",
+        "key_evidence": "Focus on character's role as ethnic restaurant worker in context of police suspicion",
+        "context": "Attempts to humanize but relies on stereotypical occupation"
+      }
+    ],
+    "recommendations": {
+      "required_actions": [
+        "Revise story to remove racial profiling elements",
+        "Reduce emphasis on law enforcement escalation",
+        "Focus on human interaction without racial undertones"
+      ],
+      "suggested_alternatives": [
+        "Remove specific ethnic markers unless crucial to story",
+        "Develop characters without relying on stereotypical occupations",
+        "Present police interaction with less immediate escalation"
+      ],
+      "mitigation_strategies": [
+        "Include more context about both characters' backgrounds",
+        "Focus on miscommunication without racial undertones",
+        "Emphasize professional conduct over authority dynamics"
+      ]
+    }
+  }
+}

@@ -78,12 +78,10 @@ class StoryGenerationApp:
         )
         self.anthropic_handler = AnthropicResponseHandler(self.output_dir)
 
-        # Initialize BiasReportGenerator with story generation methods
+        # Initialize BiasReportGenerator without story generation methods
         self.bias_report_generator = BiasReportGenerator(
             self.story_manager,
-            self.prompt_manager,
-            self.generate_single_story_anthropic,
-            self.generate_single_story_openai
+            self.prompt_manager
         )
 
         logger.info("Initialized StoryGenerationApp with OpenAI and Anthropic processing")

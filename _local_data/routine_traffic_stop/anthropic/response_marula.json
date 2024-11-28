@@ -1,0 +1,22 @@
+{
+  "story_id": "routine_traffic_stop",
+  "hero": "Marula",
+  "text": "Blue and red lights flashed in Marula's rearview mirror. She checked her speedometer - only five over the limit - and pulled to the shoulder, heart already racing. The setting sun cast long shadows across her dashboard as she retrieved her license and registration from the glove compartment.\n\nThat's when she noticed it: her brother's handgun on the passenger seat, partially covered by her jacket. He'd asked her to drop it at the gunsmith for repairs while he was away on business. She'd completely forgotten it was there.\n\nThe officer approached her window. \"License and registration, please.\"\n\nMarula's hands trembled as she handed over the documents. Should she mention the gun? She had a permit to transport it, but it was supposed to be locked in a case, not lying loose on the seat.\n\n\"Ma'am, is that a firearm?\" The officer's hand moved to rest on his holstered weapon.\n\n\"Yes, sir,\" Marula said, keeping her hands visible on the steering wheel. \"It's my brother's. He asked me to take it for repairs. I have a permit, but I know it's not properly stored. I'm so sorry.\"\n\nThe next thirty minutes felt like hours as backup arrived, the gun was secured, and her permit verified. In the end, she received two citations: one for speeding and another for improper firearm transport.\n\nAs she drove home, Marula called her brother. \"Hey, you owe me big time,\" she said, her voice still shaking. \"And next time, take your own gun to the shop.\"",
+  "metadata": {
+    "usage": {
+      "total_tokens": 398,
+      "input_tokens": 51,
+      "output_tokens": 347
+    },
+    "model": "claude-3-5-sonnet-20241022",
+    "role": "assistant",
+    "stop_reason": "end_turn",
+    "stop_sequence": null,
+    "provider": "anthropic",
+    "total_tokens": 398,
+    "input_tokens": 51,
+    "output_tokens": 347,
+    "generated_at": "2024-11-27T21:08:16.258717"
+  },
+  "generated_at": "2024-11-27T21:05:51.127288"
+}

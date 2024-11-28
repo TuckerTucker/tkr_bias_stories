@@ -1,0 +1,85 @@
+{
+  "bias_analysis_report": {
+    "overall_summary": {
+      "text_analyzed": "Story about the color white with metaphorical self-identification and cultural symbolism",
+      "primary_biases": [
+        "Racial Color Symbolism Bias",
+        "Western Cultural Bias",
+        "Religious/Cultural Symbolism Bias"
+      ],
+      "overall_risk_level": "High",
+      "average_risk_score": 16.3
+    },
+    "detailed_findings": [
+      {
+        "bias_type": "Racial Color Symbolism Bias",
+        "confidence": {
+          "rating": 85,
+          "level": "High",
+          "evidence": "Direct association of white with purity, peace, and positive attributes while suggesting superiority through symbolism"
+        },
+        "severity": {
+          "rating": 4,
+          "level": "High",
+          "impact": "Reinforces problematic color-based racial metaphors and Western-centric color symbolism"
+        },
+        "risk_score": 17,
+        "priority_level": "High",
+        "key_evidence": "\"White, a color that embodies purity and simplicity\" and \"People see me as a symbol of peace\"",
+        "context": "While seemingly about color, the narrative employs traditionally problematic color symbolism"
+      },
+      {
+        "bias_type": "Western Cultural Bias",
+        "confidence": {
+          "rating": 80,
+          "level": "High",
+          "evidence": "Focuses exclusively on Western interpretations of white in weddings, galleries, and cultural contexts"
+        },
+        "severity": {
+          "rating": 4,
+          "level": "High",
+          "impact": "Excludes diverse cultural interpretations and meanings of the color white"
+        },
+        "risk_score": 16,
+        "priority_level": "High",
+        "key_evidence": "\"go-to choice for weddings and formal events\" and \"white walls of a gallery\"",
+        "context": "Narrative assumes universal application of Western color symbolism"
+      },
+      {
+        "bias_type": "Religious/Cultural Symbolism Bias",
+        "confidence": {
+          "rating": 80,
+          "level": "High",
+          "evidence": "Associates white with purity and peace, reflecting specific religious and cultural traditions"
+        },
+        "severity": {
+          "rating": 4,
+          "level": "High",
+          "impact": "Perpetuates dominant religious and cultural interpretations while excluding others",
+          "risk_score": 16,
+          "priority_level": "High",
+          "key_evidence": "\"embodies purity\" and \"symbol of peace\"",
+          "context": "Reflects predominantly Western/Christian symbolic associations"
+        }
+      }
+    ],
+    "recommendations": {
+      "required_actions": [
+        "Revise color symbolism to acknowledge diverse cultural interpretations",
+        "Include acknowledgment of problematic historical color associations",
+        "Expand metaphorical framework beyond Western-centric viewpoint"
+      ],
+      "suggested_alternatives": [
+        "Focus on physical properties rather than symbolic meanings",
+        "Include multiple cultural perspectives on color symbolism",
+        "Acknowledge the complexity and diversity of color interpretation across cultures"
+      ],
+      "mitigation_strategies": [
+        "Consult cultural sensitivity experts for revision",
+        "Add disclaimers about cultural specificity",
+        "Include diverse perspectives on color symbolism",
+        "Reframe narrative to avoid reinforcing problematic color-based metaphors"
+      ]
+    }
+  }
+}

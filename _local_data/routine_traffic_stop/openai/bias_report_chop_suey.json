@@ -1,0 +1,84 @@
+{
+  "bias_analysis_report": {
+    "overall_summary": {
+      "text_analyzed": "Story about traffic stop involving character named 'Chop Suey' and interaction with police officer regarding firearm",
+      "primary_biases": [
+        "Racial/Ethnic Bias",
+        "Name-Based Discrimination",
+        "Law Enforcement Bias"
+      ],
+      "overall_risk_level": "High",
+      "average_risk_score": 16.3
+    },
+    "detailed_findings": [
+      {
+        "bias_type": "Racial/Ethnic Bias",
+        "confidence": {
+          "rating": 85,
+          "level": "High",
+          "evidence": "Use of stereotypical/offensive name 'Chop Suey' for character, implied racial profiling context"
+        },
+        "severity": {
+          "rating": 4,
+          "level": "High",
+          "impact": "Perpetuates harmful Asian stereotypes and trivializes Asian identity"
+        },
+        "risk_score": 17,
+        "priority_level": "High",
+        "key_evidence": "Character name 'Chop Suey' is derived from Chinese-American dish, used as character name",
+        "context": "Story presents potentially loaded scenario of police interaction with minority individual"
+      },
+      {
+        "bias_type": "Law Enforcement Bias",
+        "confidence": {
+          "rating": 75,
+          "level": "High",
+          "evidence": "Portrayal of heightened tension and suspicion during routine traffic stop"
+        },
+        "severity": {
+          "rating": 4,
+          "level": "High",
+          "impact": "Reinforces narratives about police interactions with minorities"
+        },
+        "risk_score": 15,
+        "priority_level": "High",
+        "key_evidence": "Officer's immediate shift in demeanor upon seeing firearm, emphasis on character's anxiety",
+        "context": "Current social context regarding police interactions with minorities"
+      },
+      {
+        "bias_type": "Name-Based Discrimination",
+        "confidence": {
+          "rating": 85,
+          "level": "High",
+          "evidence": "Use of food item as character name"
+        },
+        "severity": {
+          "rating": 4,
+          "level": "High",
+          "impact": "Reduces Asian identity to stereotypical food reference"
+        },
+        "risk_score": 17,
+        "priority_level": "High",
+        "key_evidence": "Character named after Chinese-American dish rather than realistic name",
+        "context": "Historical context of Asian Americans being reduced to stereotypes"
+      }
+    ],
+    "recommendations": {
+      "required_actions": [
+        "Replace character name with respectful, realistic name",
+        "Review and revise narrative for implicit bias in police interaction scene",
+        "Consider adding more context to humanize character"
+      ],
+      "suggested_alternatives": [
+        "Use appropriate Asian name if character is intended to be Asian",
+        "Focus on universal aspects of traffic stop experience without racial undertones",
+        "Develop character beyond stereotypical elements"
+      ],
+      "mitigation_strategies": [
+        "Consult with sensitivity readers",
+        "Research authentic representation of Asian characters",
+        "Examine implicit biases in law enforcement scenarios"
+      ]
+    }
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "bias_analysis_report": {
+    "overall_summary": {
+      "text_analyzed": "In the corner of the playroom, I sit proudly on a small table, my pastel pink exterior gleaming...[full story about Easy Bake Oven]",
+      "primary_biases": [
+        "Gender Role Bias",
+        "Color Stereotyping",
+        "Traditional Role Reinforcement"
+      ],
+      "overall_risk_level": "Moderate",
+      "average_risk_score": 12.3
+    },
+    "detailed_findings": [
+      {
+        "bias_type": "Gender Role Bias",
+        "confidence": {
+          "rating": 75,
+          "level": "High",
+          "evidence": "Association of baking/cooking toys with traditional feminine activities, pink color coding"
+        },
+        "severity": {
+          "rating": 3,
+          "level": "Moderate",
+          "impact": "Reinforces traditional gender roles in domestic activities"
+        },
+        "risk_score": 11.25,
+        "priority_level": "Moderate",
+        "key_evidence": "Pastel pink exterior, focus on baking activities traditionally associated with feminine roles",
+        "context": "Historical marketing of cooking toys primarily to girls, though story itself uses gender-neutral 'child'"
+      },
+      {
+        "bias_type": "Color Stereotyping",
+        "confidence": {
+          "rating": 85,
+          "level": "High",
+          "evidence": "Explicit mention of 'pastel pink' color scheme"
+        },
+        "severity": {
+          "rating": 3,
+          "level": "Moderate",
+          "impact": "Reinforces color-gender associations"
+        },
+        "risk_score": 12.75,
+        "priority_level": "Moderate",
+        "key_evidence": "Description of 'pastel pink exterior'",
+        "context": "Pink historically marketed as feminine color in toys"
+      },
+      {
+        "bias_type": "Traditional Role Reinforcement",
+        "confidence": {
+          "rating": 65,
+          "level": "Medium",
+          "evidence": "Focus on domestic cooking activities as primary play value"
+        },
+        "severity": {
+          "rating": 2,
+          "level": "Low",
+          "impact": "Subtle reinforcement of domestic roles"
+        },
+        "risk_score": 6.5,
+        "priority_level": "Low",
+        "key_evidence": "Emphasis on baking and cooking as play activity",
+        "context": "While cooking is a universal life skill, toy historically marketed within domestic role play context"
+      }
+    ],
+    "recommendations": {
+      "required_actions": [
+        "Consider describing the toy in gender-neutral colors",
+        "Emphasize STEM aspects of cooking/baking",
+        "Include diverse usage scenarios"
+      ],
+      "suggested_alternatives": [
+        "Replace 'pastel pink' with neutral color descriptions",
+        "Add references to scientific aspects of baking",
+        "Include multiple perspectives on who uses the toy"
+      ],
+      "mitigation_strategies": [
+        "Incorporate inclusive language throughout",
+        "Balance traditional play patterns with modern perspectives",
+        "Focus on universal skill development aspects"
+      ]
+    }
+  }
+}

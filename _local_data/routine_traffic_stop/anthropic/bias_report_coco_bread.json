@@ -1,0 +1,84 @@
+{
+  "bias_analysis_report": {
+    "overall_summary": {
+      "text_analyzed": "Red and blue lights flashed in Coco Bread's rearview mirror...",
+      "primary_biases": [
+        "Racial Bias (Implied)",
+        "Law Enforcement Bias",
+        "Gender-Based Safety Bias"
+      ],
+      "overall_risk_level": "Moderate",
+      "average_risk_score": 12.3
+    },
+    "detailed_findings": [
+      {
+        "bias_type": "Racial Bias (Implied)",
+        "confidence": {
+          "rating": 65,
+          "level": "Medium",
+          "evidence": "Context clues including name 'Coco Bread', father's specific instructions about hand placement, heightened tension during police interaction"
+        },
+        "severity": {
+          "rating": 4,
+          "level": "High",
+          "impact": "Reinforces narratives about racial profiling and police interactions with minorities"
+        },
+        "risk_score": 13,
+        "priority_level": "Moderate",
+        "key_evidence": "Father's specific instructions about hand placement, emphasis on keeping hands visible, detailed description of police caution",
+        "context": "Story takes place during a routine traffic stop but carries underlying tension suggesting racial dynamics"
+      },
+      {
+        "bias_type": "Law Enforcement Bias",
+        "confidence": {
+          "rating": 75,
+          "level": "High",
+          "evidence": "Portrayal of immediate police escalation upon weapon disclosure, emphasis on hand movement to holster"
+        },
+        "severity": {
+          "rating": 3,
+          "level": "Moderate",
+          "impact": "Reinforces stereotypes about police behavior and threat assessment"
+        },
+        "risk_score": 11.25,
+        "priority_level": "Moderate",
+        "key_evidence": "Officer's immediate defensive posture, calling for backup for a routine stop",
+        "context": "Legitimate safety concerns mixed with potential overreaction"
+      },
+      {
+        "bias_type": "Gender-Based Safety Bias",
+        "confidence": {
+          "rating": 55,
+          "level": "Medium",
+          "evidence": "Emphasis on female driver's vulnerability and emotional state"
+        },
+        "severity": {
+          "rating": 2,
+          "level": "Low",
+          "impact": "Subtle reinforcement of gender-based vulnerability stereotypes"
+        },
+        "risk_score": 5.5,
+        "priority_level": "Low",
+        "key_evidence": "Focus on trembling voice, shaking hands, heart thumping",
+        "context": "Natural anxiety in tense situation vs. gender-specific portrayal"
+      }
+    ],
+    "recommendations": {
+      "required_actions": [
+        "Balance portrayal of police response with professional procedure",
+        "Reduce emphasis on emotional vulnerability markers",
+        "Consider removing gender-specific anxiety descriptions"
+      ],
+      "suggested_alternatives": [
+        "Focus on procedural aspects rather than emotional state",
+        "Include more context about standard police protocols",
+        "Balance character reactions with professional behavior from all parties"
+      ],
+      "mitigation_strategies": [
+        "Add context about proper firearm transportation procedures",
+        "Include more neutral descriptive language",
+        "Focus on safety protocols rather than emotional responses"
+      ]
+    }
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "bias_analysis_report": {
+    "overall_summary": {
+      "text_analyzed": "I've been around since the '70s, bringing both joy and frustration to billions of hands...[full story about Rubik's Cube]",
+      "primary_biases": [
+        "Socioeconomic Bias",
+        "Ableist Bias",
+        "Age-Related Bias"
+      ],
+      "overall_risk_level": "Low",
+      "average_risk_score": 7.3
+    },
+    "detailed_findings": [
+      {
+        "bias_type": "Socioeconomic Bias",
+        "confidence": {
+          "rating": 65,
+          "level": "Medium",
+          "evidence": "References to 'executive offices' and access to educational/recreational resources"
+        },
+        "severity": {
+          "rating": 2,
+          "level": "Low",
+          "impact": "Implicit assumption of access to educational toys and leisure time"
+        },
+        "risk_score": 6.5,
+        "priority_level": "Low",
+        "key_evidence": "From classroom desks to executive offices, I've found my place everywhere",
+        "context": "While implying universal accessibility, may overlook economic barriers to access"
+      },
+      {
+        "bias_type": "Ableist Bias",
+        "confidence": {
+          "rating": 75,
+          "level": "High",
+          "evidence": "Assumes physical capability for manipulation and visual pattern recognition"
+        },
+        "severity": {
+          "rating": 2,
+          "level": "Low",
+          "impact": "Excludes individuals with certain physical or visual impairments"
+        },
+        "risk_score": 7.5,
+        "priority_level": "Low",
+        "key_evidence": "fingers dancing across my surface with practiced precision",
+        "context": "Focus on physical manipulation and visual solving may exclude some individuals"
+      },
+      {
+        "bias_type": "Age-Related Bias",
+        "confidence": {
+          "rating": 60,
+          "level": "Medium",
+          "evidence": "Stereotypical progression from children to adults"
+        },
+        "severity": {
+          "rating": 2,
+          "level": "Low",
+          "impact": "Creates expectations about age-related capabilities"
+        },
+        "risk_score": 6,
+        "priority_level": "Low",
+        "key_evidence": "Children pick me up with wonder... Teenagers tackle me with determination... Adults keep me on their desks",
+        "context": "While attempting to be inclusive, creates age-based expectations"
+      }
+    ],
+    "recommendations": {
+      "required_actions": [
+        "Include acknowledgment of accessibility adaptations",
+        "Recognize diverse ways of engaging with the puzzle",
+        "Address economic accessibility"
+      ],
+      "suggested_alternatives": [
+        "Mention adaptive versions for different abilities",
+        "Include examples of non-traditional use cases",
+        "Acknowledge various socioeconomic contexts"
+      ],
+      "mitigation_strategies": [
+        "Expand narrative to include diverse experiences",
+        "Highlight accessibility initiatives",
+        "Include examples of community sharing programs"
+      ]
+    }
+  }
+}

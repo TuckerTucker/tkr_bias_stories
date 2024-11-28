@@ -1,0 +1,64 @@
+{
+  "bias_analysis_report": {
+    "overall_summary": {
+      "text_analyzed": "Earl Grey Tea story about traffic stop and unexpected handgun",
+      "primary_biases": [
+        "Law Enforcement Bias",
+        "Class/Social Status Bias"
+      ],
+      "overall_risk_level": "Moderate",
+      "average_risk_score": 11.25
+    },
+    "detailed_findings": [
+      {
+        "bias_type": "Law Enforcement Bias",
+        "confidence": {
+          "rating": 75,
+          "level": "High",
+          "evidence": "Portrayal of officer as inherently skeptical and stern, reinforcing stereotype of rigid law enforcement"
+        },
+        "severity": {
+          "rating": 3,
+          "level": "Moderate",
+          "impact": "Perpetuates adversarial relationship between law enforcement and civilians"
+        },
+        "risk_score": 11.25,
+        "priority_level": "Moderate",
+        "key_evidence": "\"stern look on his face\", \"clearly skeptical\", \"unimpressed\"",
+        "context": "Story presents routine traffic stop escalating due to discovered weapon"
+      },
+      {
+        "bias_type": "Class/Social Status Bias",
+        "confidence": {
+          "rating": 65,
+          "level": "Medium",
+          "evidence": "Character portrayed as genteel, refined individual with vintage car and 'gentleman' qualities"
+        },
+        "severity": {
+          "rating": 2,
+          "level": "Low",
+          "impact": "Subtle reinforcement of class-based stereotypes and expectations"
+        },
+        "risk_score": 6.5,
+        "priority_level": "Low",
+        "key_evidence": "\"ever the gentleman\", \"vintage car\", \"usually composed demeanor\"",
+        "context": "Character's social status used to contrast with criminal situation"
+      }
+    ],
+    "recommendations": {
+      "required_actions": [
+        "Revise officer characterization to be more neutral",
+        "Balance character descriptions to avoid class-based assumptions"
+      ],
+      "suggested_alternatives": [
+        "Present officer's actions without emotional descriptors",
+        "Focus on situation rather than social status indicators"
+      ],
+      "mitigation_strategies": [
+        "Develop characters based on actions rather than stereotypical traits",
+        "Include more diverse perspective in character interactions",
+        "Remove class-specific indicators unless crucial to plot"
+      ]
+    }
+  }
+}

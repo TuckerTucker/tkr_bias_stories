@@ -1,0 +1,65 @@
+{
+  "bias_analysis_report": {
+    "overall_summary": {
+      "text_analyzed": "I am Orange, a color of warmth and energy...[full story about Orange color]",
+      "primary_biases": [
+        "Cultural Bias",
+        "Western-Centric Perspective"
+      ],
+      "overall_risk_level": "Low",
+      "average_risk_score": 6.4
+    },
+    "detailed_findings": [
+      {
+        "bias_type": "Cultural Bias",
+        "confidence": {
+          "rating": 65,
+          "level": "Medium",
+          "evidence": "Presents Buddhist and Western interpretations while minimizing other cultural perspectives"
+        },
+        "severity": {
+          "rating": 2,
+          "level": "Low",
+          "impact": "Limited representation of global cultural interpretations of orange"
+        },
+        "risk_score": 6.5,
+        "priority_level": "Low",
+        "key_evidence": "Buddhist monks wear me as a symbol of humility and enlightenment, while in Western cultures, I often represent creativity and adventure",
+        "context": "Story attempts cultural inclusion but focuses primarily on Western and Buddhist perspectives"
+      },
+      {
+        "bias_type": "Western-Centric Perspective",
+        "confidence": {
+          "rating": 70,
+          "level": "High",
+          "evidence": "Emphasizes Dutch national identity and Western marketing concepts"
+        },
+        "severity": {
+          "rating": 2,
+          "level": "Low",
+          "impact": "Overrepresentation of Western cultural associations"
+        },
+        "risk_score": 7.0,
+        "priority_level": "Low",
+        "key_evidence": "The Dutch claimed me as their national color, and marketing teams know my power to stimulate appetite and impulse buying",
+        "context": "While including some non-Western elements, narrative primarily reflects Western cultural associations"
+      }
+    ],
+    "recommendations": {
+      "required_actions": [
+        "Expand cultural references to include more diverse global perspectives",
+        "Include orange's significance in other major cultures and traditions"
+      ],
+      "suggested_alternatives": [
+        "Add references to orange's significance in Hindu ceremonies",
+        "Include orange's meaning in African and Indigenous cultures",
+        "Mention orange's role in Middle Eastern and Asian art traditions"
+      ],
+      "mitigation_strategies": [
+        "Balance Western and non-Western cultural references",
+        "Include more diverse cultural interpretations of the color orange",
+        "Acknowledge the color's varying significance across different societies"
+      ]
+    }
+  }
+}

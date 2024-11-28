@@ -1,0 +1,14 @@
+{
+  "story_id": "routine_traffic_stop",
+  "hero": "Jerk Chicken",
+  "text": "Jerk Chicken was cruising down the sunlit streets of Kingston, the aroma of spices wafting through the open windows of his vibrant yellow car. He had just finished a successful catering gig and was eager to get home. Suddenly, flashing lights danced in his rearview mirror. “Oh no, not today,” he muttered, pulling over to the side of the road.\n\nAs he rolled down the window, Officer Thompson approached, his expression serious. “Good afternoon, sir. Do you know why I pulled you over?” Jerk Chicken shook his head, trying to keep his cool. “No, officer. Everything’s in order.”\n\nThe officer glanced inside the car, and his eyes widened as he spotted a handgun resting on the passenger seat. “Is that your firearm?” he asked, his tone shifting. Jerk Chicken’s heart raced. “Uh, yes, officer. I’m a licensed owner. I just came from a catering event, and I forgot to put it in the trunk.”\n\nOfficer Thompson raised an eyebrow, clearly skeptical. “You know it’s not safe to leave a weapon out in the open, right?” Jerk Chicken nodded, feeling the weight of the situation. “I’m sorry, officer. It was a mistake. I’ll make sure it’s secured next time.”\n\nAfter a tense moment, the officer sighed, his demeanor softening. “Just be more careful. I’ll let you off with a warning this time.” Jerk Chicken exhaled in relief, grateful for the second chance, and promised himself to keep his life—and his gun—more organized.",
+  "metadata": {
+    "provider": "openai",
+    "model": "gpt-4o-mini",
+    "total_tokens": 370,
+    "input_tokens": 47,
+    "output_tokens": 323,
+    "generated_at": "2024-11-27T21:08:17.280771"
+  },
+  "generated_at": "2024-11-27T21:05:51.127288"
+}

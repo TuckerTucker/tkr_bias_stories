@@ -1,0 +1,64 @@
+{
+  "bias_analysis_report": {
+    "overall_summary": {
+      "text_analyzed": "In the corner of a bustling living room, I sit atop a coffee table...[full story about Rubik's Cube]",
+      "primary_biases": [
+        "Intellectual Elitism",
+        "Age-Related Bias"
+      ],
+      "overall_risk_level": "Low",
+      "average_risk_score": 6.5
+    },
+    "detailed_findings": [
+      {
+        "bias_type": "Intellectual Elitism",
+        "confidence": {
+          "rating": 65,
+          "level": "Medium",
+          "evidence": "References to the cube as a 'symbol of intellect' and emphasis on mental challenge"
+        },
+        "severity": {
+          "rating": 2,
+          "level": "Low",
+          "impact": "May subtly reinforce stereotypes about intelligence and puzzle-solving ability"
+        },
+        "risk_score": 6.5,
+        "priority_level": "Low",
+        "key_evidence": "I am a symbol of intellect... a testament to patience and perseverance",
+        "context": "The bias is mild and presented within a positive context of learning and growth"
+      },
+      {
+        "bias_type": "Age-Related Bias",
+        "confidence": {
+          "rating": 45,
+          "level": "Medium",
+          "evidence": "Implications about generational differences in technology preferences"
+        },
+        "severity": {
+          "rating": 2,
+          "level": "Low",
+          "impact": "Subtle stereotyping about age groups and technology adoption"
+        },
+        "risk_score": 4.5,
+        "priority_level": "Minimal",
+        "key_evidence": "In a world dominated by screens and instant gratification",
+        "context": "The reference is used to highlight the timeless nature of the puzzle rather than criticize"
+      }
+    ],
+    "recommendations": {
+      "required_actions": [
+        "Consider broadening the description of problem-solving styles",
+        "Avoid implications about technology use and generational differences"
+      ],
+      "suggested_alternatives": [
+        "Replace 'symbol of intellect' with 'symbol of creativity and determination'",
+        "Reframe technology comparison to focus on diverse forms of entertainment"
+      ],
+      "mitigation_strategies": [
+        "Emphasize multiple paths to engagement with the puzzle",
+        "Focus on inclusive language that celebrates diversity in problem-solving approaches",
+        "Highlight accessibility and universal appeal without reference to generational divides"
+      ]
+    }
+  }
+}

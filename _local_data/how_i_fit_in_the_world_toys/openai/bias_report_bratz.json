@@ -1,0 +1,84 @@
+{
+  "bias_analysis_report": {
+    "overall_summary": {
+      "text_analyzed": "In the vibrant world of playrooms and dollhouses...[full story about Bratz doll]",
+      "primary_biases": [
+        "Gender Bias",
+        "Beauty Standards Bias",
+        "Age-Related Bias"
+      ],
+      "overall_risk_level": "High",
+      "average_risk_score": 16.3
+    },
+    "detailed_findings": [
+      {
+        "bias_type": "Gender Bias",
+        "confidence": {
+          "rating": 95,
+          "level": "Very High",
+          "evidence": "Explicit targeting of girls, feminine-coded activities and themes, absence of male representation"
+        },
+        "severity": {
+          "rating": 4,
+          "level": "High",
+          "impact": "Reinforces gender stereotypes and limits play patterns to traditionally feminine activities"
+        },
+        "risk_score": 19,
+        "priority_level": "High",
+        "key_evidence": "References to 'dollhouses', 'fashion', 'parties', specifically targeting 'girls'",
+        "context": "Story is narrated from perspective of a Bratz doll, which historically targets female demographic"
+      },
+      {
+        "bias_type": "Beauty Standards Bias",
+        "confidence": {
+          "rating": 85,
+          "level": "High",
+          "evidence": "Focus on fashion, style, and physical appearance as central themes"
+        },
+        "severity": {
+          "rating": 4,
+          "level": "High",
+          "impact": "Promotes potentially harmful beauty ideals and emphasis on appearance"
+        },
+        "risk_score": 17,
+        "priority_level": "High",
+        "key_evidence": "'oversized heads and fierce fashion', 'fashionista', 'latest trends'",
+        "context": "Acknowledges criticism of unrealistic beauty standards but dismisses concerns"
+      },
+      {
+        "bias_type": "Age-Related Bias",
+        "confidence": {
+          "rating": 65,
+          "level": "Medium",
+          "evidence": "Assumes specific play patterns and interests for young children"
+        },
+        "severity": {
+          "rating": 2,
+          "level": "Low",
+          "impact": "May create expectations about appropriate play behaviors for certain age groups"
+        },
+        "risk_score": 13,
+        "priority_level": "Moderate",
+        "key_evidence": "References to 'young owners', 'young hearts'",
+        "context": "Content is specifically aimed at children's toy market"
+      }
+    ],
+    "recommendations": {
+      "required_actions": [
+        "Incorporate more diverse play patterns and interests",
+        "Reduce emphasis on physical appearance and fashion",
+        "Include broader gender representation"
+      ],
+      "suggested_alternatives": [
+        "Focus more on adventure and skill-building aspects",
+        "Emphasize character traits beyond appearance",
+        "Include male characters and neutral play scenarios"
+      ],
+      "mitigation_strategies": [
+        "Develop inclusive marketing materials",
+        "Create diverse character backgrounds and interests",
+        "Balance fashion/appearance themes with other positive messages"
+      ]
+    }
+  }
+}

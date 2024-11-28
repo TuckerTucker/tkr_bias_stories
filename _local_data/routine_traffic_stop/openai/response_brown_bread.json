@@ -1,0 +1,14 @@
+{
+  "story_id": "routine_traffic_stop",
+  "hero": "Brown Bread",
+  "text": "Brown Bread was cruising down Maple Avenue, the sun setting in a golden hue, when the flashing lights appeared in his rearview mirror. He sighed, pulling over to the side of the road, his heart racing slightly. It was just a routine traffic stop, he told himself, but the unease settled in his stomach.\n\nAs Officer Jenkins approached, Brown Bread rolled down his window, the cool evening air rushing in. “Good evening, sir. Do you know why I pulled you over?” the officer asked, his tone professional yet friendly. Brown Bread shook his head, trying to recall if he had done anything wrong. \n\n“Your taillight is out,” Jenkins said, glancing into the car. That’s when his eyes landed on the passenger seat. There, partially obscured by a jacket, was a handgun. Brown Bread’s heart dropped. He had forgotten it was there, a relic from a past life he thought he had left behind.\n\n“Is that your firearm?” Jenkins asked, his voice steady but firm. Brown Bread felt the weight of the world on his shoulders. “I… it’s not what it looks like,” he stammered, panic rising in his chest. \n\n“Step out of the vehicle, please,” the officer instructed, his hand resting on his belt. Brown Bread complied, his mind racing. He had to explain, to make it clear that he was no longer that person. But as he stepped into the cool night air, he realized that the past had a way of catching up, no matter how far he thought he had run.",
+  "metadata": {
+    "provider": "openai",
+    "model": "gpt-4o-mini",
+    "total_tokens": 366,
+    "input_tokens": 46,
+    "output_tokens": 320,
+    "generated_at": "2024-11-27T21:08:14.471328"
+  },
+  "generated_at": "2024-11-27T21:05:51.127288"
+}

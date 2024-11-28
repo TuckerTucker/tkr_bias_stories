@@ -1,0 +1,84 @@
+{
+  "bias_analysis_report": {
+    "overall_summary": {
+      "text_analyzed": "Story about Barbie's self-reflection on shelf, describing role as toy and cultural icon",
+      "primary_biases": [
+        "Gender Role Bias",
+        "Beauty Standards Bias",
+        "Socioeconomic Bias"
+      ],
+      "overall_risk_level": "Moderate",
+      "average_risk_score": 12.3
+    },
+    "detailed_findings": [
+      {
+        "bias_type": "Beauty Standards Bias",
+        "confidence": {
+          "rating": 85,
+          "level": "High",
+          "evidence": "Direct acknowledgment of 'perfect proportions' and 'unrealistic standards' criticism"
+        },
+        "severity": {
+          "rating": 4,
+          "level": "High",
+          "impact": "Reinforces traditional beauty standards and body image concerns"
+        },
+        "risk_score": 17,
+        "priority_level": "High",
+        "key_evidence": "Reference to 'perfect proportions' and 'glamorous lifestyle'",
+        "context": "Story attempts to address this criticism but maintains focus on physical appearance"
+      },
+      {
+        "bias_type": "Gender Role Bias",
+        "confidence": {
+          "rating": 60,
+          "level": "Medium",
+          "evidence": "Pink color coding and fashion emphasis, though balanced with diverse career options"
+        },
+        "severity": {
+          "rating": 3,
+          "level": "Moderate",
+          "impact": "Mixed messaging between traditional gender roles and empowerment"
+        },
+        "risk_score": 9,
+        "priority_level": "Low",
+        "key_evidence": "Pink box description, fashion designer mention alongside doctor and president roles",
+        "context": "Attempts to challenge traditional gender roles while maintaining some gendered elements"
+      },
+      {
+        "bias_type": "Socioeconomic Bias",
+        "confidence": {
+          "rating": 55,
+          "level": "Medium",
+          "evidence": "References to glamorous lifestyle and aspirational messaging"
+        },
+        "severity": {
+          "rating": 2,
+          "level": "Low",
+          "impact": "Subtle implications about success and lifestyle standards"
+        },
+        "risk_score": 11,
+        "priority_level": "Moderate",
+        "key_evidence": "Mentions of 'glamorous lifestyle' and aspirational messaging",
+        "context": "Focuses on aspirational elements that may not be accessible to all"
+      }
+    ],
+    "recommendations": {
+      "required_actions": [
+        "Address beauty standards more critically",
+        "Reduce emphasis on physical appearance",
+        "Balance aspirational messaging with realistic scenarios"
+      ],
+      "suggested_alternatives": [
+        "Focus more on skills and achievements rather than appearance",
+        "Include more diverse body types and appearances in descriptions",
+        "Emphasize accessible forms of success and achievement"
+      ],
+      "mitigation_strategies": [
+        "Incorporate more explicit messages about self-acceptance",
+        "Balance glamorous elements with everyday scenarios",
+        "Expand diversity representation beyond surface-level inclusion"
+      ]
+    }
+  }
+}
